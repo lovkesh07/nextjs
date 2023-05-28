@@ -4,7 +4,7 @@ import Footer from "@components/Footer";
 // import Testimonials from "@components/Testimonials";
 
 import "@styles/global.css";
-// import Longcard from "@components/Longcard";
+import Longcard from "@components/Longcard";
 
 
 const RootLayout = ({ children }) => {
@@ -17,7 +17,7 @@ const RootLayout = ({ children }) => {
           <Navbar />
           {children}
           <Cards />
-          {/* <Longcard/> */}
+          <Longcard/>
           {/* <Testimonials/> */}
           <Footer />
         </main>

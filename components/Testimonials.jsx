@@ -1,8 +1,8 @@
 // import Image from 'next/image'
 import clsx from 'clsx'
 
-import { Container } from '../../components/Container'
-import { Expandable } from '../../components/Expandable'
+import { Container } from '@components/Container'
+import { Expandable } from '@components/Expandable'
 // import avatarImage3 from '@/images/avatars/avatar-3.png'
 // import avatarImage4 from '@/images/avatars/avatar-4.png'
 // import avatarImage5 from '@/images/avatars/avatar-5.png'
