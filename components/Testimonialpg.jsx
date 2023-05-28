@@ -1,17 +1,6 @@
-// import Image from 'next/image'
-import clsx from 'clsx'
-
+import React from 'react'
 import { Container } from '@components/Container'
-import { Expandable } from '@components/Expandable'
-// import avatarImage3 from '@/images/avatars/avatar-3.png'
-// import avatarImage4 from '@/images/avatars/avatar-4.png'
-// import avatarImage5 from '@/images/avatars/avatar-5.png'
-// import avatarImage6 from '@/images/avatars/avatar-6.png'
-// import avatarImage7 from '@/images/avatars/avatar-7.png'
-// import avatarImage8 from '@/images/avatars/avatar-8.png'
-// import avatarImage9 from '@/images/avatars/avatar-9.png'
-// import avatarImage10 from '@/images/avatars/avatar-10.png'
-// import avatarImage11 from '@/images/avatars/avatar-11.png'
+// import { Expandable } from '@components/Expandable'
 
 const testimonials = [
   [
@@ -103,6 +92,7 @@ const testimonials = [
   ],
 ]
 
+
 function Testimonial({ author, children }) {
   return (
     <figure className="rounded-4xl p-8 shadow-md ring-1 ring-slate-900/5">
@@ -132,11 +122,13 @@ function Testimonial({ author, children }) {
   )
 }
 
-export function Testimonials() {
+
+const Testimonialpg = () => {
   return (
-    <section className="py-8 sm:py-10 lg:py-16">
-      <Container className="text-center">
-        <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
+    <>
+     <section className="py-8 sm:py-10 lg:py-16">
+     <Container className="text-center">
+     <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
         Testimonials
         </h2>
         <p className="mt-4 text-lg tracking-tight text-slate-600">
@@ -144,9 +136,11 @@ export function Testimonials() {
           of the content in the book was exactly what they needed. Hears what
           they had to say about the finished product.
         </p>
-      </Container>
-      <Expandable>
-        {({ isExpanded }) => (
+
+     </Container>
+
+     <section>
+     {({ isExpanded }) => (
           <>
             <ul
               role="list"
@@ -187,10 +181,15 @@ export function Testimonials() {
                 </li>
               ))}
             </ul>
-            <Expandable.Button>Read more testimonials</Expandable.Button>
+            {/* <Expandable.Button>Read more testimonials</Expandable.Button> */}
           </>
-        )}
-      </Expandable>
-    </section>
+       )}
+      </section>
+
+
+     </section>
+    </>
   )
 }
+
+export default Testimonialpg
