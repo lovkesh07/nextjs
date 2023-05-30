@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container } from '@components/Container'
-// import { Expandable } from '@components/Expandable'
+import { Container } from '../../components/Container'
+import { Expandable } from '../../components/Expandable'
 
 const testimonials = [
   [
@@ -126,9 +126,9 @@ function Testimonial({ author, children }) {
 const Testimonialpg = () => {
   return (
     <>
-     <section className="py-8 sm:py-10 lg:py-16">
-     <Container className="text-center">
-     <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
+    <section className="py-8 sm:py-10 lg:py-16">
+      <Container className="text-center">
+        <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
         Testimonials
         </h2>
         <p className="mt-4 text-lg tracking-tight text-slate-600">
@@ -136,11 +136,9 @@ const Testimonialpg = () => {
           of the content in the book was exactly what they needed. Hears what
           they had to say about the finished product.
         </p>
-
-     </Container>
-
-     <section>
-     {({ isExpanded }) => (
+      </Container>
+      <Expandable>
+        {({ isExpanded }) => (
           <>
             <ul
               role="list"
@@ -181,13 +179,11 @@ const Testimonialpg = () => {
                 </li>
               ))}
             </ul>
-            {/* <Expandable.Button>Read more testimonials</Expandable.Button> */}
+            <Expandable.Button>Read more testimonials</Expandable.Button>
           </>
-       )}
-      </section>
-
-
-     </section>
+        )}
+      </Expandable>
+    </section>
     </>
   )
 }
