@@ -6,6 +6,7 @@ import ContactUsForm from "./ContactUsForm"
 // import Cards from './AboutCard';
 import WrittenContent from './ContactWrittenPart';
 import Acknowledgement from './Acknowledgement';
+import OurOffice from './OurOffice';
 
 const AboutUs = () => {
   return (
@@ -23,6 +24,7 @@ const AboutUs = () => {
         <Acknowledgement/>
         <Longcard/>
         <ContactUsForm/>
+        <OurOffice/>
     </div>
   )
 }
