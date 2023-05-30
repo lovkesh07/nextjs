@@ -8,10 +8,12 @@ const Form2 = () => {
     <div className="w-[95%] min-h-screen mx-auto flex justify-center items-center py-10 ">
       <div className=" w-[100%] py-5 bg-gray-200 sm:bg-white rounded-md flex flex-col sm:flex-row">
         <div className=" w-full sm:w-1/2 flex flex-col justify-around items-center sm:min-h-[100%]">
-          <h1 className=" mt-1 text-3xl sm:text-5xl font-bold tracking-wide text-gray-400">
-            Contact Us
+          <h1 className="p-6 mt-1 text-3xl sm:text-5xl font-bold tracking-wide text-gray-600">
+          Let’s Talk <br/>
+          <span className="mt-1  text-2xl  tracking-wide text-gray-400">Fill in your details and our team will get in touch.</span>
           </h1>
-          <Image src={ContacUsGif} className="hidden sm:block max-w-[200px]" />
+
+          <Image src={ContacUsGif} className="hidden sm:block max-w-[300px]" />
         </div>
         <div className=" w-full h-fit py-5 sm:py-10 sm:mx-5 sm:w-1/2 sm:min-h-[100%] flex flex-col items-center justify-center bg-gray-200 rounded-md">
           <form
