@@ -2,7 +2,7 @@ import React from "react";
 import Slide1 from "@assets/img1.jpg";
 import Image from "next/image";
 import Portfolio from "./Portfolio";
-import Link from "next/link";
+
 
 const page = () => {
   return (
