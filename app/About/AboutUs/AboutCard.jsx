@@ -10,22 +10,22 @@ const Cards = () => {
           <p className=" my-2 text-base md:text-lg pb-4">Read also</p>
         </div>
         <div className=" w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
-          <div className=" w-full md:w-[100%] h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
+          <div className=" w-full md:w-[100%] h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-105 transition-all duration-300 delay-100">
             <p className=" text-sm md:text-lg lg:text-xl text-white px-3 py-2">
               The great minds behind leadership
             </p>
-            <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
+            <h2 className=" w-full text-left px-3 py-2 text-3xl lg:text-5xl font-bold text-white">
               Leadership
             </h2>
             <span className=" w-[100%] text-right pr-4 text-white">
               learn more
             </span>
           </div>
-          <div className=" w-full md:w-[100%] h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
+          <div className=" w-full md:w-[100%] h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-105 transition-all duration-300 delay-100">
             <p className=" text-sm md:text-lg lg:text-xl text-white px-3 py-2">
               What our clients say
             </p>
-            <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
+            <h2 className=" w-full text-left px-3 py-2 text-3xl lg:text-5xl font-bold text-white">
               Testimonials
             </h2>
             <span className=" w-[100%] text-right pr-4 text-white">
