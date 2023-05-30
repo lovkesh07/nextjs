@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Link } from "react-router-dom";
+
 
 const Cards = () => {
   return (
@@ -12,8 +12,8 @@ const Cards = () => {
             We leverage technology to didgitally transform companies.
           </p>
         </div>
-        <div className=" w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
-          <div className=" w-full md:w-[100%] h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 shadow-black hover:scale-105 transition-all duration-300 delay-100">
+        <div className=" w-[85%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div className=" w-full md:w-[100%] h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Digital Experience
             </h2>
@@ -25,7 +25,7 @@ const Cards = () => {
               learn more
             </span>
           </div>
-          <div className=" w-full md:w-[100%] h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 shadow-black hover:scale-105 transition-all duration-300 delay-100">
+          <div className=" w-full md:w-[100%] h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Product Engneering
             </h2>
@@ -38,7 +38,7 @@ const Cards = () => {
               learn more
             </span>
           </div>
-          <div className=" w-full  h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 shadow-black hover:scale-105 transition-all duration-300 delay-100">
+          <div className=" w-full  h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Data Engneering & AI
             </h2>
@@ -52,7 +52,7 @@ const Cards = () => {
               learn more
             </span>
           </div>
-          <div className=" w-full h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 shadow-black hover:scale-105 transition-all duration-300 delay-100">
+          <div className=" w-full h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Cloud Engineering
             </h2>
@@ -65,7 +65,7 @@ const Cards = () => {
               learn more
             </span>
           </div>
-          <div className=" w-full h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 shadow-black hover:scale-105 transition-all duration-300 delay-100">
+          <div className=" w-full h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               NextGen Services
             </h2>
@@ -78,7 +78,7 @@ const Cards = () => {
               learn more
             </span>
           </div>
-          <div className=" w-full h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 shadow-black hover:scale-105 transition-all duration-300 delay-100">
+          <div className=" w-full h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               SAP Services
             </h2>
