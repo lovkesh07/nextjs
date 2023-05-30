@@ -7,6 +7,7 @@ import ContactUsForm from "./ContactUsForm"
 import WrittenContent from './ContactWrittenPart';
 import Acknowledgement from './Acknowledgement';
 import OurOffice from './OurOffice';
+import Endsection from './Endsection';
 
 const AboutUs = () => {
   return (
@@ -25,6 +26,7 @@ const AboutUs = () => {
         <Longcard/>
         <ContactUsForm/>
         <OurOffice/>
+        <Endsection/>
     </div>
   )
 }
