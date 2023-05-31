@@ -65,41 +65,35 @@ const page = () => {
                 Artificial Intelligence (AI) <br />
               </h1>
 
-              <p>
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
                 Travel brands are embracing Artificial Intelligence (AI) to
                 create tailored recommendations for travelers based on their
                 previous travel history to drive bookings.
               </p>
-              <span>
-                ---------------------------------------------------------------------------------------------------------------
-              </span>
+              
             </li>
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
                 Augmented Reality (AR) / Virtual Reality (VR) <br />
               </h1>
 
-              <p>
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
                 AR and VR technologies enable travel & hospitality businesses to
                 enhance physical environments to encourage more tourists.
               </p>
-              <span>
-                ---------------------------------------------------------------------------------------------------------------
-              </span>
+              
             </li>
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
                 Blockchain <br />
               </h1>
 
-              <p>
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
                 Blockchain’s immutable distributed ledger technology is
                 isolating major hospitality industry pain points by removing the
                 layers between consumers and sellers.
               </p>
-              <span>
-                ---------------------------------------------------------------------------------------------------------------
-              </span>
+              
             </li>
 
             <li className="lg:my-8">
@@ -108,14 +102,12 @@ const page = () => {
                 <br />
               </h1>
 
-              <p>
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
                 IoT technology is revolutionizing the hospitality space by
                 helping the industry meet compliance requirements and asset
                 tracking.
               </p>
-              <span>
-                ---------------------------------------------------------------------------------------------------------------
-              </span>
+             
             </li>
           </ul>
         </div>

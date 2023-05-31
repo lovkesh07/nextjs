@@ -64,14 +64,12 @@ const page = () => {
                 AR/VR <br />
               </h1>
 
-              <p>
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
                 With AR VR Services stamp the learning that lasts long in the
                 students’ minds and enable them to submerge themselves into
                 simulative, interactive, and immersive learning experiences.
               </p>
-              <span>
-                ---------------------------------------------------------------------------------------------------------------
-              </span>
+             
             </li>
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
@@ -79,28 +77,24 @@ const page = () => {
                 <br />
               </h1>
 
-              <p>
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
                 Take full advantage of an automated, computer-based learning
                 system that reduces the manual intervention of teachers and
                 allows students to follow a customized learning approach.
               </p>
-              <span>
-                ---------------------------------------------------------------------------------------------------------------
-              </span>
+             
             </li>
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
                 AI-Based Education Apps <br />
               </h1>
 
-              <p>
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
                 Free yourself from traditional education practices by building
                 high-performant AI-based apps that simplify learning processes
                 and enables educators to understand students’ need better.
               </p>
-              <span>
-                ---------------------------------------------------------------------------------------------------------------
-              </span>
+              
             </li>
 
             <li className="lg:my-8">
@@ -108,15 +102,13 @@ const page = () => {
                 Education & eLearning Chatbots <br />
               </h1>
 
-              <p>
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
                 Build advanced conversational solutions that deliver human-like
                 experiences to students, reduce ambiguity, and help learners
                 pursue result-oriented conversations that lead to complete
                 satisfaction.
               </p>
-              <span>
-                ---------------------------------------------------------------------------------------------------------------
-              </span>
+              
             </li>
           </ul>
         </div>

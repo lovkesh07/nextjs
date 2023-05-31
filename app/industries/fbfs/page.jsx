@@ -3,7 +3,7 @@ import Slide1 from "@assets/img1.jpg";
 import Image from "next/image";
 import Longcard from "./longcard";
 import ContactUsForm from "@components/ContactUsForm";
-import Solution from './solution'
+import Solution from "./solution";
 
 const page = () => {
   return (
@@ -62,60 +62,65 @@ const page = () => {
       </div>
 
       <section className="mx-auto p-8 lg:p-24 bg-slate-800">
-
         <div className="lg:py-6 text-slate-200 lg:pl-[540px]">
           <ul className="leading-8 ">
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
-              Cloud <br />
+                Cloud <br />
               </h1>
-                
-                <p >
-                Financial institutions are making a shift towards cloud-based Software-as-a-Service (SaaS) applications for non-core business processes such as CRM, financial accounting, and KYC verification.
-                </p>
-                <span>---------------------------------------------------------------------------------------------------------------</span>
+
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
+                Financial institutions are making a shift towards cloud-based
+                Software-as-a-Service (SaaS) applications for non-core business
+                processes such as CRM, financial accounting, and KYC
+                verification.
+              </p>
+             
             </li>
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
-              Conversational AI in Banking <br />
+                Conversational AI in Banking <br />
               </h1>
-                
-                <p>
-                Design thinking and FinTech innovation built around data and Artificial Intelligence (AI) can help create new models of customer engagement.
-                </p>
-                <span>---------------------------------------------------------------------------------------------------------------</span>
+
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
+                Design thinking and FinTech innovation built around data and
+                Artificial Intelligence (AI) can help create new models of
+                customer engagement.
+              </p>
+              
             </li>
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
-              Blockchain <br />
+                Blockchain <br />
               </h1>
-                
-                <p>
-                Several key attributes such as cryptographic security, built-in redundancy, and process integrity make the blockchain technology uniquely suited for enabling secure B2B interactions
-                </p>
-                <span>---------------------------------------------------------------------------------------------------------------</span>
+
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
+                Several key attributes such as cryptographic security, built-in
+                redundancy, and process integrity make the blockchain technology
+                uniquely suited for enabling secure B2B interactions
+              </p>
+             
             </li>
 
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
-              Mobility enabled Cardless ATM <br />
+                Mobility enabled Cardless ATM <br />
               </h1>
-                
-                <p>
-                Bank are leveraging mobility solutions to break down the barriers of access to ATMs by enabling contactless transactions without the need of a debit or credit card .                </p>
-                <span>---------------------------------------------------------------------------------------------------------------</span>
+
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
+                Bank are leveraging mobility solutions to break down the
+                barriers of access to ATMs by enabling contactless transactions
+                without the need of a debit or credit card .{" "}
+              </p>
+
             </li>
           </ul>
-
         </div>
       </section>
 
-      <Solution/>
-      <Longcard/>
-      <ContactUsForm/>
-
-
-      
+      <Solution />
+      <Longcard />
+      <ContactUsForm />
     </div>
   );
 };

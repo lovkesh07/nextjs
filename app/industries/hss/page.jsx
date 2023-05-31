@@ -68,42 +68,36 @@ const page = () => {
                 The Internet of Healthcare Things (IoHT) <br />
               </h1>
 
-              <p>
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
                 Enable an integrated system of medical systems and applications
                 to capture data that helps break silos, increases operational
                 visibility, and provides for proactive monitoring.
               </p>
-              <span>
-                ---------------------------------------------------------------------------------------------------------------
-              </span>
+              
             </li>
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
                 Big Data and AI <br />
               </h1>
 
-              <p>
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
                 Detect and analyze patterns across data in real-time to identify
                 health conditions, potential treatment methods, and their
                 outcomes—and take life-saving decisions at speed.
               </p>
-              <span>
-                ---------------------------------------------------------------------------------------------------------------
-              </span>
+              
             </li>
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
                 Distributed Ledger and Blockchain <br />
               </h1>
 
-              <p>
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
                 Create a secure and standardized record of medical data as a way
                 to ensure on-demand access to patient information and drive
                 faster, more accurate supply chain analysis.
-              </p>
-              <span>
-                ---------------------------------------------------------------------------------------------------------------
-              </span>
+              </p >
+            
             </li>
 
             <li className="lg:my-8">
@@ -111,14 +105,12 @@ const page = () => {
                 ARnatomy <br />
               </h1>
 
-              <p>
+              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
                 Build and superimpose a 3D model of the patient’s anatomy on the
                 patient’s body to perform surgeries with higher levels of
                 precision and efficiency.
               </p>
-              <span>
-                ---------------------------------------------------------------------------------------------------------------
-              </span>
+            
             </li>
           </ul>
         </div>
