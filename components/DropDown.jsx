@@ -31,7 +31,7 @@ const DropDown = ({ title, list1 }) => {
         <ArrowDropDownIcon fontSize="small" />
       )}
       {IsOpen && (
-        <div className=" text-sm z-50 w-full h-fit bg-gray-100 rounded-md text-[rgba(16,44,81,255)] absolute top-[35px] md:top-[55px] left-[50%] translate-x-[-50%] opacity-100  transition-all duration-300">
+        <div className=" text-sm z-50 w-[180px] h-fit bg-gray-100 rounded-md text-[rgba(16,44,81,255)] absolute top-[35px] md:top-[55px] left-[50%] translate-x-[-50%] opacity-100  transition-all duration-300">
           {list1.map((module, i) => {
             return (
               <div
