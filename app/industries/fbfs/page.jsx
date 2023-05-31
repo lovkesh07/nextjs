@@ -2,7 +2,7 @@ import React from "react";
 import Slide1 from "@assets/img1.jpg";
 import Image from "next/image";
 import Longcard from "./longcard";
-import ContactUsForm from "./ContactUsForm"
+import ContactUsForm from "@components/ContactUsForm";
 import Solution from './solution'
 
 const page = () => {

@@ -5,8 +5,8 @@ const solution = () => {
     <>
 
     <div className='p-8 lg:p-16'> 
-        <h1 className="text-2xl lg:text-2xl">Solutions</h1><br/>
-        <p className="text-4xl lg:text-6xl">E-Commerce Website Development Solutions</p>
+        {/* <h1 className="text-2xl lg:text-2xl">Solutions</h1><br/> */}
+        <p className="text-4xl lg:text-6xl">Our Education Software Solutions</p>
     </div>
 
     <div class="grid grid-cols-1 p-8 lg:p-12 gap-x-1 gap-y-1  md:grid-cols-2 lg:grid-cols-3">
