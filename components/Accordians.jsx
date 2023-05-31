@@ -56,7 +56,7 @@ export default function Accordions() {
       module: [
         {
           name: "About Us",
-          link: "/About/aboutus",
+          link: "/About/AboutUs",
         },
         {
           name: "Our Parteners",
@@ -67,20 +67,20 @@ export default function Accordions() {
           link: "/About/leadership",
         },
         {
-          name: "Testimonial",
-          link: "/About/testimonials",
-        },
-        {
           name: "Investors",
           link: "/About/investor",
         },
         {
           name: "Privacy-Policy",
-          link: "/About/privacy-policy",
+          link: "/About/Privacy-Policy",
         },
         {
           name: "Contact Us",
-          link: "/About/contactus",
+          link: "/About/ContactUs",
+        },
+        {
+          name: "Testimonial",
+          link: "/About/Testimonials",
         },
       ],
     },
@@ -97,28 +97,6 @@ export default function Accordions() {
         },
       ],
     },
-
-    // {
-    //   title: "Industries",
-    //   module: [
-    //     {
-    //       name: "NetWork Security Managment",
-    //       link: "/network-security-managment",
-    //     },
-    //     {
-    //       name: "Penetration Testing",
-    //       link: "/penetration-testing",
-    //     },
-    //     {
-    //       name: "Vulnerability Managment",
-    //       link: "/vulnerability-managment",
-    //     },
-    //     {
-    //       name: "Malware Protection Services",
-    //       link: "/malware-protection-services",
-    //     },
-    //   ],
-    // },
   ]);
 
   const handleChange = (panel) => (event, newExpanded) => {

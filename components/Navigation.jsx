@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import  Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-// import DropDown from "./HompageScreen/DropDown";
+import DropDown from "./DropDown";
 import Accordions from "./Accordians";
 
 const Navbar = () => {
@@ -11,94 +11,48 @@ const Navbar = () => {
 
   const [List1, setList1] = useState([
     {
-      title: "Managed IT Services",
+      title: "About",
       module: [
         {
-          name: "Integrated Service Center (NOC)",
-          link: "/integrated-service-center",
+          name: "About Us",
+          link: "/About/AboutUs",
         },
         {
-          name: "Network Lifecycle Management",
-          link: "/network-lifecycle-managment",
+          name: "Our Parteners",
+          link: "/About/ourpartners",
         },
         {
-          name: "Proactive Monitoring & Alert Managment",
-          link: "/proactive-monitoring-alert-managment",
+          name: "Our Leadership",
+          link: "/About/leadership",
         },
         {
-          name: "Network Managment",
-          link: "/network-managment",
-        },
-      ],
-    },
-
-    {
-      title: "Managed Security Services",
-      module: [
-        {
-          name: "NetWork Security Managment",
-          link: "/network-security-managment",
+          name: "Investors",
+          link: "/About/investor",
         },
         {
-          name: "Penetration Testing",
-          link: "/penetration-testing",
+          name: "Privacy-Policy",
+          link: "/About/Privacy-Policy",
         },
         {
-          name: "Vulnerability Managment",
-          link: "/vulnerability-managment",
+          name: "Contact Us",
+          link: "/About/ContactUs",
         },
         {
-          name: "Malware Protection Services",
-          link: "/malware-protection-services",
+          name: "Testimonial",
+          link: "/About/Testimonials",
         },
       ],
     },
     {
-      title: "IT Project Services",
+      title: "Careers",
       module: [
         {
-          name: "Network Infrastructure",
-          link: "/network-infrastructure-design",
+          name: "Life At Kellton",
+          link: "/careers/lifehere",
         },
         {
-          name: "Network Optimization",
-          link: "/network-optimization",
-        },
-        {
-          name: "WAN Optimization",
-          link: "/wan-optimization",
-        },
-        {
-          name: "System Migration",
-          link: "/system-migration",
-        },
-        {
-          name: "Network Refresh",
-          link: "/network-refresh",
-        },
-        {
-          name: "Tech Refresh",
-          link: "/tech-refresh",
-        },
-        {
-          name: "HardWare Maintenance",
-          link: "/hardware-maintenance",
-        },
-        {
-          name: "Network Migration",
-          link: "/network-migration",
-        },
-        {
-          name: "Hardware Refresh",
-          link: "/hardware-refresh",
-        },
-        {
-          name: "SD WAN Solution",
-          link: "/sd-wan-sol",
-        },
-        {
-          name: "Cloud Migration",
-          link: "/cloud-migration",
+          name: "Jobs",
+          link: "/careers/jobs",
         },
       ],
     },
@@ -125,7 +79,7 @@ const Navbar = () => {
                 key={index}
                 className=" my-3 py-3 px-2 w-full hover:text-blue-300  transition-all duration-300 cursor-pointer text-center"
               >
-                {/* <DropDown title={item.title} list1={item.module} /> */}
+                <DropDown title={item.title} list1={item.module} />
               </li>
             );
           })}
