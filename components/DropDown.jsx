@@ -1,5 +1,5 @@
 "use client"
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
@@ -8,19 +8,22 @@ const DropDown = ({ title, list1 }) => {
   const [IsOpen, setIsOpen] = useState(false);
   const divRef = useRef();
 
-  window.addEventListener("click",(e)=>{
-    if(e.target !== divRef.current){
-      setIsOpen(false);
-    }
+
+  useEffect(()=>{
+    window.addEventListener("click",(e)=>{
+      if(e.target !== divRef.current){
+        setIsOpen(false);
+      }
+    })
   })
 
   return (
     <div
-      ref={divRef}
+      // ref={divReef}
       onClick={() => setIsOpen(!IsOpen)}
       className=" bg-[rgba(16,44,81,255)] relative w-full"
     >
-      <button onClick={() => setIsOpen(!IsOpen)} className=" text-xs w-fit">
+      <button  ref={divRef} onClick={() => setIsOpen(!IsOpen)} className=" text-xs w-fit">
         {title}
       </button>
       {IsOpen ? (
