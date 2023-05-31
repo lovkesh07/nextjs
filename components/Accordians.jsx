@@ -85,6 +85,39 @@ export default function Accordions() {
       ],
     },
     {
+      title: "Industries",
+      module: [
+        {
+          name: "Fintech,Banking,Financial Sevices",
+          link: "/industries/fbfs",
+        },
+        {
+          name: "Retail,E-Commerce & Distribution",
+          link: "/industries/recd",
+        },
+        {
+          name: "Non-Profit,Government & Education",
+          link: "/industries/npge",
+        },
+        {
+          name: "Travel,Logistics & Hospitality",
+          link: "/industries/tlh",
+        },
+        {
+          name: "HiTech,Saas,ISV & Communications",
+          link: "/industries/hsic",
+        },
+        {
+          name: "Oil,Gas & Mining",
+          link: "/industries/oag",
+        },
+        {
+          name: "Energy & Utilities",
+          link: "/industries/eau",
+        },
+      ],
+    },
+    {
       title: "Careers",
       module: [
         {
