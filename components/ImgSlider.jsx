@@ -9,9 +9,9 @@ import Slider from "react-slick";
 
 
 import Slide1 from "@assets/img1.jpg";
-import Slide2 from "@assets/img2.jpeg";
-import Slide3 from "@assets/img3.jpeg";
-import Slide4 from "@assets/img4.jpeg";
+import Slide2 from "@assets/hero2.webp";
+import Slide3 from "@assets/hero3.jpg";
+import Slide4 from "@assets/hero4.jpg";
 
 import Link from 'next/link';
 import Image from 'next/image';
