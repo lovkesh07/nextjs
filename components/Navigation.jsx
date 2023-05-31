@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import  Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -8,6 +8,8 @@ import Accordions from "./Accordians";
 
 const Navbar = () => {
   const [navOpen, setnavOpen] = useState(false);
+  const navRef = useRef();
+  const iconRef = useRef();
 
   const [List1, setList1] = useState([
     {
@@ -85,6 +87,7 @@ const Navbar = () => {
           })}
         </ul>
         <ul
+        ref={navRef}
           className={
             navOpen
               ? " z-50 py-3 bg-[rgba(16,44,81,255)] text-white w-[60%] h-screen absolute top-[80px] left-0 ease-in duration-500  md:hidden text-center font-bold font-customised1"
@@ -114,7 +117,7 @@ const Navbar = () => {
             {!navOpen ? (
               <MenuIcon fontSize="large" />
             ) : (
-              <CloseIcon fontSize="large" />
+              <CloseIcon  fontSize="large" />
             )}
           </i>
         </div>
