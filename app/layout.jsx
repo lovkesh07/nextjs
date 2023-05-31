@@ -1,12 +1,10 @@
 
-import Navbar from "@components/Navbar";
+// import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
 import Navigation from "@components/Navigation";
 // import Testimonialpg from "@components/Testimonialpg";
 
 import "@styles/global.css";
-
-
 
 const RootLayout = ({ children }) => {
   return (
