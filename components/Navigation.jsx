@@ -78,6 +78,35 @@ const Navbar = () => {
         },
       ],
     },
+        {
+      title: "Platforms & Products",
+      module: [
+        {
+          name: "Kellton4Health",
+          link: "/platformandproduct/kellton4health",
+        },
+        {
+          name: "Kellton4NFT",
+          link: "/platformandproduct/kellton4nft",
+        },
+        {
+          name: "Kellton4Commerce",
+          link: "/platformandproduct/kellton4commerce",
+        },
+        {
+          name: "KLGAME",
+          link: "/platformandproduct/klgame",
+        },
+        {
+          name: "tHRive",
+          link: "/platformandproduct/thrive",
+        },
+        {
+          name: "Optima",
+          link: "/platformandproduct/opt",
+        },
+      ],
+    },
     {
       title: "Careers",
       module: [
@@ -105,14 +134,14 @@ const Navbar = () => {
       </div>
       <nav className=" flex w-[100%] justify-center items-center">
         <ul className=" hidden md:flex md:items-center md:relative md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
-          <li className=" my-3 mx-3 py-3 px-2 w-fit hover:text-blue-300  transition-all duration-300 cursor-pointer text-center">
+          <li className=" my-3 mx-3 py-3 px-2 min-w-fit hover:text-blue-300  transition-all duration-300 cursor-pointer text-center">
             <Link href="/">Home</Link>
           </li>
           {List1.map((item, index) => {
             return (
               <li
                 key={index}
-                className=" my-3 py-3 px-2 w-full hover:text-blue-300  transition-all duration-300 cursor-pointer text-center"
+                className=" my-3 py-3 min-w-[100px] hover:text-blue-300  transition-all duration-300 cursor-pointer text-center"
               >
                 <DropDown title={item.title} list1={item.module} />
               </li>

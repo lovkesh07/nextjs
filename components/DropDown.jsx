@@ -19,7 +19,6 @@ const DropDown = ({ title, list1 }) => {
 
   return (
     <div
-      // ref={divReef}
       onClick={() => setIsOpen(!IsOpen)}
       className=" bg-[rgba(16,44,81,255)] relative w-full"
     >
@@ -37,7 +36,7 @@ const DropDown = ({ title, list1 }) => {
             return (
               <div
                 key={i}
-                className=" text-[0.9rem] w-full py-2 px-2 mx-auto  border-b-[1px] border-black"
+                className=" text-[0.9rem] w-full py-2 mx-auto  border-b-[1px] border-black"
               >
                 <Link href={module.link}>{module.name}</Link>
               </div>

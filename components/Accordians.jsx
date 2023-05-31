@@ -117,6 +117,35 @@ export default function Accordions() {
         },
       ],
     },
+        {
+      title: "Platforms & Products",
+      module: [
+        {
+          name: "Kellton4Health",
+          link: "/platformandproduct/kellton4health",
+        },
+        {
+          name: "Kellton4NFT",
+          link: "/platformandproduct/kellton4nft",
+        },
+        {
+          name: "Kellton4Commerce",
+          link: "/platformandproduct/kellton4commerce",
+        },
+        {
+          name: "KLGAME",
+          link: "/platformandproduct/klgame",
+        },
+        {
+          name: "tHRive",
+          link: "/platformandproduct/thrive",
+        },
+        {
+          name: "Optima",
+          link: "/platformandproduct/opt",
+        },
+      ],
+    },
     {
       title: "Careers",
       module: [
