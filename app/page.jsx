@@ -5,7 +5,7 @@ import Sponser from "@components/Sponsor";
 import ImgSlider from "@components/ImgSlider";
 import Ourmission from "@components/Ourmission";
 import InsightSection from "@components/InsightSection";
-// import Testimonialpg from '@components/Testimonialpg';
+import Testimonialpg from '@components/Testimonialpg';
 
 
 const home = () => {
@@ -16,7 +16,7 @@ const home = () => {
           <Ourmission/>
           <Longcard/>
           <Sponser/>
-          {/* <Testimonialpg/> */}
+          <Testimonialpg/>
           <InsightSection/>
     </main>
   )

@@ -1,6 +1,8 @@
+"use client";
 import React from 'react'
-import { Container } from '../../components/Container'
-import { Expandable } from '../../components/Expandable'
+import clsx from 'clsx'
+import { Container } from '@components/Container'
+import { Expandable } from '@components/Expandable'
 
 const testimonials = [
   [

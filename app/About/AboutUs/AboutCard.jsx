@@ -11,7 +11,7 @@ const Cards = () => {
       </div>
 
       <div className=" w-[85%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
-        <div className=" w-full md:w-[100%] h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500  hover:scale-[1.01] hover:shadow-black transition-all duration-300 delay-100">
+        <div className=" w-full md:w-[100%] h-[30vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500  hover:scale-[1.01] hover:shadow-black transition-all duration-300 delay-100">
           <p className=" text-sm md:text-lg lg:text-xl text-white px-3 py-2">
             The great minds behind leadership
           </p>
@@ -23,7 +23,7 @@ const Cards = () => {
           </span>
         </div>
 
-        <div className=" w-full md:w-[100%] h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
+        <div className=" w-full md:w-[100%] h-[30vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
           <p className=" text-sm md:text-lg lg:text-xl text-white px-3 py-2">
             What our clients say
           </p>
