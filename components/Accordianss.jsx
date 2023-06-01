@@ -50,7 +50,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 export default function Accordianss() {
   const [expanded, setExpanded] = React.useState("panel1");
- const [list1, setList1] = useState([
+ const [List1, setList1] = useState([
     {
       title: "Digital Experience",
       rootlink:"/services/digitalexperience",
@@ -66,22 +66,6 @@ export default function Accordianss() {
         {
           name: "Product Management",
           link: "/services/digitalexperience/productmanagement",
-        },
-        {
-          name: "Investors",
-          link: "/About/investor",
-        },
-        {
-          name: "Privacy-Policy",
-          link: "/About/Privacy-Policy",
-        },
-        {
-          name: "Contact Us",
-          link: "/About/ContactUs",
-        },
-        {
-          name: "Testimonial",
-          link: "/About/Testimonials",
         },
       ],
     },
@@ -189,7 +173,7 @@ export default function Accordianss() {
         >
           <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
             <div className=" w-full ">
-              <h1 className=" w-full text-xs text-center">{item.title}</h1>
+              <Link href={item.rootlink} className=" w-full text-xs text-center">{item.title}</Link>
             </div>
           </AccordionSummary>
           <AccordionDetails
