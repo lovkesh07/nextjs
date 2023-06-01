@@ -145,7 +145,7 @@ const DropDown2 = ({ title }) => {
         <div className=" text-sm z-50 w-screen py-5 grid grid-cols-3 gap-2 h-fit bg-gray-100 rounded-md text-[rgba(16,44,81,255)] absolute md:top-[85px] left-0  opacity-100  transition-all duration-300">
           {list1.map((item, index) => {
             return (
-              <div className=" border-black border-r-[1px] border-solid py-3">
+              <div className="  py-3">
                 <DropHelper title={item.title} module={item.module} />
               </div>
             );

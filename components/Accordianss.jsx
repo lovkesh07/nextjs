@@ -48,7 +48,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: "1px solid rgba(0, 0, 0, .125)",
 }));
 
-export default function Accordions() {
+export default function Accordianss() {
   const [expanded, setExpanded] = React.useState("panel1");
   const [List1, setList1] = useState([
     {
@@ -193,7 +193,7 @@ export default function Accordions() {
           >
             {item.module?.map((info, i) => {
               return (
-                <div className=" w-full px-2 py-3 border-b-[1px] border-solid border-black">
+                <div className=" w-full border-b-[1px] border-solid border-black">
                   <Link href={info.link}>{info.name}</Link>
                 </div>
               );

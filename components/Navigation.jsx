@@ -6,6 +6,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import DropDown from "./DropDown";
 import Accordions from "./Accordians";
 import DropDown2 from "./DropDown2";
+import Accordian2 from "./Accordian2";
 
 const Navbar = () => {
   const [navOpen, setnavOpen] = useState(false);
@@ -163,16 +164,9 @@ const Navbar = () => {
           <li className=" mx-auto my-2 py-3 px-4 w-fit ">
             <Link href="/">Home</Link>
           </li>
-          {/* {List1.map((item, index) => {
-            return (
-              <li
-                key={index}
-                className=" my-2 mx-auto h-fit py-3 px-2 w-fit text-xs hover:text-gray-500  transition-all duration-300 cursor-pointer text-center"
-              >
-                <DropDown title={item.title} list1={item.module} />
-              </li>
-            );
-          })} */}
+          <li className=" mx-auto mt-2 py-3 w-full ">
+            <Accordian2/>
+          </li>
           <Accordions />
         </ul>
         <div
