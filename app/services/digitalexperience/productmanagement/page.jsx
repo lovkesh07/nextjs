@@ -20,14 +20,14 @@ const page = () => {
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           <p className="text-lg">
-            Home/Digital Experience/Product Strategy & Consulting
+            Home/Digital Experience/Product Design
           </p>{" "}
           <br />
           <h1 className="text-3xl sm:text-5xl font-bold">
-            Product Strategy & Consulting
+            Product Design
           </h1>{" "}
           <br />
-          <p>Defining product strategies that meet your unique needs</p>
+          <p>Creating standout digital experiences that put your users first</p>
         </div>
       </div>
       <WrittenContent />

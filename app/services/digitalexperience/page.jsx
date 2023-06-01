@@ -5,6 +5,7 @@ import Brands from "./brands";
 import Image from "next/image";
 import Card from "./Card";
 import Blogs from "./Blogs";
+import Sectionexra from "./sectionexra";
 
 const page = () => {
   return (
@@ -77,54 +78,7 @@ const page = () => {
         </div>
       </section>
       <Brands />
-      <section className="mx-auto p-8 lg:p-24 bg-slate-800">
-        <p className="text-lg text-white">Why Kellton for Digital Experience?</p>
-        <h1 className="lg:py-6 text-4xl lg:text-6xl text-slate-200">
-          Just a few reasons why
-        </h1>
-        <div className="lg:py-6 text-slate-200 lg:pl-[540px]">
-          <ul className="leading-8 ">
-            <li className="lg:my-8">
-              <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
-                Leader in application services
-                <br />
-              </h1>
-
-              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
-                Our expertise in end-to-end digital application design and
-                development allows us to create robust, scalable software
-                solutions to tight timescales.
-              </p>
-            </li>
-            <li className="lg:my-8">
-              <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
-                Handpicked experts
-                <br />
-              </h1>
-
-              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
-                Our global team of experienced, certified consultants and
-                developers is well-versed with the latest tools, technologies,
-                and platforms.
-              </p>
-            </li>
-            <li className="lg:my-8">
-              <h1 className="text-4xl lg:text-5xl my-6 lg:my-6 font-medium">
-                Customer-centric approach
-                <br />
-              </h1>
-
-              <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
-                We design and build solutions that meet your unique business
-                needs to help your organization thrive.
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div className=" w-[85%] sm:w-1/2 my-5 py-5 mx-auto flex flex-col sm:flex-row gap-3 rounded-md items-center justify-center">
-          <button className=" p-3 border-solid border-white border-[1px] text-white rounded-md">Let's Work Together</button>
-        </div>
-      </section>
+      <Sectionexra/>
       <Blogs/>
     </div>
   );
