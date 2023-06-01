@@ -6,10 +6,10 @@ const DropHelper = ({ title, module }) => {
   return (
     <div>
       <h1 className=" text-lg">{title}</h1>
-      <div className=" grid grid-cols-2 gap-3 border-black border-r-[1px] border-solid">
+      <div className=" grid grid-cols-2 px-5 gap-3 border-black border-r-[1px] border-solid">
         {module.map((item, i) => {
           return (
-            <div key={i} className=" text-[0.9rem] w-full py-2 mx-auto">
+            <div key={i} className=" text-[0.9rem] w-full py-2 mx-auto hover:bg-gray-300 transition-all duration-300">
               <Link className=" mx-auto" href={item.link}>
                 {item.name}
               </Link>
