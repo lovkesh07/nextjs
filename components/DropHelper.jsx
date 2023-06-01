@@ -2,10 +2,10 @@
 import React from "react";
 import Link from "next/link";
 
-const DropHelper = ({ title, module }) => {
+const DropHelper = ({ title, rootlink ,module }) => {
   return (
     <div className="w-full">
-      <h1 className=" w-full text-lg">{title}</h1>
+      <Link href={rootlink} className=" w-full text-lg">{title}</Link>
       <div className=" w-full grid grid-cols-1 pt-3 px-5 gap-2 border-black border-r-[1px] border-solid">
         {module.map((item, i) => {
           return (

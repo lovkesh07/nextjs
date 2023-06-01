@@ -9,19 +9,20 @@ const DropDown2 = ({ title }) => {
   const divRef = useRef();
   const [list1, setList1] = useState([
     {
-      title: "About",
+      title: "Digital Experience",
+      rootlink:"/services/digitalexperience",
       module: [
         {
-          name: "About Us",
-          link: "/About/AboutUs",
+          name: "Product Strategy & Consulting",
+          link: "/services/digitalexperience/productstrategy",
         },
         {
-          name: "Our Parteners",
-          link: "/About/ourpartners",
+          name: "Product Design",
+          link: "/services/digitalexperience/productdesign",
         },
         {
-          name: "Our Leadership",
-          link: "/About/leadership",
+          name: "Product Management",
+          link: "/services/digitalexperience/productmanagement",
         },
         {
           name: "Investors",
@@ -43,6 +44,7 @@ const DropDown2 = ({ title }) => {
     },
     {
       title: "Industries",
+      rootlink:"/service/digitalexperience",
       module: [
         {
           name: "Fintech,Banking,Financial Sevices",
@@ -76,6 +78,7 @@ const DropDown2 = ({ title }) => {
     },
     {
       title: "Platforms & Products",
+      rootlink:"/service/digitalexperience",
       module: [
         {
           name: "Kellton4Health",
@@ -105,6 +108,7 @@ const DropDown2 = ({ title }) => {
     },
     {
       title: "Careers",
+      rootlink:"/service/digitalexperience",
       module: [
         {
           name: "Life At Kellton",
@@ -145,8 +149,8 @@ const DropDown2 = ({ title }) => {
         <div className=" text-sm z-50 w-screen py-5 grid grid-cols-3 gap-2 h-fit bg-gray-100 rounded-md text-[rgba(16,44,81,255)] absolute md:top-[85px] left-0  opacity-100  transition-all duration-300">
           {list1.map((item, index) => {
             return (
-              <div className="  py-3">
-                <DropHelper title={item.title} module={item.module} />
+              <div key={index} className="  py-3">
+                <DropHelper title={item.title} rootlink={item.rootlink} module={item.module} />
               </div>
             );
           })}

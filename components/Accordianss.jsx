@@ -50,21 +50,22 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 export default function Accordianss() {
   const [expanded, setExpanded] = React.useState("panel1");
-  const [List1, setList1] = useState([
+ const [list1, setList1] = useState([
     {
-      title: "About",
+      title: "Digital Experience",
+      rootlink:"/services/digitalexperience",
       module: [
         {
-          name: "About Us",
-          link: "/About/AboutUs",
+          name: "Product Strategy & Consulting",
+          link: "/services/digitalexperience/productstrategy",
         },
         {
-          name: "Our Parteners",
-          link: "/About/ourpartners",
+          name: "Product Design",
+          link: "/services/digitalexperience/productdesign",
         },
         {
-          name: "Our Leadership",
-          link: "/About/leadership",
+          name: "Product Management",
+          link: "/services/digitalexperience/productmanagement",
         },
         {
           name: "Investors",
@@ -86,6 +87,7 @@ export default function Accordianss() {
     },
     {
       title: "Industries",
+      rootlink:"/service/digitalexperience",
       module: [
         {
           name: "Fintech,Banking,Financial Sevices",
@@ -117,8 +119,9 @@ export default function Accordianss() {
         },
       ],
     },
-        {
+    {
       title: "Platforms & Products",
+      rootlink:"/service/digitalexperience",
       module: [
         {
           name: "Kellton4Health",
@@ -148,6 +151,7 @@ export default function Accordianss() {
     },
     {
       title: "Careers",
+      rootlink:"/service/digitalexperience",
       module: [
         {
           name: "Life At Kellton",
