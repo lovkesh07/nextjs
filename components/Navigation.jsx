@@ -1,10 +1,11 @@
-"use client"
+"use client";
 import React, { useRef, useState } from "react";
-import  Link from "next/link";
+import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import DropDown from "./DropDown";
 import Accordions from "./Accordians";
+import DropDown2 from "./DropDown2";
 
 const Navbar = () => {
   const [navOpen, setnavOpen] = useState(false);
@@ -78,7 +79,7 @@ const Navbar = () => {
         },
       ],
     },
-        {
+    {
       title: "Platforms & Products",
       module: [
         {
@@ -129,14 +130,17 @@ const Navbar = () => {
     <header className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0 bg-[rgba(16,44,81,255)] text-white">
       <div className=" px-3 lg:px-6">
         <span>
-          <h1 className=" text-3xl sm:text-5xl font-extrabold">KellTon</h1>
+          <h1 className=" text-3xl sm:text-5xl ">KellTon</h1>
         </span>
       </div>
       <nav className=" flex w-[100%] justify-center items-center">
-        <ul className=" hidden md:flex md:items-center md:relative md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
+        <ul className=" hidden md:flex md:items-center md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
           <li className=" my-3 mx-3 py-3 px-2 min-w-fit hover:text-blue-300  transition-all duration-300 cursor-pointer text-center">
             <Link href="/">Home</Link>
           </li>
+            <li className=" my-3 py-3 min-w-[100px] hover:text-blue-300  transition-all duration-300 cursor-pointer text-center">
+              <DropDown2 title="Services" />
+            </li>
           {List1.map((item, index) => {
             return (
               <li
@@ -149,7 +153,7 @@ const Navbar = () => {
           })}
         </ul>
         <ul
-        ref={navRef}
+          ref={navRef}
           className={
             navOpen
               ? " z-50 py-3 bg-[rgba(16,44,81,255)] text-white w-[60%] h-screen absolute top-[80px] left-0 ease-in duration-500  md:hidden text-center font-bold font-customised1"
@@ -179,7 +183,7 @@ const Navbar = () => {
             {!navOpen ? (
               <MenuIcon fontSize="large" />
             ) : (
-              <CloseIcon  fontSize="large" />
+              <CloseIcon fontSize="large" />
             )}
           </i>
         </div>
