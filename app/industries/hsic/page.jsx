@@ -6,7 +6,7 @@ import ContactUsForm from "@components/ContactUsForm";
 
 const page = () => {
   return (
-    <div className="mt-[80px] bg-gray-300">
+    <div className="mt-[80px]">
       <div className="relative">
         <Image
           src={Slide1}

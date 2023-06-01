@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Cards = () => {
   return (
-    <div className=" w-full  bg-[#E7E4E1] py-10 px-5">
+    <div className=" w-full   py-10 px-5">
     <div className="">
       <div className=" w-[90%] mx-auto py-5">
         <p className=" my-2 lg:pl-10  text-2xl md:text-lg pb-4 lg:text-4xl">Our related products</p>

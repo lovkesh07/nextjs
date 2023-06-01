@@ -3,7 +3,7 @@ import React from 'react'
 const Ourmission = () => {
   return (
     <>
-    <div className="bg-[#E7E4E1] p-4 lg:p-16">
+    <div className=" p-4 lg:p-16">
         <div className="mx-auto  lg:p-16">
         <p className="text-2xl py-5"> Our mission</p>
         <p className=" text-3xl md:text-4xl lg:text-6xl font-medium" >

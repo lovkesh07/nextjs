@@ -24,7 +24,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="mx-auto p-8 lg:p-24 bg-slate-300 py-4  ">
+      <div className="mx-auto p-8 lg:p-24  py-4  ">
         <p className="text-2xl lg:text-6xl py-5 font-medium pr-2">
           {" "}
           Investor Information
@@ -48,15 +48,15 @@ const page = () => {
         </div>
       </div>
 
-      <section className="mx-auto p-8 lg:p-24 bg-slate-300">
-        <div className="bg-slate-300">
+      <section className="mx-auto p-8 lg:p-24 ">
+        <div className="">
           <h1 className="text-xl lg:text-2xl py-2  pr-2">Explore</h1>
           <span className="text-2xl lg:text-6xl  font-medium pr-2">
             Investor Info
           </span>
         </div>
 
-        <div className="lg:py-24   lg:pl-[580px] bg-slate-300 ">
+        <div className="lg:py-24   lg:pl-[580px] ">
           <ul className="leading-8 ">
             <li className=" py-4 lg:my-2 border-b-[1px] border-solid border-slate-700">
               <Link href="/" className="lg:text-4xl lg:my-16 font-medium">
