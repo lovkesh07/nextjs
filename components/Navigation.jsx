@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, { useRef ,useState } from "react";
 import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -11,8 +11,6 @@ import Accordian2 from "./Accordian2";
 const Navbar = () => {
   const [navOpen, setnavOpen] = useState(false);
   const navRef = useRef();
-  const iconRef = useRef();
-
   const [List1, setList1] = useState([
     {
       title: "About",
