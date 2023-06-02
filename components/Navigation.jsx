@@ -162,7 +162,7 @@ const Navbar = () => {
           <li className=" mx-auto my-2 py-3 px-4 w-fit ">
             <Link href="/">Home</Link>
           </li>
-          <li className=" mx-auto mt-2 py-3 w-full ">
+          <li className=" mx-auto w-full ">
             <Accordian2/>
           </li>
           <Accordions />

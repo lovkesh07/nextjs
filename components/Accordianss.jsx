@@ -49,7 +49,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 }));
 
 export default function Accordianss() {
-  const [expanded, setExpanded] = React.useState("panel1");
+  const [expanded, setExpanded] = React.useState("panel0");
  const [List1, setList1] = useState([
     {
       title: "Digital Experience",
@@ -155,19 +155,19 @@ export default function Accordianss() {
 
   return (
     <div
-      className="bg-[rgba(16,44,81,255)]"
+      className="bg-[#1A374D]"
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
-        backgroundColor: "rgba(16,44,81,255)",
+        backgroundColor: "#1A374D",
       }}
     >
       {List1.map((item, index) => (
         <Accordion
           className=" text-xs w-full"
-          style={{ backgroundColor: "rgba(16,44,81,255)", color: "white" }}
+          style={{ backgroundColor: "#1A374D", color: "white" }}
           expanded={expanded === "panel" + (index + 1)}
           onChange={handleChange("panel" + (index + 1))}
         >

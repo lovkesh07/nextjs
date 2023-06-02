@@ -19,7 +19,7 @@ const DropDown = ({ title, list1 }) => {
 
   return (
     <div
-      className=" bg-[rgba(16,44,81,255)] w-full"
+      className=" w-full"
     >
       
       <button  ref={divRef} onClick={() => setIsOpen(!IsOpen)} className=" text-xs w-fit">

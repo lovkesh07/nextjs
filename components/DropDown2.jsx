@@ -131,7 +131,7 @@ const DropDown2 = ({ title }) => {
   });
 
   return (
-    <div className=" bg-[rgba(16,44,81,255)] w-full">
+    <div className=" w-full">
       <button
         ref={divRef}
         onClick={() => setIsOpen(!IsOpen)}
