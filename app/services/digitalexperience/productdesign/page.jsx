@@ -6,11 +6,15 @@ import Image from "next/image";
 import Card from "./Card";
 import Blogs from "../Blogs";
 import Sectionexra from "./sectionexra";
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
+
+
 
 const page = () => {
   return (
-    <div className="mt-[80px] bg-gray-300">
-      <div className="relative">
+    <div className="mt-[80px]">
+      <div className="relative" data-aos="">
         <Image
           src={Slide1}
           alt="badag"
@@ -31,7 +35,7 @@ const page = () => {
         </div>
       </div>
       <WrittenContent />
-      <Sectionexra/>
+      <Sectionexra />
       <Brands/>
       <Card/>
       <Blogs/>

@@ -3,12 +3,12 @@ import React from "react";
 const WrittenContent = () => {
   return (
     <div className="w-full p-10 md:p-16">
-      <h1 className=" text-xl sm:text-4xl md:text-5xl">
+      <h1 className=" text-xl sm:text-4xl md:text-5xl" data-aos="fade-up">
         We design innovative, user-centered digital products that solve
         real-world problems.
       </h1>
       <div className="py-10 w-full sm:w-[85%]">
-        <p className=" sm:ml-16 text-sm sm:text-xl">
+        <p className=" sm:ml-16 text-sm sm:text-xl " data-aos="fade-up">
           Eye-catching, intuitive product design is central to what we do at
           Kellton. We use our expertise in agile design and development to build
           beautiful, practical digital products that solve real-world problems,

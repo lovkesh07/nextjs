@@ -6,10 +6,11 @@ import Image from "next/image";
 import Card from "./Card";
 import Blogs from "./Blogs";
 import Sectionexra from "./sectionexra";
+import Bottomcard from "./bottomcard";
 
 const page = () => {
   return (
-    <div className="mt-[80px] bg-gray-300">
+    <div className="mt-[80px] ">
       <div className="relative">
         <Image
           src={Slide1}
@@ -80,6 +81,8 @@ const page = () => {
       <Brands />
       <Sectionexra/>
       <Blogs/>
+      <Bottomcard/>
+
     </div>
   );
 };
