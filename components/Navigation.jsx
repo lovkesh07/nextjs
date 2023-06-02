@@ -126,10 +126,10 @@ const Navbar = () => {
     setnavOpen(!navOpen);
   };
   return (
-    <header className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0 bg-[rgba(16,44,81,255)] text-white">
+    <header className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0 bg-[#1A374D] text-white">
       <div className=" px-3 lg:px-6">
         <span>
-          <h1 className=" text-3xl sm:text-5xl ">KellTon</h1>
+          <h1 className=" text-3xl sm:text-5xl ">LOGO</h1>
         </span>
       </div>
       <nav className=" flex w-[100%] justify-center items-center">
@@ -155,8 +155,8 @@ const Navbar = () => {
           ref={navRef}
           className={
             navOpen
-              ? " z-50 py-3 bg-[rgba(16,44,81,255)] text-white w-[60%] h-screen absolute top-[80px] left-0 ease-in duration-500  md:hidden text-center font-bold font-customised1"
-              : " z-50 bg-[rgba(16,44,81,255)] text-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500  text-center font-bold font-customised1"
+              ? " z-50 py-3 bg-[#1A374D] text-white w-[60%] h-screen absolute top-[80px] left-0 ease-in duration-500  md:hidden text-center font-bold font-customised1"
+              : " z-50 bg-[#1A374D)] text-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500  text-center font-bold font-customised1"
           }
         >
           <li className=" mx-auto my-2 py-3 px-4 w-fit ">

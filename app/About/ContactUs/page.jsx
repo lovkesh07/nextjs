@@ -3,7 +3,6 @@ import Slide1 from "@assets/img1.jpg";
 import Image from 'next/image';
 import Longcard from './ContactLongCard'
 import ContactUsForm from "./ContactUsForm"
-// import Cards from './AboutCard';
 import WrittenContent from './ContactWrittenPart';
 import Acknowledgement from './Acknowledgement';
 import OurOffice from './OurOffice';

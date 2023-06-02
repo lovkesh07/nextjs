@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Blogs = () => {
   return (
-    <div className=" w-full py-24 px-6 md:px-6 lg:px-10 flex flex-col gap-5 bg-[#E7E4E1]">
+    <div className=" w-full py-24 px-6 md:px-6 lg:px-24 flex flex-col gap-5 bg-[#E7E4E1]">
       <div className=" w-full lg:w-1/2 flex flex-col">
         <h1 className="text-4xl py-5">Leading Transformation</h1>
       </div>

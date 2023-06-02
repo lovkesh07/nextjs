@@ -24,12 +24,7 @@ const Sponser = () => {
                 <path d="M.5 200V.5H200" fill="none" />
               </pattern>
             </defs>
-            <svg x="50%" y="50%" className="overflow-visible fill-gray-100">
-              <path
-                d="M-300 0h201v201h-201Z M300 200h201v201h-201Z"
-                strokeWidth={0}
-              />
-            </svg>
+       
             <rect
               width="100%"
               height="100%"

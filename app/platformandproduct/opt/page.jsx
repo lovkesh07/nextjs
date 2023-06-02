@@ -9,7 +9,7 @@ import Sectionextra from "./sectionexra";
 
 const page = () => {
   return (
-    <div className="mt-[80px] bg-[#E7E4E1]">
+    <div className="mt-[80px]">
       <div className="relative">
         <Image
           src={Slide1}
@@ -54,7 +54,7 @@ const page = () => {
 
       <Longcard />
 
-      <section className="mx-auto p-8 lg:p-24 bg-[#E7E4E1]">
+      <section className="mx-auto p-8 lg:p-24">
         <h1 className="lg:py-6 text-4xl lg:text-6xl text-slate-700">
         Optima Features
 

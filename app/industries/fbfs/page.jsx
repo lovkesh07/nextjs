@@ -7,7 +7,7 @@ import Solution from "./solution";
 
 const page = () => {
   return (
-    <div className="mt-[80px] bg-gray-300">
+    <div className="mt-[80px]">
       <div className="relative">
         <Image
           src={Slide1}
@@ -62,6 +62,9 @@ const page = () => {
       </div>
 
       <section className="mx-auto p-8 lg:p-24 bg-slate-800">
+      <h1 className="lg:py-6 text-4xl lg:text-6xl text-slate-200">
+      Innovative Banking Solutions
+        </h1>
         <div className="lg:py-6 text-slate-200 lg:pl-[540px]">
           <ul className="leading-8 ">
             <li className="lg:my-8">

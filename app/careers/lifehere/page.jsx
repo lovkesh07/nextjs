@@ -2,7 +2,8 @@ import React from "react";
 import Slide1 from "@assets/img1.jpg";
 import Image from "next/image";
 import Portfolio from "./Portfolio";
-
+import Sectionextra from "./sectionexra";
+import ContactUsForm from "./ContactUsForm"
 
 const page = () => {
   return (
@@ -82,62 +83,63 @@ const page = () => {
         </div>
       </div>
 
-      <section className="mx-auto p-8 lg:p-24 bg-slate-300">
-
-        <div className="lg:py-6  bg-slate-300 lg:pl-[540px]">
+      <section className="mx-auto p-8 lg:pl-16 ">
+        <div className="lg:pl-[540px]">
           <ul className="leading-8 ">
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-4xl my-6 lg:my-6 font-medium">
                 Initial Learning Program (ILP) <br />
               </h1>
-                
-                <p >
-                  We conduct an Initial Learning Program of stipulated months
-                  for all entry level graduates honing their technical as well
-                  as soft skills. Employees are provided with flexibility to
-                  progress across technical, domain and management tracks.{" "}
-                </p>
-                <span>---------------------------------------------------------------------------------------------------------------</span>
+
+              <p className="border-b-[1px] border-solid border-slate-800">
+                We conduct an Initial Learning Program of stipulated months for
+                all entry level graduates honing their technical as well as soft
+                skills. Employees are provided with flexibility to progress
+                across technical, domain and management tracks.{" "}
+              </p>
+              
             </li>
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-4xl my-6 lg:my-6 font-medium">
                 Continuous Learning Program (CLP) <br />
               </h1>
-                
-                <p>
-                  We support our employees by facilitating a plethora of
-                  training and certification programs like AWS Certified Cloud
-                  Practitioner, CCSP, OCAJP and JBPM training to name a few.
-                  <br />
-                  We provide Continuous Learning & Personalized Career Growth
-                  options for all our employees as well as a structured training
-                  program for offshore employees.
-                </p>
-                <span>---------------------------------------------------------------------------------------------------------------</span>
+
+              <p className="border-b-[1px] border-solid border-slate-800">
+                We support our employees by facilitating a plethora of training
+                and certification programs like AWS Certified Cloud
+                Practitioner, CCSP, OCAJP and JBPM training to name a few.
+                <br />
+                We provide Continuous Learning & Personalized Career Growth
+                options for all our employees as well as a structured training
+                program for offshore employees.
+              </p>
+              
             </li>
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-4xl my-6 lg:my-6 font-medium">
                 Graduate and Student Training Programs <br />
               </h1>
-                
-                <p>
-                  Kellton provides a host of opportunities to young graduates
-                  and students to work with contemporary technologies and
-                  building solutions that positively impacts the world around
-                  us. We offer full time opportunities, internships, academic
-                  projects and mentorship programs.
-                  <br />
-                  You will be constantly challenged and exposed to diverse
-                  technologies and people while you transform ideas into
-                  tangible business results, opening wonderful arenas of growth
-                  and development.{" "}
-                </p>
-                <span>---------------------------------------------------------------------------------------------------------------</span>
+
+              <p className="border-b-[1px] border-solid border-slate-800">
+                Kellton provides a host of opportunities to young graduates and
+                students to work with contemporary technologies and building
+                solutions that positively impacts the world around us. We offer
+                full time opportunities, internships, academic projects and
+                mentorship programs.
+                <br />
+                You will be constantly challenged and exposed to diverse
+                technologies and people while you transform ideas into tangible
+                business results, opening wonderful arenas of growth and
+                development.{" "}
+              </p>
+             
             </li>
           </ul>
-
         </div>
       </section>
+
+      <Sectionextra />
+      <ContactUsForm/>
     </div>
   );
 };
