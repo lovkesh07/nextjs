@@ -2,12 +2,12 @@ import React from "react";
 
 const WrittenContent = () => {
   return (
-    <div className="w-full p-10 md:p-16">
-      <h1 className=" text-xl sm:text-4xl md:text-5xl">
+    <div className="w-full p-12 md:p-20">
+      <h1 className=" text-xl sm:text-4xl md:text-5xl" data-aos="fade-up">
         We build an optimized digital infrastructure that allows your business
         to thrive.
       </h1>
-      <div className="py-10 w-full sm:w-[85%]">
+      <div className="py-10 w-full sm:w-[85%]" data-aos="fade-up">
         <p className=" sm:ml-16 text-sm sm:text-xl">
           To stay competitive, your digital infrastructure has to stay current –
           relying on legacy solutions excludes you from many powerful BI, user

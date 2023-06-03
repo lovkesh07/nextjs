@@ -31,7 +31,7 @@ const page = () => {
         </p>
         <br />
         <br />
-        <div className="text-left lg:px-24 lg:text-justify border-b-[0.1px] py-4 lg:py-16 border-solid border-slate-700">
+        <div className="text-left lg:px-24 lg:text-justify border-b-[0.1px] py-4 lg:py-16 border-solid border-slate-700" data-aos="fade-up">
           <p className=" text-xl md:text-2xl lg:text-2xl">
             Kellton was founded in 2009 by a team of technology enthusiasts with
             a wealth of knowledge, talent, and ambition acquired from over a
@@ -57,7 +57,7 @@ const page = () => {
         </div>
 
         <div className="lg:py-24   lg:pl-[580px] ">
-          <ul className="leading-8 ">
+          <ul className="leading-8 " data-aos="fade-up">
             <li className=" py-4 lg:my-2 border-b-[1px] border-solid border-slate-700">
               <Link href="/" className="lg:text-4xl lg:my-16 font-medium">
                 Governance <br />
@@ -110,7 +110,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className=" flex justify-center items-center  bg-slate-300 py-10">
+      <section className=" flex justify-center items-center  bg-slate-300 py-10" data-aos="fade-up">
         <div className=" flex flex-col justify-center items-center">
           <h1 className=" text-3xl lg:text-4xl lg:my-6 font-medium py-5">
             Need help? You just need to tell us.

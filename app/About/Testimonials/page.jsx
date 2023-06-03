@@ -14,7 +14,7 @@ const pages = () => {
           height={800}
           className=" w-full h-[80vh]"
         />
-        <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
+        <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16" data-aos="fade-up">
           <p className="text-lg">Home/Tesimonials</p> 
           <h1 className="text-3xl sm:text-5xl font-bold">
             What our clients say
@@ -22,7 +22,7 @@ const pages = () => {
         </div>
       </div>
 
-      <div className="mx-auto p-8 lg:p-24">
+      <div className="mx-auto p-8 lg:p-24" data-aos="fade-up">
         <p className="text-2xl lg:text-6xl py-5 font-medium pr-2"> Want to know what we do and how we do it?<br/> Hear straight from our clients.</p>
        <br/><br/>
         <div className="text-left lg:px-24 lg:text-justify"> 
@@ -33,7 +33,7 @@ const pages = () => {
         <p className=" text-xl md:text-2xl lg:text-2xl ">We have developed a great reputation for helping companies because we never let ourselves forget that we’re fortunate to have our clients and not the other way around. From start-ups at incubation to global giants at the top of the Fortune 500 list, we have been lucky to work with some of the leading brands in the world. In return, they have been kind enough to share their experiences working with us.</p>
       </div>
         </div>
-      <Testimonialpg />
+      <Testimonialpg  data-aos="fade-up"/>
     </div>
   );
 };

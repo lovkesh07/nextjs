@@ -5,7 +5,7 @@ import Slider2 from "@assets/corpomg3.jpg";
 
 const Portfolio = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 text-center'>
+    <div className='max-w-[1240px] mx-auto py-16 text-center' data-aos="fade-up">
       
       <div className='grid grid-rows-none md:grid-cols-5 p-4 gap-4'>
         <div className='w-full h-full col-span-2 md:col-span-3 row-span-2'>

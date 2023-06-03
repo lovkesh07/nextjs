@@ -7,10 +7,10 @@ import { FaYoutube } from "react-icons/fa";
 function Footer() {
 	return (
 		<>
-			<div className="bg-[#406882] h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
-				<div className="p-5 ">
+			<div className="bg-[#406882] h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-16 sm:p-20">
+				<div className=" px-0 py-5 sm:p-5 ">
 					<ul>
-						<p className="text-gray-800 font-bold text-3xl pb-6">
+						<p className="text-gray-800 font-bold mx-auto text-3xl pb-6">
 							Company<span className="text-blue-600">logo</span>
 						</p>
 						<div className="flex gap-6 pb-5">

@@ -50,10 +50,10 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 export default function Accordianss() {
   const [expanded, setExpanded] = React.useState("panel0");
- const [List1, setList1] = useState([
+  const [List1, setList1] = useState([
     {
       title: "Digital Experience",
-      rootlink:"/services/digitalexperience",
+      rootlink: "/services/digitalexperience",
       module: [
         {
           name: "Product Strategy & Consulting",
@@ -70,42 +70,30 @@ export default function Accordianss() {
       ],
     },
     {
-      title: "Industries",
-      rootlink:"/service/digitalexperience",
+      title: "Product Engineering",
+      rootlink: "/service/productengineering",
       module: [
         {
-          name: "Fintech,Banking,Financial Sevices",
-          link: "/industries/fbfs",
+          name: "Digital-Application",
+          link: "/service/productengineering/Digitalapplicationdevelopment",
         },
         {
-          name: "Retail,E-Commerce & Distribution",
-          link: "/industries/recd",
+          name: "IOT & Wearable Solutions",
+          link: "/service/productengineering/Iotwearablessolutions",
         },
         {
-          name: "Non-Profit,Government & Education",
-          link: "/industries/npge",
+          name: "Mobile Engineering",
+          link: "/service/productengineering/Mobileengineering",
         },
         {
-          name: "Travel,Logistics & Hospitality",
-          link: "/industries/tlh",
-        },
-        {
-          name: "HiTech,Saas,ISV & Communications",
-          link: "/industries/hsic",
-        },
-        {
-          name: "Oil,Gas & Mining",
-          link: "/industries/oag",
-        },
-        {
-          name: "Energy & Utilities",
-          link: "/industries/eau",
+          name: "Quality Engineering",
+          link: "/service/productengineering/Qualityengineeringautomation",
         },
       ],
     },
     {
       title: "Platforms & Products",
-      rootlink:"/service/digitalexperience",
+      rootlink: "/service/digitalexperience",
       module: [
         {
           name: "Kellton4Health",
@@ -135,7 +123,7 @@ export default function Accordianss() {
     },
     {
       title: "Careers",
-      rootlink:"/service/digitalexperience",
+      rootlink: "/service/digitalexperience",
       module: [
         {
           name: "Life At Kellton",
@@ -173,7 +161,12 @@ export default function Accordianss() {
         >
           <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
             <div className=" w-full ">
-              <Link href={item.rootlink} className=" w-full text-xs text-center">{item.title}</Link>
+              <Link
+                href={item.rootlink}
+                className=" w-full text-xs text-center"
+              >
+                {item.title}
+              </Link>
             </div>
           </AccordionSummary>
           <AccordionDetails

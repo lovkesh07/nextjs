@@ -2,7 +2,7 @@ import React from "react";
 
 const WrittenContent = () => {
   return (
-    <div className="w-full p-10 md:p-16">
+    <div className="w-full p-12 md:p-20">
       <h1 className=" text-xl sm:text-4xl md:text-5xl" data-aos="fade-up">
         We design innovative, user-centered digital products that solve
         real-world problems.

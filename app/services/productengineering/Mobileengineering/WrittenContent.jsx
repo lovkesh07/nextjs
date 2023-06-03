@@ -2,12 +2,12 @@ import React from "react";
 
 const WrittenContent = () => {
   return (
-    <div className="w-full p-10 md:p-16">
-      <h1 className=" text-xl sm:text-4xl md:text-5xl">
+    <div className="w-full p-12 md:p-20">
+      <h1 className=" text-xl sm:text-4xl md:text-5xl" data-aos="fade-up">
         We create custom mobile apps to increase business agility and increase
         customer engagement.
       </h1>
-      <div className="py-10 w-full sm:w-[85%]">
+      <div className="py-10 w-full sm:w-[85%]" data-aos="fade-up">
         <p className=" sm:ml-16 text-sm sm:text-xl">
           The rise of mobile technology provides your business with a unique
           opportunity: you can be more agile than ever before, and respond to

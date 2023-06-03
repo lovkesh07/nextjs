@@ -5,7 +5,7 @@ import ContacUsGif from "@assets/contactus.gif";
 
 const Form2 = () => {
   return (
-    <div className="w-[95%] min-h-screen mx-auto flex justify-center items-center py-10 ">
+    <div className="w-[95%] min-h-screen mx-auto flex justify-center items-center py-10 " data-aos="fade-up">
       <div className=" w-[100%] py-5 bg-gray-200 sm:bg-white rounded-md flex flex-col sm:flex-row">
         <div className=" w-full sm:w-1/2 flex flex-col justify-around items-center sm:min-h-[100%]">
           <h1 className="p-6 mt-1 text-3xl sm:text-5xl font-bold tracking-wide text-gray-600">

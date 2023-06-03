@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="p-16 w-full bg-gradient-to-r from-cyan-700 to-blue-700 flex justify-center items-center py-10">
+    <div className="p-16 w-full bg-gradient-to-r from-cyan-700 to-blue-700 flex justify-center items-center py-10" data-aos="fade-up">
         <div className="w-fit px-4">
           {/* <button className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
           FUN FACT
