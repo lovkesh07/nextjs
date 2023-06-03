@@ -12,9 +12,9 @@ const Blogs = () => {
         <h1 className="text-4xl lg:text-6xl font-bold py-5" data-aos="zoom-in-up">Leading Transformation</h1>
       </div>
 
-      <div className="  w-full grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div className="  w-full grid grid-cols-1 md:grid-cols-2 gap-5" data-aos="zoom-out">
 
-        <div className="lg:p-12 flex flex-col " data-aos="zoom-out"
+        <div className="lg:p-12 flex flex-col " 
      
      >
           <div>
@@ -32,7 +32,7 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className=" flex flex-col" data-aos="zoom-out"
+        <div className=" flex flex-col" 
      
      >
           <div>
@@ -50,7 +50,7 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className=" flex flex-col" data-aos="zoom-out"
+        <div className=" flex flex-col" 
      
      >
           <div>
@@ -68,7 +68,7 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className="lg:p-12 flex flex-col" data-aos="zoom-out"
+        <div className="lg:p-12 flex flex-col" 
      
      >
           <div>
