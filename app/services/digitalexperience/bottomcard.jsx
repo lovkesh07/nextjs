@@ -8,17 +8,18 @@ const bottomcard = () => {
       <section class="md:h-full flex items-center  bg-[#1A374D]">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-12">
-            <h5 class="text-base md:text-lg text-slate-200 mb-1">
+            <h5 class="text-base md:text-lg text-slate-200 mb-1"  data-aos="zoom-in-up">
             Related posts
             </h5>
-            <h1 class="text-4xl md:text-6xl text-gray-500 font-semibold">
+            <h1 class="text-4xl md:text-6xl text-gray-500 font-semibold"  data-aos="zoom-in-up">
             Want to know more?
             </h1>
           </div>
 
           <div class="flex flex-wrap -m-4">
 
-            <div class="p-4 sm:w-1/2 lg:w-1/3">
+            <div class="p-4 sm:w-1/2 lg:w-1/3" data-aos="fade-up"
+     data-aos-duration="2000">
               <div class="h-full border-2 border-gray-100 border-opacity-20 rounded-lg overflow-hidden">
                 <Image
                   class="lg:h-72 md:h-48 w-full object-cover object-center"
@@ -56,7 +57,8 @@ const bottomcard = () => {
               </div>
             </div>
 
-            <div class="p-4 sm:w-1/2 lg:w-1/3">
+            <div class="p-4 sm:w-1/2 lg:w-1/3" data-aos="fade-up"
+     data-aos-duration="2500">
               <div class="h-full border-2 border-gray-100 border-opacity-20 rounded-lg overflow-hidden">
                 <Image
                   class="lg:h-72 md:h-48 w-full object-cover object-center"
@@ -96,7 +98,8 @@ const bottomcard = () => {
               </div>
             </div>
 
-            <div class="p-4 sm:w-1/2 lg:w-1/3">
+            <div class="p-4 sm:w-1/2 lg:w-1/3" data-aos="fade-up"
+     data-aos-duration="3000" >
               <div class="h-full border-2 border-gray-100 border-opacity-20 rounded-lg overflow-hidden">
                 <Image
                   class="lg:h-72 md:h-48 w-full object-cover object-center"
