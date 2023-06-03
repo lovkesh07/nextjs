@@ -126,7 +126,7 @@ const Navbar = () => {
     setnavOpen(!navOpen);
   };
   return (
-    <header className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0 bg-[#1A374D] text-white">
+    <header className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0 bg-[#1A374D]   text-white">
       <div className=" px-3 lg:px-6">
         <span>
           <h1 className=" text-3xl sm:text-5xl ">LOGO</h1>

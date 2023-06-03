@@ -15,7 +15,7 @@ const RootLayout = ({ children }) => {
   return (
     <>
       <html lang="en">
-        <body className="bg-[#F6F2D4]">
+        <body className="">
         <main className="app">
           <Navigation />
           {children}
