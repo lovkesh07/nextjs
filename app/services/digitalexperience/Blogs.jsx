@@ -14,8 +14,7 @@ const Blogs = () => {
 
       <div className="  w-full grid grid-cols-1 md:grid-cols-2 gap-5">
 
-        <div className="lg:p-12 flex flex-col " data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom"
+        <div className="lg:p-12 flex flex-col " data-aos="zoom-out"
      
      >
           <div>
@@ -33,8 +32,7 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className=" flex flex-col" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom"
+        <div className=" flex flex-col" data-aos="zoom-out"
      
      >
           <div>
@@ -52,8 +50,7 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className=" flex flex-col" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom"
+        <div className=" flex flex-col" data-aos="zoom-out"
      
      >
           <div>
@@ -71,8 +68,7 @@ const Blogs = () => {
           </div>
         </div>
 
-        <div className="lg:p-12 flex flex-col" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom"
+        <div className="lg:p-12 flex flex-col" data-aos="zoom-out"
      
      >
           <div>
