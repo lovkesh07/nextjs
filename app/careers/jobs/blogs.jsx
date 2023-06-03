@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const blogs = () => {
   return (
-    <div className=' w-full py-24 px-6 md:px-6 lg:px-10 flex flex-col lg:flex-row gap-5 bg-gray-700'>
+    <div className=' w-full py-24 px-6 md:px-6 lg:px-10 flex flex-col lg:flex-row gap-5 bg-gray-700' data-aos="fade-up">
     <div className=' w-full lg:w-1/2 flex flex-col'>
       <p className=' text-2xl text-gray-500 py-3'>Related Posts</p>
       <h1 className='text-4xl py-5 text-white'>want to know more</h1>

@@ -2,12 +2,12 @@ import React from "react";
 
 const WrittenContent = () => {
   return (
-    <div className="w-full p-10 md:p-16">
-      <h1 className=" text-xl sm:text-4xl md:text-5xl">
+    <div className="w-full p-12 md:p-20">
+      <h1 className=" text-xl sm:text-4xl md:text-5xl" data-aos="fade-up">
         From specialist software solutions provider to global digital
         transformation partner.
       </h1>
-      <div className="py-10 w-full sm:w-[85%]">
+      <div className="py-10 w-full sm:w-[85%]" data-aos="fade-up">
         <p className=" sm:ml-16 text-sm sm:text-xl">
           Over the years, Kellton has grown into a full-service IT solutions
           provider with a global presence. Kellton has grown through a

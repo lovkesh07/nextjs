@@ -24,55 +24,27 @@ const DropDown2 = ({ title }) => {
           name: "Product Management",
           link: "/services/digitalexperience/productmanagement",
         },
-        {
-          name: "Investors",
-          link: "/About/investor",
-        },
-        {
-          name: "Privacy-Policy",
-          link: "/About/Privacy-Policy",
-        },
-        {
-          name: "Contact Us",
-          link: "/About/ContactUs",
-        },
-        {
-          name: "Testimonial",
-          link: "/About/Testimonials",
-        },
       ],
     },
     {
-      title: "Industries",
-      rootlink:"/service/digitalexperience",
+      title: "Product Engineering",
+      rootlink:"/services/productengineering",
       module: [
         {
-          name: "Fintech,Banking,Financial Sevices",
-          link: "/industries/fbfs",
+          name: "Digital-Application",
+          link: "/services/productengineering/Digitalapplicationdevelopment",
         },
         {
-          name: "Retail,E-Commerce & Distribution",
-          link: "/industries/recd",
+          name: "IOT & Wearable Solutions",
+          link: "/services/productengineering/Iotwearablessolutions",
         },
         {
-          name: "Non-Profit,Government & Education",
-          link: "/industries/npge",
+          name: "Mobile Engineering",
+          link: "/services/productengineering/Mobileengineering",
         },
         {
-          name: "Travel,Logistics & Hospitality",
-          link: "/industries/tlh",
-        },
-        {
-          name: "HiTech,Saas,ISV & Communications",
-          link: "/industries/hsic",
-        },
-        {
-          name: "Oil,Gas & Mining",
-          link: "/industries/oag",
-        },
-        {
-          name: "Energy & Utilities",
-          link: "/industries/eau",
+          name: "Quality Engineering",
+          link: "/services/productengineering/Qualityengineeringautomation",
         },
       ],
     },

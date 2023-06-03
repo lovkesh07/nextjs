@@ -15,7 +15,7 @@ const OurOffice = () => {
 
         <div>
             <h1 className='text-xl py-5 font-bold text-gray-300'>North America</h1>
-            <div className=' grid grid-cols-1 md:grid-cols-3 gap-2'>
+            <div className=' grid grid-cols-1 md:grid-cols-3 gap-2' data-aos="fade-up">
                 <div className='text-gray-500 px-2'>
                     <h1 className='text-lg text-gray-300'>D.C. METRO Area</h1>
                     <p className='text-sm py-1'>11100 Wildlife Center Dr. Suite LL #150 300 Reston, VA 20190</p>
@@ -34,7 +34,7 @@ const OurOffice = () => {
         </div>
         <div>
             <h1 className='text-xl py-5 font-bold text-gray-300'>Asia</h1>
-            <div className=' grid grid-cols-1 md:grid-cols-3 gap-2'>
+            <div className=' grid grid-cols-1 md:grid-cols-3 gap-2' data-aos="fade-up">
                 <div className='text-gray-500 px-2'>
                     <h1 className='text-lg text-gray-300'>Corporate Headquarters</h1>
                     <p className='text-sm py-1'>Plot No. 1367, Road No.45 Jubilee Hills, Hyderabad, Telangana 500033</p>
@@ -63,7 +63,7 @@ const OurOffice = () => {
         </div>
         <div>
             <h1 className='text-xl py-5 font-bold text-gray-300'>Europe</h1>
-            <div className=' grid grid-cols-1 md:grid-cols-3 gap-2'>
+            <div className=' grid grid-cols-1 md:grid-cols-3 gap-2' data-aos="fade-up">
                 <div className='text-gray-500 px-2'>
                     <h1 className='text-lg text-gray-300'>Ireland</h1>
                     <p className='text-sm py-1'>The Mill, Newtown Link Road, Drogheda, Co. Louth</p>

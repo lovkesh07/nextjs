@@ -4,7 +4,7 @@ const sectionexra = () => {
   return (
     <div className="mx-auto p-8 lg:p-24 text-slate-200 bg-slate-800">
       <h1>Just a few reasons why</h1>
-      <h1 className="font-medium text-xl md:text-2xl lg:text-6xl">
+      <h1 className="font-medium text-xl md:text-2xl lg:text-6xl" data-aos="fade-up">
         Just a few reasons why
       </h1>
 
@@ -12,7 +12,7 @@ const sectionexra = () => {
        
         <div className=" p-8 lg:p-12 shadow-[-10px_-10px_0px_10px_#F7FAFC] ">
           <ul className="leading-8 my-4  ">
-            <li className=" py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
+            <li className=" py-4 lg:my-2 border-b-[1px] border-solid border-slate-200" data-aos="fade-up">
               <h1 className="lg:text-3xl font-medium">
                 World Class Tech & Proven Skills <br />
               </h1>
@@ -22,7 +22,7 @@ const sectionexra = () => {
                 greater value through new, digital-ﬁrst models.
               </p>
             </li>
-            <li className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
+            <li className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200" data-aos="fade-up">
               <h1 className="lg:text-3xl font-medium">
                 Collaboration Benefits
                 <br />
@@ -40,7 +40,7 @@ const sectionexra = () => {
         <div className=" p-8 lg:p-12 lg:px-16 shadow-[10px_10px_0px_10px]  ">
           <div className=" ">
             <ul className="leading-8 my-4  ">
-              <li className=" py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
+              <li className=" py-4 lg:my-2 border-b-[1px] border-solid border-slate-200" data-aos="fade-up">
                 <h1 className="lg:text-3xl font-medium">
                   Cutting Edge Digital Capabilities <br />
                 </h1>
@@ -50,7 +50,7 @@ const sectionexra = () => {
                   through a dedicated digital core network.
                 </p>
               </li>
-              <li className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200">
+              <li className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-200" data-aos="fade-up">
                 <h1 className="lg:text-3xl font-medium">
                   Professional Expertise <br />
                 </h1>
