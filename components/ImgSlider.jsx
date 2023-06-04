@@ -63,6 +63,7 @@ const ImgSlider = () => {
       bottom: 25px;
       padding-right: 20px;
       
+      
     }
     .slick-dots li button:before {
       font-size: 10px;
@@ -79,6 +80,7 @@ const ImgSlider = () => {
       padding:50px
     }
     .slick-next:before {
+     
       
     }
     .slick-prev:before {
@@ -88,10 +90,11 @@ const ImgSlider = () => {
   return (
     <div className="mt-[85px]">
       <Carousel {...settings} className=" -z-0">
+
         <Wrap className="relative">
           <div className=" absolute text-white w-full text-left p-5">
-            <div className="lg:p-24">
-              <h1 className=" text-4xl my-5  font-extrabold">
+            <div className="lg:p-24 p-12">
+              <h1 className=" text-4xl my-5 md:text-6xl lg:text-8xl font-extrabold">
                 Infinite Possibilities With Technology
               </h1>
               <p className=" text-xs md:text-sm">
@@ -111,8 +114,8 @@ const ImgSlider = () => {
         
         <Wrap className=" relative">
           <div className=" absolute text-white w-full text-left p-5">
-            <div className="lg:p-24">
-              <h1 className=" text-4xl my-5  font-extrabold">Technology Agnostic</h1>
+            <div className="lg:p-24 p-12">
+              <h1 className=" text-5xl my-5 md:text-6xl lg:text-8xl font-extrabold">Technology Agnostic</h1>
               <p className=" text-xs md:text-sm">We dont focus on technologies, we focus on solution whatever technology it takes</p>
             <Link href="/">
               <button className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
@@ -126,8 +129,8 @@ const ImgSlider = () => {
 
         <Wrap className="relative">
           <div className=" absolute text-white w-full text-left p-5">
-            <div className="lg:p-24">
-              <h1 className=" text-3xl my-5  font-extrabold">Kellton recognised as Leader in</h1>
+            <div className="lg:p-24 p-12 ">
+              <h1 className=" text-3xl my-5 md:text-6xl lg:text-8xl font-extrabold">Kellton recognised as Leader in</h1>
               <h1 className=" text-3xl my-5  font-extrabold">the Zinnov Zones ER&D report,2022</h1>
               <p className=" text-xs md:text-sm">
                 Adjust The Customer's IT Infrastructure To New,Ever Growing
@@ -145,8 +148,8 @@ const ImgSlider = () => {
 
         <Wrap className="relative">
           <div className=" absolute text-white w-full text-left p-5">
-            <div className="lg:p-24">
-              <h1 className=" text-3xl my-5 font-extrabold">
+            <div className="lg:p-24 p-12">
+              <h1 className=" text-5xl my-5 md:text-6xl lg:text-8xl font-extrabold">
                 Webby 2023 Honoree 
               </h1>
               <p className=" text-xs md:text-sm">

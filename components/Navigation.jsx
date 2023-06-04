@@ -132,10 +132,10 @@ const Navbar = () => {
           <h1 className=" text-3xl sm:text-5xl ">LOGO</h1>
         </span>
       </div>
-      <nav className=" flex w-[100%] justify-center items-center">
+      <nav className=" flex w-[100%] justify-center items-center lg:px-24">
         <ul className=" hidden md:flex md:items-center md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
           <li className=" my-3 mx-3 py-3 px-2 min-w-fit hover:text-blue-300  transition-all duration-300 cursor-pointer text-center">
-            <Link href="/">Home</Link>
+            <Link href="/" >Home</Link>
           </li>
             <li className=" my-3 py-3 min-w-[100px] hover:text-blue-300  transition-all duration-300 cursor-pointer text-center">
               <DropDown2 title="Services" />
@@ -144,7 +144,7 @@ const Navbar = () => {
             return (
               <li
                 key={index}
-                className=" my-3 py-3 min-w-[100px] hover:text-blue-300  transition-all duration-300 cursor-pointer text-center"
+                className=" my-3 py-3 min-w-[100px] hover:text-blue-300 transition-all duration-300 cursor-pointer text-center"
               >
                 <DropDown title={item.title} list1={item.module} />
               </li>
