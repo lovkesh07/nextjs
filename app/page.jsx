@@ -6,12 +6,14 @@ import ImgSlider from "@components/ImgSlider";
 import Ourmission from "@components/Ourmission";
 import InsightSection from "@components/InsightSection";
 import Testimonialpg from '@components/Testimonialpg';
+import Newslider from '@components/Newslider';
 
 
 const home = () => {
   return (
     <main>
           <ImgSlider/>
+          {/* <Newslider/> */}
          <Cards />
           <Ourmission/>
           <Longcard/>

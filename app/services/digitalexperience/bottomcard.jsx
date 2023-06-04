@@ -18,8 +18,7 @@ const bottomcard = () => {
 
           <div class="flex flex-wrap -m-4">
 
-            <div class="p-4 sm:w-1/2 lg:w-1/3" data-aos="fade-up"
-     data-aos-duration="2000">
+            <div class="p-4 sm:w-1/2 lg:w-1/3" data-aos="fade-up">
               <div class="h-full border-2 border-gray-100 border-opacity-20 rounded-lg overflow-hidden">
                 <Image
                   class="lg:h-72 md:h-48 w-full object-cover object-center"
@@ -57,8 +56,7 @@ const bottomcard = () => {
               </div>
             </div>
 
-            <div class="p-4 sm:w-1/2 lg:w-1/3" data-aos="fade-up"
-     data-aos-duration="2500">
+            <div class="p-4 sm:w-1/2 lg:w-1/3" data-aos="fade-up">
               <div class="h-full border-2 border-gray-100 border-opacity-20 rounded-lg overflow-hidden">
                 <Image
                   class="lg:h-72 md:h-48 w-full object-cover object-center"
@@ -98,8 +96,7 @@ const bottomcard = () => {
               </div>
             </div>
 
-            <div class="p-4 sm:w-1/2 lg:w-1/3" data-aos="fade-up"
-     data-aos-duration="3000" >
+            <div class="p-4 sm:w-1/2 lg:w-1/3" data-aos="fade-up" >
               <div class="h-full border-2 border-gray-100 border-opacity-20 rounded-lg overflow-hidden">
                 <Image
                   class="lg:h-72 md:h-48 w-full object-cover object-center"
