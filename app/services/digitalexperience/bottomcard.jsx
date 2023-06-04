@@ -7,11 +7,11 @@ const bottomcard = () => {
     <>
       <section class="md:h-full flex items-center  bg-[#1A374D]">
         <div class="container px-5 py-24 mx-auto">
-          <div class="text-center mb-12">
-            <h5 class="text-base md:text-lg text-slate-200 mb-1"  data-aos="zoom-in-up">
+          <div class="text-center mb-12" data-aos="zoom-in-up">
+            <h5 class="text-base md:text-lg text-slate-200 mb-1"  >
             Related posts
             </h5>
-            <h1 class="text-4xl md:text-6xl text-gray-500 font-semibold"  data-aos="zoom-in-up">
+            <h1 class="text-4xl md:text-6xl text-gray-500 font-semibold"  >
             Want to know more?
             </h1>
           </div>
