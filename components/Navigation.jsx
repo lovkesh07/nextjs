@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef ,useState } from "react";
+import React, { useEffect, useRef ,useState } from "react";
 import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -10,7 +10,33 @@ import Accordian2 from "./Accordian2";
 
 const Navbar = () => {
   const [navOpen, setnavOpen] = useState(false);
+  const [scrolly, setScroll] = useState(0);
   const navRef = useRef();
+
+  const navColour = ()=>{
+    const nav  = document.getElementById("nav");
+
+    if(scrolly > 100){
+      nav.style.background = "#1A374D";
+    }
+    else{
+      nav.style.background = "transparent";
+
+    }
+
+  }
+
+  useEffect(()=>{
+    window.addEventListener('scroll',()=>{
+      var y = window.scrollY;
+      setScroll(y);
+    })
+  })
+
+  useEffect(()=>{
+    window.addEventListener("scroll",navColour)
+  })
+
   const [List1, setList1] = useState([
     {
       title: "About",
@@ -126,7 +152,7 @@ const Navbar = () => {
     setnavOpen(!navOpen);
   };
   return (
-    <header className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0 bg-[#1A374D]   text-white">
+    <header id="nav" className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0 bg-[#1A374D]   text-white transition-all duration-300">
       <div className=" px-3 lg:px-6">
         <span>
           <h1 className=" text-3xl sm:text-5xl ">LOGO</h1>
