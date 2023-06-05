@@ -1,7 +1,28 @@
 import React from "react";
+import Slide1 from "@assets/img1.jpg";
+import Image from "next/image";
 
 const page = () => {
   return (
+
+    <div>
+
+      <div className="relative">
+        <Image
+          src={Slide1}
+          alt="badag"
+          width={800}
+          height={800}
+          className=" w-full h-[80vh]"
+        />
+        <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
+          <p className="text-lg">Home/Privacy Policy</p>
+          <h1 className="text-3xl sm:text-5xl font-bold">
+          Privacy Policy
+          </h1>
+        </div>
+      </div>
+    
     <div className=" w-full md:w-[90%] px-5 lg:px-[200px] py-10 md:p-10">
       <div className="mb-10">
         <h1 className=" text-4xl md:text-5xl font-bold" data-aos="fade-up">Privacy Policy</h1><br/>
@@ -35,6 +56,7 @@ const page = () => {
       <p className=" text-sm md:text-lg text-gray-500 py-10" data-aos="fade-up">
         Our online Subscription Service allows us to create and share marketing mailers and collaterals. The information added to the Subscription Service by users while subscribing to the website is stored and managed by our servers. This information is then used to contact visitors about their interest in the company's services. Kellton provides the Subscription Service to our clients for their own marketing, lead generation, and customer service needs, and we use the same for our business requirements. We use our own Subscription Service to build web pages that people can visit to learn more about Kellton. Information that we collect and manage using the Subscription Service belongs to us and is used, disclosed, and protected according to this Privacy Policy.
       </p>
+    </div>
     </div>
   );
 };

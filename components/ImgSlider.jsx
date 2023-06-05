@@ -29,7 +29,7 @@ const ImgSlider = () => {
 
   const Wrap = styled.div`
     cursor: pointer;
-    height: 80dvh;
+    height: 95vh;
     img {
       //border: 4px solid black;
       width: 100%;
@@ -62,18 +62,21 @@ const ImgSlider = () => {
     .slick-dots {
       bottom: 25px;
       padding-right: 20px;
-      
-      
+
     }
     .slick-dots li button:before {
-      font-size: 10px;
+      font-size: 30px;
+      color:white;
+
     }
 
     .slick-next {
       right: 10px;
+      opacity:0;
     }
     .slick-prev {
       left: 10px;
+      opacity:0;
     }
     .slick-next{
       
