@@ -1,23 +1,28 @@
 import React from "react";
 // import Typed from "react-typed";
-import Img from "@assets/img1.jpg";
+import Img1 from "@assets/it-integration-benefits.png";
+import Img2 from "@assets/Managed-IT-Security-Services.png";
+import Img3 from "@assets/it-integration.png";
+import Img4 from "@assets/it-integration-benefits.png";
+import Img5 from "@assets/IT-Security-Auditing.png";
+import Img6 from "@assets/IT-Security-Integration.png";
 import Image from "next/image";
 import Link from "next/link";
 
-const ITProjects = () => {
+const FlipCards = () => {
   return (
     <div className=" bg-white py-5">
       <h1 className=" w-full text-center text-3xl font-extrabold py-10  text-black">
         All You Need To Know..
       </h1>
-      <div className=" py-10 grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5">
-        <div className=" w-[260px] h-[260px] mx-auto group [perspective:1000px] ">
-          <div className=" text-center w-[260px] h-[260px] relative [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)] transition-transform duration-700 delay-100 rotate-180">
-            <div className=" flex flex-col justify-center items-center  text-xl h-[260px] w-[260px] absolute  [transform:rotate(180deg)] ">
-              <Image className=" w-[120px]" src={Img} />
+      <div className=" py-10 grid  grid-cols-1  md:grid-cols-2 gap-5">
+        <div className=" w-[260px] h-[260px] md:w-[400px] md:h-[400px]  mx-auto group [perspective:1000px] ">
+          <div className=" text-center w-[260px] h-[260px] md:w-[400px] md:h-[400px]  relative [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)] transition-transform duration-700 delay-100 rotate-180">
+            <div className=" flex flex-col justify-center items-center bg-gray-100  text-xl md:text-3xl w-[260px] h-[260px] md:w-[400px] md:h-[400px]  absolute  [transform:rotate(180deg)] ">
+              <Image className=" w-[120px] md:w-[200px] my-4" src={Img1} />
               <h1>Our Mission:</h1>
             </div>
-            <div className="flex flex-col items-center justify-around text-xs px-2 py-6 h-[260px] w-[260px]  bg-[rgba( bg-[rgba(16,44,81,255)] text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
+            <div className=" text-left text-xs px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
               <p>
                 Our mission is to be a trusted partner in the digital journey of
                 our clients, delivering exceptional IT solutions and services
@@ -29,13 +34,13 @@ const ITProjects = () => {
             </div>
           </div>
         </div>
-        <div className=" w-[260px] h-[260px] mx-auto group [perspective:1000px] ">
-          <div className=" text-center w-[260px] h-[260px] relative [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)] transition-transform duration-700 delay-100 rotate-180">
-            <div className=" flex flex-col justify-center items-center  text-xl h-[260px] w-[260px] absolute  [transform:rotate(180deg)] ">
-              <Image className=" w-[120px]" src={Img} />
+        <div className=" w-[260px] h-[260px] md:w-[400px] md:h-[400px] mx-auto group [perspective:1000px] ">
+          <div className=" text-center w-[260px] h-[260px] md:w-[400px] md:h-[400px]  relative [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)] transition-transform duration-700 delay-100 rotate-180">
+            <div className=" flex flex-col justify-center items-center bg-gray-100  text-xl md:text-3xl w-[260px] h-[260px] md:w-[400px] md:h-[400px]  absolute  [transform:rotate(180deg)] ">
+              <Image className=" w-[120px] md:w-[200px] my-4" src={Img2} />
               <h1>Our Expertise:</h1>
             </div>
-            <div className="flex flex-col items-center justify-around text-xs px-2 py-6 h-[260px] w-[260px]  bg-[rgba( bg-[rgba(16,44,81,255)] text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
+            <div className=" text-left text-xs px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
               <p>
                 With years of experience in the IT industry, we have honed our
                 skills in a diverse range of technological domains. From
@@ -48,13 +53,13 @@ const ITProjects = () => {
             </div>
           </div>
         </div>
-        <div className=" w-[260px] h-[260px] mx-auto group [perspective:1000px]">
-          <div className=" text-center w-[260px] h-[260px] relative [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)] transition-transform duration-700 delay-100 rotate-180">
-            <div className=" flex flex-col justify-center items-center  text-xl h-[260px] w-[260px] absolute  [transform:rotate(180deg)] ">
-              <Image className=" w-[120px]" src={Img} />
+        <div className=" w-[260px] h-[260px] md:w-[400px] md:h-[400px] mx-auto group [perspective:1000px]">
+          <div className=" text-center w-[260px] h-[260px] md:w-[400px] md:h-[400px]  relative [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)] transition-transform duration-700 delay-100 rotate-180">
+            <div className=" flex flex-col justify-center items-center bg-gray-100  text-xl md:text-3xl w-[260px] h-[260px] md:w-[400px] md:h-[400px]  absolute  [transform:rotate(180deg)] ">
+              <Image className=" w-[120px] md:w-[200px] my-4" src={Img3} />
               <h1>Customer-Centric Approach:</h1>
             </div>
-            <div className="flex flex-col items-center justify-around text-xs px-2 py-6 h-[260px] w-[260px] bg-[rgba(16,44,81,255)] text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
+            <div className=" text-left text-xs px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
               <p>
                 At the core of our philosophy lies a customer-centric approach.
                 We believe in building strong, long-lasting relationships with
@@ -67,13 +72,13 @@ const ITProjects = () => {
             </div>
           </div>
         </div>
-        <div className=" w-[260px] h-[260px] mx-auto group [perspective:1000px]">
-          <div className=" text-center w-[260px] h-[260px] relative [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)] transition-transform duration-700 delay-100 rotate-180">
-            <div className=" flex flex-col justify-center items-center  text-xl h-[260px] w-[260px] absolute  [transform:rotate(180deg)] ">
-              <Image className=" w-[120px]" src={Img} />
+        <div className=" w-[260px] h-[260px] md:w-[400px] md:h-[400px] mx-auto group [perspective:1000px]">
+          <div className=" text-center w-[260px] h-[260px] md:w-[400px] md:h-[400px]  relative [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)] transition-transform duration-700 delay-100 rotate-180">
+            <div className=" flex flex-col justify-center items-center bg-gray-100  text-xl md:text-3xl w-[260px] h-[260px] md:w-[400px] md:h-[400px]  absolute  [transform:rotate(180deg)] ">
+              <Image className=" w-[120px] md:w-[200px] my-4" src={Img4} />
               <h1>Quality and Excellence:</h1>
             </div>
-            <div className="flex flex-col items-center justify-around text-xs px-2 py-6 h-[260px] w-[260px] bg-[rgba(16,44,81,255)] text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
+            <div className=" text-left text-xs px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
               <p>
                 We are committed to delivering high-quality solutions and
                 services that meet and exceed industry standards. Our team
@@ -86,13 +91,13 @@ const ITProjects = () => {
             </div>
           </div>
         </div>
-        <div className=" w-[260px] h-[260px] mx-auto  group [perspective:1000px]">
-          <div className=" text-center w-[260px] h-[260px] relative [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)] transition-transform duration-700 delay-100 rotate-180">
-            <div className=" flex flex-col justify-center items-center  text-xl h-[260px] w-[260px] absolute  [transform:rotate(180deg)] ">
-              <Image className=" w-[120px]" src={Img} />
+        <div className=" w-[260px] h-[260px] md:w-[400px] md:h-[400px] mx-auto  group [perspective:1000px]">
+          <div className=" text-center w-[260px] h-[260px] md:w-[400px] md:h-[400px]  relative [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)] transition-transform duration-700 delay-100 rotate-180">
+            <div className=" flex flex-col justify-center items-center bg-gray-100  text-xl md:text-3xl w-[260px] h-[260px] md:w-[400px] md:h-[400px]  absolute  [transform:rotate(180deg)] ">
+              <Image className=" w-[120px] md:w-[200px] my-4" src={Img5} />
               <h1>Collaborative Partnership:</h1>
             </div>
-            <div className="flex flex-col items-center justify-around text-xs px-2 py-6 h-[260px] w-[260px] bg-[rgba(16,44,81,255)] text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
+            <div className=" text-left text-xs px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
               <p>
                 We view our relationship with clients as a partnership. We work
                 side by side with our clients, fostering collaboration and
@@ -104,13 +109,13 @@ const ITProjects = () => {
             </div>
           </div>
         </div>
-        <div className=" w-[260px] h-[260px] mx-auto group [perspective:1000px]">
-          <div className=" text-center w-[260px] h-[260px] relative [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)] transition-transform duration-700 delay-100 rotate-180">
-            <div className=" flex flex-col justify-center items-center  text-xl h-[260px] w-[260px] absolute  [transform:rotate(180deg)] ">
-              <Image className=" w-[120px]" src={Img} />
+        <div className=" w-[260px] h-[260px] md:w-[400px] md:h-[400px] mx-auto group [perspective:1000px]">
+          <div className=" text-center w-[260px] h-[260px] md:w-[400px] md:h-[400px]  relative [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)] transition-transform duration-700 delay-100 rotate-180">
+            <div className=" flex flex-col justify-center items-center bg-gray-100  text-xl md:text-3xl w-[260px] h-[260px] md:w-[400px] md:h-[400px]  absolute  [transform:rotate(180deg)] ">
+              <Image className=" w-[120px] md:w-[200px] my-4" src={Img6} />
               <h1>Social Responsibility:</h1>
             </div>
-            <div className=" flex flex-col items-center justify-around text-xs px-2 py-6 h-[260px] w-[260px] bg-[rgba(16,44,81,255)] text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
+            <div className=" text-left text-xs px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]  bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
               <p>
                 We are dedicated to making a positive impact on the community
                 and society as a whole. We strive to operate in an
@@ -128,4 +133,4 @@ const ITProjects = () => {
   );
 };
 
-export default ITProjects;
+export default FlipCards;
