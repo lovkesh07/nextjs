@@ -2,7 +2,7 @@ import React from 'react'
 import Slide1 from "@assets/img1.jpg";
 import Image from 'next/image';
 import Longcard from './AboutLongCard'
-import Cards from './AboutCard';
+import FlipCards from './FlipCards';
 import WrittenContent from './WrittenContent';
 
 const AboutUs = () => {
@@ -17,7 +17,7 @@ const AboutUs = () => {
         </div>
         <WrittenContent/>
         <Longcard/>
-        <Cards/>
+        <FlipCards/>
         <div className=' w-full bg-gradient-to-r from-cyan-700 to-blue-700 flex justify-center items-center py-10'>
             <div className='w-fit px-4'>
                 <h1 className=' text-5xl text-white font-bold'>Facing a challenge?</h1>
