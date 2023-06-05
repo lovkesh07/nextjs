@@ -7,7 +7,7 @@ import WrittenContent from './WrittenContent';
 
 const AboutUs = () => {
   return (
-    <div className='mt-[80px] '>
+    <div className="">
         <div className='relative'>
         <Image src={Slide1} alt="badag" width={800} height={800} className=' w-full h-[80vh]' />
         <div className=' absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16'>

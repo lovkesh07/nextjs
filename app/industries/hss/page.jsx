@@ -7,7 +7,7 @@ import Solution from "./solution";
 
 const page = () => {
   return (
-    <div className="mt-[80px] bg-gray-300">
+    <div className=" bg-gray-300">
       <div className="relative">
         <Image
           src={Slide1}

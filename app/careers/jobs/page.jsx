@@ -3,7 +3,7 @@ import Blogs from './blogs'
 
 const page = () => {
   return (
-    <div className='mt-[80px]'>
+    <div className=''>
       <div className=' w-full flex flex-col justify-center items-center'>
         <h1 className=' w-full text-5xl text-center py-10 font-bold'>Open Positions</h1>
         <input type='text' placeholder='Enter a Keyword' className=" w-3/4 mx-auto ring mb-[3px] ring-white text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"/>

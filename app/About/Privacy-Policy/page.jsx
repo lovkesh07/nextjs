@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className=" w-full md:w-[90%] px-5 lg:px-[200px] py-10 md:p-10 mt-[85px]">
+    <div className=" w-full md:w-[90%] px-5 lg:px-[200px] py-10 md:p-10">
       <div className="mb-10">
         <h1 className=" text-4xl md:text-5xl font-bold" data-aos="fade-up">Privacy Policy</h1><br/>
         <p className="text-lg text-gray-500 " data-aos="fade-up">

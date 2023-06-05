@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const pages = () => {
   return (
-    <div className="mt-[80px]">
+    <div className="">
       <div className="relative">
         <Image
           src={Slide1}
