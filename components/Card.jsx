@@ -6,16 +6,23 @@ const Cards = () => {
     <div className=" w-full py-10 px-5">
       <div className="">
         <div className=" w-[90%] mx-auto py-5">
-          <p className=" my-2 text-base md:text-lg pb-4">Our Services</p>
-          <p className=" w-[80%] font-bold text-4xl md:text-5xl pb-4">
+          <p className=" my-2 text-base md:text-lg pb-4" data-aos="fade-up">
+            Our Services
+          </p>
+          <p
+            className=" w-[80%] font-bold text-4xl md:text-5xl pb-4"
+            data-aos="fade-up"
+          >
             We offer a comprehensive range of advanced IT solutions and services
             to meet the diverse technological needs of businesses and
             individuals. Our portfolio includes:
           </p>
         </div>
         <div className="py-16 lg:py-16 w-[85%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
-          
-          <div className=" w-full md:w-[100%] h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
+          <div
+            className=" w-full md:w-[100%] h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up"
+          >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               IT Consulting Services:
             </h2>
@@ -31,7 +38,10 @@ const Cards = () => {
             </span>
           </div>
 
-          <div className=" w-full md:w-[100%] h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
+          <div
+            className=" w-full md:w-[100%] h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up"
+          >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Custom Software Development:
             </h2>
@@ -48,7 +58,10 @@ const Cards = () => {
             </span>
           </div>
 
-          <div className=" w-full  h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
+          <div
+            className=" w-full  h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up"
+          >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Cloud Computing Solutions:
             </h2>
@@ -66,7 +79,10 @@ const Cards = () => {
             </span>
           </div>
 
-          <div className=" w-full h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
+          <div
+            className=" w-full h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up"
+          >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Cybersecurity Services:
             </h2>
@@ -84,7 +100,10 @@ const Cards = () => {
             </span>
           </div>
 
-          <div className=" w-full h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
+          <div
+            className=" w-full h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up"
+          >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               IT Support and Managed Services:
             </h2>
@@ -101,7 +120,10 @@ const Cards = () => {
             </span>
           </div>
 
-          <div className=" w-full h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
+          <div
+            className=" w-full h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up"
+          >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Data Analytics and Business Intelligence:
             </h2>
@@ -118,34 +140,47 @@ const Cards = () => {
             </span>
           </div>
 
-          <div className=" w-full h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
+          <div
+            className=" w-full h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up"
+          >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               IT Training and Education:
             </h2>
 
             <p className=" text-sm md:text-lg lg:text-xl text-white px-3 py-2">
-            Stay ahead in the dynamic technology landscape with our training programs and workshops. We empower individuals and organizations with knowledge and skills in software development, cybersecurity, cloud computing, and data analytics. Our comprehensive training offerings ensure you stay up-to-date with the latest trends.
-
+              Stay ahead in the dynamic technology landscape with our training
+              programs and workshops. We empower individuals and organizations
+              with knowledge and skills in software development, cybersecurity,
+              cloud computing, and data analytics. Our comprehensive training
+              offerings ensure you stay up-to-date with the latest trends.
             </p>
             <span className=" w-[100%] text-right pr-4 text-white">
               learn more
             </span>
           </div>
 
-          <div className=" w-full h-[50vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100">
+          <div className=" w-full h-[50vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100" data-aos="fade-up">
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
-            AR/VR Services: 
+              AR/VR Services:
             </h2>
 
             <p className=" text-sm md:text-lg lg:text-sm text-white lg:px-8 px-3 py-2">
-            We offer cutting-edge Augmented Reality (AR) and Virtual Reality (VR) solutions to enhance user experiences and create immersive digital environments. Our skilled team combines innovative technologies with creative expertise to develop AR/VR applications across various industries, such as gaming, real estate, retail, education, and training. Whether you need AR/VR simulations, virtual tours, interactive 3D experiences, or training simulations, we can design and develop customized AR/VR solutions that captivate users, boost engagement, and deliver impactful experiences.
-
+              We offer cutting-edge Augmented Reality (AR) and Virtual Reality
+              (VR) solutions to enhance user experiences and create immersive
+              digital environments. Our skilled team combines innovative
+              technologies with creative expertise to develop AR/VR applications
+              across various industries, such as gaming, real estate, retail,
+              education, and training. Whether you need AR/VR simulations,
+              virtual tours, interactive 3D experiences, or training
+              simulations, we can design and develop customized AR/VR solutions
+              that captivate users, boost engagement, and deliver impactful
+              experiences.
             </p>
             <span className=" w-[100%] text-right pr-4 text-white">
               learn more
             </span>
           </div>
-
         </div>
       </div>
     </div>

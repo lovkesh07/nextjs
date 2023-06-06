@@ -129,7 +129,7 @@ const Testimonialpg = () => {
   return (
     <>
     <section className="py-8 sm:py-10 lg:py-16">
-      <Container className="text-center">
+      <Container className="text-center" data-aos="fade-up">
         <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
         Testimonials
         </h2>
@@ -171,6 +171,7 @@ const Testimonialpg = () => {
                             testimonialIndex === 1 && 'lg:mt-8',
                             testimonialIndex > 1 && 'mt-8'
                           )}
+                          data-aos="fade-up"
                         >
                           <Testimonial author={testimonial.author}>
                             {testimonial.content}
