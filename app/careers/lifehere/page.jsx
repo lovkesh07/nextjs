@@ -64,7 +64,6 @@ const page = () => {
           Why Work with Us?{" "}
         </p>
         <br />
-
         {/* <div className="text-left lg:text-justify">
           <p className=" text-xl md:text-2xl lg:text-xl">
             The training and upskilling practices at Kellton enable our
@@ -77,6 +76,7 @@ const page = () => {
             completing the same.{" "}
           </p>{" "}
         </div> */}
+        
       </div>
 
       <section className="mx-auto p-8 lg:pl-16 ">
