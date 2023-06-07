@@ -11,6 +11,8 @@ import Accordian2 from "./Accordian2";
 const Navbar = () => {
   const [navOpen, setnavOpen] = useState(false);
   const [scrolly, setScroll] = useState(0);
+  const [lastScroll, setLast] = useState(0);
+
   const navRef = useRef();
 
   const navColour = ()=>{
@@ -26,6 +28,26 @@ const Navbar = () => {
 
   }
 
+  const navPos = () =>{
+    const nav  = document.getElementById("nav");
+
+    if(scrolly <= 0){
+      nav.style.transform = "translate3d(0,-100%,0)";
+    }
+
+    if(scrolly > lastScroll){
+      nav.style.transform = "translate3d(0,-100%,0)";
+
+    }
+    else{
+      nav.style.transform = "translate3d(0,0,0)";
+
+    }
+
+    setLast(scrolly);
+
+  }
+
   useEffect(()=>{
     window.addEventListener('scroll',()=>{
       var y = window.scrollY;
@@ -35,6 +57,8 @@ const Navbar = () => {
 
   useEffect(()=>{
     window.addEventListener("scroll",navColour)
+    window.addEventListener("scroll",navPos)
+
   })
 
   const [List1, setList1] = useState([
@@ -152,7 +176,7 @@ const Navbar = () => {
     setnavOpen(!navOpen);
   };
   return (
-    <header id="nav" className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white transition-all duration-300">
+    <header id="nav" className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white transition-colors duration-300 ">
       <div className=" px-3 lg:px-6">
         <span>
           <Link href="/" className=" text-3xl sm:text-5xl "><b>.</b><span className=" text-red-400 font-bold">DOT</span><span className=" text-red-400">cLU</span></Link>
