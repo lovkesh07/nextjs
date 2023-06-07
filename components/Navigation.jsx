@@ -155,14 +155,11 @@ const Navbar = () => {
     <header id="nav" className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white transition-all duration-300">
       <div className=" px-3 lg:px-6">
         <span>
-          <Link href="/" className=" text-3xl sm:text-5xl ">LOGO</Link>
+          <Link href="/" className=" text-3xl sm:text-5xl "><b>.</b><span className=" text-red-400 font-bold">DOT</span><span className=" text-red-400">cLU</span></Link>
         </span>
       </div>
       <nav className=" flex w-[100%] justify-center items-center lg:px-24">
         <ul className=" hidden md:flex md:items-center md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
-          <li className=" my-3 mx-3 py-3 px-2 min-w-fit hover:text-blue-300  transition-all duration-300 cursor-pointer text-center">
-            <Link href="/" >Home</Link>
-          </li>
             <li className=" my-3 py-3 min-w-[100px] hover:text-blue-300  transition-all duration-300 cursor-pointer text-center">
               <DropDown2 title="Services" />
             </li>
@@ -186,7 +183,6 @@ const Navbar = () => {
           }
         >
           <li className=" mx-auto my-2 py-3 px-4 w-fit ">
-            <Link href="/">Home</Link>
           </li>
           <li className=" mx-auto w-full ">
             <Accordian2/>

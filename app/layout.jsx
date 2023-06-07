@@ -5,6 +5,17 @@ import Navigation from "@components/Navigation";
 import "@styles/global.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Montserrat,Poppins} from "@next/font/google";
+
+const monts = Montserrat({
+  subsets: ["latin"],
+  weight : ["400","500","700"]
+})
+
+const pop = Poppins({
+  subsets:["latin"],
+  weight:["400","700"]
+})
 
 
 const RootLayout = ({ children }) => {
@@ -16,7 +27,7 @@ const RootLayout = ({ children }) => {
     <>
       <html lang="en">
         <body className="">
-        <main className="app">
+        <main className={monts.className} >
           <Navigation />
           {children}
           <Footer />
