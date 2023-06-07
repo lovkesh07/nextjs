@@ -22,7 +22,7 @@ const FlipCards = () => {
               <Image className=" w-[120px] md:w-[200px] my-4" src={Img1} />
               <h1>Our Mission:</h1>
             </div>
-            <div className=" text-left text-xs px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
+            <div className=" text-left text-xs md:text-xl lg:text-xl px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
               <p>
                 Our mission is to be a trusted partner in the digital journey of
                 our clients, delivering exceptional IT solutions and services
@@ -40,7 +40,7 @@ const FlipCards = () => {
               <Image className=" w-[120px] md:w-[200px] my-4" src={Img2} />
               <h1>Our Expertise:</h1>
             </div>
-            <div className=" text-left text-xs px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
+            <div className=" text-left text-xs md:text-xl lg:text-xl px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
               <p>
                 With years of experience in the IT industry, we have honed our
                 skills in a diverse range of technological domains. From
@@ -59,7 +59,7 @@ const FlipCards = () => {
               <Image className=" w-[120px] md:w-[200px] my-4" src={Img3} />
               <h1>Customer-Centric Approach:</h1>
             </div>
-            <div className=" text-left text-xs px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
+            <div className=" text-left text-xs md:text-xl lg:text-xl px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
               <p>
                 At the core of our philosophy lies a customer-centric approach.
                 We believe in building strong, long-lasting relationships with
@@ -78,7 +78,7 @@ const FlipCards = () => {
               <Image className=" w-[120px] md:w-[200px] my-4" src={Img4} />
               <h1>Quality and Excellence:</h1>
             </div>
-            <div className=" text-left text-xs px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
+            <div className=" text-left text-xs md:text-xl lg:text-xl px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
               <p>
                 We are committed to delivering high-quality solutions and
                 services that meet and exceed industry standards. Our team
@@ -97,7 +97,7 @@ const FlipCards = () => {
               <Image className=" w-[120px] md:w-[200px] my-4" src={Img5} />
               <h1>Collaborative Partnership:</h1>
             </div>
-            <div className=" text-left text-xs px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
+            <div className=" text-left text-xs md:text-xl lg:text-xl px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]   bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
               <p>
                 We view our relationship with clients as a partnership. We work
                 side by side with our clients, fostering collaboration and
@@ -115,7 +115,7 @@ const FlipCards = () => {
               <Image className=" w-[120px] md:w-[200px] my-4" src={Img6} />
               <h1>Social Responsibility:</h1>
             </div>
-            <div className=" text-left text-xs px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]  bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
+            <div className=" text-left text-xs md:text-xl lg:text-xl px-2 py-6 w-[260px] h-[260px] md:w-[400px] md:h-[400px]  bg-gray-400 text-white absolute [transform:rotateX(180deg)] [backface-visibility:hidden]">
               <p>
                 We are dedicated to making a positive impact on the community
                 and society as a whole. We strive to operate in an
