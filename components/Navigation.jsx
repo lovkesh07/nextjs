@@ -189,13 +189,17 @@ const Navbar = () => {
       title: "Careers",
       module: [
         {
-          name: "Life At Kellton",
-          link: "/careers/lifehere",
+          name: "Career with Us",
+          link: "/careers/careerwithus",
         },
-        {
-          name: "Jobs",
-          link: "/careers/jobs",
-        },
+        // {
+        //   name: "Life At Kellton",
+        //   link: "/careers/lifehere",
+        // },
+        // {
+        //   name: "Jobs",
+        //   link: "/careers/jobs",
+        // },
       ],
     },
   ]);
