@@ -17,7 +17,6 @@ const Navbar = () => {
 
   const navColour = () => {
     const nav = document.getElementById("nav");
-
     if (scrolly > 100) {
       nav.style.background = "#1A374D";
     } else {
@@ -207,7 +206,7 @@ const Navbar = () => {
   return (
     <header
       id="nav"
-      className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white transition-colors duration-300 "
+      className={` bg-[${navOpen?"#1A374D":"transparent"}] z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white transition-colors duration-300 `}
     >
       <div className=" px-3 lg:px-6">
         <span>
@@ -239,7 +238,7 @@ const Navbar = () => {
           className={
             navOpen
               ? " z-50 py-3 bg-[#1A374D] text-white w-[60%] min-h-screen absolute overflow-y-auto top-[80px] left-0 ease-in duration-500  md:hidden text-center font-bold font-customised1"
-              : " z-50 bg-[#1A374D)] text-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500  text-center font-bold font-customised1"
+              : " z-50 bg-[#1A374D] text-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500  text-center font-bold font-customised1"
           }
         >
           {/* <li className=" mx-auto my-2 py-3 px-4 w-fit ">
