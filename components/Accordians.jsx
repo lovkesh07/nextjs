@@ -52,6 +52,43 @@ export default function Accordions() {
   const [expanded, setExpanded] = React.useState("");
   const [List1, setList1] = useState([
     {
+      title: "Services",
+      module: [
+        {
+          name: "Cloud Computing Solutions",
+          link: "/services/cloudcomputingsolutions",
+        },
+        {
+          name: "Custom Software Development",
+          link: "/services/customsoftwaredevelopment",
+        },
+        {
+          name: "Cyber Security Services",
+          link: "/services/cybersecurityservices",
+        },
+        {
+          name: "Data Analytics & Business Intelligence",
+          link: "/services/DataAnalyticsandBusinessIntelligence",
+        },
+        {
+          name: "IT-Consulting Services",
+          link: "/services/itconsultingservices",
+        },
+        {
+          name: "IT Training and Education Services",
+          link: "/services/ITTrainingandEducation",
+        },
+        {
+          name: "Testimonial",
+          link: "/services/Testimonials",
+        },
+        {
+          name: "Testimonial",
+          link: "/services/Testimonials",
+        },
+      ],
+    },
+    {
       title: "About",
       module: [
         {
@@ -117,7 +154,7 @@ export default function Accordions() {
         },
       ],
     },
-        {
+    {
       title: "Platforms & Products",
       module: [
         {

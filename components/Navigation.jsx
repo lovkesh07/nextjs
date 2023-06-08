@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef ,useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -15,53 +15,82 @@ const Navbar = () => {
 
   const navRef = useRef();
 
-  const navColour = ()=>{
-    const nav  = document.getElementById("nav");
+  const navColour = () => {
+    const nav = document.getElementById("nav");
 
-    if(scrolly > 100){
+    if (scrolly > 100) {
       nav.style.background = "#1A374D";
-    }
-    else{
+    } else {
       nav.style.background = "transparent";
-
     }
+  };
 
-  }
+  const navPos = () => {
+    const nav = document.getElementById("nav");
 
-  const navPos = () =>{
-    const nav  = document.getElementById("nav");
-
-    if(scrolly <= 0){
+    if (scrolly <= 0) {
       nav.style.transform = "translate3d(0,-100%,0)";
     }
 
-    if(scrolly > lastScroll){
+    if (scrolly > lastScroll) {
       nav.style.transform = "translate3d(0,-100%,0)";
-
-    }
-    else{
+    } else {
       nav.style.transform = "translate3d(0,0,0)";
-
     }
 
     setLast(scrolly);
+  };
 
-  }
-
-  useEffect(()=>{
-    window.addEventListener('scroll',()=>{
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
       var y = window.scrollY;
       setScroll(y);
-    })
-  })
+    });
+  });
 
-  useEffect(()=>{
-    window.addEventListener("scroll",navColour)
-    window.addEventListener("scroll",navPos)
-
-  })
+  useEffect(() => {
+    window.addEventListener("scroll", navColour);
+    window.addEventListener("scroll", navPos);
+  });
 
   const [List1, setList1] = useState([
+    {
+      title: "Services",
+      module: [
+        {
+          name: "Cloud Computing Solutions",
+          link: "/services/cloudcomputingsolutions",
+        },
+        {
+          name: "Custom Software Development",
+          link: "/services/customsoftwaredevelopment",
+        },
+        {
+          name: "Cyber Security Services",
+          link: "/services/cybersecurityservices",
+        },
+        {
+          name: "Data Analytics & Business Intelligence",
+          link: "/services/DataAnalyticsandBusinessIntelligence",
+        },
+        {
+          name: "IT-Consulting Services",
+          link: "/services/itconsultingservices",
+        },
+        {
+          name: "IT Training and Education Services",
+          link: "/services/ITTrainingandEducation",
+        },
+        {
+          name: "Testimonial",
+          link: "/services/Testimonials",
+        },
+        {
+          name: "Testimonial",
+          link: "/services/Testimonials",
+        },
+      ],
+    },
     {
       title: "About",
       module: [
@@ -176,17 +205,24 @@ const Navbar = () => {
     setnavOpen(!navOpen);
   };
   return (
-    <header id="nav" className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white transition-colors duration-300 ">
+    <header
+      id="nav"
+      className=" z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white transition-colors duration-300 "
+    >
       <div className=" px-3 lg:px-6">
         <span>
-          <Link href="/" className=" text-3xl sm:text-5xl "><b>.</b><span className=" text-red-400 font-bold">DOT</span><span className=" text-red-400">cLU</span></Link>
+          <Link href="/" className=" text-3xl sm:text-5xl ">
+            <b>.</b>
+            <span className=" text-red-400 font-bold">DOT</span>
+            <span className=" text-red-400">cLU</span>
+          </Link>
         </span>
       </div>
       <nav className=" flex w-[100%] justify-center items-center lg:px-24">
         <ul className=" hidden md:flex md:items-center md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
-            <li className=" my-3 py-3 min-w-[100px] hover:text-blue-300  transition-all duration-300 cursor-pointer text-center">
+          {/* <li className=" my-3 py-3 min-w-[100px] hover:text-blue-300  transition-all duration-300 cursor-pointer text-center">
               <DropDown2 title="Services" />
-            </li>
+            </li> */}
           {List1.map((item, index) => {
             return (
               <li
@@ -206,11 +242,11 @@ const Navbar = () => {
               : " z-50 bg-[#1A374D)] text-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500  text-center font-bold font-customised1"
           }
         >
-          <li className=" mx-auto my-2 py-3 px-4 w-fit ">
+          {/* <li className=" mx-auto my-2 py-3 px-4 w-fit ">
           </li>
           <li className=" mx-auto w-full ">
             <Accordian2/>
-          </li>
+          </li> */}
           <Accordions />
         </ul>
         <div

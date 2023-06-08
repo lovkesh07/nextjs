@@ -27,7 +27,7 @@ const RootLayout = ({ children }) => {
     <>
       <html lang="en">
         <body className="">
-        <main className={pop.className} >
+        <main className={monts.className} >
           <Navigation />
           {children}
           <Footer />
