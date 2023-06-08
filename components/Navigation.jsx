@@ -81,12 +81,12 @@ const Navbar = () => {
           link: "/services/ITTrainingandEducation",
         },
         {
-          name: "Testimonial",
-          link: "/services/Testimonials",
+          name: "IT Support and Managed Services",
+          link: "/services/ITsupport&managedservices",
         },
         {
-          name: "Testimonial",
-          link: "/services/Testimonials",
+          name: "AR/VR Services",
+          link: "/services/ArVrservices",
         },
       ],
     },
