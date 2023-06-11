@@ -5,6 +5,7 @@ import Image from "next/image";
 import Sponsor from "./Sponsor";
 import Sectionextra from "./sectionexra";
 import WrittenContent from "../../WrittenContent";
+import { useState,useEffect } from "react";
 
 const AboutUs = () => {
     const [title, setTitle] = useState("");
