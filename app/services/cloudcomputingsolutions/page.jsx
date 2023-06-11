@@ -1,11 +1,23 @@
+"use client"
 import React from "react";
 import Slide1 from "@assets/img1.jpg";
 import Image from "next/image";
 // import Sponsor from "./Sponsor";
 // import Sectionextra from "./sectionexra";
-import WrittenContent from "./WrittenContent";
+import WrittenContent from "../../WrittenContent";
+import { useState,useEffect } from "react";
 
 const AboutUs = () => {
+    const [title, setTitle] = useState("");
+  const [content, setContent] = useState("");
+
+  useEffect(() => {
+    setTitle("Cloud Computing Solutions");
+
+    setContent(
+      "We specialize in creating customized software applications to meet your specific business requirements. Our skilled development team utilizes the latest technologies, programming languages, and frameworks to design and build software solutions. Whether you need a web application, mobile app, or enterprise software system, we ensure that the software is scalable, secure, and user-friendly, providing seamless functionality and a superior user experience."
+    );
+  }, []);
   return (
     <div className="">
       <div className="relative">
@@ -24,7 +36,7 @@ const AboutUs = () => {
           
         </div>
       </div>
-      <WrittenContent />
+      <WrittenContent title={title} content={content} />
     </div>
   );
 };
