@@ -1,7 +1,9 @@
 "use client";
 import React from "react";
+ import { useRouter } from 'next/navigation'
 
 const Cards = () => {
+  const router = useRouter()
   return (
     <div className=" w-full py-10 px-5">
       <div className="">
@@ -20,8 +22,8 @@ const Cards = () => {
         </div>
         <div className="py-16 lg:py-16 w-[85%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
           <div
-            className=" w-full md:w-[100%] h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
-            data-aos="fade-up"
+            className=" w-full md:w-[100%] h-[40vh] md:h-[40vh] cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up" onClick={() => router.push("/services/itconsultingservices")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               IT Consulting Services:
@@ -39,8 +41,8 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full md:w-[100%] h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
-            data-aos="fade-up"
+            className=" w-full md:w-[100%] h-[40vh] md:h-[40vh] cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up" onClick={() => router.push("/services/customsoftwaredevelopment")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Custom Software Development:
@@ -59,8 +61,8 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full  h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
-            data-aos="fade-up"
+            className=" w-full  h-[40vh] md:h-[40vh] cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up" onClick={() => router.push("/services/cloudcomputingsolutions")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Cloud Computing Solutions:
@@ -80,8 +82,8 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
-            data-aos="fade-up"
+            className=" w-full h-[40vh] md:h-[40vh] cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up" onClick={() => router.push("/services/cybersecurityservices")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Cybersecurity Services:
@@ -101,8 +103,8 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
-            data-aos="fade-up"
+            className=" w-full h-[40vh] md:h-[40vh] cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up" onClick={() => router.push("/services/ITsupport&managedservices")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               IT Support and Managed Services:
@@ -121,8 +123,8 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
-            data-aos="fade-up"
+            className=" w-full h-[40vh] md:h-[40vh] cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up" onClick={() => router.push("/services/DataAnalyticsandBusinessIntelligence")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Data Analytics and Business Intelligence:
@@ -141,8 +143,8 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full h-[40vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
-            data-aos="fade-up"
+            className=" w-full h-[40vh] md:h-[40vh] cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            data-aos="fade-up" onClick={() => router.push("/services/ITTrainingandEducation")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               IT Training and Education:
@@ -160,7 +162,7 @@ const Cards = () => {
             </span>
           </div>
 
-          <div className=" w-full h-[50vh] md:h-[40vh] gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100" data-aos="fade-up">
+          <div className=" w-full h-[50vh] md:h-[40vh] cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100" data-aos="fade-up" onClick={() => router.push("/services/ArVrservices")}>
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               AR/VR Services:
             </h2>
