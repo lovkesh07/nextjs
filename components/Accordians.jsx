@@ -79,12 +79,12 @@ export default function Accordions() {
           link: "/services/ITTrainingandEducation",
         },
         {
-          name: "Testimonial",
-          link: "/services/Testimonials",
+          name: "IT Support and Managed Services",
+          link: "/services/ITsupport&managedservices",
         },
         {
-          name: "Testimonial",
-          link: "/services/Testimonials",
+          name: "AR/VR Services",
+          link: "/services/ArVrservices",
         },
       ],
     },
@@ -190,14 +190,6 @@ export default function Accordions() {
           name: "Career with Us",
           link: "/careers/careerwithus",
         },
-        // {
-        //   name: "Life At Kellton",
-        //   link: "/careers/lifehere",
-        // },
-        // {
-        //   name: "Jobs",
-        //   link: "/careers/jobs",
-        // },
       ],
     },
   ]);

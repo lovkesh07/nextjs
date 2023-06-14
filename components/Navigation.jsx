@@ -192,14 +192,6 @@ const Navbar = () => {
           name: "Career with Us",
           link: "/careers/careerwithus",
         },
-        // {
-        //   name: "Life At Kellton",
-        //   link: "/careers/lifehere",
-        // },
-        // {
-        //   name: "Jobs",
-        //   link: "/careers/jobs",
-        // },
       ],
     },
   ]);
