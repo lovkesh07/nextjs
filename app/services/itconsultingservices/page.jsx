@@ -5,17 +5,21 @@ import Image from "next/image";
 import Sponsor from "./Sponsor";
 import Sectionextra from "./sectionexra";
 import WrittenContent from "../../WrittenContent";
+import Content from '../../Content';
 import { useState,useEffect } from "react";
 
 const AboutUs = () => {
     const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
+  const [miancontent,setmaincontent] = useState("");
+
   useEffect(() => {
     setTitle("IT Consulting Services");
 
     setContent(
      " Our team of experienced consultants will thoroughly assess your current IT infrastructure and understand your business objectives. We provide detailed recommendations tailored to your unique needs, suggesting improvements to optimize your technology environment. Our consultants analyze your systems, processes, and workflows to enhance efficiency and productivity, ensuring that your IT aligns with your business goals."
     );
+    setmaincontent("Our team of experienced consultants will thoroughly assess your current IT infrastructure and understand your business objectives. We provide detailed recommendations tailored to your unique needs, suggesting improvements to optimize your technology environment. Our consultants analyze your systems, processes, and workflows to enhance efficiency and productivity, ensuring that your IT aligns with your business goals.")
   }, []);
   return (
     <div className="">
@@ -39,6 +43,8 @@ const AboutUs = () => {
         </div>
       </div>
       <WrittenContent title={title} content={content} />
+      <Content title={"more info"} content={miancontent}/>
+
 
       {/* <div className="p-16 w-full bg-gradient-to-r from-cyan-700 to-blue-700 flex justify-center items-center py-10">
         <div className="w-fit px-4">

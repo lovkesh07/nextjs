@@ -35,9 +35,7 @@ const Cards = () => {
               your technology environment, enhance efficiency, and boost overall
               productivity.
             </p>
-            <span className=" w-[100%] text-right pr-4 text-white">
-              learn more
-            </span>
+           
           </div>
 
           <div
@@ -55,9 +53,7 @@ const Cards = () => {
               software, including web and mobile applications, as well as
               enterprise systems.
             </p>
-            <span className=" w-[100%] text-right pr-4 text-white">
-              learn more
-            </span>
+            
           </div>
 
           <div
@@ -76,9 +72,7 @@ const Cards = () => {
               migration, and ongoing management, delivering flexibility,
               scalability, and cost-efficiency.
             </p>
-            <span className=" w-[100%] text-right pr-4 text-white">
-              learn more
-            </span>
+           
           </div>
 
           <div
@@ -97,9 +91,7 @@ const Cards = () => {
               data against evolving cyber threats, ensuring data privacy and
               regulatory compliance.
             </p>
-            <span className=" w-[100%] text-right pr-4 text-white">
-              learn more
-            </span>
+           
           </div>
 
           <div
@@ -117,9 +109,7 @@ const Cards = () => {
               backups and updates. Our comprehensive support services are
               tailored to meet your specific needs.
             </p>
-            <span className=" w-[100%] text-right pr-4 text-white">
-              learn more
-            </span>
+            
           </div>
 
           <div
@@ -137,13 +127,11 @@ const Cards = () => {
               actionable intelligence. Gain a competitive edge and fuel business
               growth through our expertise.
             </p>
-            <span className=" w-[100%] text-right pr-4 text-white">
-              learn more
-            </span>
+            
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/ITTrainingandEducation")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -157,9 +145,7 @@ const Cards = () => {
               cloud computing, and data analytics. Our comprehensive training
               offerings ensure you stay up-to-date with the latest trends.
             </p>
-            <span className=" w-[100%] text-right pr-4 text-white">
-              learn more
-            </span>
+            
           </div>
 
           <div className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100" data-aos="fade-up" onClick={() => router.push("/services/ArVrservices")}>
@@ -179,9 +165,7 @@ const Cards = () => {
               that captivate users, boost engagement, and deliver impactful
               experiences.
             </p>
-            <span className=" w-[100%] text-right pr-4 text-white">
-              learn more
-            </span>
+            
           </div>
         </div>
       </div>

@@ -5,18 +5,23 @@ import Image from "next/image";
 // import Sponsor from "./Sponsor";
 // import Sectionextra from "./sectionexra";
 import WrittenContent from "../../WrittenContent";
+import Content from "@app/Content";
 import { useState, useEffect } from "react";
 
 
 const AboutUs = () => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
+  const [miancontent,setmaincontent] = useState("");
+
   useEffect(() => {
     setTitle("Data Analytics and Business Intelligence");
 
     setContent(
         "Extracting valuable insights from your data can drive informed decision-making and give you a competitive edge. Our data analytics and business intelligence services enable you to leverage your data effectively. We employ advanced analytics tools and techniques to process and analyze your data, identifying trends, patterns, and actionable intelligence. Our experts create interactive dashboards, reports, and visualizations that allow you to explore and understand your data easily, helping you make data-driven decisions for improved operational efficiency and strategic planning."
     );
+
+    setmaincontent("Extracting valuable insights from your data can drive informed decision-making and give you a competitive edge. Our data analytics and business intelligence services enable you to leverage your data effectively. We employ advanced analytics tools and techniques to process and analyze your data, identifying trends, patterns, and actionable intelligence. Our experts create interactive dashboards, reports, and visualizations that allow you to explore and understand your data easily, helping you make data-driven decisions for improved operational efficiency and strategic planning.")
   }, []);
   return (
     <div className="">
@@ -38,6 +43,8 @@ const AboutUs = () => {
         </div>
       </div>
       <WrittenContent title={title} content={content} />
+      <Content title={"more info"} content={miancontent}/>
+
     </div>
   );
 };
