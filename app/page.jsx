@@ -14,7 +14,7 @@ const home = () => {
     <main>
           <ImgSlider/>
           {/* <Newslider/> */}
-          <Content title={"abc"} content={"efgh"}/>
+          
          <Cards />
           <Ourmission/>
           <Longcard/>
