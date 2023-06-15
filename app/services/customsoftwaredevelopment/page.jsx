@@ -19,11 +19,7 @@ const AboutUs = () => {
     setTitle("Custom Software Development");
 
     setContent(
-      "Our cloud computing services enable you to leverage the power of cloud technology for enhanced efficiency and flexibility. We help you migrate your IT infrastructure to the cloud, ensuring a smooth transition and optimizing resource allocation. Additionally, we develop cloud-native applications, taking full advantage of cloud capabilities. Our team assists with cloud strategy formulation, cloud infrastructure setup, data migration, and ongoing cloud management to ensure your business benefits from increased scalability, cost-efficiency, and accessibility.."
-    );
-
-    setTitle("We specialize in creating customized software applications to meet your specific business requirements. Our skilled development team utilizes the latest technologies, programming languages, and frameworks to design and build software solutions. Whether you need a web application, mobile app, or enterprise software system, we ensure that the software is scalable, secure, and user-friendly, providing seamless functionality and a superior user experience.")
-
+      "With our cutting-edge software development expertise, we create tailored solutions that cater to your unique business requirements. Our skilled developers leverage the latest technologies to build secure, scalable, and user-friendly software, including web and mobile applications, as well as enterprise systems.");
     setmaincontent("We specialize in creating customized software applications to meet your specific business requirements. Our skilled development team utilizes the latest technologies, programming languages, and frameworks to design and build software solutions. Whether you need a web application, mobile app, or enterprise software system, we ensure that the software is scalable, secure, and user-friendly, providing seamless functionality and a superior user experience.")
   }, []);
   return (
