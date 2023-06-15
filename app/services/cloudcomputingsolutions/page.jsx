@@ -16,11 +16,11 @@ const AboutUs = () => {
   useEffect(() => {
     setTitle("Cloud Computing Solutions");
 
-    setContent(
-      "We specialize in creating customized software applications to meet your specific business requirements. Our skilled development team utilizes the latest technologies, programming languages, and frameworks to design and build software solutions. Whether you need a web application, mobile app, or enterprise software system, we ensure that the software is scalable, secure, and user-friendly, providing seamless functionality and a superior user experience."
-    );
+    // setContent(
+    //   "We specialize in creating customized software applications to meet your specific business requirements. Our skilled development team utilizes the latest technologies, programming languages, and frameworks to design and build software solutions. Whether you need a web application, mobile app, or enterprise software system, we ensure that the software is scalable, secure, and user-friendly, providing seamless functionality and a superior user experience."
+    // );
 
-    setmaincontent("Our cloud computing services enable you to leverage the power of cloud technology for enhanced efficiency and flexibility. We help you migrate your IT infrastructure to the cloud, ensuring a smooth transition and optimizing resource allocation. Additionally, we develop cloud-native applications, taking full advantage of cloud capabilities. Our team assists with cloud strategy formulation, cloud infrastructure setup, data migration, and ongoing cloud management to ensure your business benefits from increased scalability, cost-efficiency, and accessibility.")
+    setContent("Our cloud computing services enable you to leverage the power of cloud technology for enhanced efficiency and flexibility. We help you migrate your IT infrastructure to the cloud, ensuring a smooth transition and optimizing resource allocation. Additionally, we develop cloud-native applications, taking full advantage of cloud capabilities. Our team assists with cloud strategy formulation, cloud infrastructure setup, data migration, and ongoing cloud management to ensure your business benefits from increased scalability, cost-efficiency, and accessibility.")
   }, []);
   return (
     <div className="mt-[80px]">
