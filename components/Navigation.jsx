@@ -30,21 +30,21 @@ const Navbar = () => {
   //   }
   // };
 
-  const navPos = () => {
-    const nav = document.getElementById("nav");
+  // const navPos = () => {
+  //   const nav = document.getElementById("nav");
 
-    if (scrolly <= 0) {
-      nav.style.transform = "translate3d(0,-100%,0)";
-    }
+  //   if (scrolly <= 0) {
+  //     nav.style.transform = "translate3d(0,-100%,0)";
+  //   }
 
-    if (scrolly > lastScroll) {
-      nav.style.transform = "translate3d(0,-100%,0)";
-    } else {
-      nav.style.transform = "translate3d(0,0,0)";
-    }
+  //   if (scrolly > lastScroll) {
+  //     nav.style.transform = "translate3d(0,-100%,0)";
+  //   } else {
+  //     nav.style.transform = "translate3d(0,0,0)";
+  //   }
 
-    setLast(scrolly);
-  };
+  //   setLast(scrolly);
+  // };
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -54,7 +54,7 @@ const Navbar = () => {
   });
 
   useEffect(() => {
-    window.addEventListener("scroll", navPos);
+    // window.addEventListener("scroll", navPos);
     // window.addEventListener("scroll", navColour);
     // window.addEventListener("scroll", navTopcolor);
   });
