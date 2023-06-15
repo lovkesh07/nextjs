@@ -39,7 +39,7 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full md:w-[100%] cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full md:w-[100%] cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-pink-800 via-pink-500 to-pink-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/customsoftwaredevelopment")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -57,7 +57,7 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-emerald-800 from-10% via-emerald-500 via-30% to-emerald-500 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/cloudcomputingsolutions")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -76,7 +76,7 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-green-500 from-10% via-green-500 via-30% to-yellow-400 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-green-800 from-10% via-green-500 via-30% to-green-400 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/cybersecurityservices")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
