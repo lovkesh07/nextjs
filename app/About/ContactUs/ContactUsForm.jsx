@@ -307,11 +307,11 @@ const Form2 = () => {
               type="text"
               row="4"
               col="40"
-              placeholder="type of query"
+              placeholder="query"
               name="user_query"
-              className=" ring mb-[3px] ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+              className=" ring mb-[3px] ring-white w-full text-xs resize-y  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
-            <button className=" 3/4 mt-3  py-2 px-5 text-white bg-cyan-700 hover:bg-white hover:text-cyan-700  hover:border-black hover:border-solid hover:border-[1px] ease-in duration-150 delay-75">
+            <button className=" 3/4 mt-3  py-2 px-5 text-white bg-cyan-700 hover:bg-white hover:text-cyan-700  hover:border-black hover:border-solid ease-in duration-150 delay-75">
              submit
             </button>
           </form>
