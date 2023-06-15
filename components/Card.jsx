@@ -28,14 +28,12 @@ const Cards = () => {
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               IT Consulting Services:
             </h2>
-            <p className=" text-xs sm:text-sm  md:text-base lg:text-lg text-white px-3 py-2">
+            <p className=" text-xs sm:text-sm text-white px-3 py-2">
               Our expert consultants conduct in-depth assessments of your
               existing IT infrastructure, aligning them with your business
-              objectives. Through our customized recommendations, we optimize
-              your technology environment, enhance efficiency, and boost overall
-              productivity.
+              objectives. Through our customized recommendations...
             </p>
-           
+            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
           </div>
 
           <div
@@ -45,14 +43,12 @@ const Cards = () => {
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               Custom Software Development:
             </h2>
-            <p className=" text-xs sm:text-sm  md:text-base lg:text-lg text-white px-3 py-2">
+            <p className=" text-xs sm:text-sm text-white px-3 py-2">
               With our cutting-edge software development expertise, we create
               tailored solutions that cater to your unique business
-              requirements. Our skilled developers leverage the latest
-              technologies to build secure, scalable, and user-friendly
-              software, including web and mobile applications, as well as
-              enterprise systems.
+              requirements. Our skilled developers...
             </p>
+            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
             
           </div>
 
@@ -64,14 +60,13 @@ const Cards = () => {
               Cloud Computing Solutions:
             </h2>
 
-            <p className=" text-xs sm:text-sm  md:text-base lg:text-lg text-white px-3 py-2">
+            <p className=" text-xs sm:text-sm text-white px-3 py-2">
               Experience the power of cloud technology through our comprehensive
               range of services. We facilitate seamless migration of your IT
-              infrastructure to the cloud and develop cloud-native applications.
-              Our offerings cover cloud strategy, infrastructure setup,
-              migration, and ongoing management, delivering flexibility,
-              scalability, and cost-efficiency.
+              infrastructure to the cloud...
             </p>
+            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+
            
           </div>
 
@@ -83,14 +78,13 @@ const Cards = () => {
               Cybersecurity Services:
             </h2>
 
-            <p className=" text-xs sm:text-sm  md:text-base lg:text-lg text-white px-3 py-2">
+            <p className=" text-xs sm:text-sm text-white px-3 py-2">
               Safeguarding your digital assets is our top priority. Our
               cybersecurity solutions include thorough threat assessments,
-              vulnerability scanning, and penetration testing. We implement
-              robust security measures to protect your networks, systems, and
-              data against evolving cyber threats, ensuring data privacy and
-              regulatory compliance.
+              vulnerability scanning...
             </p>
+            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+
            
           </div>
 
@@ -102,13 +96,13 @@ const Cards = () => {
               IT Support and Managed Services:
             </h2>
 
-            <p className=" text-xs sm:text-sm  md:text-base lg:text-lg text-white px-3 py-2">
+            <p className=" text-xs sm:text-sm text-white px-3 py-2">
               Count on our dedicated support team for prompt assistance and
               proactive monitoring of your IT infrastructure. We handle
-              troubleshooting, hardware and software issues, as well as managing
-              backups and updates. Our comprehensive support services are
-              tailored to meet your specific needs.
+              troubleshooting, hardware and software issues...
             </p>
+            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+
             
           </div>
 
@@ -120,13 +114,13 @@ const Cards = () => {
               Data Analytics and Business Intelligence:
             </h2>
 
-            <p className=" text-xs sm:text-sm  md:text-base lg:text-lg text-white px-3 py-2">
+            <p className=" text-xs sm:text-sm text-white px-3 py-2">
               Unlock valuable insights from your data to make informed
               decisions. Our data analytics and business intelligence solutions
-              employ advanced tools and techniques to transform raw data into
-              actionable intelligence. Gain a competitive edge and fuel business
-              growth through our expertise.
+              employ advanced tools and techniques...
             </p>
+            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+
             
           </div>
 
@@ -138,13 +132,13 @@ const Cards = () => {
               IT Training and Education:
             </h2>
 
-            <p className=" text-xs sm:text-sm  md:text-base lg:text-lg text-white px-3 py-2">
+            <p className=" text-xs sm:text-sm text-white px-3 py-2">
               Stay ahead in the dynamic technology landscape with our training
               programs and workshops. We empower individuals and organizations
-              with knowledge and skills in software development, cybersecurity,
-              cloud computing, and data analytics. Our comprehensive training
-              offerings ensure you stay up-to-date with the latest trends.
+              with knowledge and skills in software development...
             </p>
+            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+
             
           </div>
 
@@ -156,15 +150,10 @@ const Cards = () => {
             <p className=" text-xs sm:text-sm text-white lg:px-8 px-3 py-2">
               We offer cutting-edge Augmented Reality (AR) and Virtual Reality
               (VR) solutions to enhance user experiences and create immersive
-              digital environments. Our skilled team combines innovative
-              technologies with creative expertise to develop AR/VR applications
-              across various industries, such as gaming, real estate, retail,
-              education, and training. Whether you need AR/VR simulations,
-              virtual tours, interactive 3D experiences, or training
-              simulations, we can design and develop customized AR/VR solutions
-              that captivate users, boost engagement, and deliver impactful
-              experiences.
+              digital environments...
             </p>
+            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+
             
           </div>
         </div>
