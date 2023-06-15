@@ -43,7 +43,7 @@ const page = () => {
         </div>
       </div>
       <WrittenContent title={title} content={content} />
-      <Content title={"more info"} content={miancontent}/>
+      {/* <Content title={"more info"} content={miancontent}/> */}
     </div>
   );
 };

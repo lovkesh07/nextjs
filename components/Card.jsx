@@ -12,7 +12,7 @@ const Cards = () => {
             Our Services
           </p>
           <p
-            className=" w-[80%] text-2xl  pb-4"
+            className=" w-[90%] sm:w-[80%] text-lg sm:text-2xl  pb-4"
             data-aos="fade-up"
           >
             We offer a comprehensive range of advanced IT solutions and services
