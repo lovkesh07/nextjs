@@ -7,7 +7,7 @@ const WrittenContent = ({title,content}) => {
         {title}
       </h1>
       <div className="py-10 w-full sm:w-[90%]" data-aos="fade-up">
-        <p className=" w-full text-lg sm:text-2xl  pb-4">
+        <p className=" w-full text-lg sm:text-xl text-slate-600 pb-4">
           {content}
         </p>
       </div>

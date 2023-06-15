@@ -13,7 +13,7 @@ const page = () => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   useEffect(() => {
-    setTitle("AR/VR Services:");
+    setTitle("AR/VR Services");
 
     setContent(
       "We offer cutting-edge Augmented Reality and Virtual Reality solutions to enhance user experiences and create immersive digital environments. Our skilled team combines innovative technologies with creative expertise to develop AR/VR applications across various industries, such as gaming, real estate, retail, education, and training. Whether you need AR/VR simulations, virtual tours, interactive 3D experiences, or training simulations, we can design and develop customized AR/VR solutions that captivate users, boost engagement, and deliver impactful experiences. As an IT company, we are committed to delivering exceptional services that address your specific requirements. We help you stay at the forefront of technological innovation, enabling you to achieve your business objectives efficiently and securely."
