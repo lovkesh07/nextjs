@@ -1,14 +1,17 @@
 "use client";
 import React from "react";
- import { useRouter } from 'next/navigation'
+import { useRouter } from "next/navigation";
 
 const Cards = () => {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <div className=" w-full py-10 px-5">
       <div className="">
         <div className=" w-[90%] mx-auto py-5">
-          <p className=" my-2 pb-4 text-3xl md:text-4xl lg:text-8xl font-bold" data-aos="fade-up">
+          <p
+            className=" my-2 pb-4 text-3xl md:text-4xl lg:text-8xl font-bold"
+            data-aos="fade-up"
+          >
             Our Services
           </p>
           <p
