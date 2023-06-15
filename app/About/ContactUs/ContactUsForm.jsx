@@ -43,7 +43,7 @@ const Form2 = () => {
               className=" ring mb-[3px] ring-white w-full text-xs  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
             />
             <select
-              className=" hidden ring mb-[3px] ring-white w-full text-xs text-gray-400  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
+              className=" ring mb-[3px] ring-white w-full text-xs text-gray-400  rounded-sm px-4 py-2 outline-none focus:ring-2 focus:ring-black"
               name="country"
               class="form-control"
               id="country"
