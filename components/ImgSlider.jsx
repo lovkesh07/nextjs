@@ -91,7 +91,7 @@ const ImgSlider = () => {
   `;
 
   return (
-    <div className="">
+    <div className=" mt-[80px]">
       <Carousel {...settings} className=" -z-0">
 
         <Wrap className="relative">

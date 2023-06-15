@@ -15,14 +15,20 @@ const Navbar = () => {
 
   const navRef = useRef();
 
-  const navColour = () => {
-    const nav = document.getElementById("nav");
-    if (scrolly > 100) {
-      nav.style.background = "#1A374D";
-    } else {
-      nav.style.background = "transparent";
-    }
-  };
+  // const navTopcolor = ()=>{
+  //   const nav = document.getElementById("nav");
+
+  //   navOpen?nav.style.background = "#1A374D":nav.style.background = "transparent"
+  // }
+
+  // const navColour = () => {
+  //   const nav = document.getElementById("nav");
+  //   if (scrolly > 100) {
+  //     nav.style.background = "#1A374D";
+  //   } else {
+  //     nav.style.background = "transparent";
+  //   }
+  // };
 
   const navPos = () => {
     const nav = document.getElementById("nav");
@@ -48,9 +54,11 @@ const Navbar = () => {
   });
 
   useEffect(() => {
-    window.addEventListener("scroll", navColour);
     window.addEventListener("scroll", navPos);
+    // window.addEventListener("scroll", navColour);
+    // window.addEventListener("scroll", navTopcolor);
   });
+  useEffect(() => {}, navOpen);
 
   const [List1, setList1] = useState([
     {
@@ -200,10 +208,7 @@ const Navbar = () => {
     setnavOpen(!navOpen);
   };
   return (
-    <header
-      id="nav"
-      className={` bg-[${navOpen?"#1A374D":"transparent"}] z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white transition-colors duration-300 `}
-    >
+    <header id="nav" className=" bg-[#1A374D]  z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white">
       <div className=" px-3 lg:px-6">
         <span>
           <Link href="/" className=" text-3xl sm:text-5xl ">
@@ -215,9 +220,6 @@ const Navbar = () => {
       </div>
       <nav className=" flex w-[100%] justify-center items-center lg:px-24">
         <ul className=" hidden md:flex md:items-center md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
-          {/* <li className=" my-3 py-3 min-w-[100px] hover:text-blue-300  transition-all duration-300 cursor-pointer text-center">
-              <DropDown2 title="Services" />
-            </li> */}
           {List1.map((item, index) => {
             return (
               <li

@@ -24,7 +24,7 @@ const page = () => {
     setmaincontent("Our dedicated support team is available to provide prompt assistance and proactive monitoring for your IT infrastructure. We offer technical support services, handling hardware and software issues, troubleshooting network problems, and resolving IT-related queries. Additionally, we provide managed services, taking care of routine maintenance tasks, system updates, data backups, and proactive monitoring to detect and address potential issues before they impact your business operations. With our comprehensive support services, you can focus on your core business while relying on us for smooth IT operations.")
   }, []);
   return (
-    <div className="">
+    <div className="mt-[80px]">
       <div className="relative">
         <Image
           src={Slide1}
