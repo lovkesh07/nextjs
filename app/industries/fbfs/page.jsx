@@ -43,9 +43,9 @@ const page = () => {
             the faces of the people, mixed with the warmth of alliance, a
             garnish of many activities- big, or small - be it work and chill
             together by the river, or festivals like Thanksgiving, Holi or
-            Christmas celebrated at our second home, Kellton celebrates its
+            Christmas celebrated at our second home, Dotclu celebrates its
             people everyday by letting them celebrate a wholesome life at
-            Kellton.As a leading banking and financial software development
+            Dotclu.As a leading banking and financial software development
             company, we help empower Digital Transformation-driven intelligent
             banking by enabling instant and secure transactions to deliver
             omnichannel experiences across products and services. Our continuous

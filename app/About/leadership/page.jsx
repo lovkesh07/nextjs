@@ -32,7 +32,7 @@ const page = () => {
         <br />
         <div className="text-left lg:px-24 lg:text-justify">
           <p className=" text-xl md:text-2xl lg:text-2xl">
-            If you collaborate with Kellton then you are working with a team who
+            If you collaborate with Dotclu then you are working with a team who
             strive to provide solutions that help you do business faster,
             better, and smarter than ever before.
           </p>{" "}

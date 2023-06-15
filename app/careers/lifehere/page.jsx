@@ -17,7 +17,7 @@ const page = () => {
           className=" w-full h-[80vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          <p className="text-lg py-2">Home / Life At Kellton</p>
+          <p className="text-lg py-2">Home / Life At Dotclu</p>
           <h1 className="text-3xl sm:text-5xl font-bold">
             Chart your growth with us
           </h1>
@@ -44,7 +44,7 @@ const page = () => {
           </p>{" "}
           <br />
           {/* <p className=" text-xl md:text-2xl lg:text-2xl ">
-            At Kellton, the culture of savoring even the micro successes is
+            At Dotclu, the culture of savoring even the micro successes is
             taken as a reminder that big results come from baby steps. These
             accomplishments are cherished and a gateway to many fresh ideas is
             opened with events like “Kellfesta”, "Confluence" , “Winter Refresh”
@@ -66,13 +66,13 @@ const page = () => {
         <br />
         {/* <div className="text-left lg:text-justify">
           <p className=" text-xl md:text-2xl lg:text-xl">
-            The training and upskilling practices at Kellton enable our
+            The training and upskilling practices at Dotclu enable our
             employees to be future ready by transforming themselves into the
             next generation of business and technology ready workforce.
             <br /> We encourage our employees to upskill themselves in
             technologies of the future like artificial intelligence and machine
             learning, blockchain, Internet of Things, DevOps and Cloud.
-            Kelltonites receive Industry recognized certifications after
+            Dotcluites receive Industry recognized certifications after
             completing the same.{" "}
           </p>{" "}
         </div> */}

@@ -7,7 +7,7 @@ const midsec = () => {
     <>
       <div className="mx-auto p-8 lg:p-24">
         <h1 className="font-medium text-xl md:text-2xl lg:text-6xl">
-          Support all your Oil and Gas capabilities with Kellton4ERP
+          Support all your Oil and Gas capabilities with Dotclu4ERP
         </h1>
 
         <div class="grid grid-cols-1 p-8 lg:p-12 gap-x-1 gap-y-1  md:grid-cols-2 lg:grid-cols-2">

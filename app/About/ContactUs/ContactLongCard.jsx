@@ -11,7 +11,7 @@ export default function Longcard() {
           <p className=" text-xl sm:text-3xl md:text-5xl font-bold">
             Looking for Career Opportunities?
           </p>
-            <span className=" text-sm sm:text-lg">Email your Resume to career@kellton.com</span>{" "}
+            <span className=" text-sm sm:text-lg">Email your Resume to career@Dotclu.com</span>{" "}
         </div>
       </div>
     </div>

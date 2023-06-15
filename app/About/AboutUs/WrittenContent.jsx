@@ -9,8 +9,8 @@ const WrittenContent = () => {
       </h1>
       <div className="py-10 w-full sm:w-[85%]" data-aos="fade-up">
         <p className=" sm:ml-16 text-sm sm:text-xl">
-          Over the years, Kellton has grown into a full-service IT solutions
-          provider with a global presence. Kellton has grown through a
+          Over the years, Dotclu has grown into a full-service IT solutions
+          provider with a global presence. Dotclu has grown through a
           combination of organic growth and strategic acquisitions. We now have
           offices in the United States, Europe, and Asia, and it serves clients
           in a wide range of industries, including healthcare, finance, retail,

@@ -48,7 +48,7 @@ const page = () => {
             human capital potential without increasing their stress levels.
             <br />
             <br />
-            tHRive is Kellton's unique human capital management solution. It is
+            tHRive is Dotclu's unique human capital management solution. It is
             an innovative and progressive platform to facilitate human capital
             management and ensure optimal performance at scale. tHRive drives
             speed and visibility into the management of your employee workflows,
@@ -111,7 +111,7 @@ const page = () => {
               </h1>
 
               <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-800">
-                With Kellton as your digital transformation partner, we can
+                With Dotclu as your digital transformation partner, we can
                 ensure a consistent and qualitative employee onboarding process
                 for every new hire, and without any bias through our HRMS
                 solution.

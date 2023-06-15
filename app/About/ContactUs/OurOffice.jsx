@@ -41,7 +41,7 @@ const OurOffice = () => {
                 </div>
                 <div className='text-gray-500 px-2'>
                     <h1 className='text-lg text-gray-300'>Pune</h1>
-                    <p className='text-sm py-1'>Kellton Ltd, Lalwani House, Plot no 79, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014</p>
+                    <p className='text-sm py-1'>Dotclu Ltd, Lalwani House, Plot no 79, Sakore Nagar, Viman Nagar, Pune, Maharashtra 411014</p>
                 </div>
                 <div className='text-gray-500 px-2'>
                     <h1 className='text-lg text-gray-300'>Singapore</h1>

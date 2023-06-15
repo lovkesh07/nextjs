@@ -19,9 +19,9 @@ const page = () => {
           className=" w-full h-[80vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          <p className="text-lg">Home / Products / Kellton4Commerce</p> <br />
+          <p className="text-lg">Home / Products / Dotclu4Commerce</p> <br />
           <h1 className="text-3xl sm:text-5xl font-bold">
-            Kellton4Commerce
+            Dotclu4Commerce
           </h1>{" "}
           <br />
           <p>
@@ -47,7 +47,7 @@ const page = () => {
             deliver seamless, customized experiences.
             <br />
             <br />
-            At Kellton, we capitalize on Commerce Framework to deliver a
+            At Dotclu, we capitalize on Commerce Framework to deliver a
             portfolio of custom e-commerce solutions that help brands stand out
             and put their operations on autopilot. Our roadmap for e-commerce
             entails prototyping, piloting, Proof-of-Concept (PoC), and
@@ -64,7 +64,7 @@ const page = () => {
 
       <section className="mx-auto p-8 lg:p-24 ">
         <h1 className="lg:py-6 text-4xl lg:text-6xl text-slate-700">
-          Kellton4Commerce Services
+          Dotclu4Commerce Services
         </h1>
 
         <div className="lg:py-6 text-slate-800 lg:pl-[540px]">
@@ -87,7 +87,7 @@ const page = () => {
               </h1>
 
               <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-800">
-                Kellton can assist you to move towards a futuristic solution
+                Dotclu can assist you to move towards a futuristic solution
                 through next-gen digital capabilities such as AI, RPA, AR-VR and
                 Blockchain for data driven analytics and insights providing
                 personalized services.
@@ -99,7 +99,7 @@ const page = () => {
               </h1>
 
               <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-800">
-                At Kellton, our experts seamlessly integrate end-to-end
+                At Dotclu, our experts seamlessly integrate end-to-end
                 solutions that allow you and your customers to access the
                 platform anywhere, any time optimizing your business strategy.
               </p>

@@ -106,7 +106,7 @@ const page = () => {
               </h1>
 
               <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-800">
-                With Kellton as your digital transformation partner, we can
+                With Dotclu as your digital transformation partner, we can
                 ensure a consistent and qualitative employee onboarding process
                 for every new hire, and without any bias through our HRMS
                 solution.

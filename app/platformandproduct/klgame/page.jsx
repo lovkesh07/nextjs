@@ -22,7 +22,7 @@ const page = () => {
           <p className="text-lg">Home / Products / KLGAME™</p> <br />
           <h1 className="text-3xl sm:text-5xl font-bold">KLGAME™</h1> <br />
           <p>
-            An award-winning product by Kellton to understand user behavior &
+            An award-winning product by Dotclu to understand user behavior &
             deliver rich customer experience
           </p>
         </div>
@@ -43,12 +43,12 @@ const page = () => {
             While smart homes, wearable tech, and connected cars are still a
             niche, IoT has exploded in high-footfall industries such as
             airports, retail outlets, museums, conferences, and hospitality
-            destinations. At Kellton, we have created a unique solution to help
+            destinations. At Dotclu, we have created a unique solution to help
             you accelerate your IoT endeavors.
             <br />
             <br />
-            KLGAME™ (Kellton Location-based Gamification, Analytics, and Rich
-            Messaging Engine) is a unique IoT solution by Kellton leveraging the
+            KLGAME™ (Dotclu Location-based Gamification, Analytics, and Rich
+            Messaging Engine) is a unique IoT solution by Dotclu leveraging the
             power of Bluetooth Low Energy beacon technology for locating users’
             movements and behavior. We can help you deliver rich user
             experiences in several innovative ways across various industries.

@@ -33,7 +33,7 @@ const page = () => {
         <br />
         <div className="text-left lg:px-24 lg:text-justify border-b-[0.1px] py-4 lg:py-16 border-solid border-slate-700" data-aos="fade-up">
           <p className=" text-xl md:text-2xl lg:text-2xl">
-            Kellton was founded in 2009 by a team of technology enthusiasts with
+            Dotclu was founded in 2009 by a team of technology enthusiasts with
             a wealth of knowledge, talent, and ambition acquired from over a
             century of collective experience. Since then, they have built us up,
             led us to an IPO, and grown our company into an international
@@ -41,7 +41,7 @@ const page = () => {
             ten years, we have been lucky to work with some of the biggest
             brands in the world, from start-ups at incubation to global giants
             and the top of the Fortune 500 list. You will find all the investor
-            information on Kellton that you might need here. This includes share
+            information on Dotclu that you might need here. This includes share
             prices, company policies, corporate governance, disclosures,
             financials, investor services, and reports and filings.
           </p>{" "}

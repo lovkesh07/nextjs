@@ -44,7 +44,7 @@ const page = () => {
             solution used by over 98% of the Fortune 500 oil and gas companies.
             <br /> <br />
             SAP is the dominant, industry-wide Enterprise Resource Planning
-            (ERP) software. Kellton4ERP for Oil and Gas, backed by SAP’s
+            (ERP) software. Dotclu4ERP for Oil and Gas, backed by SAP’s
             choicest resources and technology methodologies, is our unique
             approach that helps O&G companies overcome industry-specific
             challenges and achieve growth and efficiency to manage a successful
