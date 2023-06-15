@@ -8,11 +8,11 @@ const Cards = () => {
     <div className=" w-full py-10 px-5">
       <div className="">
         <div className=" w-[90%] mx-auto py-5">
-          <p className=" my-2 text-base md:text-lg pb-4" data-aos="fade-up">
+          <p className=" my-2 pb-4 text-3xl md:text-4xl lg:text-8xl font-bold" data-aos="fade-up">
             Our Services
           </p>
           <p
-            className=" w-[80%] font-bold text-2xl sm:text-4xl md:text-5xl pb-4"
+            className=" w-[80%] text-2xl  pb-4"
             data-aos="fade-up"
           >
             We offer a comprehensive range of advanced IT solutions and services

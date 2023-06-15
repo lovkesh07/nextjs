@@ -11,7 +11,7 @@ const blogs = () => {
       <p className=' text-2xl text-gray-500 py-3'>Related Posts</p>
       <h1 className='text-4xl py-5 text-white'>want to know more</h1>
       <Image src={img1} className=' w-full lg:w-[700px] py-5 rounded-lg'/>
-      <h1 className='text-4xl py-3 text-white'>kellton launches its Global Custom Experience and Innovation Lab</h1>
+      <h1 className='text-4xl py-3 text-white'>Dotclu launches its Global Custom Experience and Innovation Lab</h1>
     </div>
 
     <div className=' w-full lg:w-1/2 flex flex-col gap-5'>

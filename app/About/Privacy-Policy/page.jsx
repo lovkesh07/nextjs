@@ -31,8 +31,8 @@ const page = () => {
         </p>
       </div>
       <p className=" text-sm md:text-lg text-gray-500 py-10 " data-aos="fade-up">
-        Kellton and its affiliates are committed to protecting your privacy.
-        This Privacy Policy applies to our website (www.kellton.com) and governs
+        Dotclu and its affiliates are committed to protecting your privacy.
+        This Privacy Policy applies to our website (www.Dotclu.com) and governs
         our data collection, processing, and usage practices. It also describes
         your choices on the use, access, and correction of your personal
         information. If you do not agree with the data practices described in
@@ -44,17 +44,17 @@ const page = () => {
         this Privacy Policy periodically. We will also keep older versions of
         this Privacy Policy in an archive for your review.If you have any
         questions about this Privacy Policy or our handling of the information
-        you provide us, please write to us at privacy@kellton.com or Kellton,
+        you provide us, please write to us at privacy@Dotclu.com or Dotclu,
         1367, Road No. 45, Nandagiri Hills, Jubilee Hills, Hyderabad, Telangana
         500033
       </p>
       <h1 className="text-2xl py-10 font-medium" data-aos="fade-up">Use of the Subscription Service</h1>
       <p className=" text-sm md:text-lg text-gray-500 py-10" data-aos="fade-up">
-        Our online Subscription Service allows us to create and share marketing mailers and collaterals. The information added to the Subscription Service by users while subscribing to the website is stored and managed by our servers. This information is then used to contact visitors about their interest in the company's services. Kellton provides the Subscription Service to our clients for their own marketing, lead generation, and customer service needs, and we use the same for our business requirements. We use our own Subscription Service to build web pages that people can visit to learn more about Kellton. Information that we collect and manage using the Subscription Service belongs to us and is used, disclosed, and protected according to this Privacy Policy.
+        Our online Subscription Service allows us to create and share marketing mailers and collaterals. The information added to the Subscription Service by users while subscribing to the website is stored and managed by our servers. This information is then used to contact visitors about their interest in the company's services. Dotclu provides the Subscription Service to our clients for their own marketing, lead generation, and customer service needs, and we use the same for our business requirements. We use our own Subscription Service to build web pages that people can visit to learn more about Dotclu. Information that we collect and manage using the Subscription Service belongs to us and is used, disclosed, and protected according to this Privacy Policy.
       </p>
       <h1 className="text-2xl py-10 font-medium" data-aos="fade-up">How We Use Information We Collect</h1>
       <p className=" text-sm md:text-lg text-gray-500 py-10" data-aos="fade-up">
-        Our online Subscription Service allows us to create and share marketing mailers and collaterals. The information added to the Subscription Service by users while subscribing to the website is stored and managed by our servers. This information is then used to contact visitors about their interest in the company's services. Kellton provides the Subscription Service to our clients for their own marketing, lead generation, and customer service needs, and we use the same for our business requirements. We use our own Subscription Service to build web pages that people can visit to learn more about Kellton. Information that we collect and manage using the Subscription Service belongs to us and is used, disclosed, and protected according to this Privacy Policy.
+        Our online Subscription Service allows us to create and share marketing mailers and collaterals. The information added to the Subscription Service by users while subscribing to the website is stored and managed by our servers. This information is then used to contact visitors about their interest in the company's services. Dotclu provides the Subscription Service to our clients for their own marketing, lead generation, and customer service needs, and we use the same for our business requirements. We use our own Subscription Service to build web pages that people can visit to learn more about Dotclu. Information that we collect and manage using the Subscription Service belongs to us and is used, disclosed, and protected according to this Privacy Policy.
       </p>
     </div>
     </div>

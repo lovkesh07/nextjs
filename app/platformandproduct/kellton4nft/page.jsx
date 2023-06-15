@@ -19,8 +19,8 @@ const page = () => {
           className=" w-full h-[80vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          <p className="text-lg">Home / Products / Kellton4NFT</p> <br />
-          <h1 className="text-3xl sm:text-5xl font-bold">Kellton4NFT</h1> <br />
+          <p className="text-lg">Home / Products / Dotclu4NFT</p> <br />
+          <h1 className="text-3xl sm:text-5xl font-bold">Dotclu4NFT</h1> <br />
           <p>
             Leveraging distributed ledger technologies to drive frictionless,
             infungible finance of the future
@@ -38,14 +38,14 @@ const page = () => {
         <br />
         <div className="text-left lg:px-24 ">
           <p className=" text-xl md:text-2xl lg:text-2xl">
-            Kellton4NFT provides tools for artists, musicians, and other
+            Dotclu4NFT provides tools for artists, musicians, and other
             creators to tokenize their digital content as NFTs and sell them on
             blockchain-based marketplaces. The platform also includes features
             for NFT management, such as the ability to track ownership, transfer
             ownership, and enforce intellectual property rights.
             <br />
             <br />
-            Kellton4NFT is designed to be a scalable and secure platform that
+            Dotclu4NFT is designed to be a scalable and secure platform that
             can be used by individuals, businesses, and organizations to unlock
             new revenue streams and monetize their digital content through the
             creation and sale of NFTs.

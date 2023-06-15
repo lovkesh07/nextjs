@@ -43,7 +43,7 @@ const page = () => {
             expenses, and compliance pressures. The answer lies in leveraging
             the power of new-age digital technologies to automate processes,
             enable data-driven decisions, and expand innovation while ensuring
-            minimal risks, redundancies, and costs. Kellton is a global leader
+            minimal risks, redundancies, and costs. Dotclu is a global leader
             in providing healthcare software solutions that empower stakeholders
             across the health and care ecosystem in today’s world of constant
             disruption. We harness the full potential of modern technologies

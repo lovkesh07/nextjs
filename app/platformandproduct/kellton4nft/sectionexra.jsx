@@ -3,7 +3,7 @@ import React from "react";
 const sectionexra = () => {
   return (
     <div className="mx-auto p-8 lg:p-24 text-slate-200 bg-slate-800">
-      <h1 className=" py-3">Why Kellton for Product Strategy & Consulting?</h1>
+      <h1 className=" py-3">Why Dotclu for Product Strategy & Consulting?</h1>
       <h1 className="font-medium py-3 text-xl md:text-2xl lg:text-6xl" data-aos="fade-up">
         Just a few reasons why
       </h1>

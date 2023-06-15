@@ -44,7 +44,7 @@ const page = () => {
             Effectiveness (CEE) to successfully implement a blended learning
             approach aided by advanced digital learning tools and enable a
             technology-based approach to instruction, engagement, and
-            interaction. At Kellton, we help derive bespoke eLearning and
+            interaction. At Dotclu, we help derive bespoke eLearning and
             educational software solutions by curating digital tools and
             collaborating with industry experts to create a campus of the future
             to generate endless learning opportunities.

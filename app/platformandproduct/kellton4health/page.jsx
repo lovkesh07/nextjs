@@ -18,9 +18,9 @@ const page = () => {
           className=" w-full h-[80vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          <p className="text-lg">Home / Products / Kellton4Health</p> <br />
+          <p className="text-lg">Home / Products / Dotclu4Health</p> <br />
           <h1 className="text-3xl sm:text-5xl font-bold">
-            Kellton4Health
+            Dotclu4Health
           </h1>{" "}
           <br />
           <p>
@@ -63,7 +63,7 @@ const page = () => {
 
       <section className="mx-auto p-8 lg:p-24 ">
         <h1 className="lg:py-6 text-4xl lg:text-6xl text-slate-700">
-        Kellton4Health™ - Connecting your brand to your customers
+        Dotclu4Health™ - Connecting your brand to your customers
         </h1>
 
         <div className="lg:py-6 text-slate-800 lg:pl-[540px]">
@@ -92,7 +92,7 @@ const page = () => {
               </h1>
 
               <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-800">
-              Develop Lock mode apps customized to Android with KELLTON Smart SDK and runtime cloud provisioning capabilities for quick spin-up of an array of workloads on demand.
+              Develop Lock mode apps customized to Android with Dotclu Smart SDK and runtime cloud provisioning capabilities for quick spin-up of an array of workloads on demand.
               </p>
             </li>
 
@@ -103,7 +103,7 @@ const page = () => {
               </h1>
 
               <p className="py-4 lg:my-2 border-b-[1px] border-solid border-slate-800">
-              Take a step beyond touch-screen consoles for gamified fitness with KELLTON solutions across immersive experiences, digital twin, metaverse, and AR/VR/MR on fitness applications for virtual headsets and glasses.
+              Take a step beyond touch-screen consoles for gamified fitness with Dotclu solutions across immersive experiences, digital twin, metaverse, and AR/VR/MR on fitness applications for virtual headsets and glasses.
               </p>
             </li>
           </ul>

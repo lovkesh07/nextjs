@@ -17,7 +17,7 @@ const sectionexra = () => {
                 World Class Tech & Proven Skills <br />
               </h1>
               <p>
-                Kellton brings world-class technology and proven skills to help
+                Dotclu brings world-class technology and proven skills to help
                 enterprises simplify their business operations and deliver
                 greater value through new, digital-ﬁrst models.
               </p>
@@ -28,7 +28,7 @@ const sectionexra = () => {
                 <br />
               </h1>
               <p>
-                With Kellton as a digital transformation partner on your side,
+                With Dotclu as a digital transformation partner on your side,
                 unlock your business’s full potential through digital adoption.
                 We offer flexible engagement models and the shortest
                 implementation time.

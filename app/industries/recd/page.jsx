@@ -41,7 +41,7 @@ const page = () => {
         <br />
         <div className="text-left lg:px-24 ">
           <p className=" text-xl md:text-2xl lg:text-2xl">
-            Kellton is a global digital transformation enablement company and a
+            Dotclu is a global digital transformation enablement company and a
             leading provider of e-commerce software development services. We
             offer custom e-commerce application development services by dwelling
             upon an outside-in approach and benchmarking to overcome pain
