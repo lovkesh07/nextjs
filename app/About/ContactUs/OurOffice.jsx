@@ -9,13 +9,13 @@ const OurOffice = () => {
             <p className='text-lg py-2'>Our Offices</p>
             <h1 className='text-3xl sm:text-5xl font-bold'>We are a global team</h1>
         </div>
-        <Image src={Map}/>
+        <Image src={Map} className='w-[280px]'/>
         
         <div className='p-16'>
 
         <div>
             <h1 className='text-xl py-5 font-bold text-gray-300'>North America</h1>
-            <div className=' grid grid-cols-1 md:grid-cols-3 gap-2' data-aos="fade-up">
+            <div className=' grid grid-cols-2 md:grid-cols-3 gap-2' data-aos="fade-up">
                 <div className='text-gray-500 px-2'>
                     <h1 className='text-lg text-gray-300'>D.C. METRO Area</h1>
                     <p className='text-sm py-1'>11100 Wildlife Center Dr. Suite LL #150 300 Reston, VA 20190</p>
