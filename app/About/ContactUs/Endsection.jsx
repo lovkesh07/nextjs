@@ -8,7 +8,7 @@ const Endsection = () => {
             <h1 className='text-2xl sm:text-5xl font-bold'>We’d love to hear from you</h1>
             <p className='text-lg py-4'>Our friendly team is always here to chat.</p>
         </div>
-        <div className='p-10'>
+        <div className=' py-10 px-6sm:p-10'>
             <div className=' grid grid-cols-1 sm:grid-cols-3 gap-5 items-center'>
                 <div className='text-gray-500 px-2' data-aos="fade-up">
                     <div>
