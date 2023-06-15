@@ -22,7 +22,7 @@ const Cards = () => {
         </div>
         <div className="py-16 lg:py-16 w-[85%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
           <div
-            className=" w-full md:w-[100%] cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-indigo-800 from-10% via-sky-600 via-30% to-blue-300 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full md:w-[100%] h-[30vh] md:h-[30vh] p-8 cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-indigo-800 from-10% via-sky-600 via-30% to-blue-300 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/itconsultingservices")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -33,11 +33,11 @@ const Cards = () => {
               existing IT infrastructure, aligning them with your business
               objectives. Through our customized recommendations...
             </p>
-            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+            <span className="  w-[100%] text-right pr-4 text-white" > Learn more </span>
           </div>
 
           <div
-            className=" w-full md:w-[100%] cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-pink-800 via-pink-500 to-pink-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full md:w-[100%] h-[30vh] md:h-[30vh] p-8 cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-pink-800 via-pink-500 to-pink-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/customsoftwaredevelopment")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -48,12 +48,12 @@ const Cards = () => {
               tailored solutions that cater to your unique business
               requirements. Our skilled developers...
             </p>
-            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+            <span className=" w-[100%] text-right pr-4 text-white"> Learn more</span>
             
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-emerald-800 from-10% via-emerald-500 via-30% to-emerald-500 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full h-[30vh] md:h-[30vh] p-8 cursor-pointer  gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-emerald-800 from-10% via-emerald-500 via-30% to-emerald-500 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/cloudcomputingsolutions")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -65,13 +65,13 @@ const Cards = () => {
               range of services. We facilitate seamless migration of your IT
               infrastructure to the cloud...
             </p>
-            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+            <span className="  w-[100%] text-right pr-4 text-white"> Learn more</span>
 
            
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-green-800 from-10% via-green-500 via-30% to-green-400 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full h-[30vh] md:h-[30vh] p-8 cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-green-800 from-10% via-green-500 via-30% to-green-400 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/cybersecurityservices")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -83,13 +83,13 @@ const Cards = () => {
               cybersecurity solutions include thorough threat assessments,
               vulnerability scanning...
             </p>
-            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+            <span className="  w-[100%] text-right pr-4 text-white"> Learn more</span>
 
            
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-pink-800 from-10% via-pink-500 via-30% to-pink-300 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full h-[30vh] md:h-[30vh] p-8 cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-pink-800 from-10% via-pink-500 via-30% to-pink-300 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/ITsupport&managedservices")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -101,13 +101,13 @@ const Cards = () => {
               proactive monitoring of your IT infrastructure. We handle
               troubleshooting, hardware and software issues...
             </p>
-            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+            <span className="  w-[100%] text-right pr-4 text-white"> Learn more</span>
 
             
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-red-900 from-10% via-yellow-800 via-30% to-yellow-500 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full h-[30vh] md:h-[30vh] p-8 cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-red-900 from-10% via-yellow-800 via-30% to-yellow-500 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/DataAnalyticsandBusinessIntelligence")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -119,13 +119,13 @@ const Cards = () => {
               decisions. Our data analytics and business intelligence solutions
               employ advanced tools and techniques...
             </p>
-            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+            <span className="  w-[100%] text-right pr-4 text-white"> Learn more</span>
 
             
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-red-500 from-10% via-orange-500 via-30% to-yellow-500 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full h-[30vh] md:h-[30vh] p-8 cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-red-500 from-10% via-orange-500 via-30% to-yellow-500 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/ITTrainingandEducation")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -137,12 +137,12 @@ const Cards = () => {
               programs and workshops. We empower individuals and organizations
               with knowledge and skills in software development...
             </p>
-            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+            <span className="  w-[100%] text-right pr-4 text-white"> Learn more</span>
 
             
           </div>
 
-          <div className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-rose-900 from-10% via-rose-700 via-30% to-rose-500 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100" data-aos="fade-up" onClick={() => router.push("/services/ArVrservices")}>
+          <div className=" w-full h-[30vh] md:h-[30vh] p-8 cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-gradient-to-r from-rose-900 from-10% via-rose-700 via-30% to-rose-500 to-90% hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100" data-aos="fade-up" onClick={() => router.push("/services/ArVrservices")}>
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               AR/VR Services:
             </h2>
@@ -152,7 +152,7 @@ const Cards = () => {
               (VR) solutions to enhance user experiences and create immersive
               digital environments...
             </p>
-            <span className=" text-xs sm:text-sm text-white px-3 py-2"> Learn more</span>
+            <span className="  w-[100%] text-right pr-4 text-white"> Learn more</span>
 
             
           </div>

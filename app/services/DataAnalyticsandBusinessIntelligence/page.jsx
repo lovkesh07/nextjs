@@ -35,9 +35,9 @@ const AboutUs = () => {
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           <p className="text-lg">
-            Home/ Data Analytics and Business Intelligence
+          Home/ Services/ Data Analytics and Business Intelligence
           </p>
-          <h1 className="text-3xl sm:text-5xl font-bold">
+          <h1 className="text-3xl sm:text-5xl lg:text-8xl font-bold">
             Data Analytics and Business Intelligence
           </h1>
         </div>

@@ -33,7 +33,7 @@ const page = () => {
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           <p className="text-lg">Home/ Services/ AR/VR Services</p>
-          <h1 className="text-3xl sm:text-5xl font-bold">AR/VR Services</h1>
+          <h1 className="text-3xl sm:text-5xl lg:text-8xl font-bold">AR/VR Services</h1>
         </div>
       </div>
       <WrittenContent title={title} content={content} />

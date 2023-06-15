@@ -29,7 +29,7 @@ const ImgSlider = () => {
 
   const Wrap = styled.div`
     cursor: pointer;
-    height: 95vh;
+    height: 85vh;
     img {
       //border: 4px solid black;
       width: 100%;
@@ -133,7 +133,7 @@ const ImgSlider = () => {
         <Wrap className="relative">
           <div className=" absolute  top-[50%] translate-y-[-50%] text-white w-full text-left p-5">
             <div className="">
-              <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">Kellton recognised as Leader in</h1>
+              <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">Dotclu recognised as Leader in</h1>
               <h1 className=" text-3xl my-5  font-extrabold">the Zinnov Zones ER&D report,2022</h1>
               <p className=" text-xs md:text-sm">
                 Adjust The Customer's IT Infrastructure To New,Ever Growing

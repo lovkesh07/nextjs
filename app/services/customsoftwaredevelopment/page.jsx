@@ -32,8 +32,8 @@ const AboutUs = () => {
           className=" w-full h-[80vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          <p className="text-lg">Home/Custom Software Development</p>
-          <h1 className="text-3xl sm:text-5xl font-bold">
+          <p className="text-lg">Home/ Services/ Custom Software Development</p>
+          <h1 className="text-3xl sm:text-5xl lg:text-8xl font-bold">
             Custom Software Development
           </h1>
         </div>
