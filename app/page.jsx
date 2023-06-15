@@ -20,7 +20,7 @@ const home = () => {
           <Longcard/>
           <Sponser/>
           <Testimonialpg/>
-          <InsightSection/>
+          {/* <InsightSection/> */}
     </main>
   )
 }

@@ -57,7 +57,7 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-pink-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/cloudcomputingsolutions")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -76,7 +76,7 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-green-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/cybersecurityservices")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -95,7 +95,7 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-yellow-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/ITsupport&managedservices")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -113,7 +113,7 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-red-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/DataAnalyticsandBusinessIntelligence")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -131,7 +131,7 @@ const Cards = () => {
           </div>
 
           <div
-            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-blue-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
+            className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-indigo-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100"
             data-aos="fade-up" onClick={() => router.push("/services/ITTrainingandEducation")}
           >
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
@@ -148,7 +148,7 @@ const Cards = () => {
             
           </div>
 
-          <div className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-purple-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100" data-aos="fade-up" onClick={() => router.push("/services/ArVrservices")}>
+          <div className=" w-full cursor-pointer gap-3 md:gap-0 mx-auto flex flex-col items-center rounded-md shadow-md bg-rose-500 hover:shadow-black hover:scale-[1.01] transition-all duration-300 delay-100" data-aos="fade-up" onClick={() => router.push("/services/ArVrservices")}>
             <h2 className=" w-full text-left px-3 py-2 text-xl lg:text-2xl text-white">
               AR/VR Services:
             </h2>
