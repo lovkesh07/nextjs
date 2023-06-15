@@ -16,11 +16,11 @@ const AboutUs = () => {
   useEffect(() => {
     setTitle("Cloud Computing Solutions");
 
-    // setContent(
-    //   "We specialize in creating customized software applications to meet your specific business requirements. Our skilled development team utilizes the latest technologies, programming languages, and frameworks to design and build software solutions. Whether you need a web application, mobile app, or enterprise software system, we ensure that the software is scalable, secure, and user-friendly, providing seamless functionality and a superior user experience."
-    // );
+    setContent(
+      "Experience the power of cloud technology through our comprehensive range of services. We facilitate seamless migration of your IT infrastructure to the cloud and develop cloud-native applications. Our offerings cover cloud strategy, infrastructure setup, migration, and ongoing management, delivering flexibility, scalability, and cost-efficiency."
+    );
 
-    setContent("Our cloud computing services enable you to leverage the power of cloud technology for enhanced efficiency and flexibility. We help you migrate your IT infrastructure to the cloud, ensuring a smooth transition and optimizing resource allocation. Additionally, we develop cloud-native applications, taking full advantage of cloud capabilities. Our team assists with cloud strategy formulation, cloud infrastructure setup, data migration, and ongoing cloud management to ensure your business benefits from increased scalability, cost-efficiency, and accessibility.")
+    setmaincontent("Our cloud computing services enable you to leverage the power of cloud technology for enhanced efficiency and flexibility. We help you migrate your IT infrastructure to the cloud, ensuring a smooth transition and optimizing resource allocation. Additionally, we develop cloud-native applications, taking full advantage of cloud capabilities. Our team assists with cloud strategy formulation, cloud infrastructure setup, data migration, and ongoing cloud management to ensure your business benefits from increased scalability, cost-efficiency, and accessibility.")
   }, []);
   return (
     <div className="mt-[80px]">
@@ -41,7 +41,7 @@ const AboutUs = () => {
         </div>
       </div>
       <WrittenContent title={title} content={content} />
-      {/* <Content title={"more info"} content={miancontent}/> */}
+      <Content title={"more info"} content={miancontent}/>
     </div>
   );
 };

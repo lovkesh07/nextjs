@@ -19,7 +19,7 @@ const AboutUs = () => {
     setTitle("Cybersecurity Services");
 
     setContent(
-      " Protecting your digital assets is of utmost importance in today's threat landscape. Our cybersecurity services encompass a comprehensive approach to safeguarding your networks, systems, and data. We conduct thorough threat assessments to identify potential vulnerabilities, followed by vulnerability scanning and penetration testing to proactively address weaknesses. We then implement robust security measures, such as firewalls, encryption, access controls, and intrusion detection systems, to ensure the highest level of protection. Our aim is to keep your data secure, maintain regulatory compliance, and minimize the risk of cyberattacks."
+      "Safeguarding your digital assets is our top priority. Our cybersecurity solutions include thorough threat assessments, vulnerability scanning, and penetration testing. We implement robust security measures to protect your networks, systems, and data against evolving cyber threats, ensuring data privacy and regulatory compliance."
     );
 
     setmaincontent("Protecting your digital assets is of utmost importance in today's threat landscape. Our cybersecurity services encompass a comprehensive approach to safeguarding your networks, systems, and data. We conduct thorough threat assessments to identify potential vulnerabilities, followed by vulnerability scanning and penetration testing to proactively address weaknesses. We then implement robust security measures, such as firewalls, encryption, access controls, and intrusion detection systems, to ensure the highest level of protection. Our aim is to keep your data secure, maintain regulatory compliance, and minimize the risk of cyberattacks.")
@@ -42,7 +42,7 @@ const AboutUs = () => {
         </div>
       </div>
       <WrittenContent title={title} content={content} />
-      {/* <Content title={"more info"} content={miancontent}/> */}
+      <Content title={"more info"} content={miancontent}/>
 
     </div>
   );

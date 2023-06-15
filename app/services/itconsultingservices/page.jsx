@@ -17,7 +17,7 @@ const AboutUs = () => {
     setTitle("IT Consulting Services");
 
     setContent(
-     " Our team of experienced consultants will thoroughly assess your current IT infrastructure and understand your business objectives. We provide detailed recommendations tailored to your unique needs, suggesting improvements to optimize your technology environment. Our consultants analyze your systems, processes, and workflows to enhance efficiency and productivity, ensuring that your IT aligns with your business goals."
+     " Our expert consultants conduct in-depth assessments of your existing IT infrastructure, aligning them with your business objectives. Through our customized recommendations, we optimize your technology environment, enhance efficiency, and boost overall productivity."
     );
     setmaincontent("Our team of experienced consultants will thoroughly assess your current IT infrastructure and understand your business objectives. We provide detailed recommendations tailored to your unique needs, suggesting improvements to optimize your technology environment. Our consultants analyze your systems, processes, and workflows to enhance efficiency and productivity, ensuring that your IT aligns with your business goals.")
   }, []);

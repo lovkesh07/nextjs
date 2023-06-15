@@ -37,7 +37,7 @@ const page = () => {
         </div>
       </div>
       <WrittenContent title={title} content={content} />
-      {/* <Content/> */}
+      <Content/>
 
     </div>
   );
