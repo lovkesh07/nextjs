@@ -6,8 +6,7 @@ import Image from "next/image";
 // import Sectionextra from "./sectionexra";
 import WrittenContent from "../../WrittenContent";
 import Content from './Content';
-import { useState } from "react";
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
 
 const page = () => {
   const [title, setTitle] = useState("");

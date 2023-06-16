@@ -135,12 +135,12 @@ const Navbar = () => {
       title: "Industries",
       module: [
         {
-          name: "Fintech,Banking,Financial Sevices",
-          link: "/industries/fbfs",
+          name: "AR/VR Services",
+          link: "/industries/ArVrservices",
         },
         {
-          name: "Retail,E-Commerce & Distribution",
-          link: "/industries/recd",
+          name: "Cloud Computing",
+          link: "/industries/cloudcomputingsolutions",
         },
         {
           name: "Non-Profit,Government & Education",
