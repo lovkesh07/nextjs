@@ -17,7 +17,7 @@ const home = () => {
           
          <Cards />
           <Ourmission/>
-          <Longcard/>
+          <Longcard a={"200+"} b={"Customers including startups and Fortune 500 companies"} c={"1800+"} d={"Digital & Tech Experts with experience across industries"} e={"7+"} f={"Countries where we drive our technology"}/>
           <Sponser/>
           <Testimonialpg/>
           {/* <InsightSection/> */}
