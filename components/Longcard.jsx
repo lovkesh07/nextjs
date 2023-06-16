@@ -5,15 +5,15 @@ import styled from "styled-components";
 export default function Longcard() {
   return (
     <div className="w-full">
-      <div className=" w-[85%] mx-auto py-10 my-10 rounded-xl bg-gradient-to-r from-[#a6f2f2] to-[#ddf181] shadow-xl shadow-gray-500" data-aos="fade-up">
+      <div className=" w-[85%] mx-auto py-10 my-10 rounded-xl bg-gradient-to-r from-[#0b3eb6] to-[#81ccf1] shadow-xl shadow-gray-500" data-aos="fade-up">
       <div className="flex flex-col md:flex-row justify-around items-center w-full">
-        <div className=" w-1/2 md:w-1/3 mx-8 m-6 text-gray-600">
+        <div className=" w-1/2 md:w-1/3 mx-8 m-6 text-gray-200">
           <p className=" text-5xl md:text-6xl lg:text-8xl font-bold">
             200+{" "} <br/>
           </p>
             <span className="text-sm">Customers including startups and Fortune 500 companies</span>{" "}
         </div>
-        <div className=" w-1/2 md:w-1/3  mx-8 m-6 text-gray-600">
+        <div className=" w-1/2 md:w-1/3  mx-8 m-6 text-gray-200">
           <p className=" text-5xl md:text-6xl lg:text-8xl font-bold">
             1800+{" "} <br/>
           </p>
@@ -21,7 +21,7 @@ export default function Longcard() {
               Digital & Tech Experts with experience across industries
             </span>{" "}
         </div>
-        <div className=" w-1/2 md:w-1/3  mx-8 m-6 text-gray-600">
+        <div className=" w-1/2 md:w-1/3  mx-8 m-6 text-gray-200">
           <p className=" text-5xl md:text-6xl lg:text-8xl font-bold">
             7+ <br/> 
           </p>
