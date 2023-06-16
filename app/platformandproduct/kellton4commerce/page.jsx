@@ -19,7 +19,7 @@ const page = () => {
           className=" w-full h-[80vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          <p className="text-lg">Home / Products / Dotclu4Commerce</p> <br />
+          {/* <p className="text-lg">Home / Products / Dotclu4Commerce</p> <br /> */}
           <h1 className="text-3xl sm:text-5xl font-bold">
             Dotclu4Commerce
           </h1>{" "}
