@@ -37,9 +37,9 @@ const page = () => {
           className=" w-full h-[80vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          <p className="text-lg">
+          {/* <p className="text-lg">
             Home / Industries / Custom Software Development
-          </p>{" "}
+          </p>{" "} */}
           <br />
           <h1 className="text-3xl sm:text-5xl font-bold">
             Custom Software Development

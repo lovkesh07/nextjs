@@ -17,9 +17,9 @@ const AboutUs = () => {
           className=" w-full h-[80vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          <p className="text-lg">
+          {/* <p className="text-lg">
             Home / Product Engineering / Quality Engineering & Automation
-          </p>
+          </p> */}
           <h1 className="text-3xl sm:text-5xl font-bold">Quality Engineering & Automation</h1>
           <p>
           Optimizing product performance to build a loyal user base
