@@ -1,11 +1,24 @@
+"use client";
 import React from "react";
 import Slide1 from "@assets/img1.jpg";
 import Image from 'next/image';
 import Longcard from './AboutLongCard'
 import FlipCards from './FlipCards';
-import WrittenContent from './WrittenContent';
+import WrittenContent from '../../WrittenContent';
+import { useEffect,useState } from "react";
+
 
 const AboutUs = () => {
+    const [title, setTitle] = useState("");
+  const [content, setContent] = useState("");
+  useEffect(() => {
+    setTitle("About Us");
+
+    setContent(
+      "At Dotclu, we are a dynamic and innovative IT company dedicated to providing cutting-edge technology solutions to businesses of all sizes. With a team of experienced professionals and a passion for driving digital transformation, we strive to empower our clients to leverage technology effectively, optimize their operations, and achieve their business objectives."
+    );
+
+  }, []);
   return (
     <div className="">
       <div className="relative">
@@ -23,7 +36,7 @@ const AboutUs = () => {
           </h1>
         </div>
         </div>
-        <WrittenContent/>
+        <WrittenContent title={title} content={content}/>
         <Longcard/>
         <FlipCards/>
         <div className=' w-full bg-gradient-to-r from-cyan-700 to-blue-700 flex justify-center items-center py-10'>
