@@ -118,8 +118,8 @@ const RootLayout = ({ children }) => {
           link: "/industries/DataAnalyticsandBusinessIntelligence"
         },
         {
-          name: "Oil,Gas & Mining",
-          link: "/industries/oag",
+           name: "IT-Consulting Services",
+          link: "/industries/itconsultingservices",
         },
         {
           name: "Energy & Utilities",

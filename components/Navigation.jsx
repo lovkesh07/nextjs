@@ -102,7 +102,7 @@ const Navbar = ({List1}) => {
           <li className=" mx-auto w-full ">
             <Accordian2/>
           </li> */}
-          <Accordions />
+          <Accordions List1={List1} />
         </ul>
         <div
           onClick={handelnav}
