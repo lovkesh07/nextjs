@@ -8,7 +8,7 @@ import Accordions from "./Accordians";
 import DropDown2 from "./DropDown2";
 import Accordian2 from "./Accordian2";
 
-const Navbar = () => {
+const Navbar = ({List1}) => {
   const [navOpen, setnavOpen] = useState(false);
   const [scrolly, setScroll] = useState(0);
   const [lastScroll, setLast] = useState(0);
@@ -58,151 +58,9 @@ const Navbar = () => {
     // window.addEventListener("scroll", navColour);
     // window.addEventListener("scroll", navTopcolor);
   });
-  useEffect(() => {}, navOpen);
 
-  const [List1, setList1] = useState([
-    {
-      title: "Services",
-      module: [
-        {
-          name: "Cloud Computing Solutions",
-          link: "/services/cloudcomputingsolutions",
-        },
-        {
-          name: "Custom Software Development",
-          link: "/services/customsoftwaredevelopment",
-        },
-        {
-          name: "Cyber Security Services",
-          link: "/services/cybersecurityservices",
-        },
-        {
-          name: "Data Analytics & Business Intelligence",
-          link: "/services/DataAnalyticsandBusinessIntelligence",
-        },
-        {
-          name: "IT-Consulting Services",
-          link: "/services/itconsultingservices",
-        },
-        {
-          name: "IT Training and Education Services",
-          link: "/services/ITTrainingandEducation",
-        },
-        {
-          name: "IT Support and Managed Services",
-          link: "/services/ITsupport&managedservices",
-        },
-        {
-          name: "AR/VR Services",
-          link: "/services/ArVrservices",
-        },
-      ],
-    },
-    {
-      title: "About",
-      module: [
-        {
-          name: "About Us",
-          link: "/About/AboutUs",
-        },
-        {
-          name: "Our Parteners",
-          link: "/About/ourpartners",
-        },
-        {
-          name: "Our Leadership",
-          link: "/About/leadership",
-        },
-        {
-          name: "Investors",
-          link: "/About/investor",
-        },
-        {
-          name: "Privacy-Policy",
-          link: "/About/Privacy-Policy",
-        },
-        {
-          name: "Contact Us",
-          link: "/About/ContactUs",
-        },
-        {
-          name: "Testimonial",
-          link: "/About/Testimonials",
-        },
-      ],
-    },
-    {
-      title: "Industries",
-      module: [
-        {
-          name: "AR/VR Services",
-          link: "/industries/ArVrservices",
-        },
-        {
-          name: "Cloud Computing",
-          link: "/industries/cloudcomputingsolutions",
-        },
-        {
-          name: "Non-Profit,Government & Education",
-          link: "/industries/npge",
-        },
-        {
-          name: "Travel,Logistics & Hospitality",
-          link: "/industries/tlh",
-        },
-        {
-          name: "HiTech,Saas,ISV & Communications",
-          link: "/industries/hsic",
-        },
-        {
-          name: "Oil,Gas & Mining",
-          link: "/industries/oag",
-        },
-        {
-          name: "Energy & Utilities",
-          link: "/industries/eau",
-        },
-      ],
-    },
-    {
-      title: "Platforms & Products",
-      module: [
-        {
-          name: "Dotclu4Health",
-          link: "/platformandproduct/kellton4health",
-        },
-        {
-          name: "Dotclu4NFT",
-          link: "/platformandproduct/kellton4nft",
-        },
-        {
-          name: "Dotclu4Commerce",
-          link: "/platformandproduct/kellton4commerce",
-        },
-        {
-          name: "KLGAME",
-          link: "/platformandproduct/klgame",
-        },
-        {
-          name: "tHRive",
-          link: "/platformandproduct/thrive",
-        },
-        {
-          name: "Optima",
-          link: "/platformandproduct/opt",
-        },
-      ],
-    },
-    {
-      title: "Careers",
-      module: [
-        {
-          name: "Career with Us",
-          link: "/careers/careerwithus",
-        },
-      ],
-    },
-  ]);
+  // const [List1, setList1] = useState()
+
 
   const handelnav = () => {
     setnavOpen(!navOpen);

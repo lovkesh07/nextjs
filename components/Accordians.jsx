@@ -125,24 +125,24 @@ export default function Accordions() {
       title: "Industries",
       module: [
         {
-          name: "Fintech,Banking,Financial Sevices",
-          link: "/industries/fbfs",
+          name: "AR/VR Services",
+          link: "/industries/ArVrservices",
         },
         {
-          name: "Retail,E-Commerce & Distribution",
-          link: "/industries/recd",
+          name: "Cloud Computing",
+          link: "/industries/cloudcomputingsolutions",
         },
         {
-          name: "Non-Profit,Government & Education",
-          link: "/industries/npge",
+          name: "Custom Software Development",
+          link: "/industries/customsoftwaredevelopment",
         },
         {
-          name: "Travel,Logistics & Hospitality",
-          link: "/industries/tlh",
+          name: "Cyber Security Services",
+          link: "/industries/cybersecurityservices",
         },
         {
-          name: "HiTech,Saas,ISV & Communications",
-          link: "/industries/hsic",
+          name: "Data Analytics & Business Intelligence",
+          link: "/industries/DataAnalyticsandBusinessIntelligence"
         },
         {
           name: "Oil,Gas & Mining",
@@ -158,15 +158,15 @@ export default function Accordions() {
       title: "Platforms & Products",
       module: [
         {
-          name: "Kellton4Health",
+          name: "Dotclu4Health",
           link: "/platformandproduct/kellton4health",
         },
         {
-          name: "Kellton4NFT",
+          name: "Dotclu4NFT",
           link: "/platformandproduct/kellton4nft",
         },
         {
-          name: "Kellton4Commerce",
+          name: "Dotclu4Commerce",
           link: "/platformandproduct/kellton4commerce",
         },
         {
