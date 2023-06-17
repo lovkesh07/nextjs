@@ -55,7 +55,7 @@ const page = () => {
         </div>
       </div>
 
-      <section className="mx-auto p-8 lg:p-24 bg-slate-800">
+      {/* <section className="mx-auto p-8 lg:p-24 bg-slate-800">
         <h1 className="lg:py-6 text-4xl lg:text-6xl text-slate-200">
           Tech Innovation in Retail
         </h1>
@@ -112,17 +112,17 @@ const page = () => {
             </li>
           </ul>
         </div>
-      </section>
+      </section> */}
 
-      <Solution />
-      <Longcard
+      {/* <Solution /> */}
+      {/* <Longcard
         a={"15+"}
         b={"Years of Experience"}
         c={"100+"}
         d={"Global Clients"}
         e={"1200+"}
         f={"Expert Developers"}
-      />
+      /> */}
       <ContactUsForm />
     </div>
   );

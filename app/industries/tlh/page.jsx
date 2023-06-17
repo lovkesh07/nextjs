@@ -33,7 +33,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="mx-auto p-8 lg:p-24">
+      {/* <div className="mx-auto p-8 lg:p-24">
         <p className="text-2xl lg:text-5xl py-5 font-medium pr-2"> Overview</p>
         <br />
         <br />
@@ -52,8 +52,8 @@ const page = () => {
             from touchpoints to journeys.
           </p>{" "}
         </div>
-      </div>
-
+      </div> */}
+{/* 
       <section className="mx-auto p-8 lg:p-24 bg-slate-800">
         <h1 className="lg:py-6 text-4xl lg:text-6xl text-slate-200">
           Innovation in Hospitality
@@ -112,17 +112,17 @@ const page = () => {
             </li>
           </ul>
         </div>
-      </section>
+      </section> */}
 
-      <Solution />
-      <Longcard
+      {/* <Solution /> */}
+      {/* <Longcard
         a={"15+"}
         b={"Years of Experience"}
         c={"100+"}
         d={"Global Clients"}
         e={"1200+"}
         f={"Expert Developers"}
-      />
+      /> */}
       <ContactUsForm />
     </div>
   );
