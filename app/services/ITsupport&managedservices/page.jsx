@@ -37,7 +37,7 @@ const page = () => {
           {/* <p className="text-lg">
             Home/ Services/ IT Support & Managed Services{" "}
           </p> */}
-          <h1 className="text-3xl sm:text-5xl lg:text-8xl font-bold">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
             IT Support & Managed Services
           </h1>
         </div>

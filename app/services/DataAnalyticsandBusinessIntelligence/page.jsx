@@ -37,7 +37,7 @@ const AboutUs = () => {
           {/* <p className="text-lg">
           Home/ Services/ Data Analytics and Business Intelligence
           </p> */}
-          <h1 className="text-3xl sm:text-5xl lg:text-8xl font-bold">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
             Data Analytics and Business Intelligence
           </h1>
         </div>

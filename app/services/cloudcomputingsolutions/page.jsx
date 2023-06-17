@@ -36,7 +36,7 @@ const AboutUs = () => {
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home/ Services/ Cloud Computing Solutions</p> */}
-          <h1 className="text-3xl sm:text-5xl lg:text-8xl font-bold">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
             Cloud Computing Solutions
           </h1>
         </div>
