@@ -1,29 +1,28 @@
 "use client";
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Footer from "@components/Footer";
 import Navigation from "@components/Navigation";
 import "@styles/global.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { Montserrat,Poppins} from "@next/font/google";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { Montserrat, Poppins } from "@next/font/google";
 
 const monts = Montserrat({
   subsets: ["latin"],
-  weight : ["400","500","700"]
-})
+  weight: ["400", "500", "700"],
+});
 
 const pop = Poppins({
-  subsets:["latin"],
-  weight:["400","700"]
-})
-
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 const RootLayout = ({ children }) => {
-  useEffect(()=>{
-    AOS.init({duration:2000});
-  },[]);
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
 
-      const List1= [
+  const List1 = [
     {
       title: "Services",
       module: [
@@ -115,15 +114,19 @@ const RootLayout = ({ children }) => {
         },
         {
           name: "Data Analytics & Business Intelligence",
-          link: "/industries/DataAnalyticsandBusinessIntelligence"
+          link: "/industries/DataAnalyticsandBusinessIntelligence",
         },
         {
-           name: "IT-Consulting Services",
+          name: "IT-Consulting Services",
           link: "/industries/itconsultingservices",
         },
         {
-          name: "Energy & Utilities",
-          link: "/industries/eau",
+          name: "IT Training and Education Services",
+          link: "/industries/ITTrainingandEducation",
+        },
+        {
+          name: "IT Support and Managed Services",
+          link: "/industries/ITsupport&managedservices",
         },
       ],
     },
@@ -171,11 +174,11 @@ const RootLayout = ({ children }) => {
     <>
       <html lang="en">
         <body className="">
-        <main className={monts.className} >
-          <Navigation List1={List1} />
-          {children}
-          <Footer />
-        </main>
+          <main className={monts.className}>
+            <Navigation List1={List1} />
+            {children}
+            <Footer />
+          </main>
         </body>
       </html>
     </>
