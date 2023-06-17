@@ -4,7 +4,7 @@ import Longcard from "@components/Longcard";
 import Sponser from "@components/Sponsor";
 import ImgSlider from "@components/ImgSlider";
 import Ourmission from "@components/Ourmission";
-import InsightSection from "@components/InsightSection";
+// import Indestries from "@components/Indestriessection";
 import Testimonialpg from "@components/Testimonialpg";
 
 const home = () => {
@@ -14,6 +14,7 @@ const home = () => {
 
       <Cards />
       <Ourmission />
+      {/* <Indestries /> */}
       <Longcard
         a={"200+"}
         b={"Customers including startups and Fortune 500 companies"}
