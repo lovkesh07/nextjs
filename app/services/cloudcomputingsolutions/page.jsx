@@ -25,7 +25,7 @@ const AboutUs = () => {
     );
   }, []);
   return (
-    <div className="mt-[80px]">
+    <div className="">
       <div className="relative">
         <Image
           src={Slide1}

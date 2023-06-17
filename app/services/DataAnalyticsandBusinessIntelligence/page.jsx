@@ -24,7 +24,7 @@ const AboutUs = () => {
     setmaincontent("Extracting valuable insights from your data can drive informed decision-making and give you a competitive edge. Our data analytics and business intelligence services enable you to leverage your data effectively. We employ advanced analytics tools and techniques to process and analyze your data, identifying trends, patterns, and actionable intelligence. Our experts create interactive dashboards, reports, and visualizations that allow you to explore and understand your data easily, helping you make data-driven decisions for improved operational efficiency and strategic planning.")
   }, []);
   return (
-    <div className="mt-[80px]">
+    <div className="">
       <div className="relative">
         <Image
           src={Slide1}

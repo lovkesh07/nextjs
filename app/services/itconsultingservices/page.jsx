@@ -22,7 +22,7 @@ const AboutUs = () => {
     setmaincontent("Our team of experienced consultants will thoroughly assess your current IT infrastructure and understand your business objectives. We provide detailed recommendations tailored to your unique needs, suggesting improvements to optimize your technology environment. Our consultants analyze your systems, processes, and workflows to enhance efficiency and productivity, ensuring that your IT aligns with your business goals.")
   }, []);
   return (
-    <div className="mt-[80px]">
+    <div className="">
       <div className="relative">
         <Image
           src={Slide1}
