@@ -43,13 +43,13 @@ const page = () => {
           </p>{" "} */}
           <br />
           <h1 className="text-3xl sm:text-5xl font-bold">
-            Travel, Logistics & Hospitality
+          IT Support and Managed Services
           </h1>{" "}
           <br />
-          <p>
+          {/* <p>
             Unravel the art and science of converting travelers with
             comprehensive travel technology
-          </p>
+          </p> */}
         </div>
       </div>
       <WrittenContent2
