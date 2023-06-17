@@ -2,10 +2,10 @@
 import React from "react";
 import Slide1 from "@assets/img1.jpg";
 import Image from "next/image";
-import Longcard from "./longcard";
 import Midsec from "./midsec";
 import WrittenContent2 from "@app/WrittenContent2";
 import { useEffect,useState } from "react";
+import Longcard from "@components/Longcard";
 
 
 const page = () => {
@@ -46,7 +46,14 @@ const page = () => {
       </div>
       <WrittenContent2 title={title} content1={content1} content2={content2} head1={head1} head2={head2} />
       {/* <Midsec /> */}
-      <Longcard />
+      <Longcard
+        a={"15+"}
+        b={"Years of Experience"}
+        c={"100+"}
+        d={"Global Clients"}
+        e={"1200+"}
+        f={"Expert Developers"}
+      />
     </div>
   );
 };

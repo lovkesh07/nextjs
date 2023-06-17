@@ -2,7 +2,7 @@
 import React from "react";
 import Slide1 from "@assets/img1.jpg";
 import Image from "next/image";
-import Longcard from "./longcard";
+import Longcard from "@components/Longcard";
 import ContactUsForm from "@components/ContactUsForm";
 import Solution from "./solution";
 import WrittenContent2 from "@app/WrittenContent2";
@@ -52,7 +52,14 @@ const page = () => {
         head1={head1}
         head2={head2}
       />
-      <Longcard />
+      <Longcard
+        a={"15+"}
+        b={"Years of Experience"}
+        c={"100+"}
+        d={"Global Clients"}
+        e={"1200+"}
+        f={"Expert Developers"}
+      />
     </div>
   );
 };

@@ -1,7 +1,8 @@
 import React from "react";
 import Slide1 from "@assets/img1.jpg";
 import Image from "next/image";
-import Longcard from "./longcard";
+import Longcard from "@components/Longcard";
+
 import ContactUsForm from "@components/ContactUsForm";
 import Cards from "./AboutCard";
 import Sectionextra from "./sectionexra";
@@ -58,7 +59,14 @@ const page = () => {
         </div>
       </div>
 
-      <Longcard />
+      <Longcard
+        a={"24000+"}
+        b={"Users per day"}
+        c={"35000+"}
+        d={"Employee requests processed per month"}
+        e={"`<6` "}
+        f={"Seconds Website Loading time"}
+      />
 
       <section className="mx-auto p-8 lg:p-24">
         <h1 className="lg:py-6 text-4xl lg:text-6xl text-slate-700">

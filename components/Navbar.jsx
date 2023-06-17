@@ -1,27 +1,8 @@
-// import React from 'react'
-
-// const Navbar = () => {
-//   return (
-//     <div className=' p-0'>
-     
-//       <div className=' text-center text-4xl flex lg:flex ' >
-//         <ul>
-//           <li>home</li>
-          
-//         </ul>
-//       </div>
-//       </div>
-//   )
-// }
-
-// export default Navbar
-
 "use client";
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from "react-scroll";
 import Image from "next/image";
-// import Logo from "../public/streamlineLogo.png";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
