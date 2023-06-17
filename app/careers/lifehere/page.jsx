@@ -3,7 +3,7 @@ import Slide1 from "@assets/img1.jpg";
 import Image from "next/image";
 import Portfolio from "./Portfolio";
 import Sectionextra from "./sectionexra";
-import ContactUsForm from "./ContactUsForm";
+import ContactUsForm from "@components/ContactUsForm";
 
 const page = () => {
   return (
