@@ -5,27 +5,27 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
 
-// 71C9CE     
+// 71C9CE      1F6E8C  top- #406882  bottom- #1A374D
 function Footer() {
 	return (
 		<>
-			<div className="bg-[#406882] h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-16 sm:p-20">
+			<div className="bg-[#282A3A] h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-16 sm:p-20">
 				<div className=" px-0 py-5 sm:p-5 ">
 					<ul>
-						<p className="text-gray-800 font-bold mx-auto text-3xl pb-6">
-							Company<span className="text-blue-600">logo</span>
+						<p className="text-gray-600 font-bold mx-auto text-3xl pb-6">
+							.DOT<span className="text-blue-600">cLU</span>
 						</p>
 						<div className="flex gap-6 pb-5">
-							<FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" />
-							<FaTwitter className="text-2xl cursor-pointer hover:text-blue-600" />
-							<FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
-							<FaYoutube className="text-2xl cursor-pointer hover:text-red-600" />
+							<FaInstagram className="text-2xl  cursor-pointer text-gray-400 hover:text-yellow-600" />
+							<FaTwitter className="text-2xl cursor-pointer text-gray-400 hover:text-blue-400" />
+							<FaLinkedin className="text-2xl cursor-pointer text-gray-400 hover:text-blue-600" />
+							<FaYoutube className="text-2xl cursor-pointer text-gray-400 hover:text-red-600" />
 						</div>
 					</ul>
 				</div>
 				<div className="p-5">
 					<ul>
-						<p className="text-gray-800 font-bold text-2xl pb-4">Product</p>
+						<p className="text-gray-600 font-bold text-2xl pb-4">Product</p>
 						<li className="text-slate-200 text-md pb-2 font-semibold hover:text-blue-300 cursor-pointer">
 							Stocks
 						</li>
@@ -42,7 +42,7 @@ function Footer() {
 				</div>
 				<div className="p-5">
 					<ul>
-						<p className="text-gray-800 font-bold text-2xl pb-4">Company</p>
+						<p className="text-gray-600 font-bold text-2xl pb-4">Company</p>
 						<li className="text-slate-200 text-md pb-2 font-semibold hover:text-blue-300 cursor-pointer">
 							About
 						</li>
@@ -62,7 +62,7 @@ function Footer() {
 				</div>
 				<div className="p-5">
 					<ul>
-						<p className="text-gray-800 font-bold text-2xl pb-4">Support</p>
+						<p className="text-gray-600 font-bold text-2xl pb-4">Support</p>
 						<li className="text-slate-200 text-md pb-2 font-semibold hover:text-blue-300 cursor-pointer">
 							Contact
 						</li>
@@ -81,11 +81,11 @@ function Footer() {
 					</ul>
 				</div>
 			</div>
-			<div className="flex flex-col justify-center items-center text-center  p-5 bg-[#1A374D]">
-				<h1 className=" text-slate-200 font-semibold">
+			<div className="flex flex-col justify-center items-center text-center  p-5 bg-[#000000]">
+				<h1 className=" text-slate-300 font-semibold">
 					© 2023-2024 All rights reserved | Build with ❤ by{" "}
 					<span className="hover:text-blue-600 font-semibold cursor-pointer">
-						CompanyName{" "}
+						Dotclu{" "}
 					</span>
 				</h1>
 			</div>

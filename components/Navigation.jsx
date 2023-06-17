@@ -59,14 +59,14 @@ const Navbar = ({List1}) => {
     // window.addEventListener("scroll", navTopcolor);
   });
 
-  // const [List1, setList1] = useState()
+  // const [List1, setList1] = useState()  #1A374D
 
 
   const handelnav = () => {
     setnavOpen(!navOpen);
   };
   return (
-    <header id="nav" className=" bg-[#1A374D]  z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white">
+    <header id="nav" className=" bg-[#000000]  z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white">
       <div className=" px-3 lg:px-6">
         <span>
           <Link href="/" className=" text-3xl sm:text-5xl ">
