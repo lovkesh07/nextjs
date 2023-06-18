@@ -13,33 +13,70 @@ const AnimationSlider = () => {
   useEffect(() => {
     tl.fromTo(
       ".imgcontainer",
-      { width: "0%", opacity: 0 },
+      {  opacity: 0,left:"-100vw" },
       {
         ease: Power4.easeInOut,
         duration: 2,
         width: "100%",
         opacity: 1,
-        stagger: 2,
+        left:0,
+        stagger: {
+          each:2,
+          repeat:-1,
+          repeatDelay:6
+        },
+      },"a"
+    );
+    tl.to(
+      ".imgcontainer",
+      {
+        delay:2,
+        ease: Power4.easeInOut,
+        duration: 2,
+        // width: "100%",
+        opacity: 1,
+        left:"100vw",
+        stagger: {
+          each:2,
+          repeat:-1,
+          repeatDelay:6
+        },
       },"a"
     );
     tl.fromTo(
       ".text",
-      {width:0, opacity: 0, top:"-100%" },
+      { top:"-200vh" },
       {
         ease: Power4.easeInOut,
         duration: 2,
-        width:0,
         top:0,
-        opacity: 1,
-        stagger: 2,
+        stagger: {
+          each:2,
+          repeat:-1,
+          repeatDelay:6
+        },
+      },"a"
+    );
+    tl.to(
+      ".text",
+      {
+        delay:2,
+        ease: Power4.easeInOut,
+        duration: 2,
+        top:"200vh",
+        stagger: {
+          each:2,
+          repeat:-1,
+          repeatDelay:6
+        },
       },"a"
     );
   });
   return (
     <div className=" h-screen bg-gray-200 flex justify-center items-center">
-      <div className=" relative w-[95%] sm:w-[70%] h-[80%]">
-        <div className=" overflow-hidden absolute bottom-[20%] left-[0%] z-20 bg-red-800 text-white px-5">
-            <div className=" text absolute z-20">
+      <div className=" relative w-[95%] sm:w-[70%] h-[80%] overflow-hidden">
+        <div className=" absolute bottom-[20%] left-[0%] z-20 w-full overflow-hidden min-h-[55vh]  text-white px-5">
+            <div className=" text w-fit absolute top-[-100%] z-20">
               <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
                 Infinite Possibilities With Technology
               </h1>
@@ -53,7 +90,7 @@ const AnimationSlider = () => {
                 </button>
               </Link>
             </div>
-            <div className=" text absolute z-20">
+            <div className=" text w-fit absolute top-[-100vh] z-20">
               <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
                 Technology Agnostic
               </h1>
@@ -67,7 +104,7 @@ const AnimationSlider = () => {
                 </button>
               </Link>
             </div>
-            <div className=" text absolute z-20">
+            <div className=" text w-fit absolute top-[-100%] z-20">
               <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
                 Dotclu recognised as Leader in
               </h1>
@@ -84,7 +121,7 @@ const AnimationSlider = () => {
                 </button>
               </Link>
             </div>
-            <div className=" text absolute z-20">
+            <div className=" text w-fit absolute top-[-100%] z-20">
               <h1 className=" text-5xl my-5 md:text-6xl font-extrabold">
                 Webby 2023 Honoree
               </h1>
@@ -99,7 +136,7 @@ const AnimationSlider = () => {
               </Link>
             </div>
         </div>
-        <div className=" imgcontainer w-[0%] opacity-0 h-full absolute">
+        <div className=" imgcontainer w-full h-full absolute">
           <Image src={Walli1} className=" h-full" />
         </div>
         <div className=" imgcontainer w-full h-full absolute">
