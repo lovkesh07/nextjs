@@ -17,7 +17,7 @@ const DropDown = ({ title, list1 }) => {
   });
 
   return (
-    <div className=" group w-full">
+    <div className=" group w-full h-[80px] flex justify-center items-center">
       <button
         ref={divRef}
         onClick={() => setIsOpen(!IsOpen)}
