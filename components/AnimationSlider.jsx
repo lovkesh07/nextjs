@@ -16,30 +16,30 @@ const AnimationSlider = () => {
       {  opacity: 0,left:"-100vw" },
       {
         ease: Power4.easeInOut,
-        duration: 2,
+        duration: 3.5,
         width: "100%",
         opacity: 1,
         left:0,
         stagger: {
-          each:2,
+          each:3.5,
           repeat:-1,
-          repeatDelay:6
+          repeatDelay:11.5
         },
       },"a"
     );
     tl.to(
       ".imgcontainer",
       {
-        delay:2,
+        delay:3.5,
         ease: Power4.easeInOut,
-        duration: 2,
+        duration: 3.5,
         // width: "100%",
         opacity: 1,
         left:"100vw",
         stagger: {
-          each:2,
+          each:3.5,
           repeat:-1,
-          repeatDelay:6
+          repeatDelay:11.5
         },
       },"a"
     );
@@ -48,33 +48,33 @@ const AnimationSlider = () => {
       { top:"-200vh" },
       {
         ease: Power4.easeInOut,
-        duration: 2,
+        duration: 3.5,
         top:0,
         stagger: {
-          each:2,
+          each:3.5,
           repeat:-1,
-          repeatDelay:6
+          repeatDelay:11.5
         },
       },"a"
     );
     tl.to(
       ".text",
       {
-        delay:2,
+        delay:3.5,
         ease: Power4.easeInOut,
-        duration: 2,
+        duration: 3.5,
         top:"200vh",
         stagger: {
-          each:2,
+          each:3.5,
           repeat:-1,
-          repeatDelay:6
+          repeatDelay:11.5
         },
       },"a"
     );
   });
   return (
-    <div className=" mt-[80px] h-screen bg-gray-200 flex justify-center items-center">
-      <div className=" relative w-[95%] sm:w-[70%] h-[80%] overflow-hidden">
+    <div className=" mt-[82px] h-[80vh] bg-gray-200 flex justify-center items-center">
+      <div className=" relative w-full h-full overflow-hidden">
         <div className=" absolute bottom-[20%] left-[0%] z-20 w-full overflow-hidden min-h-[55vh]  text-white px-5">
             <div className=" text w-fit absolute top-[-100%] z-20">
               <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
