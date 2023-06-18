@@ -10,7 +10,7 @@ import AnimationSlider from "@components/AnimationSlider";
 const home = () => {
   return (
     <main>
-      <ImgSlider />
+      {/* <ImgSlider /> */}
       <AnimationSlider/>
       <Cards />
       <Ourmission />

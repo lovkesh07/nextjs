@@ -73,7 +73,7 @@ const AnimationSlider = () => {
     );
   });
   return (
-    <div className=" h-screen bg-gray-200 flex justify-center items-center">
+    <div className=" mt-[80px] h-screen bg-gray-200 flex justify-center items-center">
       <div className=" relative w-[95%] sm:w-[70%] h-[80%] overflow-hidden">
         <div className=" absolute bottom-[20%] left-[0%] z-20 w-full overflow-hidden min-h-[55vh]  text-white px-5">
             <div className=" text w-fit absolute top-[-100%] z-20">
