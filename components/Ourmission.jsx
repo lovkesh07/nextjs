@@ -27,7 +27,7 @@ const Ourmission = () => {
           </p>
         </div>
 
-        <div class="grid grid-cols-1 p-8 lg:p-8 gap-x-1 gap-y-1  md:grid-cols-2 lg:grid-cols-2 ">
+        <div class="grid grid-cols-1 p-2 lg:p-8 gap-x-1 gap-y-1  md:grid-cols-2 lg:grid-cols-2 ">
         <div className=" lg:p-2  ">
             <Image
               src={Img1}
