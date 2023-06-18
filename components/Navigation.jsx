@@ -93,8 +93,8 @@ const Navbar = ({List1}) => {
           ref={navRef}
           className={
             navOpen
-              ? " z-50 py-3 bg-[#1A374D] text-white w-[60%] min-h-screen absolute overflow-y-auto top-[80px] left-0 ease-in duration-500  md:hidden text-center font-bold font-customised1"
-              : " z-50 bg-[#1A374D] text-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500  text-center font-bold font-customised1"
+              ? " z-50 py-3 bg-black text-white w-[60%] min-h-screen absolute overflow-y-auto top-[80px] left-0 ease-in duration-500  md:hidden text-center font-bold font-customised1"
+              : " z-50 bg-black text-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500  text-center font-bold font-customised1"
           }
         >
           {/* <li className=" mx-auto my-2 py-3 px-4 w-fit ">
