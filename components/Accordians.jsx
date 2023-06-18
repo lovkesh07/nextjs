@@ -200,19 +200,19 @@ export default function Accordions({List1}) {
 
   return (
     <div
-      className="bg-[#1A374D]"
+      className="bg-black"
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
-        backgroundColor: "#1A374D",
+        backgroundColor: "black",
       }}
     >
       {List1.map((item, index) => (
         <Accordion
           className=" text-xs w-full"
-          style={{ backgroundColor: "#1A374D", color: "white" }}
+          style={{ backgroundColor: "black", color: "white" }}
           expanded={expanded === "panel" + (index + 1)}
           onChange={handleChange("panel" + (index + 1))}
         >
@@ -222,7 +222,7 @@ export default function Accordions({List1}) {
             </div>
           </AccordionSummary>
           <AccordionDetails
-            style={{ backgroundColor: "white", color: "rgba(16,44,81,255)" }}
+            style={{ backgroundColor: "white", color: "black" }}
           >
             {item.module?.map((info, i) => {
               return (
