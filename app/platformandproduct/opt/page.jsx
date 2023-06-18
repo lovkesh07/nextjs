@@ -21,7 +21,7 @@ const page = () => {
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home / Products / Optima</p> <br /> */}
-          <h1 className="text-3xl sm:text-5xl font-bold">Optima</h1> <br />
+          <h1 className="text-3xl sm:text-5xl font-bold" data-aos="fade-up">Optima</h1> <br />
           <p>
             An IoT-enabled digital oilfield analytics platform for effective
             management and monitoring of operations and resources

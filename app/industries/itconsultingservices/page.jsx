@@ -16,7 +16,7 @@ const page = () => {
   const [content2, setContent2] = useState("");
 
   useEffect(() => {
-    setTitle("AR/VR Services");
+    setTitle(" IT Consulting Services:");
 
     setContent1(
       "Provide IT consulting for hospitals and clinics to optimize their electronic health record systems, streamline patient data management, and enhance data security and privacy."
@@ -39,7 +39,7 @@ const page = () => {
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home / Industries / Oil and Gas</p> <br /> */}
-          <h1 className="text-3xl sm:text-5xl font-bold">
+          <h1 className="text-3xl sm:text-5xl font-bold" data-aos="fade-up">
             IT Consulting Services
           </h1>{" "}
         </div>

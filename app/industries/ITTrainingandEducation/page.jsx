@@ -42,7 +42,7 @@ const page = () => {
             Home / Industries / Retail, E-Commerce & Distribution
           </p>{" "} */}
           <br />
-          <h1 className="text-3xl sm:text-5xl font-bold">
+          <h1 className="text-3xl sm:text-5xl font-bold" data-aos="fade-up">
             IT Training & Education
           </h1>{" "}
         </div>
