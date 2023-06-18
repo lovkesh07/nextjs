@@ -6,16 +6,13 @@ import "slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
 import Slider from "react-slick";
 
-
-
 import Slide1 from "@assets/img1.jpg";
 import Slide2 from "@assets/hero2.webp";
 import Slide3 from "@assets/hero3.jpg";
 import Slide4 from "@assets/hero4.jpg";
 
-import Link from 'next/link';
-import Image from 'next/image';
-
+import Link from "next/link";
+import Image from "next/image";
 
 const ImgSlider = () => {
   const settings = {
@@ -43,7 +40,6 @@ const ImgSlider = () => {
   `;
 
   const Carousel = styled(Slider)`
-
     .slick-list {
       overflow: hidden;
     }
@@ -62,29 +58,24 @@ const ImgSlider = () => {
     .slick-dots {
       bottom: 25px;
       padding-right: 20px;
-
     }
     .slick-dots li button:before {
       font-size: 30px;
-      color:white;
-
+      color: white;
     }
 
     .slick-next {
       right: 10px;
-      opacity:0;
+      opacity: 0;
     }
     .slick-prev {
       left: 10px;
-      opacity:0;
+      opacity: 0;
     }
-    .slick-next{
-      
-      padding:50px
+    .slick-next {
+      padding: 50px;
     }
     .slick-next:before {
-     
-      
     }
     .slick-prev:before {
     }
@@ -93,7 +84,6 @@ const ImgSlider = () => {
   return (
     <div className="">
       <Carousel {...settings} className=" -z-0">
-
         <Wrap className="relative">
           <div className=" absolute  top-[50%] translate-y-[-50%] text-white w-full text-left p-5">
             <div className="">
@@ -101,30 +91,35 @@ const ImgSlider = () => {
                 Infinite Possibilities With Technology
               </h1>
               <p className=" text-xs md:text-sm">
-                Any challenges in digital and involving use of technology?We can help you out
+                Any challenges in digital and involving use of technology?We can
+                help you out
               </p>
-            <Link href="/">
-              <button className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
-                Let's Talk
-              </button>
-            </Link>
+              <Link href="/">
+                <button className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
+                  Let's Talk
+                </button>
+              </Link>
             </div>
           </div>
-        
+
           <Image src={Slide1} alt="badag" />
         </Wrap>
-        
-        
+
         <Wrap className=" relative">
           <div className=" absolute  top-[50%] translate-y-[-50%] text-white w-full text-left p-5">
             <div className="">
-              <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">Technology Agnostic</h1>
-              <p className=" text-xs md:text-sm">We dont focus on technologies, we focus on solution whatever technology it takes</p>
-            <Link href="/">
-              <button className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
-                Let's Talk
-              </button>
-            </Link>
+              <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
+                Technology Agnostic
+              </h1>
+              <p className=" text-xs md:text-sm">
+                We dont focus on technologies, we focus on solution whatever
+                technology it takes
+              </p>
+              <Link href="/">
+                <button className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
+                  Let's Talk
+                </button>
+              </Link>
             </div>
           </div>
           <Image src={Slide2} />
@@ -133,17 +128,21 @@ const ImgSlider = () => {
         <Wrap className="relative">
           <div className=" absolute  top-[50%] translate-y-[-50%] text-white w-full text-left p-5">
             <div className="">
-              <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">Dotclu recognised as Leader in</h1>
-              <h1 className=" text-3xl my-5  font-extrabold">the Zinnov Zones ER&D report,2022</h1>
+              <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
+                Dotclu recognised as Leader in
+              </h1>
+              <h1 className=" text-3xl my-5  font-extrabold">
+                the Zinnov Zones ER&D report,2022
+              </h1>
               <p className=" text-xs md:text-sm">
                 Adjust The Customer's IT Infrastructure To New,Ever Growing
                 Business & Technical Requirements
               </p>
-            <Link href="/">
-              <button className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
-                Lets's Talk
-              </button>
-            </Link>
+              <Link href="/">
+                <button className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
+                  Lets's Talk
+                </button>
+              </Link>
             </div>
           </div>
           <Image src={Slide3} alt="badging" />
@@ -153,24 +152,21 @@ const ImgSlider = () => {
           <div className=" absolute top-[50%] translate-y-[-50%] text-white w-full text-left p-5">
             <div className="">
               <h1 className=" text-5xl my-5 md:text-6xl font-extrabold">
-                Webby 2023 Honoree 
+                Webby 2023 Honoree
               </h1>
               <p className=" text-xs md:text-sm">
                 Globally recognised for Apps,dApps and Data Management
               </p>
-              <p className=" text-xs md:text-sm">
-                Oscar Of Internet
-              </p>
-            <Link href="/">
-              <button className=" my-2 md:my-5 text-white bg-transparent border border-white  px-2 md:px-5 py-2 rounded-md">
-                Let's Talk
-              </button>
-            </Link>
+              <p className=" text-xs md:text-sm">Oscar Of Internet</p>
+              <Link href="/">
+                <button className=" my-2 md:my-5 text-white bg-transparent border border-white  px-2 md:px-5 py-2 rounded-md">
+                  Let's Talk
+                </button>
+              </Link>
             </div>
           </div>
           <Image src={Slide4} alt="scale" />
         </Wrap>
-
       </Carousel>
     </div>
   );
