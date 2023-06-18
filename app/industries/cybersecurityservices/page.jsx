@@ -40,7 +40,7 @@ const page = () => {
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home / Industries / Cyber Security Services</p>{" "} */}
           <br />
-          <h1 className="text-3xl sm:text-5xl font-bold">
+          <h1 className="text-3xl sm:text-5xl font-bold" data-aos="fade-up">
             Cyber Security Services
           </h1>
         </div>

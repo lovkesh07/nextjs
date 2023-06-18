@@ -43,7 +43,7 @@ const page = () => {
             Home / Industries / Data Analytics and Business Intelligence
           </p>{" "} */}
           <br />
-          <h1 className="text-3xl sm:text-5xl font-bold">
+          <h1 className="text-3xl sm:text-5xl font-bold" data-aos="fade-up">
             Data Analytics and Business Intelligence
           </h1>{" "}
           <br />

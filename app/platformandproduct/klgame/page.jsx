@@ -21,7 +21,7 @@ const page = () => {
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home / Products / KLGAME™</p> <br /> */}
-          <h1 className="text-3xl sm:text-5xl font-bold">KLGAME™</h1> <br />
+          <h1 className="text-3xl sm:text-5xl font-bold" data-aos="fade-up">KLGAME™</h1> <br />
           <p>
             An award-winning product by Dotclu to understand user behavior &
             deliver rich customer experience

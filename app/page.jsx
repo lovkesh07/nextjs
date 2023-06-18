@@ -4,7 +4,6 @@ import Longcard from "@components/Longcard";
 import Sponser from "@components/Sponsor";
 import ImgSlider from "@components/ImgSlider";
 import Ourmission from "@components/Ourmission";
-// import Indestries from "@components/Indestriessection";
 import Testimonialpg from "@components/Testimonialpg";
 import AnimationSlider from "@components/AnimationSlider";
 
@@ -15,7 +14,7 @@ const home = () => {
       {/* <AnimationSlider/> */}
       <Cards />
       <Ourmission />
-      {/* <Indestries /> */}
+      
       <Longcard
         a={"200+"}
         b={"Customers including startups and Fortune 500 companies"}
