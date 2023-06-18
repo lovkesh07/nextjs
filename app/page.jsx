@@ -6,12 +6,13 @@ import ImgSlider from "@components/ImgSlider";
 import Ourmission from "@components/Ourmission";
 // import Indestries from "@components/Indestriessection";
 import Testimonialpg from "@components/Testimonialpg";
+import AnimationSlider from "@components/AnimationSlider";
 
 const home = () => {
   return (
     <main>
       <ImgSlider />
-
+      {/* <AnimationSlider/> */}
       <Cards />
       <Ourmission />
       {/* <Indestries /> */}
