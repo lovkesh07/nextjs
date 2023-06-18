@@ -24,10 +24,12 @@ const AnimationSlider = () => {
     );
     tl.fromTo(
       ".text",
-      { opacity: 0 },
+      {width:0, opacity: 0, top:"-100%" },
       {
         ease: Power4.easeInOut,
         duration: 2,
+        width:0,
+        top:0,
         opacity: 1,
         stagger: 2,
       },"a"
@@ -36,8 +38,8 @@ const AnimationSlider = () => {
   return (
     <div className=" h-screen bg-gray-200 flex justify-center items-center">
       <div className=" relative w-[95%] sm:w-[70%] h-[80%]">
-        <div className=" absolute bottom-[20%] left-[0%] z-20 text-white px-5">
-            <div className=" text absolute">
+        <div className=" overflow-hidden absolute bottom-[20%] left-[0%] z-20 bg-red-800 text-white px-5">
+            <div className=" text absolute z-20">
               <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
                 Infinite Possibilities With Technology
               </h1>
@@ -51,7 +53,7 @@ const AnimationSlider = () => {
                 </button>
               </Link>
             </div>
-            <div className=" text absolute">
+            <div className=" text absolute z-20">
               <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
                 Technology Agnostic
               </h1>
@@ -65,7 +67,7 @@ const AnimationSlider = () => {
                 </button>
               </Link>
             </div>
-            <div className=" text absolute">
+            <div className=" text absolute z-20">
               <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
                 Dotclu recognised as Leader in
               </h1>
@@ -82,7 +84,7 @@ const AnimationSlider = () => {
                 </button>
               </Link>
             </div>
-            <div className="">
+            <div className=" text absolute z-20">
               <h1 className=" text-5xl my-5 md:text-6xl font-extrabold">
                 Webby 2023 Honoree
               </h1>
