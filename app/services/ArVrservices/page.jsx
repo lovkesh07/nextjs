@@ -1,12 +1,15 @@
 "use client";
 import React from "react";
-import Slide1 from "@assets/img1.jpg";
+// import Slide1 from "@assets/arvr9.jpg";
+import Slide1 from "@assets/arvr99.webp";
+
 import Image from "next/image";
 // import Sponsor from "./Sponsor";
 // import Sectionextra from "./sectionexra";
 import WrittenContent from "../../WrittenContent";
 import Content from "./Content";
 import { useEffect, useState } from "react";
+import Piclongcard from "@components/Piclongcard";
 
 const page = () => {
   const [title, setTitle] = useState("");
@@ -21,13 +24,13 @@ const page = () => {
 
   return (
     <div className="">
-      <div className="relative">
+      <div className="relative bg-cover bg-center ">
         <Image
           src={Slide1}
           alt="badag"
           width={800}
           height={800}
-          className=" w-full h-[80vh]"
+          className="  my-16 w-full h-[60vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home/ Services/ AR/VR Services</p> */}
@@ -37,6 +40,7 @@ const page = () => {
         </div>
       </div>
       <WrittenContent title={title} content={content} />
+      <Piclongcard/>
       <Content />
     </div>
   );
