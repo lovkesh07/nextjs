@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import Slide1 from "@assets/img1.jpg";
+import Slide1 from "public/Images/custom-software-development.webp";
 import Image from "next/image";
 // import Sponsor from "./Sponsor";
 // import Sectionextra from "./sectionexra";
