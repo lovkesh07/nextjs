@@ -102,7 +102,7 @@ const home = () => {
       </div>
       <Ourmission />
       <AnimationSlider/>
-      <div className=" w-full h-[50vh] bg-[url('../public/Images/corpomg3.jpg')] bg-fixed bg-center bg-no-repeat flex items-center justify-center"><h1 className=" font-bold text-6xl text-black">Grow With US</h1></div>
+      <div className=" w-full h-[50vh] bg-[url('../public/Images/corpomg3.jpg')] bg-fixed bg-top bg-no-repeat flex items-center justify-center"><h1 className=" font-bold text-6xl text-black">Grow With US</h1></div>
       <Longcard
         a={"200+"}
         b={"Customers including startups and Fortune 500 companies"}
