@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import Slide1 from "@assets/itcon1.jpg";
+import Slide1 from "@assets/hello.png";
 import Image from "next/image";
 import Sponsor from "./Sponsor";
 import Sectionextra from "./sectionexra";
@@ -30,11 +30,11 @@ const AboutUs = () => {
           alt="badag"
           width={800}
           height={800}
-          className=" w-full h-[60vh] mt-20 "
+          className=" w-full h-[80vh] "
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home/IT Consulting Services</p> */}
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
+          <h1 className="backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
             IT Consulting Services
           </h1>
           
