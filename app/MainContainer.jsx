@@ -1,16 +1,11 @@
 import React from "react";
-import Lovkesh from "@assets/img1.jpg";
-import Hardik from "@assets/hero2.webp";
-import Abhinav from "@assets/hero3.jpg";
-import Ankur from "@assets/hero4.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
 const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
   return (
     <>
-      {/* Team section */}
-
+  
       <div
         className=" group mx-auto border-[1px] border-black border-solid flex flex-col items-center justify-center"
         data-aos="fade-up"

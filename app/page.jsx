@@ -8,13 +8,18 @@ import Ourmission from "@components/Ourmission";
 import AnimationSlider from "@components/AnimationSlider";
 import MainContainer from "./MainContainer";
 import img from "../public/Images/silkimg.jpg";
+import img1 from "../public/Images/itcon.webp";
+
+import img8 from "../public/Images/arvr9.jpg";
+
+
 const home = () => {
   const content = [
     {
       serviceName: "IT Consulting Services:",
       serviceContent:
         " Our expert consultants conduct in-depth assessments of your existing IT infrastructure, aligning them with your business objectives. Through our customized recommendations...",
-      serviceImg: img,
+      serviceImg: img1,
       serviceLink: "/services/itconsultingservices",
     },
     {
@@ -63,7 +68,7 @@ const home = () => {
       serviceName: "AR/VR Services:",
       serviceContent:
         "We offer cutting-edge Augmented Reality (AR) and Virtual Reality (VR) solutions to enhance user experiences and create immersive...",
-      serviceImg: img,
+      serviceImg: img8,
       serviceLink: "/services/ArVrservices",
     },
   ];
