@@ -7,6 +7,7 @@ import Image from "next/image";
 import WrittenContent from "../../WrittenContent";
 import Content from '../../Content';
 import { useState,useEffect } from "react";
+import Piclongcard from "./Piclongcard";
 
 
 const AboutUs = () => {
@@ -39,6 +40,8 @@ const AboutUs = () => {
         </div>
       </div>
       <WrittenContent title={title} content={content} />
+      <Piclongcard/>
+
       <Content title={"more info"} content={miancontent}/>
     </div>
   );

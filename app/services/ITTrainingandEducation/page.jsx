@@ -1,12 +1,13 @@
 "use client";
 import React from "react";
-import Slide1 from "@assets/img1.jpg";
+import Slide1 from "@assets/ittrain2.jpg";
 import Image from "next/image";
 // import Sponsor from "./Sponsor";
 // import Sectionextra from "./sectionexra";
 import WrittenContent from "../../WrittenContent";
 import Content from "@app/Content";
 import { useState, useEffect } from "react";
+import Piclongcard from "./Piclongcard";
 
 
 const AboutUs = () => {
@@ -31,7 +32,7 @@ const AboutUs = () => {
           alt="badag"
           width={800}
           height={800}
-          className=" w-full h-[80vh]"
+          className=" w-full h-[70vh] mt-20 object-fit"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home/ Services/IT Training and Education</p> */}
@@ -41,6 +42,8 @@ const AboutUs = () => {
         </div>
       </div>
       <WrittenContent title={title} content={content} />
+      <Piclongcard/>
+
       <Content title={"more info"} content={miancontent}/>
 
     </div>

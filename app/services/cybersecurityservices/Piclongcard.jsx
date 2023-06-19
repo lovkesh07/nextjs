@@ -6,20 +6,9 @@ const Piclongcard = () => {
   const people = [
     {
       imageUrl:
-        "https://kit.baliniz.com/virtty/wp-content/uploads/sites/55/2023/05/woman-in-vr-headset-e1686030555215.jpg",
+        "https://www.securitymagazine.com/ext/resources/Issues/2023/April/SEC-0423-News1-Feat-Slide1-1170x658.jpg?1680893171",
     },
-    {
-      imageUrl:
-        "https://kit.baliniz.com/virtty/wp-content/uploads/sites/55/2023/05/african-girl-adjusting-the-vr-headset--e1686030544477.jpg",
-    },
-    {
-      imageUrl:
-        "https://kit.baliniz.com/virtty/wp-content/uploads/sites/55/2023/06/virtual-reality-headset-e1685721816288.jpg",
-    },
-    {
-      imageUrl:
-        "https://kit.baliniz.com/virtty/wp-content/uploads/sites/55/2023/06/man-in-virtual-reality-e1685722595998.jpg",
-    },
+   
   ];
 
   return (
@@ -31,10 +20,10 @@ const Piclongcard = () => {
               className="text-3xl sm:text-5xl lg:text-6xl font-bold"
               data-aos="fade-up"
             >
-              Dive Into the Future With Virtual Reality
+              Stay ahead of cyber threat landscape with advanced security strategy and automated security measures
             </h2>
           </div>
-          <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4">
+          <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols- xl:grid-cols-1">
             {people.map((person) => (
               <li key={person.name} data-aos="fade-up">
                 <img
