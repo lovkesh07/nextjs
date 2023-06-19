@@ -1,16 +1,11 @@
 import React from "react";
-import Lovkesh from "@assets/img1.jpg";
-import Hardik from "@assets/hero2.webp";
-import Abhinav from "@assets/hero3.jpg";
-import Ankur from "@assets/hero4.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
 const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
   return (
     <>
-      {/* Team section */}
-
+  
       <div
         className=" group mx-auto  flex flex-col items-center justify-center shadow-xl shadow-gray-500"
         data-aos="fade-up"
@@ -18,7 +13,7 @@ const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto">
             <div className=" h-[500px] sm:h-[400px] w-full">
-              <div className=" group-hover:bg-[#cce3de] group-hover:bg-clip-padding z-50 border-[1px] border-black border-solid group-hover:backdrop-filter group-hover:backdrop-blur-sm group-hover:bg-opacity-50  h-[40%] transition-all duration-200">
+              <div className="  group-hover:opacity-70 group-hover:backdrop-blur-xl h-[40%] transition-all duration-200">
                 <Image
                   width={1000}
                   height={1000}
@@ -26,7 +21,7 @@ const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
                   src={Img}
                   alt="a"
                 />
-                <Link href={serviceLink} className="  hidden px-5 py-3 group-hover:block  text-white bg-transparent absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] border-[1px] border-solid border-white rounded-md">
+                <Link href={serviceLink} className=" hidden px-5 py-3 group-hover:block  text-white bg-transparent absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] border-[1px] border-solid border-white rounded-md">
                   {" "}
                   Read more{" "}
                 </Link>
