@@ -17,7 +17,7 @@ const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
       >
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto">
-            <div className=" h-[600px] w-full">
+            <div className=" h-[500px] sm:h-[400px] w-full">
               <div className=" group-hover:backdrop-filter group-hover:backdrop-blur-md group-hover:opacity-50 group-hover:bg-white h-[40%] transition-all duration-200">
                 <Image
                   width={1000}
@@ -35,7 +35,7 @@ const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
                 <h3 className="text-lg font-semibold text-center leading-8 tracking-tight text-black">
                   {serviceName}
                 </h3>
-                <p className="text-sm leading-6 text-gray-500 py-5">
+                <p className=" text-xs sm:text-sm leading-6 text-gray-500 py-5">
                   {serviceContent}
                 </p>
                 {/* <Link href={serviceLink} className=" py-5 text-black absolute bottom-[0px] right-[20px]">
