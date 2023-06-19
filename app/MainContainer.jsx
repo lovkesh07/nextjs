@@ -21,7 +21,7 @@ const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
                   src={Img}
                   alt="a"
                 />
-                <Link href={serviceLink} className=" hidden px-5 py-3 group-hover:block  text-slate-200 backdrop-blur-xl absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] border-[1px] border-solid border-white rounded-md">
+                <Link href={serviceLink} className=" hidden px-5 py-3 group-hover:block  text-slate-900 backdrop-blur-xl absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] border-[1px] border-solid border-white rounded-md">
                   {" "}
                   Read more{" "}
                 </Link>
