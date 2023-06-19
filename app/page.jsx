@@ -8,8 +8,14 @@ import Ourmission from "@components/Ourmission";
 import AnimationSlider from "@components/AnimationSlider";
 import MainContainer from "./MainContainer";
 import img from "../public/Images/silkimg.jpg";
-import img1 from "../public/Images/itcon.webp";
 
+import img1 from "../public/Images/itcon.webp";
+import img2 from "../public/Images/csd.png";
+import img3 from "../public/Images/cc.jpg";
+import img4 from "../public/Images/cse.webp";
+import img5 from "../public/Images/its.jpg";
+import img6 from "../public/Images/dataa.jpg";
+import img7 from "../public/Images/te.webp";
 import img8 from "../public/Images/arvr9.jpg";
 
 
@@ -26,42 +32,42 @@ const home = () => {
       serviceName: "Custom Software Development:",
       serviceContent:
         "With our cutting-edge software development expertise, we create tailored solutions that cater to your unique business requirements. Our skilled developers...",
-      serviceImg: img,
+      serviceImg: img2,
       serviceLink: "/services/customsoftwaredevelopment",
     },
     {
       serviceName: "Cloud Computing Solutions:",
       serviceContent:
         "Experience the power of cloud technology through our comprehensive range of services. We facilitate seamless migration of your IT infrastructure to the cloud...",
-      serviceImg: img,
+      serviceImg: img3,
       serviceLink: "/services/cloudcomputingsolutions",
     },
     {
       serviceName: "Cybersecurity Services:",
       serviceContent:
         "Safeguarding your digital assets is our top priority. Our cybersecurity solutions include thorough threat assessments, vulnerability scanning...",
-      serviceImg: img,
+      serviceImg: img4,
       serviceLink: "/services/cybersecurityservices",
     },
     {
       serviceName: "IT Support and Managed Services:",
       serviceContent:
         "Count on our dedicated support team for prompt assistance and proactive monitoring of your IT infrastructure. We handle troubleshooting, hardware and software issues...",
-      serviceImg: img,
+      serviceImg: img5,
       serviceLink: "/services/ITsupport&managedservices",
     },
     {
       serviceName: "Data Analytics and Business Intelligence:",
       serviceContent:
         "Unlock valuable insights from your data to make informed decisions. Our data analytics and business intelligence solutions employ advanced tools and techniques...",
-      serviceImg: img,
+      serviceImg: img6,
       serviceLink: "/services/DataAnalyticsandBusinessIntelligence",
     },
     {
       serviceName: "IT Training and Education:",
       serviceContent:
         "Stay ahead in the dynamic technology landscape with our training programs and workshops. We empower individuals...",
-      serviceImg: img,
+      serviceImg: img7,
       serviceLink: "/services/ITTrainingandEducation",
     },
     {
@@ -105,9 +111,11 @@ const home = () => {
           );
         })}
       </div>
+      <div className=" w-full h-[50vh] bg-[url('../public/Images/pp.jpg')] bg-fixed bg-top bg-no-repeat flex items-center justify-center"><h1 className=" font-bold text-6xl text-black">Grow With US</h1></div>
+
       <Ourmission />
       <AnimationSlider/>
-      <div className=" w-full h-[50vh] bg-[url('../public/Images/corpomg3.jpg')] bg-fixed bg-top bg-no-repeat flex items-center justify-center"><h1 className=" font-bold text-6xl text-black">Grow With US</h1></div>
+      <div className=" w-full h-[50vh] bg-[url('../public/Images/pp2.jpg')] bg-fixed bg-top bg-no-repeat flex items-center justify-center"><h1 className=" font-bold text-6xl text-black">Grow With US</h1></div>
       <Longcard
         a={"200+"}
         b={"Customers including startups and Fortune 500 companies"}
