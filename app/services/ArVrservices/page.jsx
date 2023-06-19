@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
-// import Slide1 from "@assets/arvr9.jpg";
+
 import Slide1 from "@assets/arvrbanner.jpg";
+// import Slide1 from "@assets/gg1.jpg";
 
 import Image from "next/image";
 // import Sponsor from "./Sponsor";
@@ -24,13 +25,13 @@ const page = () => {
 
   return (
     <div className="">
-      <div className="relative bg-cover bg-center ">
+      <div className="relative bg-center ">
         <Image
           src={Slide1}
           alt="badag"
           width={800}
           height={800}
-          className="  mt-20 w-full h-[60vh]"
+          className="  mt-20 w-[100%] h-[40vh] lg:h-[60vh] object-fit "
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home/ Services/ AR/VR Services</p> */}
