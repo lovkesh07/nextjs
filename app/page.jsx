@@ -1,7 +1,7 @@
 import React from "react";
 import Cards from "@components/Card";
 import Longcard from "@components/Longcard";
-import Sponser from "@components/Sponsor";
+// import Sponser from "@components/Sponsor";
 import ImgSlider from "@components/ImgSlider";
 import Ourmission from "@components/Ourmission";
 // import Testimonialpg from "@components/Testimonialpg";
