@@ -13,7 +13,7 @@ const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto">
             <div className=" h-[500px] sm:h-[400px] w-full">
-              <div className="  group-hover:opacity-70 group-hover:backdrop-blur-xl h-[40%] transition-all duration-200">
+              <div className="  group-hover:opacity-70 group-hover:backdrop-blur-xl h-[40%] transition-all duration-300">
                 <Image
                   width={1000}
                   height={1000}
@@ -26,7 +26,7 @@ const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
                   Read more{" "}
                 </Link>
               </div>
-              <div className=" border-[1px] border-black border-solid group-hover:bg-black  p-5 h-[60%] bg-gray-100 w-full relative transition-all duration-200">
+              <div className=" border-[1px] border-black border-solid group-hover:bg-black  p-5 h-[60%] bg-gray-100 w-full relative transition-all duration-300">
                 <h3 className=" group-hover:text-white text-lg font-semibold text-center leading-8 tracking-tight text-black">
                   {serviceName}
                 </h3>
