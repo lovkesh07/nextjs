@@ -27,17 +27,17 @@ const Ourmission = () => {
           </p>
         </div>
 
-        <div class="grid grid-cols-1 p-2 lg:p-8 gap-x-1 gap-y-1  md:grid-cols-2 lg:grid-cols-2 ">
-        <div className=" lg:p-2  ">
-            <Image
+        <div class="grid grid-cols-1 md:p-8 gap-x-1 gap-y-1  md:grid-cols-2">
+        <div className=" h-screen w-full bg-[url('../public/Images/eau.webp')] bg-fixed bg-center md:bg-left bg-no-repeat">
+            {/* <Image
               src={Img1}
               alt="badag"
               width={1200}
               height={1200}
               className=" w-full h-[100vh] rounded-lg"
-            />
+            /> */}
           </div>
-          <div className=" p-2 lg:p-12   ">
+          <div className=" p-2 lg:p-12">
             <div className=" text-slate-700 ">
               <ul className="leading-8 my-2  ">
                 <li className=" py-4 lg:my-2 border-b-[1px] border-solid border-black" data-aos="fade-up"  onClick={() => router.push("/industries/ArVrservices")} >
