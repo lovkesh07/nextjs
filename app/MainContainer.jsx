@@ -33,10 +33,6 @@ const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
                 <p className=" text-xs sm:text-sm leading-6 text-gray-500 py-5">
                   {serviceContent}
                 </p>
-                {/* <Link href={serviceLink} className=" py-5 text-black absolute bottom-[0px] right-[20px]">
-                  {" "}
-                  Read more{" "}
-                </Link> */}
               </div>
             </div>
           </div>
