@@ -9,7 +9,7 @@ import Image from "next/image";
 import WrittenContent from "../../WrittenContent";
 import Content from "./Content";
 import { useEffect, useState } from "react";
-import Piclongcard from "@components/Piclongcard";
+import Piclongcard from "./Piclongcard";
 
 const page = () => {
   const [title, setTitle] = useState("");
@@ -30,7 +30,7 @@ const page = () => {
           alt="badag"
           width={800}
           height={800}
-          className="  my-16 w-full h-[60vh]"
+          className="  mt-20 w-full h-[60vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home/ Services/ AR/VR Services</p> */}

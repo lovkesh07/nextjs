@@ -17,7 +17,7 @@ const Piclongcard = () => {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto lg:mx-0">
             <h2
-              className="text-3xl sm:text-5xl lg:text-6xl font-bold"
+              className="text-3xl sm:text-4xl lg:text-5xl font-medium"
               data-aos="fade-up"
             >
               Stay ahead of cyber threat landscape with advanced security strategy and automated security measures

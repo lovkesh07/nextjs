@@ -16,7 +16,7 @@ const AboutUs = () => {
   const [miancontent,setmaincontent] = useState("");
 
   useEffect(() => {
-    setTitle("IT Training and Education:");
+    setTitle("IT Training and Education");
 
     setContent(
       "Stay ahead in the dynamic technology landscape with our training programs and workshops. We empower individuals and organizations with knowledge and skills in software development, cybersecurity, cloud computing, and data analytics. Our comprehensive training offerings ensure you stay up-to-date with the latest trends."

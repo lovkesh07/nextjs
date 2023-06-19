@@ -14,7 +14,7 @@ const Piclongcard = () => {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto lg:mx-0">
             <h2
-              className="text-3xl sm:text-5xl lg:text-6xl font-bold"
+              className="text-3xl sm:text-4xl lg:text-6xl font-medium"
               data-aos="fade-up"
             >
               Managed IT support services include 24x7x365 proactive monitoring,

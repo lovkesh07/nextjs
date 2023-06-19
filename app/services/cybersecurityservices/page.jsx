@@ -33,7 +33,7 @@ const AboutUs = () => {
           alt="badag"
           width={800}
           height={800}
-          className=" w-full h-[70vh]"
+          className=" w-full h-[60vh] mt-20"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home/ Services/ Cybersecurity Services</p> */}

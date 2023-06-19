@@ -27,7 +27,7 @@ const Piclongcard = () => {
             {people.map((person) => (
               <li key={person.name} data-aos="fade-up">
                 <img
-                  className="aspect-[14/13] w-full h-[60vh] rounded-2xl object-fit"
+                  className="aspect-[14/13] w-full lg:h-[80vh] rounded-2xl object-fit"
                   src={person.imageUrl}
                   alt=""
                   // data-aos="fade-up" data-aos-duration="1500"
