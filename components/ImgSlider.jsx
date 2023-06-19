@@ -10,6 +10,7 @@ import Slide1 from "@assets/img1.jpg";
 import Slide2 from "@assets/hero2.webp";
 import Slide3 from "@assets/hero3.jpg";
 import Slide4 from "@assets/hero4.jpg";
+import Silk from "@assets/silkimg.jpg"
 
 import Link from "next/link";
 import Image from "next/image";
@@ -17,6 +18,7 @@ import Image from "next/image";
 const ImgSlider = () => {
   const settings = {
     dots: true,
+    fade: true,
     infinite: true,
     speed: 700,
     slidesToShow: 1,
@@ -82,8 +84,9 @@ const ImgSlider = () => {
   `;
 
   return (
-    <div className="">
-      <Carousel {...settings} className=" -z-0">
+    <div className=" w-full h-full relative">
+      <Image src={Silk} className=" w-full h-full object-cover -z-10 absolute top-0 left-0" alt="badag" />
+      <Carousel {...settings} className=" -z-0 absolute top-0 left-0">
         <Wrap className="relative">
           <div className=" absolute  top-[50%] translate-y-[-50%] text-white w-full text-left p-5">
             <div className="">
@@ -102,7 +105,7 @@ const ImgSlider = () => {
             </div>
           </div>
 
-          <Image src={Slide1} alt="badag" />
+          {/* <Image src={Silk} alt="badag" /> */}
         </Wrap>
 
         <Wrap className=" relative">
@@ -122,7 +125,7 @@ const ImgSlider = () => {
               </Link>
             </div>
           </div>
-          <Image src={Slide2} />
+          {/* <Image src={Silk} /> */}
         </Wrap>
 
         <Wrap className="relative">
@@ -145,7 +148,7 @@ const ImgSlider = () => {
               </Link>
             </div>
           </div>
-          <Image src={Slide3} alt="badging" />
+          {/* <Image src={Silk} alt="badging" /> */}
         </Wrap>
 
         <Wrap className="relative">
@@ -165,7 +168,7 @@ const ImgSlider = () => {
               </Link>
             </div>
           </div>
-          <Image src={Slide4} alt="scale" />
+          {/* <Image src={Silk} alt="scale" /> */}
         </Wrap>
       </Carousel>
     </div>
