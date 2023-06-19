@@ -1,8 +1,13 @@
 import React from "react";
 import Cards from "@components/Card";
 import Longcard from "@components/Longcard";
+<<<<<<< HEAD
 // import Sponser from "@components/Sponsor";
 // import ImgSlider from "@components/ImgSlider";
+=======
+import Sponser from "@components/Sponsor";
+import ImgSlider from "@components/ImgSlider";
+>>>>>>> 25fa52696092898cebacade8f4f60b94daea4e1b
 import Ourmission from "@components/Ourmission";
 // import Testimonialpg from "@components/Testimonialpg";
 import AnimationSlider from "@components/AnimationSlider";
@@ -11,8 +16,8 @@ import AnimationSlider from "@components/AnimationSlider";
 const home = () => {
   return (
     <main>
-      {/* <ImgSlider /> */}
-      <AnimationSlider/>
+      <ImgSlider />
+      {/* <AnimationSlider/> */}
       <Cards />
       <Ourmission />
       
