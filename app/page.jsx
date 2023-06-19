@@ -111,11 +111,11 @@ const home = () => {
           );
         })}
       </div>
-      <div className=" w-full h-[50vh] bg-[url('../public/Images/pp.jpg')] bg-fixed bg-top bg-no-repeat flex items-center justify-center"><h1 className=" font-bold text-6xl text-black">Grow With US</h1></div>
+      <div className=" w-full h-[50vh] bg-[url('../public/Images/pp.jpg')] bg-fixed bg-top bg-no-repeat flex items-center justify-center"><h1 className="backdrop-brightness-50 p-8 font-bold text-3xl lg:text-6xl text-slate-200">Grow With US</h1></div>
 
       <Ourmission />
       <AnimationSlider/>
-      <div className=" w-full h-[50vh] bg-[url('../public/Images/pp2.jpg')] bg-fixed bg-top bg-no-repeat flex items-center justify-center"><h1 className=" font-bold text-6xl text-black">Grow With US</h1></div>
+      <div className=" w-full h-[50vh] bg-[url('../public/Images/pp2.jpg')] bg-fixed bg-top bg-no-repeat flex items-center justify-center"><h1 className="backdrop-brightness-50 p-8 font-bold text-3xl lg:text-6xl text-slate-200">Connect With US...</h1></div>
       <Longcard
         a={"200+"}
         b={"Customers including startups and Fortune 500 companies"}
