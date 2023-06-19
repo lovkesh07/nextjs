@@ -106,7 +106,7 @@ const AnimationSlider = () => {
   });
   return (
     <div className=" h-[50vh] w-full bg-gray-200 px-5 flex justify-center items-center">
-      <div className=" relative w-full lg:w-[80%] bg-white h-[90%] rounded-lg border-[1px] border-black border-solid overflow-hiddens overflow-hidden ">
+      <div className=" relative w-full lg:w-[80%] bg-white h-[90%] rounded-lg border-[1px] border-black border-solid  overflow-hidden ">
         <div className=" z-20 w-full text-black px-5">
           <div className=" text w-full absolute top-[50%] translate-y-[-50%] z-20">
             <h1 className=" text-xl sm:text-4xl md:text-6xl font-extrabold">

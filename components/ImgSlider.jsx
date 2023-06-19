@@ -85,7 +85,7 @@ const ImgSlider = () => {
   `;
 
   return (
-    <div className=" w-full h-full relative">
+    <div className=" w-full h-full relative mt-[80px]">
       <Image src={Silk} className=" w-full h-full object-cover -z-10 absolute top-0 left-0" alt="badag" />
       <Carousel {...settings} className=" -z-0 absolute top-0 left-0">
         <Wrap className="relative">
@@ -135,7 +135,7 @@ const ImgSlider = () => {
               <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
                 Dotclu recognised as Leader in
               </h1>
-              <h1 className=" text-3xl my-5  font-extrabold">
+              <h1 className=" text-2xl my-5  font-extrabold">
                 the Zinnov Zones ER&D report,2022
               </h1>
               <p className=" text-xs md:text-sm">
@@ -155,7 +155,7 @@ const ImgSlider = () => {
         <Wrap className="relative">
           <div className=" absolute top-[50%] translate-y-[-50%] text-white w-full text-left p-5">
             <div className="">
-              <h1 className=" text-5xl my-5 md:text-6xl font-extrabold">
+              <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
                 Webby 2023 Honoree
               </h1>
               <p className=" text-xs md:text-sm">
