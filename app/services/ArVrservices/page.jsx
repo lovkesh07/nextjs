@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 // import Slide1 from "@assets/arvr9.jpg";
-import Slide1 from "@assets/arvr99.webp";
+import Slide1 from "@assets/arvrbanner.jpg";
 
 import Image from "next/image";
 // import Sponsor from "./Sponsor";
