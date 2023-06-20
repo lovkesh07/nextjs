@@ -18,7 +18,7 @@ const Ourmission = () => {
             their full potential.
           </p>
         </div>
-
+        <div className=" w-full h-[50vh] bg-[url('../public/Images/LandingPage.gif')] bg-fixed bg-top bg-no-repeat flex items-center justify-center"></div>
         <div className="mx-auto my-12 lg:p-16 ">
           <p className="text-3xl md:text-4xl lg:text-8xl font-bold" data-aos="fade-up">Industries we serve</p>
           <p className="text-2xl py-5 " data-aos="fade-up">

@@ -45,11 +45,12 @@ const AnimationSlider = () => {
     // );
     tl.fromTo(
       ".text",
-      { left: "-200vw" },
+      { left: "-200vw",opacity:0 },
       {
         ease: Power4.easeInOut,
         duration: 3.5,
         left: 0,
+        opacity:1,
         stagger: {
           each: 3.5,
           repeat: -1,
@@ -65,6 +66,7 @@ const AnimationSlider = () => {
         ease: Power4.easeInOut,
         duration: 3.5,
         left: "200vw",
+        opacity:0,
         stagger: {
           each: 3.5,
           repeat: -1,
@@ -105,10 +107,10 @@ const AnimationSlider = () => {
     );
   });
   return (
-    <div className=" h-[50vh] w-full bg-gray-200 px-5 flex justify-center items-center">
-      <div className=" relative w-full lg:w-[80%] bg-white h-[90%] rounded-lg border-[1px] border-black border-solid  overflow-hidden ">
+    <div className=" h-[50vh] w-full my-10 px-5 flex justify-center items-center">
+      <div className=" relative w-full lg:w-[80%] bg-white h-[90%] rounded-lg shadow-xl shadow-gray-500  overflow-hidden ">
         <div className=" z-20 w-full text-black px-5">
-          <div className=" text w-full absolute top-[50%] translate-y-[-50%] z-20">
+          <div className=" text w-full text-center absolute top-[50%] translate-y-[-50%] z-20">
             <h1 className=" text-xl sm:text-4xl md:text-6xl font-extrabold">
               Infinite Possibilities With Technology
             </h1>
@@ -117,7 +119,7 @@ const AnimationSlider = () => {
               help you out
             </p>
           </div>
-          <div className=" text w-full absolute top-[50%] translate-y-[-50%] z-20">
+          <div className=" text w-full text-center absolute top-[50%] translate-y-[-50%] z-20">
             <h1 className=" text-xl sm:text-4xl md:text-6xl font-extrabold">
               Technology Agnostic
             </h1>
@@ -126,7 +128,7 @@ const AnimationSlider = () => {
               technology it takes
             </p>
           </div>
-          <div className=" text w-full absolute top-[50%] translate-y-[-50%] z-20">
+          <div className=" text w-full text-center absolute top-[50%] translate-y-[-50%] z-20">
             <h1 className=" text-xl sm:text-4xl my-5 md:text-6xl font-extrabold">
               Dotclu recognised as Leader in
             </h1>
@@ -138,7 +140,7 @@ const AnimationSlider = () => {
               Business & Technical Requirements
             </p>
           </div>
-          <div className=" text w-full absolute top-[50%] translate-y-[-50%] z-20">
+          <div className=" text w-full text-center absolute top-[50%] translate-y-[-50%] z-20">
             <h1 className=" text-xl sm:text-4xl my-5 md:text-6xl font-extrabold">
               Webby 2023 Honoree
             </h1>

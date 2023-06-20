@@ -85,12 +85,12 @@ const ImgSlider = () => {
   `;
 
   return (
-    <div className=" w-full h-full relative mt-[80px]">
-      <Image
+    <div className=" w-full h-full relative mt-[80px] bg-[url('../public/Images/silkimg.jpg')] bg-fixed bg-center bg-no-repeat">
+      {/* <Image
         src={Silk}
         className=" w-full h-full object-cover -z-10 absolute top-0 left-0"
         alt="badag"
-      />
+      /> */}
       <Carousel {...settings} className=" -z-0 absolute top-0 left-0">
         <Wrap className="relative">
           <div className=" absolute  top-[50%] translate-y-[-50%] text-white w-full text-left p-5">
@@ -156,10 +156,10 @@ const ImgSlider = () => {
               <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
                 Webby 2023 Honoree
               </h1>
-              <p className=" mb-5 text-xs md:text-sm">
+              <p className="text-xs md:text-sm">
                 Globally recognised for Apps,dApps and Data Management
               </p>
-              <p className=" text-xs md:text-sm">Oscar Of Internet</p>
+              <p className=" mb-5 text-xs md:text-sm">Oscar Of Internet</p>
               <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
                 Let's Talk
               </Link>
