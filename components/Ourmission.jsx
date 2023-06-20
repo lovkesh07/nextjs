@@ -23,7 +23,7 @@ const Ourmission = () => {
             their full potential.
           </p>
         </div>
-        <div className=" w-full h-screen bg-[url('../public/Images/LandingPage.gif')] bg-fixed bg-contain bg-top bg-no-repeat flex items-center justify-center"></div>
+        <div className=" w-full h-[80vh] bg-[url('../public/Images/LandingPage.gif')] bg-fixed bg-contain bg-center bg-no-repeat flex items-center justify-center"></div>
         <div className="mx-auto my-12 lg:p-16 ">
           <p
             className="text-3xl md:text-4xl lg:text-8xl font-bold"
