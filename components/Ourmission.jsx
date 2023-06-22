@@ -14,23 +14,26 @@ const Ourmission = () => {
   const router = useRouter();
   return (
     <>
-      <div className=" p-4 lg:p-16">
-        <div className="mx-auto  lg:p-16">
+      <div className="">
+      <div className=" w-full h-fit bg-[url('../public/Images/skyscraper.jpg')] bg-cover bg-fixed bg-top bg-no-repeat flex items-center justify-center">
+
+        <div className=" w-full mx-auto text-black p-8  lg:p-16">
           <p
-            className=" text-3xl md:text-4xl lg:text-8xl font-bold"
+            className="  text-center sm:text-left text-3xl md:text-4xl lg:text-8xl font-bold"
             data-aos="fade-up"
           >
             {" "}
             Our mission
           </p>
-          <p className=" text-2xl py-5" data-aos="fade-up">
+          <p className=" text-center sm:text-left text-2xl py-5" data-aos="fade-up">
             To be the trusted digital partner and drive transformational
             outcomes for our customers, and empower our employees to achieve
             their full potential.
           </p>
         </div>
-        <div className=" w-full h-[80vh] bg-[url('../public/Images/LandingPage.gif')] bg-fixed bg-contain bg-center bg-no-repeat flex items-center justify-center"></div>
-        <div className="mx-auto my-12 lg:p-16 ">
+        </div>
+        {/* <div className=" w-full h-[80vh] bg-[url('../public/Images/LandingPage.gif')] bg-fixed bg-contain bg-center bg-no-repeat flex items-center justify-center"></div> */}
+        <div className="mx-auto my-12 p p-8 md:p-12 lg:p-16 ">
           <p
             className="text-3xl md:text-4xl lg:text-8xl font-bold"
             data-aos="fade-up"
@@ -43,7 +46,7 @@ const Ourmission = () => {
           </p>
         </div>
 
-        <div class="grid grid-cols-1 gap-x-2 gay-y-6 grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 gap-4 p-0 ">
+        <div class="grid grid-cols-1 gap-x-2 gay-y-6 grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 gap-4 p-5 sm:p-16 ">
           <div class="shadow-xl bg-blue-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg row-span-2">
             <Image
               width={500}
@@ -64,7 +67,7 @@ const Ourmission = () => {
               </p>
 
               <Link
-                href=""
+                href="/industries/healthindustry"
                 className=" px-2 py-2 text-black font-bold bg-white hover:bg-slate-100 rounded-md"
               >
                 Read more{" "}
@@ -85,7 +88,7 @@ const Ourmission = () => {
               </p>
 
               <Link
-                href=""
+                href="/industries/retailindustry"
                 className=" px-2 py-2 text-black font-bold bg-white hover:bg-slate-100 rounded-md"
               >
                 Read more{" "}
@@ -113,7 +116,7 @@ const Ourmission = () => {
               </p>
 
               <Link
-                href=""
+                href="/industries/manufacturingindustry"
                 className=" px-2 py-2 text-black font-bold bg-white hover:bg-slate-100 rounded-md"
               >
                 Read more{" "}
@@ -133,7 +136,7 @@ const Ourmission = () => {
               </p>
 
               <Link
-                href=""
+                href="/industries/financeindustry"
                 className=" px-2 py-2 text-black font-bold bg-white hover:bg-slate-100 rounded-md"
               >
                 Read more{" "}
@@ -160,7 +163,7 @@ const Ourmission = () => {
               </p>
 
               <Link
-                href=""
+                href="/industries/educationindustry"
                 className=" px-2 py-2 text-black font-bold bg-white hover:bg-slate-100 rounded-md"
               >
                 Read more{" "}
@@ -188,7 +191,7 @@ const Ourmission = () => {
               </p>
 
               <Link
-                href=""
+                href="/industries/ecommerceindustry"
                 className=" px-2 py-2 text-black font-bold bg-white hover:bg-slate-100 rounded-md"
               >
                 Read more{" "}
@@ -210,7 +213,7 @@ const Ourmission = () => {
               </p>
 
               <Link
-                href=""
+                href="/industries/bankingindustry"
                 className=" px-2 py-2 text-black font-bold bg-white hover:bg-slate-100 rounded-md"
               >
                 Read more{" "}
@@ -237,7 +240,7 @@ const Ourmission = () => {
               </p>
 
               <Link
-                href=""
+                href="/industries/governmentindustry"
                 className=" px-2 py-2 text-black font-bold bg-white hover:bg-slate-100 rounded-md"
               >
                 Read more{" "}

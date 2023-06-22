@@ -17,7 +17,8 @@ import img5 from "../public/Images/its.jpg";
 import img6 from "../public/Images/dataa.jpg";
 import img7 from "../public/Images/te.webp";
 import img8 from "../public/Images/arvr9.jpg";
-
+import gifyy from "../public/Images/LandingPage.gif";
+import Image from "next/image";
 
 const home = () => {
   const content = [
@@ -111,11 +112,18 @@ const home = () => {
           );
         })}
       </div>
-      <div className=" w-full h-[50vh] bg-[url('../public/Images/pp.jpg')] bg-fixed bg-top bg-no-repeat flex items-center justify-center"><h1 className="backdrop-brightness-50 p-8 font-bold text-3xl lg:text-6xl text-slate-200">Grow With US</h1></div>
 
       <Ourmission />
       {/* <AnimationSlider/> */}
-      <div className=" w-full h-[50vh] bg-[url('../public/Images/pp2.jpg')] bg-fixed bg-top bg-no-repeat flex items-center justify-center"><h1 className="backdrop-brightness-50 p-8 font-bold text-3xl lg:text-6xl text-slate-200">Connect With US...</h1></div>
+      <div className=" w-full h-[80vh] flex flex-col items-center justify-around">
+        <span className=" text-6xl font bold text-gray-500 font-bold mb-[-20px]">
+          Connect
+        </span>
+        <Image src={ gifyy } width={500} height={500} />
+        <span className=" text-6xl font bold text-gray-500 font-bold mt-[-20px]">
+          With Us
+        </span>
+      </div>
       <Longcard
         a={"200+"}
         b={"Customers including startups and Fortune 500 companies"}

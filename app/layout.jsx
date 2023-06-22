@@ -71,18 +71,10 @@ const RootLayout = ({ children }) => {
           name: "Our Parteners",
           link: "/About/ourpartners",
         },
-        // {
-        //   name: "Our Leadership",
-        //   link: "/About/leadership",
-        // },
         {
           name: "Investors",
           link: "/About/investor",
         },
-        // {
-        //   name: "Privacy-Policy",
-        //   link: "/About/Privacy-Policy",
-        // },
         {
           name: "Contact Us",
           link: "/About/ContactUs",
@@ -97,36 +89,36 @@ const RootLayout = ({ children }) => {
       title: "Industries",
       module: [
         {
-          name: "AR/VR Services",
-          link: "/industries/ArVrservices",
+          name: "Banking & Finance Industry",
+          link: "/industries/bankingindustry",
         },
         {
-          name: "Cloud Computing",
-          link: "/industries/cloudcomputingsolutions",
+          name: "E-Commerce Industry",
+          link: "/industries/ecommerceindustry",
         },
         {
-          name: "Custom Software Development",
-          link: "/industries/customsoftwaredevelopment",
+          name: "Education Sector",
+          link: "/industries/educationindustry",
         },
         {
-          name: "Cyber Security Services",
-          link: "/industries/cybersecurityservices",
+          name: "Financial Industry",
+          link: "/industries/financeindustry",
         },
         {
-          name: "Data Analytics & Business Intelligence",
-          link: "/industries/DataAnalyticsandBusinessIntelligence",
+          name: "Government Sector",
+          link: "/industries/governmentindustry",
         },
         {
-          name: "IT-Consulting Services",
-          link: "/industries/itconsultingservices",
+          name: "Healthcare Industry",
+          link: "/industries/healthindustry",
         },
         {
-          name: "IT Training and Education Services",
-          link: "/industries/ITTrainingandEducation",
+          name: "Manufacturing Industry",
+          link: "/industries/manufacturingindustry",
         },
         {
-          name: "IT Support and Managed Services",
-          link: "/industries/ITsupport&managedservices",
+          name: "Retail Industry",
+          link: "/industries/retailindustry",
         },
       ],
     },
