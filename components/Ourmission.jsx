@@ -43,8 +43,8 @@ const Ourmission = () => {
           </p>
         </div>
 
-        <div class="grid grid-cols-1 gap-x-2 gay-y-3 grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
-          <div class="shadow-lg bg-blue-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg row-span-2">
+        <div class="grid grid-cols-1 gap-x-2 gay-y-6 grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 gap-4 p-0 ">
+          <div class="shadow-xl bg-blue-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg row-span-2">
             <Image
               width={500}
               height={500}
@@ -72,7 +72,7 @@ const Ourmission = () => {
             </div>
           </div>
 
-          <div class="shadow-lg bg-yellow-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg">
+          <div class="shadow-xl bg-yellow-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg">
             <div className="  p-5 h-[60%]  w-full relative transition-all duration-300">
               <h3 className="  text-lg font-semibold text-center leading-8 tracking-tight text-black">
                 Retail Industry
@@ -94,7 +94,7 @@ const Ourmission = () => {
             </div>
           </div>
 
-          <div class="shadow-lg bg-orange-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg lg:row-span-2">
+          <div class="shadow-xl bg-orange-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg lg:row-span-2">
             <Image
               width={500}
               height={500}
@@ -121,7 +121,7 @@ const Ourmission = () => {
             </div>
           </div>
 
-          <div class="shadow-lg bg-rose-100  text-lg font-bold text-center p-0 rounded-lg">
+          <div class="shadow-xl bg-rose-100  text-lg font-bold text-center p-0 rounded-lg">
             <div className="  p-5 h-[60%]  w-full relative transition-all duration-300">
               <h3 className="  text-lg font-semibold text-center leading-8 tracking-tight text-black">
                 Financial Industry
@@ -141,7 +141,7 @@ const Ourmission = () => {
             </div>
           </div>
 
-          <div class="display flex flex-col lg:flex-row shadow-lg bg-green-100  text-lg font-bold text-center p-0 rounded-lg lg:col-span-3">
+          <div class="display flex flex-col lg:flex-row shadow-xl bg-green-100  text-lg font-bold text-center p-0 rounded-lg lg:col-span-3">
             <Image
               width={500}
               height={500}
@@ -168,7 +168,7 @@ const Ourmission = () => {
             </div>
           </div>
 
-          <div class="shadow-lg bg-slate-200  text-lg font-bold text-center p-0 rounded-lg row-span-6">
+          <div class="shadow-lg bg-slate-200 text-green-500 text-lg font-bold text-center p-0 rounded-lg lg:row-span-2">
             <Image
               width={500}
               height={500}
@@ -194,6 +194,7 @@ const Ourmission = () => {
                 Read more{" "}
               </Link>
             </div>
+
           </div>
 
           <div class="shadow-lg bg-indigo-100  text-lg font-bold text-center p-0 rounded-lg">
@@ -243,6 +244,7 @@ const Ourmission = () => {
               </Link>
 
             </div>
+            
           </div>
         </div>
       </div>
