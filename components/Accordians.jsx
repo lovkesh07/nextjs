@@ -48,152 +48,8 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: "1px solid rgba(0, 0, 0, .125)",
 }));
 
-export default function Accordions({List1}) {
+export default function Accordions({List1,handlenav}) {
   const [expanded, setExpanded] = React.useState("");
-  // const [List1, setList1] = useState([
-  //   {
-  //     title: "Services",
-  //     module: [
-  //       {
-  //         name: "Cloud Computing Solutions",
-  //         link: "/services/cloudcomputingsolutions",
-  //       },
-  //       {
-  //         name: "Custom Software Development",
-  //         link: "/services/customsoftwaredevelopment",
-  //       },
-  //       {
-  //         name: "Cyber Security Services",
-  //         link: "/services/cybersecurityservices",
-  //       },
-  //       {
-  //         name: "Data Analytics & Business Intelligence",
-  //         link: "/services/DataAnalyticsandBusinessIntelligence",
-  //       },
-  //       {
-  //         name: "IT-Consulting Services",
-  //         link: "/services/itconsultingservices",
-  //       },
-  //       {
-  //         name: "IT Training and Education Services",
-  //         link: "/services/ITTrainingandEducation",
-  //       },
-  //       {
-  //         name: "IT Support and Managed Services",
-  //         link: "/services/ITsupport&managedservices",
-  //       },
-  //       {
-  //         name: "AR/VR Services",
-  //         link: "/services/ArVrservices",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "About",
-  //     module: [
-  //       {
-  //         name: "About Us",
-  //         link: "/About/AboutUs",
-  //       },
-  //       {
-  //         name: "Our Parteners",
-  //         link: "/About/ourpartners",
-  //       },
-  //       {
-  //         name: "Our Leadership",
-  //         link: "/About/leadership",
-  //       },
-  //       {
-  //         name: "Investors",
-  //         link: "/About/investor",
-  //       },
-  //       {
-  //         name: "Privacy-Policy",
-  //         link: "/About/Privacy-Policy",
-  //       },
-  //       {
-  //         name: "Contact Us",
-  //         link: "/About/ContactUs",
-  //       },
-  //       {
-  //         name: "Testimonial",
-  //         link: "/About/Testimonials",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "Industries",
-  //     module: [
-  //       {
-  //         name: "AR/VR Services",
-  //         link: "/industries/ArVrservices",
-  //       },
-  //       {
-  //         name: "Cloud Computing",
-  //         link: "/industries/cloudcomputingsolutions",
-  //       },
-  //       {
-  //         name: "Custom Software Development",
-  //         link: "/industries/customsoftwaredevelopment",
-  //       },
-  //       {
-  //         name: "Cyber Security Services",
-  //         link: "/industries/cybersecurityservices",
-  //       },
-  //       {
-  //         name: "Data Analytics & Business Intelligence",
-  //         link: "/industries/DataAnalyticsandBusinessIntelligence"
-  //       },
-  //       {
-  //         name: "Oil,Gas & Mining",
-  //         link: "/industries/oag",
-  //       },
-  //       {
-  //         name: "Energy & Utilities",
-  //         link: "/industries/eau",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "Platforms & Products",
-  //     module: [
-  //       {
-  //         name: "Dotclu4Health",
-  //         link: "/platformandproduct/kellton4health",
-  //       },
-  //       {
-  //         name: "Dotclu4NFT",
-  //         link: "/platformandproduct/kellton4nft",
-  //       },
-  //       {
-  //         name: "Dotclu4Commerce",
-  //         link: "/platformandproduct/kellton4commerce",
-  //       },
-  //       {
-  //         name: "KLGAME",
-  //         link: "/platformandproduct/klgame",
-  //       },
-  //       {
-  //         name: "tHRive",
-  //         link: "/platformandproduct/thrive",
-  //       },
-  //       {
-  //         name: "Optima",
-  //         link: "/platformandproduct/opt",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     title: "Careers",
-  //     module: [
-  //       {
-  //         name: "Career with Us",
-  //         link: "/careers/careerwithus",
-  //       },
-  //     ],
-  //   },
-  // ]);
-
   const handleChange = (panel) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
   };
@@ -226,7 +82,7 @@ export default function Accordions({List1}) {
           >
             {item.module?.map((info, i) => {
               return (
-                <div className=" w-full px-2 py-3 border-b-[1px] border-solid border-black">
+                <div onClick={handlenav} className=" w-full px-2 py-3 border-b-[1px] border-solid border-black">
                   <Link href={info.link}>{info.name}</Link>
                 </div>
               );

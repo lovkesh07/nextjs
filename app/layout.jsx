@@ -131,35 +131,6 @@ const RootLayout = ({ children }) => {
       ],
     },
     {
-      title: "Platforms & Products",
-      module: [
-        {
-          name: "Dotclu4Health",
-          link: "/platformandproduct/kellton4health",
-        },
-        {
-          name: "Dotclu4NFT",
-          link: "/platformandproduct/kellton4nft",
-        },
-        {
-          name: "Dotclu4Commerce",
-          link: "/platformandproduct/kellton4commerce",
-        },
-        {
-          name: "KLGAME",
-          link: "/platformandproduct/klgame",
-        },
-        {
-          name: "tHRive",
-          link: "/platformandproduct/thrive",
-        },
-        {
-          name: "Optima",
-          link: "/platformandproduct/opt",
-        },
-      ],
-    },
-    {
       title: "Careers",
       module: [
         {
