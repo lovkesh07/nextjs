@@ -11,7 +11,7 @@ const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
       >
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto">
-            <div className=" group h-[500px] sm:h-[400px] w-full relative">
+            <div className=" group h-[300px] overflow-hidden sm:h-[400px] w-full relative">
               <div className="  group-hover:blur-sm h-[40%] transition-all duration-300">
                 <Image
                   width={1000}
