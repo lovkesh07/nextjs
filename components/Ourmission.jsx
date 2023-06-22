@@ -141,7 +141,7 @@ const Ourmission = () => {
             </div>
           </div>
 
-          <div class="display flex shadow-lg bg-green-100  text-lg font-bold text-center p-0 rounded-lg lg:col-span-3">
+          <div class="display flex flex-col lg:flex-row shadow-lg bg-green-100  text-lg font-bold text-center p-0 rounded-lg lg:col-span-3">
             <Image
               width={500}
               height={500}
