@@ -24,42 +24,42 @@ const home = () => {
     {
       serviceName: "IT Consulting Services:",
       serviceContent:
-        " Our expert consultants conduct in-depth assessments of your existing IT infrastructure, aligning them with your business objectives. Through our customized recommendations...",
+        " Our expert consultants conduct in-depth assessments of your existing IT infrastructure, aligning them with your business objectives.",
       serviceImg: img1,
       serviceLink: "/services/itconsultingservices",
     },
     {
       serviceName: "Custom Software Development:",
       serviceContent:
-        "With our cutting-edge software development expertise, we create tailored solutions that cater to your unique business requirements. Our skilled developers...",
+        " With our cutting-edge software development expertise, we create tailored solutions that cater to your unique business requirements.",
       serviceImg: img2,
       serviceLink: "/services/customsoftwaredevelopment",
     },
     {
       serviceName: "Cloud Computing Solutions:",
       serviceContent:
-        "Experience the power of cloud technology through our comprehensive range of services. We facilitate seamless migration of your IT infrastructure to the cloud...",
+        "Experience the power of cloud technology through our comprehensive range of services. We facilitate seamless migration of your IT infrastructure.",
       serviceImg: img3,
       serviceLink: "/services/cloudcomputingsolutions",
     },
     {
       serviceName: "Cybersecurity Services:",
       serviceContent:
-        "Safeguarding your digital assets is our top priority. Our cybersecurity solutions include thorough threat assessments, vulnerability scanning...",
+        "Safeguarding your digital assets is our top priority. Our cybersecurity solutions include thorough threat assessments, vulnerability scanning.",
       serviceImg: img4,
       serviceLink: "/services/cybersecurityservices",
     },
     {
       serviceName: "IT Support and Managed Services:",
       serviceContent:
-        "Count on our dedicated support team for prompt assistance and proactive monitoring of your IT infrastructure. We handle troubleshooting, hardware and software issues...",
+        "Count on our dedicated support team for prompt assistance and proactive monitoring of your IT infrastructure. We handle troubleshooting.",
       serviceImg: img5,
       serviceLink: "/services/ITsupport&managedservices",
     },
     {
       serviceName: "Data Analytics and Business Intelligence:",
       serviceContent:
-        "Unlock valuable insights from your data to make informed decisions. Our data analytics and business intelligence solutions employ advanced tools and techniques...",
+        "Unlock valuable insights from your data to make informed decisions. Our data analytics and business intelligence solutions employ advanced.",
       serviceImg: img6,
       serviceLink: "/services/DataAnalyticsandBusinessIntelligence",
     },

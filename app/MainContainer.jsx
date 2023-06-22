@@ -11,8 +11,8 @@ const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
       >
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto">
-            <div className=" group h-[300px] overflow-hidden sm:h-[400px] w-full relative">
-              <div className="  group-hover:blur-sm h-[40%] transition-all duration-300">
+            <div className=" group h-[400px] overflow-hidden w-full relative">
+              <div className="  group-hover:blur-sm h-[50%] transition-all duration-300">
                 <Image
                   width={1000}
                   height={1000}
@@ -30,11 +30,11 @@ const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
                   Read more{" "}
                 </Link>
               </div>
-              <div className=" border-[1px]  border-solid   p-5 h-[60%]  w-full relative transition-all duration-300">
-                <h3 className="  text-lg font-semibold text-center leading-8 tracking-tight text-black">
+              <div className=" border-[1px]  border-solid  p-8 h-[50%]  w-full relative transition-all duration-300">
+                <h3 className="  text-xl font-semibold text-center leading-8 tracking-tight text-black">
                   {serviceName}
                 </h3>
-                <p className=" text-xs sm:text-sm leading-6 text-gray-500 py-5">
+                <p className=" text-xs text-center  leading-6 text-gray-500 py-5">
                   {serviceContent}
                 </p>
               </div>
