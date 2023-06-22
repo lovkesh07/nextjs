@@ -11,7 +11,7 @@ import img from "../public/Images/silkimg.jpg";
 
 import img1 from "../public/Images/itcon.webp";
 import img2 from "../public/Images/csd.png";
-import img3 from "../public/Images/cc.jpg";
+import img3 from "../public/Images/cc2.webp";
 import img4 from "../public/Images/cse.webp";
 import img5 from "../public/Images/its.jpg";
 import img6 from "../public/Images/dataa.jpg";
@@ -25,56 +25,56 @@ const home = () => {
     {
       serviceName: "IT Consulting Services:",
       serviceContent:
-        " Our expert consultants conduct in-depth assessments of your existing IT infrastructure, aligning them with your business objectives.",
+        " Our expert consultants conduct in-depth assessments of your existing IT...",
       serviceImg: img1,
       serviceLink: "/services/itconsultingservices",
     },
     {
       serviceName: "Custom Software Development:",
       serviceContent:
-        " With our cutting-edge software development expertise, we create tailored solutions that cater to your unique business requirements.",
+        " With our cutting-edge software development expertise, we create tailored ...",
       serviceImg: img2,
       serviceLink: "/services/customsoftwaredevelopment",
     },
     {
       serviceName: "Cloud Computing Solutions:",
       serviceContent:
-        "Experience the power of cloud technology through our comprehensive range of services. We facilitate seamless migration of your IT infrastructure.",
+        "Experience the power of cloud technology through our comprehensive range of ...",
       serviceImg: img3,
       serviceLink: "/services/cloudcomputingsolutions",
     },
     {
       serviceName: "Cybersecurity Services:",
       serviceContent:
-        "Safeguarding your digital assets is our top priority. Our cybersecurity solutions include thorough threat assessments, vulnerability scanning.",
+        "Safeguarding your digital assets is our top priority. Our cybersecurity solutions include...",
       serviceImg: img4,
       serviceLink: "/services/cybersecurityservices",
     },
     {
       serviceName: "IT Support and Managed Services:",
       serviceContent:
-        "Count on our dedicated support team for prompt assistance and proactive monitoring of your IT infrastructure. We handle troubleshooting.",
+        "Count on our dedicated support team for prompt assistance and proactive...",
       serviceImg: img5,
       serviceLink: "/services/ITsupport&managedservices",
     },
     {
       serviceName: "Data Analytics and Business Intelligence:",
       serviceContent:
-        "Unlock valuable insights from your data to make informed decisions. Our data analytics and business intelligence solutions employ advanced.",
+        "Unlock valuable insights from your data to make informed decisions...",
       serviceImg: img6,
       serviceLink: "/services/DataAnalyticsandBusinessIntelligence",
     },
     {
       serviceName: "IT Training and Education:",
       serviceContent:
-        "Stay ahead in the dynamic technology landscape with our training programs and workshops. We empower individuals...",
+        "Stay ahead in the dynamic technology landscape with our training programs and...",
       serviceImg: img7,
       serviceLink: "/services/ITTrainingandEducation",
     },
     {
       serviceName: "AR/VR Services:",
       serviceContent:
-        "We offer cutting-edge Augmented Reality (AR) and Virtual Reality (VR) solutions to enhance user experiences and create immersive...",
+        "We offer cutting-edge Augmented Reality (AR) and Virtual Reality (VR) solutions...",
       serviceImg: img8,
       serviceLink: "/services/ArVrservices",
     },
@@ -83,15 +83,15 @@ const home = () => {
   return (
     <main>
       <ImgSlider />
-      <div className=" w-[90%] mx-auto py-5">
+      <div className=" w-[90%] mx-auto py-24">
         <p
-          className=" my-2 pb-4 text-3xl md:text-4xl lg:text-8xl font-bold"
+          className=" my-2 pb-4 text-center text-3xl md:text-4xl lg:text-8xl font-bold"
           data-aos="fade-up"
         >
           Our Services
         </p>
         <p
-          className=" w-[90%] sm:w-[80%] text-lg sm:text-2xl  pb-4"
+          className="  text-lg sm:text-2xl text-center  pb-4"
           data-aos="fade-up"
         >
           We offer a comprehensive range of advanced IT solutions and services

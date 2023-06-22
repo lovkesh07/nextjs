@@ -15,17 +15,17 @@ const Ourmission = () => {
   return (
     <>
       <div className="">
-      <div className=" w-full h-fit bg-[url('../public/Images/skyscraper.jpg')] bg-cover bg-fixed bg-top bg-no-repeat flex items-center justify-center">
+      <div className=" w-full h-fit bg-[url('../public/Images/p1.jpg')] bg-cover bg-fixed bg-top bg-no-repeat flex items-center justify-center">
 
-        <div className=" w-full mx-auto text-black p-8  lg:p-16">
+        <div className=" w-full mx-auto text-white p-8  lg:p-16">
           <p
-            className="  text-center sm:text-left text-3xl md:text-4xl lg:text-8xl font-bold"
+            className="  text-center  text-3xl md:text-4xl lg:text-8xl font-bold"
             data-aos="fade-up"
           >
             {" "}
             Our mission
           </p>
-          <p className=" text-center sm:text-left text-2xl py-5" data-aos="fade-up">
+          <p className=" text-center text-2xl py-5" data-aos="fade-up">
             To be the trusted digital partner and drive transformational
             outcomes for our customers, and empower our employees to achieve
             their full potential.
@@ -33,14 +33,14 @@ const Ourmission = () => {
         </div>
         </div>
         {/* <div className=" w-full h-[80vh] bg-[url('../public/Images/LandingPage.gif')] bg-fixed bg-contain bg-center bg-no-repeat flex items-center justify-center"></div> */}
-        <div className="mx-auto my-12 p p-8 md:p-12 lg:p-16 ">
+        <div className="mx-auto mt-14 p p-8 md:p-12 lg:p-16 ">
           <p
-            className="text-3xl md:text-4xl lg:text-8xl font-bold"
+            className="text-3xl text-center md:text-4xl lg:text-8xl font-bold"
             data-aos="fade-up"
           >
             Industries we serve
           </p>
-          <p className="text-2xl py-5 " data-aos="fade-up">
+          <p className="text-center text-2xl pt-5 pb-5" data-aos="fade-up">
             We revolutionalize industries with the power of tech, to seamlessly
             weave a tapestry of innovation, efficiency, and growth.{" "}
           </p>
