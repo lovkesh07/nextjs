@@ -155,8 +155,6 @@ const Cards = () => {
               ...
             </p>
             <span className="  w-[100%] text-right pr-4 text-white"> Learn more</span>
-
-            
           </div>
         </div>
       </div>
