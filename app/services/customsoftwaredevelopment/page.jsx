@@ -33,7 +33,7 @@ const AboutUs = () => {
           className=" w-full h-[40vh] lg:h-[60vh]  mt-20"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          {/* <p className="text-lg">Home/ Services/ Custom Software Development</p> */}
+          
           <h1 className=" backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
           Financial Industry
           </h1>
