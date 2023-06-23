@@ -39,7 +39,7 @@ const AboutUs = () => {
           Home/ Services/ Data Analytics and Business Intelligence
           </p> */}
           <h1 className="backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
-            Data Analytics and Business Intelligence
+          Education Sector
           </h1>
         </div>
       </div>
