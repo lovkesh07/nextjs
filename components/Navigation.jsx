@@ -7,62 +7,10 @@ import DropDown from "./DropDown";
 import Accordions from "./Accordians";
 import { useRouter } from "next/navigation";
 
-
-const Navbar = ({List1}) => {
+const Navbar = ({ List1 }) => {
   const router = useRouter();
 
   const [navOpen, setnavOpen] = useState(false);
-  const [scrolly, setScroll] = useState(0);
-  const [lastScroll, setLast] = useState(0);
-
-  const navRef = useRef();
-
-  // const navTopcolor = ()=>{
-  //   const nav = document.getElementById("nav");
-
-  //   navOpen?nav.style.background = "#1A374D":nav.style.background = "transparent"
-  // }
-
-  // const navColour = () => {
-  //   const nav = document.getElementById("nav");
-  //   if (scrolly > 100) {
-  //     nav.style.background = "#1A374D";
-  //   } else {
-  //     nav.style.background = "transparent";
-  //   }
-  // };
-
-  // const navPos = () => {
-  //   const nav = document.getElementById("nav");
-
-  //   if (scrolly <= 0) {
-  //     nav.style.transform = "translate3d(0,-100%,0)";
-  //   }
-
-  //   if (scrolly > lastScroll) {
-  //     nav.style.transform = "translate3d(0,-100%,0)";
-  //   } else {
-  //     nav.style.transform = "translate3d(0,0,0)";
-  //   }
-
-  //   setLast(scrolly);
-  // };
-
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      var y = window.scrollY;
-      setScroll(y);
-    });
-  });
-
-  useEffect(() => {
-    // window.addEventListener("scroll", navPos);
-    // window.addEventListener("scroll", navColour);
-    // window.addEventListener("scroll", navTopcolor);
-  });
-
-  // const [List1, setList1] = useState()  #1A374D
-
 
   const handelnav = () => {
     setnavOpen(!navOpen);
@@ -70,10 +18,13 @@ const Navbar = ({List1}) => {
 
   const setnavFalse = () => {
     console.warn("nav-change");
-    return( setnavOpen(false));
-  }
+    return setnavOpen(false);
+  };
   return (
-    <header id="nav" className=" bg-[#000000]  z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white">
+    <header
+      id="nav"
+      className=" bg-[#000000]  z-50 h-[80px] w-screen flex items-center justify-center md:gap-0 lg:gap-5 fixed top-0 left-0  text-white"
+    >
       <div className=" px-3 lg:px-6">
         <span>
           <Link href="/" className=" text-3xl sm:text-5xl ">
@@ -83,7 +34,7 @@ const Navbar = ({List1}) => {
           </Link>
         </span>
       </div>
-      <nav className=" flex w-[100%] justify-start md:justify-around items-center md:px-16 lg:px-24">
+      <nav className=" flex w-[100%] justify-start md:justify-around items-center md:px-0 lg:px-24">
         <ul className=" hidden md:flex md:items-center md:top-0 md:left-0 md:w-[100%] md:text-xs lg:text-sm ">
           {List1.map((item, index) => {
             return (
@@ -96,10 +47,13 @@ const Navbar = ({List1}) => {
             );
           })}
         </ul>
-        <button onClick={() =>
-                    router.push("/About/ContactUs")} className=" hidden sm:mx-8 md:mx-0 sm:block bg-transparent hover:bg-white text-xs sm:text-sm hover:text-black text-white py-2 px-3  md:w-[120px] border-[1px] border-white border-solid transition-all duration-300">Contact Us</button>
+        <button
+          onClick={() => router.push("/About/ContactUs")}
+          className=" mr-8  sm:mx-8 md:mx-5 scale-50 sm:scale-100 lg-mx-0 sm:block bg-transparent hover:bg-white text-xs sm:text-sm hover:text-black text-white py-2 px-3  md:w-[120px] border-[1px] border-white border-solid transition-all duration-300"
+        >
+          Contact Us
+        </button>
         <ul
-          ref={navRef}
           className={
             navOpen
               ? " z-50 py-3 bg-black text-white w-[60%] min-h-screen absolute overflow-y-auto top-[80px] left-0 ease-in duration-500  md:hidden text-center font-bold font-customised1"

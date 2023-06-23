@@ -9,7 +9,7 @@ const OurOffice = () => {
         <p className="text-lg py-2">Our Offices</p>
         <h1 className="text-3xl sm:text-5xl font-bold">We are a global team</h1>
       </div>
-      <Image src={Map} className="w-[280px] mx-auto" />
+      <Image src={Map} className="w-[280px] md:w-full mx-auto" />
 
       <div className=" py-10 sm:p-16">
         <div>
