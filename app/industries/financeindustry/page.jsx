@@ -43,7 +43,7 @@ const page = () => {
           </p>{" "} */}
           <br />
           <h1 className="text-3xl sm:text-5xl font-bold" data-aos="fade-up">
-            Custom Software Development
+          Financial Industry
           </h1>{" "}
         </div>
       </div>

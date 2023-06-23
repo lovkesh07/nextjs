@@ -44,7 +44,7 @@ const page = () => {
           </p>{" "} */}
           <br />
           <h1 className="text-3xl sm:text-5xl font-bold" data-aos="fade-up">
-            Data Analytics and Business Intelligence
+          Education Sector
           </h1>{" "}
           <br />
         </div>

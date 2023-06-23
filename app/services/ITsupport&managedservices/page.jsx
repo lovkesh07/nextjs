@@ -39,7 +39,7 @@ const page = () => {
             Home/ Services/ IT Support & Managed Services{" "}
           </p> */}
           <h1 className="backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
-          Banking and Finance Industry
+            IT Support & Managed Services
           </h1>
         </div>
       </div>

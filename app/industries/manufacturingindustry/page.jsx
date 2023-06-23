@@ -41,7 +41,7 @@ const page = () => {
           {/* <p className="text-lg">Home / Industries / Cyber Security Services</p>{" "} */}
           <br />
           <h1 className="text-3xl sm:text-5xl font-bold" data-aos="fade-up">
-            Cyber Security Services
+          Manufacturing Industry
           </h1>
         </div>
       </div>
