@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import Slide1 from "@assets/img1.jpg";
+import Slide1 from "../../../public/Images/education.jpg";
 import Image from "next/image";
 import Longcard from "@components/Longcard";
 
@@ -43,7 +43,7 @@ const page = () => {
             Home / Industries / Data Analytics and Business Intelligence
           </p>{" "} */}
           <br />
-          <h1 className="text-3xl sm:text-5xl font-bold" data-aos="fade-up">
+          <h1 className="backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
           Education Sector
           </h1>{" "}
           <br />

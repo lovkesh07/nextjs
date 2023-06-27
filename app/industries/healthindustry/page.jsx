@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Slide1 from "@assets/img1.jpg";
+import Slide1 from "../../../public/Images/healthcare.jpg";
 import Image from "next/image";
 import Midsec from "./midsec";
 import WrittenContent2 from "@app/WrittenContent2";
@@ -39,7 +39,7 @@ const page = () => {
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home / Industries / Ar/Vr Services</p> <br /> */}
-          <h1 className="text-3xl sm:text-5xl font-bold" data-aos="fade-up">
+          <h1 className="backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
           Healthcare Industry
           </h1>{" "}
         </div>

@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import Slide1 from "@assets/img1.jpg";
+import Slide1 from "../../../public/Images/manuimg.jpg";
 import Image from "next/image";
 import Longcard from "@components/Longcard";
 import ContactUsForm from "@components/ContactUsForm";
@@ -35,12 +35,12 @@ const page = () => {
           alt="badag"
           width={800}
           height={800}
-          className=" w-full h-[80vh]"
+          className=" w-full h-[80vh] object-bottom"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
           {/* <p className="text-lg">Home / Industries / Cyber Security Services</p>{" "} */}
           <br />
-          <h1 className="text-3xl sm:text-5xl font-bold" data-aos="fade-up">
+          <h1 className="backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
           Manufacturing Industry
           </h1>
         </div>
