@@ -24,10 +24,9 @@ const MainContainer = ({ serviceName, serviceContent, Img, serviceLink }) => {
               <div class=" absolute top-[20%] translate-y-[-20%] left-[50%] translate-x-[-50%] z-10 hidden group-hover:block ">
                 <Link
                   href={serviceLink}
-                  className=" px-5 py-3 text-black font-bold bg-white  border-[1px] border-solid border-white rounded-md"
+                  className=" px-2 py-3 text-xs sm:text-base text-black bg-white  border-[1px] border-solid border-white rounded-md"
                 >
-                  {" "}
-                  Read more{" "}
+                  Read more
                 </Link>
               </div>
               <div className=" border-[1px]  border-solid  p-8 h-[50%]  w-full relative transition-all duration-300">
