@@ -9,7 +9,7 @@ const Industriescontent = () => {
           industry:
         </p>
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
-          Healthcare{" "}
+          E-Commerce{" "}
         </h1>
 
         <ul className=" py-10 w-full sm:w-[90%]">
