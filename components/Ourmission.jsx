@@ -126,7 +126,7 @@ const Ourmission = () => {
           <div class="shadow-xl hover:shadow-gray-500 bg-rose-100  text-lg font-bold text-center p-0 rounded-lg" data-aos="fade-up">
             <div className="  p-5 h-[60%]  w-full relative transition-all duration-300">
               <h3 className="  text-lg font-semibold text-center leading-8 tracking-tight text-black">
-                Financial Industry
+              Insurance Industry
               </h3>
               <p className=" text-xs sm:text-sm leading-6 text-gray-500 py-5">
                 Create secure and scalable software applications for banks and
