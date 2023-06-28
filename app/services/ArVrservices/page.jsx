@@ -29,13 +29,21 @@ const page = () => {
           className="  mt-20 w-[100%] h-[40vh] lg:h-[60vh] object-fit "
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
+<<<<<<< HEAD
           <h1 className="backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
+=======
+          {/* <p className="text-lg">Home/ Services/ AR/VR Services</p> */}
+          <h1
+            className="backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold"
+            data-aos="fade-up"
+          >
+>>>>>>> a94729e7485d5e89966f7e213a008ef73506fe76
             AR/VR Services
           </h1>
         </div>
       </div>
       <WrittenContent title={title} content={content} />
-      <Piclongcard/>
+      <Piclongcard />
       <Content />
     </div>
   );
