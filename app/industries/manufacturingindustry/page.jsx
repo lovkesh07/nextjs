@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import Slide1 from "../../../public/Images/manuimg.jpg";
+import Slide1 from "../../../public/Images/silkimg.jpg";
 import Image from "next/image";
 import Longcard from "@components/Longcard";
 import { useEffect,useState } from "react";
