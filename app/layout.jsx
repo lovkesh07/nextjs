@@ -101,7 +101,7 @@ const RootLayout = ({ children }) => {
           link: "/industries/educationindustry",
         },
         {
-          name: "Financial Industry",
+          name: "Insurance Industry",
           link: "/industries/financeindustry",
         },
         {

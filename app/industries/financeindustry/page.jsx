@@ -23,7 +23,7 @@ const page = () => {
          
           <br />
           <h1 className="backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
-          Financial Industry
+          Insurance Industry
           </h1>{" "}
         </div>
       </div>
