@@ -1,14 +1,8 @@
 import React from "react";
-import Cards from "@components/Card";
 import Longcard from "@components/Longcard";
-// import Sponser from "@components/Sponsor";
 import ImgSlider from "@components/ImgSlider";
 import Ourmission from "@components/Ourmission";
-// import Testimonialpg from "@components/Testimonialpg";
-import AnimationSlider from "@components/AnimationSlider";
 import MainContainer from "./MainContainer";
-import img from "../public/Images/silkimg.jpg";
-
 import img1 from "../public/Images/itcon.webp";
 import img2 from "../public/Images/csd.png";
 import img3 from "../public/Images/cc2.webp";
@@ -115,8 +109,7 @@ const home = () => {
       </div>
 
       <Ourmission />
-      {/* <AnimationSlider/> */}
-      <div className=" w-full h-[80vh] flex flex-col items-center justify-around">
+      <div className=" w-full h-[80vh] flex flex-col items-center justify-around" data-aos="fade-up">
         <span className=" text-6xl font bold text-gray-500 font-bold mb-[-20px]">
           Connect
         </span>

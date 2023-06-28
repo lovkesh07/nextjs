@@ -32,8 +32,7 @@ const Ourmission = () => {
           </p>
         </div>
         </div>
-        {/* <div className=" w-full h-[80vh] bg-[url('../public/Images/LandingPage.gif')] bg-fixed bg-contain bg-center bg-no-repeat flex items-center justify-center"></div> */}
-        <div className="mx-auto mt-14 p p-8 md:p-12 lg:p-16 ">
+        <div className="mx-auto mt-14 p p-8 md:p-12 lg:p-16 " data-aos="fade-up">
           <p
             className="text-3xl text-center md:text-4xl lg:text-8xl font-bold"
             data-aos="fade-up"
@@ -46,8 +45,8 @@ const Ourmission = () => {
           </p>
         </div>
 
-        <div class="grid grid-cols-1 gap-x-2 gay-y-6 grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 gap-4 p-5 sm:p-16 ">
-          <div class="shadow-xl hover:shadow-gray-500 bg-blue-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg row-span-2">
+        <div class="grid grid-cols-1 gap-x-2 gap-y-6 grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 gap-4 p-5 sm:p-16 ">
+          <div class="shadow-xl hover:shadow-gray-500 bg-blue-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg row-span-2" data-aos="fade-up">
             <Image
               width={500}
               height={500}
@@ -75,7 +74,7 @@ const Ourmission = () => {
             </div>
           </div>
 
-          <div class="shadow-xl hover:shadow-gray-500 bg-yellow-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg">
+          <div class="shadow-xl hover:shadow-gray-500 bg-yellow-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg" data-aos="fade-up">
             <div className="  p-5 h-[60%]  w-full relative transition-all duration-300">
               <h3 className="  text-lg font-semibold text-center leading-8 tracking-tight text-black">
                 Retail Industry
@@ -97,7 +96,7 @@ const Ourmission = () => {
             </div>
           </div>
 
-          <div class="shadow-xl hover:shadow-gray-500 bg-orange-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg lg:row-span-2">
+          <div class="shadow-xl hover:shadow-gray-500 bg-orange-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg lg:row-span-2" data-aos="fade-up">
             <Image
               width={500}
               height={500}
@@ -124,7 +123,7 @@ const Ourmission = () => {
             </div>
           </div>
 
-          <div class="shadow-xl hover:shadow-gray-500 bg-rose-100  text-lg font-bold text-center p-0 rounded-lg">
+          <div class="shadow-xl hover:shadow-gray-500 bg-rose-100  text-lg font-bold text-center p-0 rounded-lg" data-aos="fade-up">
             <div className="  p-5 h-[60%]  w-full relative transition-all duration-300">
               <h3 className="  text-lg font-semibold text-center leading-8 tracking-tight text-black">
                 Financial Industry
@@ -144,7 +143,7 @@ const Ourmission = () => {
             </div>
           </div>
 
-          <div class="display flex flex-col lg:flex-row shadow-xl hover:shadow-gray-500 bg-green-100  text-lg font-bold text-center p-0 rounded-lg lg:col-span-3">
+          <div class="display flex flex-col lg:flex-row shadow-xl hover:shadow-gray-500 bg-green-100  text-lg font-bold text-center p-0 rounded-lg lg:col-span-3" data-aos="fade-up">
             <Image
               width={500}
               height={500}
@@ -171,7 +170,7 @@ const Ourmission = () => {
             </div>
           </div>
 
-          <div class="shadow-lg hover:shadow-gray-500 bg-slate-200 text-green-500 text-lg font-bold text-center p-0 rounded-lg lg:row-span-2">
+          <div class="shadow-lg hover:shadow-gray-500 bg-slate-200 text-green-500 text-lg font-bold text-center p-0 rounded-lg lg:row-span-2" data-aos="fade-up">
             <Image
               width={500}
               height={500}
@@ -200,7 +199,7 @@ const Ourmission = () => {
 
           </div>
 
-          <div class="shadow-lg hover:shadow-gray-500 bg-indigo-100  text-lg font-bold text-center p-0 rounded-lg">
+          <div class="shadow-lg hover:shadow-gray-500 bg-indigo-100  text-lg font-bold text-center p-0 rounded-lg" data-aos="fade-up">
             <div className="  p-5 h-[60%]  w-full relative transition-all duration-300">
               <h3 className="  text-lg font-semibold text-center leading-8 tracking-tight text-black">
                 Banking and Finance Industry
@@ -221,7 +220,7 @@ const Ourmission = () => {
             </div>
           </div>
 
-          <div class="shadow-lg hover:shadow-gray-500 bg-red-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg lg:row-span-2">
+          <div class="shadow-lg hover:shadow-gray-500 bg-red-100 text-green-500 text-lg font-bold text-center p-0 rounded-lg lg:row-span-2" data-aos="fade-up">
             <Image
               width={500}
               height={500}
