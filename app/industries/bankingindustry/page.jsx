@@ -3,7 +3,6 @@ import React from "react";
 import Slide1 from "../../../public/Images/banking.webp";
 import Image from "next/image";
 import Longcard from "./longcard";
-import WrittenContent2 from "@app/WrittenContent2";
 import { useEffect, useState } from "react";
 import Industriescontent from "./Industriescontent";
 
@@ -25,19 +24,7 @@ const page = () => {
           </h1>
         </div>
       </div>
-<<<<<<< HEAD
-      <WrittenContent2
-        title={title}
-        content1={content1}
-        content2={content2}
-        head1={head1}
-        head2={head2}
-      />
-=======
       <Industriescontent/>
-
-      {/* <Solution /> */}
->>>>>>> a94729e7485d5e89966f7e213a008ef73506fe76
       <Longcard />
     </div>
   );
