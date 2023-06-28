@@ -17,7 +17,6 @@ const page = () => {
           className=" w-full h-[80vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          {/* <p className="text-lg py-2">Home / Life At Dotclu</p> */}
           <h1 className="text-3xl sm:text-5xl font-bold">
             Chart your growth with us
           </h1>
@@ -41,15 +40,7 @@ const page = () => {
             dynamic world of IT. We are constantly on the lookout for skilled
             professionals who are eager to make a difference, push boundaries,
             and shape the future of technology.
-          </p>{" "}
-          <br />
-          {/* <p className=" text-xl md:text-2xl lg:text-2xl ">
-            At Dotclu, the culture of savoring even the micro successes is
-            taken as a reminder that big results come from baby steps. These
-            accomplishments are cherished and a gateway to many fresh ideas is
-            opened with events like “Kellfesta”, "Confluence" , “Winter Refresh”
-            and many more.
-          </p> */}
+          </p>
         </div>
       </div>
 
@@ -63,20 +54,6 @@ const page = () => {
           {" "}
           Why Work with Us?{" "}
         </p>
-        <br />
-        {/* <div className="text-left lg:text-justify">
-          <p className=" text-xl md:text-2xl lg:text-xl">
-            The training and upskilling practices at Dotclu enable our
-            employees to be future ready by transforming themselves into the
-            next generation of business and technology ready workforce.
-            <br /> We encourage our employees to upskill themselves in
-            technologies of the future like artificial intelligence and machine
-            learning, blockchain, Internet of Things, DevOps and Cloud.
-            Dotcluites receive Industry recognized certifications after
-            completing the same.{" "}
-          </p>{" "}
-        </div> */}
-        
       </div>
 
       <section className="mx-auto p-8 lg:pl-16 ">
@@ -97,7 +74,7 @@ const page = () => {
             </li>
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-4xl my-6 lg:my-6 font-medium">
-               2. Cutting-Edge Technologies: <br />
+                2. Cutting-Edge Technologies: <br />
               </h1>
 
               <p className="border-b-[1px] border-solid border-slate-800">
@@ -110,7 +87,7 @@ const page = () => {
             </li>
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-4xl my-6 lg:my-6 font-medium">
-               3. Professional Growth: <br />
+                3. Professional Growth: <br />
               </h1>
 
               <p className="border-b-[1px] border-solid border-slate-800">
@@ -124,7 +101,7 @@ const page = () => {
 
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-4xl my-6 lg:my-6 font-medium">
-               4. Challenging Projects: <br />
+                4. Challenging Projects: <br />
               </h1>
 
               <p className="border-b-[1px] border-solid border-slate-800">
@@ -137,7 +114,7 @@ const page = () => {
 
             <li className="lg:my-8">
               <h1 className="text-4xl lg:text-4xl my-6 lg:my-6 font-medium">
-               5. Collaborative and Inclusive Culture: <br />
+                5. Collaborative and Inclusive Culture: <br />
               </h1>
 
               <p className="border-b-[1px] border-solid border-slate-800">

@@ -3,9 +3,6 @@ import React from "react";
 import Slide1 from "../../../public/Images/retail.jpg";
 import Image from "next/image";
 import Longcard from "@components/Longcard";
-
-import ContactUsForm from "@components/ContactUsForm";
-import Solution from "./solution";
 import WrittenContent2 from "@app/WrittenContent2";
 import { useEffect,useState } from "react";
 
@@ -40,9 +37,6 @@ const page = () => {
           className=" w-full h-[60vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          {/* <p className="text-lg">
-            Home / Industries / Cloud Computing
-          </p>{" "} */}
           <br />
           <h1 className="backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
           Retail Industry
@@ -50,7 +44,6 @@ const page = () => {
         </div>
       </div>
       <WrittenContent2 title={title} content1={content1} content2={content2} head1={head1} head2={head2} />
-      {/* <Solution /> */}
       <Longcard
         a={"15+"}
         b={"Years of Experience"}

@@ -2,7 +2,6 @@ import React from "react";
 import Slide1 from "@assets/img1.jpg";
 import Image from "next/image";
 import Link from "next/link";
-// import HiArrowLongRight from '@react-icons/fa'
 
 const page = () => {
   return (
@@ -16,7 +15,6 @@ const page = () => {
           className=" w-full h-[80vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          {/* <p className="text-lg py-2">Home/Investors</p> */}
           <h1 className="text-3xl sm:text-5xl font-bold">
             Investor Information
           </h1>

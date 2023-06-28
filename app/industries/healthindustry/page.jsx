@@ -2,7 +2,6 @@
 import React from "react";
 import Slide1 from "../../../public/Images/healthcare.jpg";
 import Image from "next/image";
-import Midsec from "./midsec";
 import WrittenContent2 from "@app/WrittenContent2";
 import { useEffect,useState } from "react";
 import Longcard from "@components/Longcard";
@@ -38,14 +37,12 @@ const page = () => {
           className=" w-full h-[60vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          {/* <p className="text-lg">Home / Industries / Ar/Vr Services</p> <br /> */}
           <h1 className="backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
           Healthcare Industry
           </h1>{" "}
         </div>
       </div>
       <WrittenContent2 title={title} content1={content1} content2={content2} head1={head1} head2={head2} />
-      {/* <Midsec /> */}
       <Longcard
         a={"15+"}
         b={"Years of Experience"}

@@ -3,8 +3,6 @@ import React from "react";
 import Slide1 from "../../../public/Images/banking.webp";
 import Image from "next/image";
 import Longcard from "./longcard";
-import ContactUsForm from "@components/ContactUsForm";
-import Solution from "./solution";
 import WrittenContent2 from "@app/WrittenContent2";
 import { useEffect, useState } from "react";
 
@@ -50,9 +48,7 @@ const page = () => {
         head1={head1}
         head2={head2}
       />
-      {/* <Solution /> */}
       <Longcard />
-      {/* <ContactUsForm /> */}
     </div>
   );
 };

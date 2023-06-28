@@ -2,8 +2,6 @@
 import React from "react";
 import Slide1 from "@assets/ittrain2.jpg";
 import Image from "next/image";
-// import Sponsor from "./Sponsor";
-// import Sectionextra from "./sectionexra";
 import WrittenContent from "../../WrittenContent";
 import Content from "@app/Content";
 import { useState, useEffect } from "react";
@@ -35,7 +33,6 @@ const AboutUs = () => {
           className=" w-full h-[40vh] lg:h-[60vh] mt-20 object-fit"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          {/* <p className="text-lg">Home/ Services/IT Training and Education</p> */}
           <h1 className="backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
             IT Training and Education
           </h1>

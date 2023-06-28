@@ -2,8 +2,6 @@
 import React from "react";
 import Slide1 from "public/Images/custom-software-development.webp";
 import Image from "next/image";
-// import Sponsor from "./Sponsor";
-// import Sectionextra from "./sectionexra";
 import WrittenContent from "../../WrittenContent";
 import Content from '../../Content';
 import { useState,useEffect } from "react";
@@ -33,7 +31,6 @@ const AboutUs = () => {
           className=" w-full h-[40vh] lg:h-[60vh]  mt-20"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          {/* <p className="text-lg">Home/ Services/ Custom Software Development</p> */}
           <h1 className=" backdrop-brightness-50 p-8 text-3xl sm:text-5xl lg:text-6xl font-bold" data-aos="fade-up">
             Custom Software Development
           </h1>

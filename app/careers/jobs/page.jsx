@@ -1,5 +1,4 @@
 import React from 'react'
-import Blogs from './blogs'
 
 const page = () => {
   return (
@@ -31,7 +30,6 @@ const page = () => {
         <p className=' text-lg text-gray-600'>Can’t find a job you’re looking for? Send us your CV and we’ll get in touch.</p>
         <button className=" w-1/2 mx-auto my-3  py-2 px-5 text-white bg-cyan-700 hover:bg-white hover:text-cyan-700  ">Write to us</button>
       </div>
-      {/* <Blogs/> */}
     </div>
   )
 }

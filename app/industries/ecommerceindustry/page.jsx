@@ -3,8 +3,6 @@ import React from "react";
 import Slide1 from "../../../public/Images/e-comm.jpg";
 import Image from "next/image";
 import Longcard from "@components/Longcard";
-import ContactUsForm from "@components/ContactUsForm";
-import Midsec from "./midsec";
 import WrittenContent2 from "@app/WrittenContent2";
 import { useEffect, useState } from "react";
 

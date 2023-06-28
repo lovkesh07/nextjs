@@ -28,7 +28,6 @@ const AboutUs = () => {
           className=" w-full h-[80vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
-          {/* <p className="text-lg">Home/About Us</p> */}
           <h1 className="text-3xl sm:text-5xl font-bold">
             Tracing milestones of our growth
           </h1>
