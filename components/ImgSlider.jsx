@@ -88,7 +88,7 @@ const ImgSlider = () => {
     <div className=" w-full h-full relative mt-[80px]">
       <Image
         src={Silk}
-        className=" h-[60vh] object-cover -z-10 absolute top-0 left-0"
+        className=" w-full h-full object-cover -z-10 absolute top-0 left-0"
         alt="badag"
       />
       <Carousel {...settings} className=" -z-0 absolute top-0 left-0">
