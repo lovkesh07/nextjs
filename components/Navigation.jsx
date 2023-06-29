@@ -51,7 +51,7 @@ const Navbar = ({ List1 }) => {
         <CallIcon
           onClick={() => router.push("/About/ContactUs")}
           fontSize="large"
-          className=" hidden sm:block mr-4 sm:mr-0 cursor-pointer border-white border-[1px] rounded-full p-[2px]"
+          className=" hidden md:block mr-4 sm:mr-0 cursor-pointer border-white border-[1px] rounded-full p-[2px]"
         />
         <ul
           className={
