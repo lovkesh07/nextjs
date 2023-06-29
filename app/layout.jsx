@@ -104,22 +104,22 @@ const RootLayout = ({ children }) => {
           name: "About Us",
           link: "/About/AboutUs",
         },
-        {
-          name: "Our Parteners",
-          link: "/About/ourpartners",
-        },
-        {
-          name: "Investors",
-          link: "/About/investor",
-        },
+        // {
+        //   name: "Our Parteners",
+        //   link: "/About/ourpartners",
+        // },
+        // {
+        //   name: "Investors",
+        //   link: "/About/investor",
+        // },
         {
           name: "Contact Us",
           link: "/About/ContactUs",
         },
-        {
-          name: "Testimonial",
-          link: "/About/Testimonials",
-        },
+        // {
+        //   name: "Testimonial",
+        //   link: "/About/Testimonials",
+        // },
       ],
     },
     {
