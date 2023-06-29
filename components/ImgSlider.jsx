@@ -103,7 +103,7 @@ const ImgSlider = () => {
                 help you out
               </p>
               <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
-                Let's Talk
+                Contact Us
               </Link>
             </div>
           </div>
@@ -122,7 +122,7 @@ const ImgSlider = () => {
                 technology it takes
               </p>
               <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
-                Let's Talk
+                Contact Us
               </Link>
             </div>
           </div>
@@ -143,7 +143,7 @@ const ImgSlider = () => {
                 Business & Technical Requirements
               </p>
               <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
-                Let's Talk
+                Contact Us
               </Link>
             </div>
           </div>
@@ -161,7 +161,7 @@ const ImgSlider = () => {
               </p>
               <p className=" mb-5 text-xs md:text-sm">Oscar Of Internet</p>
               <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
-                Let's Talk
+                Contact Us
               </Link>
             </div>
           </div>

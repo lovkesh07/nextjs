@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
+import CallIcon from '@mui/icons-material/Call';
 import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -47,12 +48,11 @@ const Navbar = ({ List1 }) => {
             );
           })}
         </ul>
-        <button
+        <CallIcon
           onClick={() => router.push("/About/ContactUs")}
-          className=" mr-8  sm:mx-8 md:mx-5 scale-50 sm:scale-100 lg-mx-0 sm:block bg-transparent hover:bg-white text-xs sm:text-sm hover:text-black text-white py-2 px-3  md:w-[120px] border-[1px] border-white border-solid transition-all duration-300"
-        >
-          Contact Us
-        </button>
+          fontSize="large"
+          className=" cursor-pointer border-white border-[1px] rounded-full p-[2px]"
+        />
         <ul
           className={
             navOpen
