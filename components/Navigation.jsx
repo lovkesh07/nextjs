@@ -60,7 +60,7 @@ const Navbar = ({ List1 }) => {
               : " z-50 bg-black text-white w-[60%] h-screen absolute top-[80px] left-[-150%] ease-in duration-500  text-center font-bold font-customised1"
           }
         >
-          <Accordions List1={List1} handelnav={setnavFalse} />
+          <Accordions List1={List1} navOpen={navOpen} setnavFalse={setnavFalse} />
         </ul>
         <div
           onClick={handelnav}

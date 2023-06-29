@@ -48,7 +48,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: "1px solid rgba(0, 0, 0, .125)",
 }));
 
-export default function Accordions({List1,handlenav}) {
+export default function Accordions({List1,navOpen,setnavFalse}) {
   const [expanded, setExpanded] = React.useState("");
   const handleChange = (panel) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
@@ -82,7 +82,7 @@ export default function Accordions({List1,handlenav}) {
           >
             {item.module?.map((info, i) => {
               return (
-                <div onClick={handlenav} className=" w-full px-2 py-3 border-b-[1px] border-solid border-black">
+                <div onClick={setnavFalse} className=" w-full px-2 py-3 border-b-[1px] border-solid border-black">
                   <Link href={info.link}>{info.name}</Link>
                 </div>
               );
