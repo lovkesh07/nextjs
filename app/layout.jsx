@@ -140,7 +140,7 @@ const RootLayout = ({ children }) => {
           <main className={monts.className}>
             <Navigation List1={List1} />
             {children}
-            <Footer />
+            <Footer List1={List1} />
           </main>
         </body>
       </html>
