@@ -86,11 +86,11 @@ const ImgSlider = () => {
 
   return (
     <div className=" w-full h-full relative mt-[80px]">
-      {/* <Image
+      <Image
         src={Silk}
         className=" w-full h-full object-cover -z-10 absolute top-0 left-0"
         alt="badag"
-      /> */}
+      />
       <Carousel {...settings} className=" -z-0 absolute top-0 left-0">
         <Wrap className="relative">
           <div className=" absolute  top-[50%] translate-y-[-50%] text-white w-full text-left p-5">
@@ -108,7 +108,7 @@ const ImgSlider = () => {
             </div>
           </div>
 
-          <Image src={Silk} alt="badag" />
+          {/* <Image src={Silk} alt="badag" /> */}
         </Wrap>
 
         <Wrap className=" relative">
@@ -126,7 +126,7 @@ const ImgSlider = () => {
               </Link>
             </div>
           </div>
-          <Image src={Silk} />
+          {/* <Image src={Silk} /> */}
         </Wrap>
 
         <Wrap className="relative">
@@ -147,7 +147,7 @@ const ImgSlider = () => {
               </Link>
             </div>
           </div>
-          <Image src={Silk} alt="badging" />
+          {/* <Image src={Silk} alt="badging" /> */}
         </Wrap>
 
         <Wrap className="relative">
@@ -165,7 +165,7 @@ const ImgSlider = () => {
               </Link>
             </div>
           </div>
-          <Image src={Silk} alt="scale" />
+          {/* <Image src={Silk} alt="scale" /> */}
         </Wrap>
       </Carousel>
     </div>
