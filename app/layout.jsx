@@ -61,31 +61,6 @@ const RootLayout = ({ children }) => {
       ],
     },
     {
-      title: "About",
-      module: [
-        {
-          name: "About Us",
-          link: "/About/AboutUs",
-        },
-        {
-          name: "Our Parteners",
-          link: "/About/ourpartners",
-        },
-        {
-          name: "Investors",
-          link: "/About/investor",
-        },
-        {
-          name: "Contact Us",
-          link: "/About/ContactUs",
-        },
-        {
-          name: "Testimonial",
-          link: "/About/Testimonials",
-        },
-      ],
-    },
-    {
       title: "Industries",
       module: [
         {
@@ -119,6 +94,31 @@ const RootLayout = ({ children }) => {
         {
           name: "Retail Industry",
           link: "/industries/retailindustry",
+        },
+      ],
+    },
+        {
+      title: "About",
+      module: [
+        {
+          name: "About Us",
+          link: "/About/AboutUs",
+        },
+        {
+          name: "Our Parteners",
+          link: "/About/ourpartners",
+        },
+        {
+          name: "Investors",
+          link: "/About/investor",
+        },
+        {
+          name: "Contact Us",
+          link: "/About/ContactUs",
+        },
+        {
+          name: "Testimonial",
+          link: "/About/Testimonials",
         },
       ],
     },
