@@ -8,7 +8,7 @@ import FooterLinks from "./FooterLinks";
 function Footer({ List1 }) {
   return (
     <>
-      <div className="bg-[#282A3A] h-1/2 w-full flex flex-col justify-around items-center py-16 px-5 md:p-20">
+      <div className="bg-black h-1/2 w-full flex flex-col justify-around items-center py-16 px-5 md:p-20">
         <div className=" px-0 py-5 sm:p-5 ">
           <ul>
             <p className="text-gray-600 font-bold mx-auto text-3xl pb-6">
@@ -26,9 +26,12 @@ function Footer({ List1 }) {
           })}
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center text-center  p-5 bg-[#000000]">
-        <h1 className=" text-white text-sm">
-          ©2023-2024 All rights reserved Dotclu{" "}
+      <div className="flex flex-row justify-center items-center text-center  p-5 bg-black border-t-[1px] border-white">
+        <h1 className=" text-white text-sm mr-[2px]">
+          ©2023-2024
+        </h1>
+        <h1 className=" text-white text-sm hover:text-blue-500">
+          All rights reserved Dotclu{" "}
         </h1>
         <div className=" h-[20px] w-[2px] mx-[12px] bg-white"></div>
         <Link
@@ -36,6 +39,13 @@ function Footer({ List1 }) {
           className=" cursor-pointer text-sm text-blue-500 border-b-[1px] border-blue-500"
         >
           Privacy & Policy
+        </Link>
+        <div className=" h-[20px] w-[2px] mx-[12px] bg-white"></div>
+        <Link
+          href="/term&condition"
+          className=" cursor-pointer text-sm text-blue-500 border-b-[1px] border-blue-500"
+        >
+          Term & Condition
         </Link>
       </div>
     </>

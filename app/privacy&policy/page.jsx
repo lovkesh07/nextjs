@@ -13,7 +13,7 @@ const page = () => {
     setTitle("Privacy Policy");
 
     setContent(
-      "At Dotclu, we are committed to protecting the privacy and security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and store your data when you interact with our website, products, and services. We encourage you to read this policy carefully to understand our practices regarding your personal information."
+      "Please read these Terms and Conditions (Terms) carefully before using the services provided by Dotlu (we,us, or our). These Terms govern your access to and use of our website, products, and services. By accessing or using our services, you agree to be bound by these Terms. If you do not agree with any part of these Terms, please refrain from using our services."
     );
   }, []);
   return (
@@ -186,7 +186,16 @@ const page = () => {
           <p className=" sm:text-lg pl-8 py-3">
             If you have any questions, concerns, or requests regarding our
             Privacy Policy or the handling of your personal information, please
-            contact us at info@dotclu.com.
+            contact us at <span className=" text-blue-500 border-b-[1px] border-transparent hover:border-blue-500 transition-all duration-100 ease-in cursor-pointer">info@dotclu.com.</span>
+          </p>
+        </div>
+      </div>
+      <div className="w-full p-8 sm:p-12 md:p-20">
+        <div>
+          <p className=" sm:text-lg pl-8 py-3">
+            By using our website, products, or services, you signify your
+            acceptance of this Privacy Policy. If you do not agree with this
+            policy, please refrain from using our services.
           </p>
         </div>
       </div>
