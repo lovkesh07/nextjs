@@ -16,16 +16,27 @@ function Footer({ List1 }) {
             </p>
           </ul>
         </div>
-        <div className=" py-5 md:p-5 grid grid-cols-2 w-full gap-5">
-          {List1.map((items,index) => {
-            return (<div key={index} className=" md:mx-auto w-full md:w-[70%]"><FooterLinks title={items.title} list1={items.module}/></div>);
+        <div className=" py-5 md:p-5 grid grid-cols-2 md:grid-cols-4 w-full gap-5">
+          {List1.map((items, index) => {
+            return (
+              <div key={index} className=" md:mx-auto w-full md:w-[70%]">
+                <FooterLinks title={items.title} list1={items.module} />
+              </div>
+            );
           })}
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center text-center  p-5 bg-[#000000]">
-        <h1 className=" text-slate-300 font-semibold">
+      <div className="flex flex-row justify-center items-center text-center  p-5 bg-[#000000]">
+        <h1 className=" text-white text-sm">
           ©2023-2024 All rights reserved Dotclu{" "}
         </h1>
+        <div className=" h-[20px] w-[2px] mx-[12px] bg-white"></div>
+        <Link
+          href="/privacy&policy"
+          className=" cursor-pointer text-sm text-blue-500 border-b-[1px] border-blue-500"
+        >
+          Privacy & Policy
+        </Link>
       </div>
     </>
   );
