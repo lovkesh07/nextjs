@@ -24,8 +24,8 @@ const page = () => {
         <Image
           src={Slide1}
           alt="badag"
-          width={800}
-          height={800}
+          width={2000}
+          height={2000}
           className="  mt-20 w-[100%] h-[40vh] lg:h-[60vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
