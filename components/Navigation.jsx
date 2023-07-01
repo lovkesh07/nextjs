@@ -123,7 +123,7 @@ const Navbar = ({ List1 }) => {
               Message<span className="text-red-500"> *</span>
             </label>
           </div>
-          <div className=" flex flex-col gap-5">
+          <div className=" flex flex-col gap-5 px-5">
             <div className=" flex flex-row items-center gap-1">
               <div>
                 <input type="checkbox" required />
