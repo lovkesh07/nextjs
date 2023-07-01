@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import Longcard from "@components/Longcard";
 import ImgSlider from "@components/ImgSlider";
 import Ourmission from "@components/Ourmission";
@@ -17,6 +18,7 @@ import gifyy from "../public/Images/LandingPage.gif";
 import Image from "next/image";
 
 const home = () => {
+  const [cookie,setCookie] = useState(false);
   const content = [
     {
       serviceName: "IT Consulting Services:",
@@ -85,6 +87,24 @@ const home = () => {
 
   return (
     <main>
+      <div className={cookie? "hidden" : " fixed bottom-[40px] right-[40px] w-[200px] h-[200px] rounded-lg z-50 bg-gray-600 text-white text-xs p-3 flex flex-col items-center justify-around"}>
+        <p>
+          We use cookies to enhance your browsing experience, serve personalized
+          ads or content, and analyze our traffic. By clicking "Accept All", you
+          consent to our use of cookies.{" "}
+          <b className=" text-blue-500 border-b-[1px] border-blue-500">
+            Cookie Policy
+          </b>
+        </p>
+        <div className=" flex flex-row gap-2">
+          <button onClick={()=>{setCookie(true)}} className="bg-transparent w-fit p-1 text-xs rounded-lg border-[1px] border-white">
+            Reject All
+          </button>
+          <button onClick={()=>{setCookie(true)}} className="bg-white text-black w-fit p-1 text-xs rounded-lg">
+            Accept All
+          </button>
+        </div>
+      </div>
       <ImgSlider />
       <div className=" w-[90%] mx-auto py-24">
         <p
@@ -102,7 +122,7 @@ const home = () => {
           Our portfolio includes:
         </p>
       </div>
-      
+
       <div className="py-16 lg:py-16 px-8 w-[100%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5">
         {content.map((service, index) => {
           return (
@@ -118,11 +138,14 @@ const home = () => {
       </div>
 
       <Ourmission />
-      <div className=" w-full h-[80vh] flex flex-col items-center justify-around" data-aos="fade-up">
+      <div
+        className=" w-full h-[80vh] flex flex-col items-center justify-around"
+        data-aos="fade-up"
+      >
         <span className=" text-6xl font bold text-gray-500 font-bold mb-[-20px]">
           Connect
         </span>
-        <Image src={ gifyy } width={500} height={500} />
+        <Image src={gifyy} width={500} height={500} />
         <span className=" text-6xl font bold text-gray-500 font-bold mt-[-20px]">
           With Us
         </span>
