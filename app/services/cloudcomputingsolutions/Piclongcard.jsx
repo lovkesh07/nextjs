@@ -20,7 +20,7 @@ const Piclongcard = () => {
               className="text-3xl sm:text-5xl lg:text-6xl font-bold"
               data-aos="fade-up"
             >
-              Dive Into the Future With Virtual Reality
+              Dive Into the Future With Cloud Computing
             </h2>
           </div>
           <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-1 xl:grid-cols-1">
