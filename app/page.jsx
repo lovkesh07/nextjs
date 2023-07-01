@@ -11,6 +11,8 @@ import img5 from "../public/Images/its.jpg";
 import img6 from "../public/Images/dataa.jpg";
 import img7 from "../public/Images/te.webp";
 import img8 from "../public/Images/arvr9.jpg";
+import img9 from "../public/Images/ai.png";
+
 import gifyy from "../public/Images/LandingPage.gif";
 import Image from "next/image";
 
@@ -71,6 +73,13 @@ const home = () => {
         "We offer cutting-edge Augmented Reality (AR) and Virtual Reality (VR) solutions...",
       serviceImg: img8,
       serviceLink: "/services/ArVrservices",
+    },
+    {
+      serviceName: "Artificial Intelligence and Generative AI:",
+      serviceContent:
+        "We offer cutting-edge Augmented Reality (AR) and Virtual Reality (VR) solutions...",
+      serviceImg: img9,
+      serviceLink: "/services/AI&GenerativeAI",
     },
   ];
 

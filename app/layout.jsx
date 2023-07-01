@@ -58,6 +58,10 @@ const RootLayout = ({ children }) => {
           name: "AR/VR Services",
           link: "/services/ArVrservices",
         },
+        {
+          name: "AI & Generative AI",
+          link: "/services/AI&GenerativeAI",
+        }
       ],
     },
     {
