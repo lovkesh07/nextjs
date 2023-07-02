@@ -1,14 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
-
 const Piclongcard = () => {
   const people = [
     {
       imageUrl:
         "https://www.spec-india.com/wp-content/uploads/2019/10/What-Is-Software-Development-Life-Cycle.png",
     },
-    
   ];
 
   return (
