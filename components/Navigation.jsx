@@ -131,9 +131,9 @@ const Navbar = ({ List1 }) => {
               <span className=" text-black text-xs">
                 {" "}
                 By clicking here, I state that I have read and understood the{" "}
-                <b className=" text-blue-400">Terms and conditions</b> &{" "}
+                <b className=" text-blue-400"><Link href="/term&condition">Terms and conditions</Link></b> &{" "}
                 <b className=" text-blue-400">
-                  Privacy policies of the company
+                  <Link href="/privacy&policy">Privacy policies of the company</Link>
                 </b>
                 <b className=" text-red-500"> *</b>
               </span>
