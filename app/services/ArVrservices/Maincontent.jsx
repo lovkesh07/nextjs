@@ -209,7 +209,7 @@ const Maincontent = () => {
             </div>
           </div>
 
-          <p className="">
+          <p className="py-5">
             we are passionate about harnessing the power of AR and VR to
             revolutionize how businesses engage with their customers, train
             their employees, and showcase their products and services. Our AR/VR
