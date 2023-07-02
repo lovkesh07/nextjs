@@ -4,15 +4,15 @@ const Maincontent = () => {
   const people = [
     {
       imageUrl:
-        "https://www.smartmechatronics.de/fileadmin/_processed_/0/f/csm_Cybersecurity_Engineering_1200x785_577f41624f.jpg",
+        "https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041857.jpg",
     },
     {
       imageUrl:
-        "https://media.istockphoto.com/id/1448403442/photo/digital-background-security-systems-and-data-protection-person-biometrics-identity-by.webp?b=1&s=170667a&w=0&k=20&c=9jZKGTo-0uf1UrV7judNhmPB0NUIm2wM9Pa9zTt3ElY=",
+        "https://media.istockphoto.com/id/1251531453/photo/business-people-meeting-using-calculator-notebook-stock-market-chart-paper-for-analysis-plans.jpg?b=1&s=612x612&w=0&k=20&c=7pYRp6EW8qx_KbiI5Ar43XLWDwmlI2W9q_UqD5YgRGY=",
     },
     {
       imageUrl:
-        "https://img.freepik.com/premium-photo/hacking-attack-internet-security-concept-with-faceless-hackers-hoody-using-laptop-touching-virtual-screen-with-identification-button-blue-background_670147-208.jpg",
+        "https://media.istockphoto.com/id/1267868305/photo/handshake-meeting-of-business-people-and-working-cooperation-in-the-organization.jpg?s=612x612&w=0&k=20&c=VcEjMYR-tzrGm6VRkUgd2FZtJi1WB7xlnB6hCSwsJg4=",
     },
   ];
 

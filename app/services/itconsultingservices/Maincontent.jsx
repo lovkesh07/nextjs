@@ -4,16 +4,13 @@ const Maincontent = () => {
   const people = [
     {
       imageUrl:
-        "https://www.smartmechatronics.de/fileadmin/_processed_/0/f/csm_Cybersecurity_Engineering_1200x785_577f41624f.jpg",
-    },
+"https://images.pexels.com/photos/288477/pexels-photo-288477.jpeg?cs=srgb&dl=pexels-energepiccom-288477.jpg&fm=jpg"    },
     {
       imageUrl:
-        "https://media.istockphoto.com/id/1448403442/photo/digital-background-security-systems-and-data-protection-person-biometrics-identity-by.webp?b=1&s=170667a&w=0&k=20&c=9jZKGTo-0uf1UrV7judNhmPB0NUIm2wM9Pa9zTt3ElY=",
-    },
+"https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uc3VsdGluZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"    },
     {
       imageUrl:
-        "https://img.freepik.com/premium-photo/hacking-attack-internet-security-concept-with-faceless-hackers-hoody-using-laptop-touching-virtual-screen-with-identification-button-blue-background_670147-208.jpg",
-    },
+"https://wallpaperaccess.com/full/2655963.jpg"    },
   ];
 
   return (

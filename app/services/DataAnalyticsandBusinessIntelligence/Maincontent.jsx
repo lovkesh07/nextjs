@@ -1,25 +1,23 @@
 import React from "react";
 
 const Maincontent = () => {
-
   const people = [
     {
       imageUrl:
-        "https://www.smartmechatronics.de/fileadmin/_processed_/0/f/csm_Cybersecurity_Engineering_1200x785_577f41624f.jpg",
+        "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?cs=srgb&dl=pexels-lukas-590022.jpg&fm=jpg",
     },
     {
       imageUrl:
-"https://media.istockphoto.com/id/1448403442/photo/digital-background-security-systems-and-data-protection-person-biometrics-identity-by.webp?b=1&s=170667a&w=0&k=20&c=9jZKGTo-0uf1UrV7judNhmPB0NUIm2wM9Pa9zTt3ElY="    },
+"https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg?cs=srgb&dl=pexels-lukas-669621.jpg&fm=jpg"    },
     {
       imageUrl:
-"https://img.freepik.com/premium-photo/hacking-attack-internet-security-concept-with-faceless-hackers-hoody-using-laptop-touching-virtual-screen-with-identification-button-blue-background_670147-208.jpg"    },
+"https://images.pexels.com/photos/6476574/pexels-photo-6476574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"    },
   ];
 
   return (
     <>
       <div>
         <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
-         
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
             Data Analytics and Business Intelligence Solutions
           </h1>

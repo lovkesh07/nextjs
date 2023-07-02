@@ -5,16 +5,13 @@ const Maincontent = () => {
   const people = [
     {
       imageUrl:
-        "https://www.smartmechatronics.de/fileadmin/_processed_/0/f/csm_Cybersecurity_Engineering_1200x785_577f41624f.jpg",
-    },
+"https://jobgrin.co.in/blog/wp-content/uploads/2020/07/E-learning-Websites-945x945.jpg"    },
     {
       imageUrl:
-        "https://media.istockphoto.com/id/1448403442/photo/digital-background-security-systems-and-data-protection-person-biometrics-identity-by.webp?b=1&s=170667a&w=0&k=20&c=9jZKGTo-0uf1UrV7judNhmPB0NUIm2wM9Pa9zTt3ElY=",
-    },
+"https://img.freepik.com/free-photo/boy-studying-university-library_23-2148844678.jpg"    },
     {
       imageUrl:
-        "https://img.freepik.com/premium-photo/hacking-attack-internet-security-concept-with-faceless-hackers-hoody-using-laptop-touching-virtual-screen-with-identification-button-blue-background_670147-208.jpg",
-    },
+"https://png.pngtree.com/thumb_back/fh260/background/20220523/pngtree-online-education-video-tutorial-study-image_1392046.jpg"    },
   ];
 
   return (
