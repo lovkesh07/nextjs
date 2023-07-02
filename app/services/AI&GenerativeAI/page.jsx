@@ -6,6 +6,7 @@ import WrittenContent from "../../WrittenContent";
 import Content from "./Content";
 import { useEffect, useState } from "react";
 import Piclongcard from "./Piclongcard";
+import Maincontent from "./Maincontent";
 
 const page = () => {
   const [title, setTitle] = useState("");
@@ -22,10 +23,10 @@ const page = () => {
     <div className="">
       <div className="relative bg-center ">
         <Image
-          src={Slide1}
+          src="https://cdn.clickworker.com/wp-content/uploads/2022/09/BenefitsofAI.webp"
           alt="badag"
-          width={2000}
-          height={2000}
+          width={800}
+          height={800}
           className="  mt-20 w-[100%] h-[40vh] lg:h-[60vh]"
         />
         <div className=" absolute top-[50%] translate-y-[-50%] text-white px-10 md:px-16">
@@ -38,9 +39,11 @@ const page = () => {
           </h1>
         </div>
       </div>
-      <WrittenContent title={title} content={content} />
-      {/* <Piclongcard /> */}
-      <Content />
+      <Maincontent/>
+
+      {/* <WrittenContent title={title} content={content} /> */}
+      <Piclongcard />
+      {/* <Content /> */}
     </div>
   );
 };

@@ -57,15 +57,15 @@ const Maincontent = () => {
               Custom Software Development:
             </h1>
 
-            <div className=" py-5 md:px-16 w-full flex flex-col md:flex-row gap-8">
-              <div className=" w-full md:w-[40%] h-full my-auto">
+            <div className=" py-5 md:px-16 w-full ">
+              {/* <div className=" w-full md:w-[40%] h-full my-auto">
                 <img
                   className="aspect-[14/13] w-full object-cover rounded-2xl"
                   src="https://wallpaperaccess.com/full/4391662.jpg"
                   alt=""
                 />
-              </div>
-              <div className="w-full md:w-[60%]">
+              </div> */}
+              <div className="w-full ">
                 <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">

@@ -34,22 +34,8 @@ const Maincontent = () => {
             today's fast-paced digital landscape.
           </p>
 
-          <div className=" my-16 mt-4 lg:mt-6">
-            {/* <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          
-          <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2 xl:grid-cols-3">
-            {people.map((person) => (
-              <li key={person.name} data-aos="fade-up">
-                <img
-                  className="aspect-[14/13] w-full h-[60vh] rounded-2xl object-cover"
-                  src={person.imageUrl}
-                  alt=""
-                />
-              </li>
-            ))}
-          </ul>
-        </div> */}
-          </div>
+         
+
           <div>
             <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
               Cloud Infrastructure Solutions:
@@ -58,7 +44,7 @@ const Maincontent = () => {
             <div className=" py-5 md:px-16 w-full  flex flex-col md:flex-row gap-8">
               <div className=" w-full md:w-[40%] h-full my-auto">
                 <img
-                  className="aspect-[14/13] w-full object-cover rounded-2xl"
+                  className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                   src="https://cdn.pixabay.com/photo/2019/06/02/15/38/cloud-computing-4246668_1280.jpg"
                   alt=""
                 />
@@ -115,6 +101,8 @@ const Maincontent = () => {
               </div>
             </div>
           </div>
+
+
           <div>
             <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
               Cloud Application Solutions:
@@ -129,6 +117,7 @@ const Maincontent = () => {
                 />
               </div>
               <div className=" w-full md:w-[60%]">
+
                 <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
@@ -177,6 +166,8 @@ const Maincontent = () => {
                   </p>
                 </div>
               </div>
+
+
             </div>
           </div>
 
@@ -187,7 +178,7 @@ const Maincontent = () => {
             <div className=" py-5 md:px-16 w-full flex flex-col md:flex-row gap-8">
               <div className=" w-full md:w-[40%] h-full my-auto">
                 <img
-                  className="aspect-[14/13] w-full object-cover rounded-2xl"
+                  className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                   src="https://media.istockphoto.com/id/1395551212/vector/cloud-computing-businessman.jpg?s=612x612&w=0&k=20&c=69hKwwpkXxiuC43xkXUXJ3B8EUiEnWsZ3e0m9_Twipc="
                   alt=""
                 />
@@ -245,6 +236,7 @@ const Maincontent = () => {
               </div>
             </div>
           </div>
+
           <div>
             <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
               Cloud Security Solutions:
@@ -253,8 +245,8 @@ const Maincontent = () => {
               <div className=" py-5 md:px-16 w-full flex flex-col md:flex-row-reverse gap-8">
                 <div className=" w-full md:w-[40%] h-full my-auto">
                   <img
-                    className="aspect-[14/13] w-full object-cover rounded-2xl"
-                    src="https://cdn.pixabay.com/photo/2019/06/02/15/38/cloud-computing-4246668_1280.jpg"
+                    className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
+                    src="https://www.novatim.com/wp-content/uploads/2017/11/Template-miniature-article-de-blog-8-1024x671.jpg"
                     alt=""
                   />
                 </div>
@@ -312,6 +304,7 @@ const Maincontent = () => {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </>
