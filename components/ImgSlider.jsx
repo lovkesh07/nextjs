@@ -11,6 +11,7 @@ import Slide2 from "@assets/hero2.webp";
 import Slide3 from "@assets/hero3.jpg";
 import Slide4 from "@assets/hero4.jpg";
 import Silk from "@assets/silkimg.jpg";
+import img1 from "../public/Images/newbg.png"
 
 import Link from "next/link";
 import Image from "next/image";
@@ -87,13 +88,14 @@ const ImgSlider = () => {
   return (
     <div className=" w-full h-full relative mt-[80px]">
       <Image
-        src={Silk}
-        className=" w-full h-full object-cover -z-10 absolute top-0 left-0"
+        src={img1}
+        className=" w-full h-full -z-20 absolute top-0 left-0"
         alt="badag"
       />
+      <div className=" absolute top-0 left-0 bg-black/75 w-full h-full -z-10"></div>
       <Carousel {...settings} className=" -z-0 absolute top-0 left-0">
-        <Wrap className="relative">
-          <div className=" absolute  top-[50%] translate-y-[-50%] text-white w-full text-left p-5">
+        <Wrap className="">
+          <div className=" absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] text-white w-full text-left p-5">
             <div className="">
               <h1 className=" text-2xl sm:text-4xl my-5 md:text-6xl font-extrabold">
                 Infinite Possibilities With Technology
@@ -102,9 +104,9 @@ const ImgSlider = () => {
                 Any challenges in digital and involving use of technology?We can
                 help you out
               </p>
-              <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
+              {/* <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
                 Contact Us
-              </Link>
+              </Link> */}
             </div>
           </div>
 
@@ -121,9 +123,9 @@ const ImgSlider = () => {
                 We dont focus on technologies, we focus on solution whatever
                 technology it takes
               </p>
-              <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
+              {/* <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
                 Contact Us
-              </Link>
+              </Link> */}
             </div>
           </div>
           {/* <Image src={Silk} /> */}
@@ -142,9 +144,9 @@ const ImgSlider = () => {
                 Adjust The Customer's IT Infrastructure To New,Ever Growing
                 Business & Technical Requirements
               </p>
-              <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
+              {/* <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
                 Contact Us
-              </Link>
+              </Link> */}
             </div>
           </div>
           {/* <Image src={Silk} alt="badging" /> */}
@@ -160,9 +162,9 @@ const ImgSlider = () => {
                 Globally recognised for Apps,dApps and Data Management
               </p>
               <p className=" mb-5 text-xs md:text-sm">Oscar Of Internet</p>
-              <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
+              {/* <Link href={"/About/ContactUs"} className=" my-5 text-white bg-transparent border border-white  px-5 py-2 rounded-md">
                 Contact Us
-              </Link>
+              </Link> */}
             </div>
           </div>
           {/* <Image src={Silk} alt="scale" /> */}
