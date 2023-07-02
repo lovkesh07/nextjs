@@ -34,7 +34,6 @@ const Piclongcard = () => {
                   className="aspect-[14/13] w-full h-[60vh] rounded-2xl object-cover"
                   src={person.imageUrl}
                   alt=""
-                  // data-aos="fade-up" data-aos-duration="1500"
                 />
               </li>
             ))}

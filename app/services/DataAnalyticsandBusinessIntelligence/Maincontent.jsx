@@ -1,14 +1,25 @@
 import React from "react";
 
 const Maincontent = () => {
+
+  const people = [
+    {
+      imageUrl:
+        "https://www.smartmechatronics.de/fileadmin/_processed_/0/f/csm_Cybersecurity_Engineering_1200x785_577f41624f.jpg",
+    },
+    {
+      imageUrl:
+"https://media.istockphoto.com/id/1448403442/photo/digital-background-security-systems-and-data-protection-person-biometrics-identity-by.webp?b=1&s=170667a&w=0&k=20&c=9jZKGTo-0uf1UrV7judNhmPB0NUIm2wM9Pa9zTt3ElY="    },
+    {
+      imageUrl:
+"https://img.freepik.com/premium-photo/hacking-attack-internet-security-concept-with-faceless-hackers-hoody-using-laptop-touching-virtual-screen-with-identification-button-blue-background_670147-208.jpg"    },
+  ];
+
   return (
     <>
       <div>
         <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
-          {/* <p className="text-2xl sm:text-4xl md:text-5xl py-5 ">
-          Certainly! Here are some use cases of IT services in the Banking &
-          Insurance industry:
-        </p> */}
+         
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
             Data Analytics and Business Intelligence Solutions
           </h1>
@@ -22,6 +33,22 @@ const Maincontent = () => {
             cutting-edge technologies, we empower organizations to unlock the
             true potential of their data and drive business growth.
           </p>
+
+          <div className=" my-16 mt-4 lg:mt-6">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2 xl:grid-cols-3">
+                {people.map((person) => (
+                  <li key={person.name} data-aos="fade-up">
+                    <img
+                      className="aspect-[14/13] w-full h-[60vh] rounded-2xl object-cover  "
+                      src={person.imageUrl}
+                      alt=""
+                    />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
             Data Analytics Solutions:

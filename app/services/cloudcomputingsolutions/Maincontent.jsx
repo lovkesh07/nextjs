@@ -1,14 +1,25 @@
 import React from "react";
 
 const Maincontent = () => {
+
+  const people = [
+    {
+      imageUrl:
+"https://cdn.pixabay.com/photo/2019/06/02/15/38/cloud-computing-4246668_1280.jpg"    },
+    {
+      imageUrl:
+"https://media.istockphoto.com/id/1395551212/vector/cloud-computing-businessman.jpg?s=612x612&w=0&k=20&c=69hKwwpkXxiuC43xkXUXJ3B8EUiEnWsZ3e0m9_Twipc="    },
+    {
+      imageUrl:
+"https://media.istockphoto.com/id/539224852/vector/business-work.jpg?s=612x612&w=0&k=20&c=KFcLYbHe7w7EphFDYCo9Uqlvhuf2XXi5ySuyATB03SU="    },
+    
+  ];
+
   return (
     <>
       <div>
         <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
-          {/* <p className="text-2xl sm:text-4xl md:text-5xl py-5 ">
-          Certainly! Here are some use cases of IT services in the Banking &
-          Insurance industry:
-        </p> */}
+          
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
             Cloud Computing Solutions
           </h1>
@@ -22,6 +33,23 @@ const Maincontent = () => {
             computing solutions, we empower organizations to stay ahead in
             today's fast-paced digital landscape.
           </p>
+
+          <div className=" my-16 mt-4 lg:mt-6">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          
+          <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2 xl:grid-cols-3">
+            {people.map((person) => (
+              <li key={person.name} data-aos="fade-up">
+                <img
+                  className="aspect-[14/13] w-full h-[60vh] rounded-2xl object-cover"
+                  src={person.imageUrl}
+                  alt=""
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
             Cloud Infrastructure Solutions:
