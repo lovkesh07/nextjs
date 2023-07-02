@@ -6,22 +6,11 @@ import WrittenContent from "../../WrittenContent";
 import Content from "@app/Content";
 import { useState, useEffect } from "react";
 import Piclongcard from "./Piclongcard";
+import Maincontent from "./Maincontent";
 
 
 const AboutUs = () => {
-  const [title, setTitle] = useState("");
-  const [content, setContent] = useState("");
-  const [miancontent,setmaincontent] = useState("");
-
-  useEffect(() => {
-    setTitle("Data Analytics and Business Intelligence");
-
-    setContent(
-        "Unlock valuable insights from your data to make informed decisions. Our data analytics and business intelligence solutions employ advanced tools and techniques to transform raw data into actionable intelligence. Gain a competitive edge and fuel business growth through our expertise."
-    );
-
-    setmaincontent("Extracting valuable insights from your data can drive informed decision-making and give you a competitive edge. Our data analytics and business intelligence services enable you to leverage your data effectively. We employ advanced analytics tools and techniques to process and analyze your data, identifying trends, patterns, and actionable intelligence. Our experts create interactive dashboards, reports, and visualizations that allow you to explore and understand your data easily, helping you make data-driven decisions for improved operational efficiency and strategic planning.")
-  }, []);
+  
   return (
     <div className="">
       <div className="relative object-fit ">
@@ -38,10 +27,13 @@ const AboutUs = () => {
           </h1>
         </div>
       </div>
-      <WrittenContent title={title} content={content} />
+
+      <Maincontent/>
+
+      {/* <WrittenContent title={title} content={content} /> */}
       <Piclongcard/>
 
-      <Content title={"more info"} content={miancontent}/>
+      {/* <Content title={"more info"} content={miancontent}/> */}
 
     </div>
   );

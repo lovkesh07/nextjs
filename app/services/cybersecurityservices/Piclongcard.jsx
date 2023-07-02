@@ -15,14 +15,14 @@ const Piclongcard = () => {
     <>
       <div className=" my-16 mt-16 lg:mt-6">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto lg:mx-0">
+          {/* <div className="mx-auto lg:mx-0">
             <h2
               className="text-3xl sm:text-4xl lg:text-5xl font-medium"
               data-aos="fade-up"
             >
               Stay ahead of cyber threat landscape with advanced security strategy and automated security measures
             </h2>
-          </div>
+          </div> */}
           <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols- xl:grid-cols-1">
             {people.map((person) => (
               <li key={person.name} data-aos="fade-up">
