@@ -6,6 +6,7 @@ import WrittenContent from "../../WrittenContent";
 import Content from "@app/Content";
 import { useState, useEffect } from "react";
 import Piclongcard from "./Piclongcard";
+import Maincontent from "./Maincontent";
 
 
 const page = () => {
@@ -38,10 +39,13 @@ const page = () => {
           </h1>
         </div>
       </div>
-      <WrittenContent title={title} content={content} />
+
+      <Maincontent/>
+
+      {/* <WrittenContent title={title} content={content} /> */}
       <Piclongcard/>
 
-      <Content title={"more info"} content={miancontent}/>
+      {/* <Content title={"more info"} content={miancontent}/> */}
     </div>
   );
 };
