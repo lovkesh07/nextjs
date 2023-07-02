@@ -18,7 +18,6 @@ import gifyy from "../public/Images/LandingPage.gif";
 import Image from "next/image";
 
 const home = () => {
-  const [cookie,setCookie] = useState(false);
   const content = [
     {
       serviceName: "IT Consulting Services:",
@@ -87,24 +86,6 @@ const home = () => {
 
   return (
     <main>
-      <div className={cookie? "hidden" : " fixed bottom-[40px] right-[40px] w-[200px] h-[200px] rounded-lg z-50 bg-gray-600 text-white text-xs p-3 flex flex-col items-center justify-around"}>
-        <p>
-          We use cookies to enhance your browsing experience, serve personalized
-          ads or content, and analyze our traffic. By clicking "Accept All", you
-          consent to our use of cookies.{" "}
-          <b className=" text-blue-500 border-b-[1px] border-blue-500">
-            Cookie Policy
-          </b>
-        </p>
-        <div className=" flex flex-row gap-2">
-          <button onClick={()=>{setCookie(true)}} className="bg-transparent w-fit p-1 text-xs rounded-lg border-[1px] border-white">
-            Reject All
-          </button>
-          <button onClick={()=>{setCookie(true)}} className="bg-white text-black w-fit p-1 text-xs rounded-lg">
-            Accept All
-          </button>
-        </div>
-      </div>
       <ImgSlider />
       <div className=" w-[90%] mx-auto py-24">
         <p
