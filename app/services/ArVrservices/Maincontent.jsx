@@ -54,6 +54,8 @@ const Maincontent = () => {
               </ul>
             </div>
           </div> */}
+
+          
           <div>
             <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
               AR Solutions:
@@ -62,7 +64,7 @@ const Maincontent = () => {
             <div className=" py-5 md:px-16 w-full flex flex-col md:flex-row gap-8">
               <div className=" w-full md:w-[40%] h-full my-auto">
                 <img
-                  className="aspect-[14/13] w-full object-cover rounded-2xl"
+                  className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                   src="https://kit.baliniz.com/virtty/wp-content/uploads/sites/55/2023/05/woman-in-vr-headset-e1686030555215.jpg"
                   alt=""
                 />
@@ -128,7 +130,7 @@ const Maincontent = () => {
             <div className=" py-5 md:px-16 w-full flex flex-col md:flex-row-reverse gap-8">
               <div className=" w-full md:w-[40%] h-full my-auto">
                 <img
-                  className="aspect-[14/13] w-full object-cover rounded-2xl"
+                  className="aspect-[14/13] w-full lg:h-[90vh] object-cover rounded-2xl"
                   src="https://kit.baliniz.com/virtty/wp-content/uploads/sites/55/2023/05/african-girl-adjusting-the-vr-headset--e1686030544477.jpg"
                   alt=""
                 />
