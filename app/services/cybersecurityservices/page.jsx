@@ -31,7 +31,7 @@ const AboutUs = () => {
       {/* <WrittenContent title={title} content={content} /> */}
       <Piclongcard/>
 
-      <Content title={"more info"} content={miancontent}/>
+      {/* <Content title={"more info"} content={miancontent}/> */}
 
     </div>
   );
