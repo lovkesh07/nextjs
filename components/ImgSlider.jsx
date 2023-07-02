@@ -92,7 +92,7 @@ const ImgSlider = () => {
         className=" w-full h-full -z-20 absolute top-0 left-0"
         alt="badag"
       />
-      <div className=" absolute top-0 left-0 bg-black/75 w-full h-full -z-10"></div>
+      <div className=" absolute top-0 left-0 bg-gray-800/75 w-full h-full -z-10"></div>
       <Carousel {...settings} className=" -z-0 absolute top-0 left-0">
         <Wrap className="">
           <div className=" absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] text-white w-full text-left p-5">
