@@ -4,7 +4,7 @@ const Industriescontent = () => {
   return (
     <>
       <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
-        <p className="text-2xl sm:text-4xl md:text-5xl py-5 ">
+        <p className="text-2xl sm:text-4xl md:text-5xl py-5 " data-aos="fade-up">
           Certainly! Here are some use cases of IT services in the Manufacturing
           industry:
         </p>
@@ -13,7 +13,7 @@ const Industriescontent = () => {
         </h1>
 
         <ul className=" py-10 w-full sm:w-[90%]">
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">1.</span>{" "}
             <span className="font-bold text-3xl">
               Internet of Things (IoT) Integration:
@@ -30,7 +30,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">2.</span>{" "}
             <span className="font-bold text-3xl">
               Manufacturing Execution Systems (MES):
@@ -45,7 +45,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">3.</span>{" "}
             <span className="font-bold text-3xl">
               {" "}
@@ -61,7 +61,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">4.</span>{" "}
             <span className="font-bold text-3xl">Digital Twin Technology:</span>
             <br />
@@ -75,7 +75,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">5.</span>{" "}
             <span className="font-bold text-3xl">
               Robotics and Automation:{" "}
@@ -92,7 +92,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">6.</span>
             <span className="font-bold text-3xl">
               Data Analytics and Business Intelligence:
@@ -107,7 +107,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">7.</span>
             <span className="font-bold text-3xl">
               Enterprise Resource Planning (ERP) Systems:
@@ -124,7 +124,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">8.</span>{" "}
             <span className="font-bold text-3xl">
               Augmented Reality (AR) for Training and Maintenance:
@@ -139,7 +139,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">9.</span>{" "}
             <span className="font-bold text-3xl">
               Quality Control and Inspection Systems:
@@ -156,7 +156,7 @@ const Industriescontent = () => {
           </li>
         </ul>
 
-        <p className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+        <p className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
           These use cases demonstrate how IT services can revolutionize
           manufacturing operations, optimize production efficiency, and drive
           innovation in the industry. By embracing technology solutions,

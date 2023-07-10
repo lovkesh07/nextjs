@@ -37,7 +37,7 @@ const page = () => {
       </div>
       <WrittenContent title={title} content={content} />
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">1. Information We Collect:</h1>
           <p className=" text-base sm:text-lg pl-8 py-3">
             We may use the collected information for the following purposes:
@@ -55,7 +55,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">
             2. How We Use Your Information:
           </h1>
@@ -88,7 +88,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">3. Information Sharing:</h1>
           <p className=" sm:text-lg pl-8 py-3">
             We may share your personal information in the following
@@ -116,7 +116,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">4. Data Security:</h1>
           <p className=" sm:text-lg pl-8 py-3">
             We implement appropriate technical and organizational measures to
@@ -142,7 +142,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">
             6. Cookies and Tracking Technologies:
           </h1>
@@ -156,7 +156,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">7. Third-Party Links:</h1>
           <p className=" sm:text-lg pl-8 py-3">
             Our website may contain links to third-party websites, products, or
@@ -168,7 +168,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">
             8. Updates to the Privacy Policy:
           </h1>
@@ -181,7 +181,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">9. Contact Us:</h1>
           <p className=" sm:text-lg pl-8 py-3">
             If you have any questions, concerns, or requests regarding our
@@ -191,7 +191,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <p className=" sm:text-lg pl-8 py-3">
             By using our website, products, or services, you signify your
             acceptance of this Privacy Policy. If you do not agree with this

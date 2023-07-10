@@ -4,7 +4,7 @@ const Industriescontent = () => {
   return (
     <>
       <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
-        <p className="text-2xl sm:text-4xl md:text-5xl py-5 ">
+        <p className="text-2xl sm:text-4xl md:text-5xl py-5 " data-aos="fade-up">
           Certainly! Here are some use cases of IT services in the education
           industry:
         </p>
@@ -13,7 +13,7 @@ const Industriescontent = () => {
         </h1>
 
         <ul className=" py-10 w-full sm:w-[90%]">
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">1.</span>{" "}
             <span className="font-bold text-3xl">
               {" "}
@@ -32,7 +32,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">2.</span>{" "}
             <span className="font-bold text-3xl">
               {" "}
@@ -50,7 +50,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">3.</span>{" "}
             <span className="font-bold text-3xl">
               {" "}
@@ -67,7 +67,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">4.</span>{" "}
             <span className="font-bold text-3xl">
               Personalized Learning and Adaptive Technologies:{" "}
@@ -83,7 +83,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">5.</span>{" "}
             <span className="font-bold text-3xl">
               Education Data Analytics:{" "}
@@ -99,7 +99,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">6.</span>
             <span className="font-bold text-3xl">
               {" "}
@@ -115,7 +115,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">7.</span>
             <span className="font-bold text-3xl">
               Virtual Reality (VR) and Augmented Reality (AR) in Education:
@@ -131,7 +131,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">8.</span>{" "}
             <span className="font-bold text-3xl">
               Collaboration and Communication Tools:
@@ -147,7 +147,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">9.</span>{" "}
             <span className="font-bold text-3xl">
               Student Information Systems (SIS):
@@ -162,7 +162,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">10.</span>{" "}
             <span className="font-bold text-3xl">
               Cybersecurity and Data Privacy:
@@ -179,7 +179,7 @@ const Industriescontent = () => {
           </li>
         </ul>
 
-        <p className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+        <p className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
           These use cases highlight how IT services can transform the education
           industry by enhancing access to quality education, personalizing
           learning experiences, improving administrative efficiency, and

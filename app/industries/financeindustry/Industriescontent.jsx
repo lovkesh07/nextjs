@@ -13,7 +13,7 @@ const Industriescontent = () => {
         </h1>
 
         <ul className=" py-10 w-full sm:w-[90%]">
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">1.</span>{" "}
             <span className="font-bold text-3xl">
               Insurance Policy Management Systems:
@@ -30,7 +30,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">2.</span>{" "}
             <span className="font-bold text-3xl">
               {" "}
@@ -47,7 +47,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">3.</span>{" "}
             <span className="font-bold text-3xl">
               {" "}
@@ -63,7 +63,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">4.</span>{" "}
             <span className="font-bold text-3xl">
               Predictive Analytics for Risk Assessment:{" "}
@@ -78,7 +78,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">5.</span>{" "}
             <span className="font-bold text-3xl">
               Customer Relationship Management (CRM) Systems:
@@ -93,7 +93,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">6.</span>{" "}
             <span className="font-bold text-3xl">Cybersecurity Solutions:</span>
             <br />
@@ -107,7 +107,7 @@ const Industriescontent = () => {
           </li>
         </ul>
 
-        <p className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+        <p className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
           These use cases illustrate how IT services can transform the Banking &
           Insurance industry, enhancing operational efficiency, improving
           customer experiences, and mitigating risks. By leveraging technology

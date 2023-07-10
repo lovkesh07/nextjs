@@ -27,7 +27,7 @@ const page = () => {
         </div>
       </div>
       <Industriescontent/>
-      <Longcard />
+      <Longcard data-aos="fade-up" />
       
     </div>
   );

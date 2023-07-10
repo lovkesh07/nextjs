@@ -4,14 +4,14 @@ const Industriescontent = () => {
   return (
     <>
       <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
-        <p className="text-2xl sm:text-4xl md:text-5xl py-5 ">
+        <p className="text-2xl sm:text-4xl md:text-5xl py-5 " data-aos="fade-up">
           Certainly! Here are additional use cases of IT services in the
           healthcare industry:
         </p>
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">Healthcare </h1>
 
         <ul className=" py-10 w-full sm:w-[90%]">
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">1.</span> <span className="font-bold text-3xl">Decision Support Systems:</span>  <br />
             <p className="py-5">
               {" "}
@@ -24,7 +24,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">2.</span> <span className="font-bold text-3xl"> Health Mobile Applications: </span>
             <br />
             <p className="py-5">
@@ -37,7 +37,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">3.</span> <span className="font-bold text-3xl"> Health Wearables and IoT Devices: </span>
             <br />
             <p className="py-5">
@@ -51,7 +51,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">4.</span> <span className="font-bold text-3xl">Population Health Analytics: </span>
             <br />
             <p className="py-5">
@@ -63,7 +63,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">5.</span> <span className="font-bold text-3xl">Virtual Reality (VR) for Therapy and
             Training: </span>
             <br />
@@ -77,7 +77,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">6.</span><span className="font-bold text-3xl"> Artificial Intelligence (AI) for Medical Imaging:</span>
             <br />
             <p className="py-5">
@@ -89,7 +89,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">7.</span><span className="font-bold text-3xl">Health Data Security and Privacy Solutions:</span>
             
             <br />
@@ -102,7 +102,7 @@ const Industriescontent = () => {
             </p>
           </li>
 
-          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+          <li className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
             <span className="font-bold text-3xl">8.</span> <span className="font-bold text-3xl">Blockchain in Healthcare:</span>
             <br />
             <p className="py-5">
@@ -116,7 +116,7 @@ const Industriescontent = () => {
           </li>
         </ul>
 
-        <p className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+        <p className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
           These additional use cases highlight the broad range of applications
           for IT services in the healthcare industry, enabling advancements in
           patient care, diagnostics, preventive medicine, and operational

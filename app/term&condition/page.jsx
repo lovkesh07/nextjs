@@ -37,7 +37,7 @@ const page = () => {
       </div>
       <WrittenContent title={title} content={content} />
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">1. Intellectual Property</h1>
           <p className=" sm:text-lg pl-8 py-3">
             All content, materials, and intellectual property available on our
@@ -49,7 +49,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">2. Use of Services:</h1>
           <p className=" sm:text-lg pl-8 py-3">
             You may use our services for lawful purposes and in compliance with
@@ -61,7 +61,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">3. User Accounts:</h1>
           <p className=" sm:text-lg pl-8 py-3">
             Some of our services may require you to create a user account. You
@@ -74,7 +74,7 @@ const page = () => {
       </div>
 
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">4. Privacy:</h1>
           <p className=" sm:text-lg pl-8 py-3">
             Your privacy is important to us. Our collection and use of your
@@ -85,7 +85,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">
             5. Third-Party Links and Content:
           </h1>
@@ -99,7 +99,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">
             6. Limitation of Liability:
           </h1>
@@ -113,7 +113,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">7. Indemnification</h1>
           <p className=" sm:text-lg pl-8 py-3">
             You agree to indemnify, defend, and hold harmless Dotclu and its affiliates, officers, directors, employees, and agents
@@ -124,7 +124,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">
             8. Modifications to the Terms:
           </h1>
@@ -138,7 +138,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">
             9. Governing Law and Jurisdiction:
           </h1>
@@ -151,7 +151,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up">
           <h1 className=" font-semibold text-xl">10. Contact Us:</h1>
           <p className=" sm:text-lg pl-8 py-3">
             If you have any questions, concerns, or feedback regarding these
@@ -160,7 +160,7 @@ const page = () => {
         </div>
       </div>
       <div className="w-full p-8 sm:p-12 md:p-20">
-        <div>
+        <div data-aos="fade-up"> 
           <p className=" sm:text-lg pl-8 py-3">
             By using our services, you acknowledge that you have read,
             understood, and agreed to these Terms and Conditions. If you do not
