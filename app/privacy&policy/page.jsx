@@ -186,7 +186,7 @@ const page = () => {
           <p className=" sm:text-lg pl-8 py-3">
             If you have any questions, concerns, or requests regarding our
             Privacy Policy or the handling of your personal information, please
-            contact us at <span className=" text-blue-500 border-b-[1px] border-transparent hover:border-blue-500 transition-all duration-100 ease-in cursor-pointer">info@dotclu.com.</span>
+            contact us at <span className=" text-blue-500 border-b-[1px] border-transparent hover:border-blue-500 transition-all duration-100 ease-in cursor-pointer">info@dotclu.com</span>
           </p>
         </div>
       </div>
