@@ -6,7 +6,7 @@ const Maincontent = () => {
   return (
     <>
       <div>
-        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
+        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20" data-aos="fade-up">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
             Data Analytics and Business Intelligence Solutions
           </h1>
@@ -23,7 +23,7 @@ const Maincontent = () => {
 
           
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Data Analytics Solutions:
             </h1>
 
@@ -32,11 +32,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                   src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?cs=srgb&dl=pexels-lukas-590022.jpg&fm=jpg"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className=" w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Data Exploration and Visualization:
@@ -52,7 +52,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -69,7 +69,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     Prescriptive Analytics:
@@ -89,7 +89,7 @@ const Maincontent = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Business Intelligence Solutions:
             </h1>
 
@@ -98,11 +98,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] lg:h-[70vh] w-full object-cover rounded-2xl"
                   src="https://images.pexels.com/photos/669621/pexels-photo-669621.jpeg?cs=srgb&dl=pexels-lukas-669621.jpg&fm=jpg"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className=" w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Data Warehousing and ETL:
@@ -119,7 +119,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -135,7 +135,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">Self-Service BI:</span>
                   <br />
@@ -153,7 +153,7 @@ const Maincontent = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Data Integration and Management:
             </h1>
             <div className=" py-5 md:px-16 w-full flex flex-col md:flex-row gap-8">
@@ -161,11 +161,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                   src="https://images.pexels.com/photos/6476574/pexels-photo-6476574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className="  w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Data Integration and Consolidation:
@@ -181,7 +181,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -197,7 +197,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     Data Governance and Compliance:
@@ -217,7 +217,7 @@ const Maincontent = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Advanced Analytics and AI:
             </h1>
             <div>
@@ -226,11 +226,11 @@ const Maincontent = () => {
                   <img
                     className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                     src="https://proservices.eliassen.com/wp-content/uploads/2021/02/body_vert_DataAnalytics36.jpg"
-                    alt=""
+                    alt="" data-aos="fade-up"
                   />
                 </div>
                 <div className=" w-full md:w-[60%]">
-                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                     <span className="font-bold text-3xl">1.</span>{" "}
                     <span className="font-bold text-3xl">
                       Machine Learning and AI Solutions:
@@ -246,7 +246,7 @@ const Maincontent = () => {
                     </p>
                   </div>
 
-                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                     <span className="font-bold text-3xl">2.</span>{" "}
                     <span className="font-bold text-3xl">
                       {" "}
@@ -263,7 +263,7 @@ const Maincontent = () => {
                     </p>
                   </div>
 
-                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                     <span className="font-bold text-3xl">3.</span>{" "}
                     <span className="font-bold text-3xl">
                       Big Data Analytics:

@@ -19,12 +19,12 @@ const Maincontent = () => {
   return (
     <>
       <div>
-        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
+        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20 " data-aos="fade-up">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5" >
             Cloud Computing Solutions
           </h1>
 
-          <p className="">
+          <p className="" data-aos="fade-up">
             At Dotclu, we specialize in providing comprehensive IT services in
             the realm of Cloud Computing. Our expert team of cloud architects
             and engineers is dedicated to helping businesses leverage the power
@@ -37,7 +37,7 @@ const Maincontent = () => {
          
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Cloud Infrastructure Solutions:
             </h1>
 
@@ -46,11 +46,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                   src="https://cdn.pixabay.com/photo/2019/06/02/15/38/cloud-computing-4246668_1280.jpg"
-                  alt=""
+                  alt=""  data-aos="fade-up"
                 />
               </div>
-              <div className=" w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+              <div className=" w-full md:w-[60%]" >
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">Cloud Migration:</span>{" "}
                   <br />
@@ -66,7 +66,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -83,7 +83,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     Disaster Recovery and Business Continuity:
@@ -104,7 +104,7 @@ const Maincontent = () => {
 
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Cloud Application Solutions:
             </h1>
 
@@ -113,12 +113,12 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full object-cover rounded-2xl"
                   src="https://media.istockphoto.com/id/539224852/vector/business-work.jpg?s=612x612&w=0&k=20&c=KFcLYbHe7w7EphFDYCo9Uqlvhuf2XXi5ySuyATB03SU="
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className=" w-full md:w-[60%]">
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Platform as a Service (PaaS):
@@ -134,7 +134,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -151,7 +151,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     Cloud-native Development:
@@ -172,7 +172,7 @@ const Maincontent = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Cloud Data Solutions:
             </h1>
             <div className=" py-5 md:px-16 w-full flex flex-col md:flex-row gap-8">
@@ -184,7 +184,7 @@ const Maincontent = () => {
                 />
               </div>
               <div className="  w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Database as a Service (DBaaS):
@@ -201,7 +201,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -218,7 +218,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     Data Warehousing and Data Integration:
@@ -238,7 +238,7 @@ const Maincontent = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Cloud Security Solutions:
             </h1>
             <div>
@@ -251,7 +251,7 @@ const Maincontent = () => {
                   />
                 </div>
                 <div className=" w-full md:w-[60%]">
-                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                     <span className="font-bold text-3xl">1.</span>{" "}
                     <span className="font-bold text-3xl">
                       Cloud Security Assessment:
@@ -268,7 +268,7 @@ const Maincontent = () => {
                     </p>
                   </div>
 
-                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                     <span className="font-bold text-3xl">2.</span>{" "}
                     <span className="font-bold text-3xl">
                       {" "}
@@ -284,13 +284,13 @@ const Maincontent = () => {
                     </p>
                   </div>
 
-                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                     <span className="font-bold text-3xl">3.</span>{" "}
                     <span className="font-bold text-3xl">
                       Cloud Security Monitoring and Incident Response:
                     </span>
                     <br />
-                    <p className="py-5 md:text-sm">
+                    <p className="py-5 md:text-sm" >
                       Our solutions encompass cloud data warehousing and data
                       integration, leveraging platforms like Amazon Redshift,
                       Azure Synapse Analytics, and Google BigQuery. We design

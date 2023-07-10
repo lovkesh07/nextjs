@@ -19,11 +19,8 @@ const Maincontent = () => {
   return (
     <>
       <div>
-        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
-          {/* <p className="text-2xl sm:text-4xl md:text-5xl py-5 ">
-          Certainly! Here are some use cases of IT services in the Banking &
-          Insurance industry:
-        </p> */}
+        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20" data-aos="fade-up">
+         
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
             Cybersecurity Solutions
           </h1>
@@ -38,24 +35,10 @@ const Maincontent = () => {
             of your digital infrastructure.
           </p>
 
-          {/* <div className=" my-16 mt-4 lg:mt-6">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2 xl:grid-cols-3">
-                {people.map((person) => (
-                  <li key={person.name} data-aos="fade-up">
-                    <img
-                      className="aspect-[14/13] w-full h-[60vh] rounded-2xl object-cover  "
-                      src={person.imageUrl}
-                      alt=""
-                    />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div> */}
+      
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Cybersecurity Assessment and Consulting:
             </h1>
 
@@ -64,11 +47,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                   src="https://www.smartmechatronics.de/fileadmin/_processed_/0/f/csm_Cybersecurity_Engineering_1200x785_577f41624f.jpg"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className=" w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Risk Assessment and Vulnerability Analysis:
@@ -85,7 +68,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -102,7 +85,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     Security Policies and Procedures:
@@ -122,7 +105,7 @@ const Maincontent = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Network and Infrastructure Security:
             </h1>
 
@@ -131,11 +114,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] lg:h-[70vh] w-full object-cover rounded-2xl"
                   src="https://media.istockphoto.com/id/1448403442/photo/digital-background-security-systems-and-data-protection-person-biometrics-identity-by.webp?b=1&s=170667a&w=0&k=20&c=9jZKGTo-0uf1UrV7judNhmPB0NUIm2wM9Pa9zTt3ElY="
-                  alt=""
+                  alt=""  data-aos="fade-up"
                 />
               </div>
               <div className=" w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Firewall and Intrusion Detection/Prevention Systems
@@ -153,7 +136,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -168,7 +151,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     Secure Wi-Fi and Network Segmentation:
@@ -187,7 +170,7 @@ const Maincontent = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Application Security:
             </h1>
             <div className=" py-5 md:px-16 w-full flex flex-col md:flex-row gap-8">
@@ -195,11 +178,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                   src="https://img.freepik.com/premium-photo/hacking-attack-internet-security-concept-with-faceless-hackers-hoody-using-laptop-touching-virtual-screen-with-identification-button-blue-background_670147-208.jpg"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className="  w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Web Application Security:
@@ -215,7 +198,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -232,7 +215,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     Security Testing and Code Review:
@@ -252,7 +235,7 @@ const Maincontent = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Data Protection and Privacy:
             </h1>
             <div>
@@ -261,11 +244,11 @@ const Maincontent = () => {
                   <img
                     className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                     src="https://www.cloud-awards.com/wp-content/uploads/2022/11/cybersecurity-scaled.jpeg"
-                    alt=""
+                    alt=""  data-aos="fade-up"
                   />
                 </div>
                 <div className=" w-full md:w-[60%]">
-                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                     <span className="font-bold text-3xl">1.</span>{" "}
                     <span className="font-bold text-3xl">Data Encryption:</span>{" "}
                     <br />
@@ -279,7 +262,7 @@ const Maincontent = () => {
                     </p>
                   </div>
 
-                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                     <span className="font-bold text-3xl">2.</span>{" "}
                     <span className="font-bold text-3xl">
                       {" "}
@@ -295,7 +278,7 @@ const Maincontent = () => {
                     </p>
                   </div>
 
-                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                     <span className="font-bold text-3xl">3.</span>{" "}
                     <span className="font-bold text-3xl">
                       Identity and Access Management (IAM):

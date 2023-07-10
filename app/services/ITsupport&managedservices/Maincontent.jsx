@@ -19,7 +19,7 @@ const Maincontent = () => {
   return (
     <>
       <div>
-        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
+        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20" data-aos="fade-up"> 
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
             IT Support and Managed Services
           </h1>
@@ -34,26 +34,8 @@ const Maincontent = () => {
             your IT needs.
           </p>
 
-          {/* <div className=" my-16 mt-4 lg:mt-6">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2 xl:grid-cols-3">
-                {people.map((person) => (
-                  <li key={person.name} data-aos="fade-up">
-                    <img
-                      className="aspect-[14/13] w-full h-[60vh] rounded-2xl object-cover  "
-                      src={person.imageUrl}
-                      alt=""
-                    />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div> */}
-
-
-
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
             IT Support Services:
 
             </h1>
@@ -63,11 +45,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                   src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041857.jpg"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className=" w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                   Help Desk Support:
@@ -83,7 +65,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -97,7 +79,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                   System Maintenance and Updates:
@@ -125,17 +107,15 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] lg:h-[110vh] w-full object-cover rounded-2xl"
                   src="https://media.istockphoto.com/id/1251531453/photo/business-people-meeting-using-calculator-notebook-stock-market-chart-paper-for-analysis-plans.jpg?b=1&s=612x612&w=0&k=20&c=7pYRp6EW8qx_KbiI5Ar43XLWDwmlI2W9q_UqD5YgRGY="
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className=" w-full md:w-[60%]">
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                   Network Management:
-
-
 
                   </span>{" "}
                   <br />
@@ -145,7 +125,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -157,7 +137,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                   Data Backup and Recovery:
@@ -171,7 +151,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">4.</span>{" "}
                   <span className="font-bold text-3xl">
                   Security Management:
@@ -186,7 +166,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">5.</span>{" "}
                   <span className="font-bold text-3xl">
                   Vendor Management:
@@ -200,7 +180,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">6.</span>{" "}
                   <span className="font-bold text-3xl">
                   IT Asset Management:
@@ -219,7 +199,7 @@ const Maincontent = () => {
             </div>
           </div>
 
-          <p className="">
+          <p className="" data-aos="fade-up">
             At Dotclu, we understand the critical role that IT plays in your
             business success. Our IT support and managed services provide the
             expertise, reliability, and peace of mind you need to focus on your

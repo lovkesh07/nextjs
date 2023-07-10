@@ -9,15 +9,7 @@ import Piclongcard from "./Piclongcard";
 import Maincontent from "./Maincontent";
 
 const page = () => {
-  const [title, setTitle] = useState("");
-  const [content, setContent] = useState("");
-  useEffect(() => {
-    setTitle(" AI and Generative AI Solutions");
 
-    setContent(
-      "At Dotclu, we specialize in providing cutting-edge IT services in the field of Artificial Intelligence (AI) and Generative AI. Our expert team of AI engineers and data scientists are dedicated to helping businesses harness the power of AI to drive innovation, automate processes, and unlock new opportunities. With our comprehensive range of AI solutions, we empower organizations to stay ahead in today's fast-paced digital landscape."
-    );
-  }, []);
 
   return (
     <div className="">

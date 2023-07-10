@@ -19,10 +19,6 @@ const Maincontent = () => {
     <>
       <div>
         <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
-          {/* <p className="text-2xl sm:text-4xl md:text-5xl py-5 ">
-          Certainly! Here are some use cases of IT services in the Banking &
-          Insurance industry:
-        </p> */}
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
             IT Consulting Solutions
           </h1>
@@ -38,24 +34,8 @@ const Maincontent = () => {
             support you at every step of your IT journey.
           </p>
 
-          {/* <div className=" my-16 mt-4 lg:mt-6">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2 xl:grid-cols-3">
-                {people.map((person) => (
-                  <li key={person.name} data-aos="fade-up">
-                    <img
-                      className="aspect-[14/13] w-full h-[60vh] rounded-2xl object-cover  "
-                      src={person.imageUrl}
-                      alt=""
-                    />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div> */}
-
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
             IT Strategy and Roadmap:
 
             </h1>
@@ -65,11 +45,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                   src="https://images.pexels.com/photos/288477/pexels-photo-288477.jpeg?cs=srgb&dl=pexels-energepiccom-288477.jpg&fm=jpg"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className=" w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                   IT Assessment and Alignment:
@@ -83,7 +63,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -97,7 +77,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                   IT Governance and Risk Management:
@@ -114,7 +94,7 @@ const Maincontent = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
             Technology Implementation and Optimization:
 
             </h1>
@@ -124,11 +104,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] lg:h-[80vh] w-full object-cover rounded-2xl"
                   src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uc3VsdGluZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className=" w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                   Technology Selection and Vendor Management:
@@ -142,7 +122,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -154,7 +134,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                   Application Lifecycle Management:
@@ -171,7 +151,7 @@ const Maincontent = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
             IT Security and Risk Management:
 
             </h1>
@@ -179,12 +159,12 @@ const Maincontent = () => {
               <div className=" w-full md:w-[40%] h-full my-auto">
                 <img
                   className="aspect-[14/13] w-full lg:h-[60vh] object-cover rounded-2xl"
-                  src="https://wallpaperaccess.com/full/2655963.jpg"
+                  src="https://wallpaperaccess.com/full/2655963.jpg" data-aos="fade-up"
                   alt=""
                 />
               </div>
               <div className="  w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                   Cybersecurity Strategy and Implementation:
@@ -198,7 +178,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -217,7 +197,7 @@ const Maincontent = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
             IT Project Management:
 
             </h1>
@@ -227,11 +207,11 @@ const Maincontent = () => {
                   <img
                     className="aspect-[14/13] w-full lg:h-[60vh] object-cover rounded-2xl"
                     src="https://www.itarian.com/images/itsm/it-project-management-software.png"
-                    alt=""
+                    alt="" data-aos="fade-up"
                   />
                 </div>
                 <div className=" w-full md:w-[60%]">
-                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                     <span className="font-bold text-3xl">1.</span>{" "}
                     <span className="font-bold text-3xl">Project Planning and Execution:
 </span>{" "}
@@ -242,7 +222,7 @@ const Maincontent = () => {
                     </p>
                   </div>
 
-                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                  <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                     <span className="font-bold text-3xl">2.</span>{" "}
                     <span className="font-bold text-3xl">
                       {" "}
@@ -260,7 +240,7 @@ const Maincontent = () => {
             </div>
           </div>
 
-          <p className="">
+          <p className="" data-aos="fade-up">
             At Dotclu, we are committed to delivering strategic IT consulting
             services that drive innovation, enhance efficiency, and enable
             business growth. Our consultants partner with you to understand your

@@ -18,12 +18,12 @@ const Maincontent = () => {
   return (
     <>
       <div>
-        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
+        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20" data-aos="fade-up">
           {/* <p className="text-2xl sm:text-4xl md:text-5xl py-5 ">
           Certainly! Here are some use cases of IT services in the Banking &
           Insurance industry:
         </p> */}
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5" >
             Software Development Solutions
           </h1>
 
@@ -37,23 +37,8 @@ const Maincontent = () => {
             software applications.
           </p>
 
-          {/* <div className=" my-16 mt-4 lg:mt-6">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2 xl:grid-cols-3">
-                {people.map((person) => (
-                  <li key={person.name} data-aos="fade-up">
-                    <img
-                      className="aspect-[14/13] w-full h-[60vh] rounded-2xl object-cover"
-                      src={person.imageUrl}
-                      alt=""
-                    />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div> */}
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Custom Software Development:
             </h1>
 
@@ -66,7 +51,7 @@ const Maincontent = () => {
                 />
               </div> */}
               <div className="w-full ">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Requirements Analysis and Solution Design:
@@ -83,7 +68,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -99,7 +84,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     Full-Stack Development:
@@ -115,7 +100,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">4.</span>{" "}
                   <span className="font-bold text-3xl">
                     Mobile Application Development:
@@ -131,7 +116,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">5.</span>{" "}
                   <span className="font-bold text-3xl">
                     Web Application Development:
@@ -150,7 +135,7 @@ const Maincontent = () => {
             </div>
           </div>
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Software Integration and APIs:
             </h1>
 
@@ -159,11 +144,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full object-cover rounded-2xl"
                   src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=2000"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className="w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     System Integration:
@@ -179,7 +164,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -199,7 +184,7 @@ const Maincontent = () => {
             </div>
           </div>
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Quality Assurance and Testing:
             </h1>
 
@@ -208,11 +193,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full object-cover rounded-2xl"
                   src="https://media.istockphoto.com/id/1401460590/photo/businessman-working-on-laptop-with-document-management-icon.webp?b=1&s=170667a&w=0&k=20&c=4H439mT0eE_ltwbhV6MNmDNnkyzIVM-D1DQ3qvbI6eE="
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className="w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Quality Assurance and Testing:
@@ -229,7 +214,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -248,7 +233,7 @@ const Maincontent = () => {
             </div>
           </div>
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Maintenance and Support:
             </h1>
 
@@ -256,12 +241,12 @@ const Maincontent = () => {
               <div className=" w-full md:w-[40%] h-full my-auto">
                 <img
                   className="aspect-[14/13] w-full object-cover rounded-2xl"
-                  src="https://wallpaperaccess.com/full/4391662.jpg"
+                  src="https://wallpaperaccess.com/full/4391662.jpg" data-aos="fade-up"
                   alt=""
                 />
               </div>
               <div className="w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Software Maintenance and Upgrades:
@@ -277,7 +262,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -296,7 +281,7 @@ const Maincontent = () => {
             </div>
           </div>
 
-          <p className="py-5">
+          <p className="py-5" data-aos="fade-up">
             At Dotclu, we are committed to delivering software solutions that
             empower businesses, drive innovation, and fuel growth. With our
             extensive expertise in software development, we transform your ideas

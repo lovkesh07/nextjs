@@ -6,7 +6,7 @@ const Maincontent = () => {
   return (
     <>
       <div>
-        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
+        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20" data-aos="fade-up">
          
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
             AI and Generative AI Solutions
@@ -24,7 +24,7 @@ const Maincontent = () => {
 
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               AI Solutions:
             </h1>
 
@@ -33,7 +33,7 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full lg:h-[110vh] object-cover rounded-2xl"
                   src="https://content.api.news/v3/images/bin/5d501caff3e8a4dfbab25bbb1970a900"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className="w-full md:w-[60%]">
@@ -56,7 +56,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -76,7 +76,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -96,7 +96,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">4.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -119,7 +119,7 @@ const Maincontent = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               Generative AI Solutions:
             </h1>
 
@@ -128,11 +128,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                   src="https://www.analyticsinsight.net/wp-content/uploads/2020/09/AI-1.jpg"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className="w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up" >
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Generative Adversarial Networks (GANs):
@@ -150,7 +150,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -167,7 +167,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -185,7 +185,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">4.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -205,7 +205,7 @@ const Maincontent = () => {
             </div>
           </div>
 
-          <p className="py-5">
+          <p className="py-5" data-aos="fade-up">
             At Dotclu, we believe in the transformative power of AI and
             generative AI. Our dedicated team works closely with clients to
             understand their unique challenges and deliver tailored solutions

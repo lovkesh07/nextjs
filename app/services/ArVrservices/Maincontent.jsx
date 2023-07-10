@@ -23,7 +23,7 @@ const Maincontent = () => {
   return (
     <>
       <div>
-        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
+        <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20" data-aos="fade-up">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
             Augmented Reality (AR) and Virtual Reality (VR) Solutions
           </h1>
@@ -39,25 +39,9 @@ const Maincontent = () => {
             product visualization, our AR/VR services have you covered.
           </p>
 
-          {/* <div className=" my-16 mt-4 lg:mt-6">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <ul className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4">
-                {people.map((person) => (
-                  <li key={person.name} data-aos="fade-up">
-                    <img
-                      className="aspect-[14/13] w-full h-[60vh] rounded-2xl object-cover"
-                      src={person.imageUrl}
-                      alt=""
-                    />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div> */}
-
           
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               AR Solutions:
             </h1>
 
@@ -66,11 +50,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full lg:h-[80vh] object-cover rounded-2xl"
                   src="https://kit.baliniz.com/virtty/wp-content/uploads/sites/55/2023/05/woman-in-vr-headset-e1686030555215.jpg"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className=" w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Product Visualization:
@@ -88,7 +72,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">Virtual Try-On:</span>
                   <br />
@@ -103,7 +87,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up"> 
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     Interactive Branding and Advertising:
@@ -123,7 +107,7 @@ const Maincontent = () => {
             </div>
           </div>
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16">
+            <h1 className="text-3xl sm:text-4xl md:text-3xl font-bold py-16" data-aos="fade-up">
               VR Solutions:
             </h1>
 
@@ -132,11 +116,11 @@ const Maincontent = () => {
                 <img
                   className="aspect-[14/13] w-full lg:h-[90vh] object-cover rounded-2xl"
                   src="https://kit.baliniz.com/virtty/wp-content/uploads/sites/55/2023/05/african-girl-adjusting-the-vr-headset--e1686030544477.jpg"
-                  alt=""
+                  alt="" data-aos="fade-up"
                 />
               </div>
               <div className=" w-full md:w-[60%]">
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">1.</span>{" "}
                   <span className="font-bold text-3xl">
                     Immersive Training and Simulations:
@@ -154,7 +138,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">2.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -172,7 +156,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">3.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -190,7 +174,7 @@ const Maincontent = () => {
                   </p>
                 </div>
 
-                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10">
+                <div className="w-full text-base sm:text-xl text-slate-600 pb-4 py-10" data-aos="fade-up">
                   <span className="font-bold text-3xl">4.</span>{" "}
                   <span className="font-bold text-3xl">
                     {" "}
@@ -211,7 +195,7 @@ const Maincontent = () => {
             </div>
           </div>
 
-          <p className="py-5">
+          <p className="py-5" data-aos="fade-up">
             we are passionate about harnessing the power of AR and VR to
             revolutionize how businesses engage with their customers, train
             their employees, and showcase their products and services. Our AR/VR
