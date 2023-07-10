@@ -155,7 +155,7 @@ const page = () => {
           <h1 className=" font-semibold text-xl">10. Contact Us:</h1>
           <p className=" sm:text-lg pl-8 py-3">
             If you have any questions, concerns, or feedback regarding these
-            Terms, please contact us at info@dotclu.com.
+            Terms, please contact us at <span className=" text-blue-500 border-b-[1px] border-transparent hover:border-blue-500 transition-all duration-100 ease-in cursor-pointer">info@dotclu.com</span>
           </p>
         </div>
       </div>

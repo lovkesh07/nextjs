@@ -2,9 +2,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import CallIcon from "@mui/icons-material/Call";
 import Link from "next/link";
+import logo from "../public/Images/dotClu-removebg-preview.png"
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import DropDown from "./DropDown";
+import Image from "next/image";
 import Accordions from "./Accordians";
 import { useRouter } from "next/navigation";
 import CancelIcon from "@mui/icons-material/Cancel";
@@ -147,9 +149,7 @@ const Navbar = ({ List1 }) => {
       <div className=" px-3 lg:px-6">
         <span>
           <Link href="/" className=" text-3xl sm:text-5xl ">
-            <b>.</b>
-            <span className=" text-red-400 font-bold">DOT</span>
-            <span className=" text-red-400">cLU</span>
+           <Image src={logo} height={200} width={200}/>
           </Link>
         </span>
       </div>

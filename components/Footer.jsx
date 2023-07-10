@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import logo from "../public/Images/dotClu-removebg-preview.png"
+import Image from "next/image";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -8,12 +10,12 @@ import FooterLinks from "./FooterLinks";
 function Footer({ List1 }) {
   return (
     <>
-      <div className="bg-black h-1/2 w-full flex flex-col justify-around items-center py-16 px-5 md:p-20">
+      <div className="bg-black h-1/2 w-full flex flex-col justify-around items-center py-16 px-5 md:px-8">
         <div className=" px-0 py-5 sm:p-5 ">
           <ul>
-            <p className="text-gray-600 font-bold mx-auto text-3xl pb-6">
-              .DOT<span className="text-blue-600">cLU</span>
-            </p>
+            <Link href="/" className=" text-3xl sm:text-5xl ">
+              <Image src={logo} height={300} width={300} />
+            </Link>
           </ul>
         </div>
         <div className=" py-5 md:p-5 grid grid-cols-2 md:grid-cols-4 w-full gap-5">
