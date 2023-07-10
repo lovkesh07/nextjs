@@ -10,8 +10,8 @@ import FooterLinks from "./FooterLinks";
 function Footer({ List1 }) {
   return (
     <>
-      <div className="bg-black h-1/2 w-full flex flex-col justify-around items-center py-16 px-5 md:px-8">
-        <div className=" px-0 py-5 sm:p-5 ">
+      <div className="bg-black h-1/2 w-full flex flex-col justify-around items-center py-4 px-5 md:px-8">
+        <div className=" px-0 py-0 sm:p-2 ">
           <ul>
             <Link href="/" className=" text-3xl sm:text-5xl ">
               <Image src={logo} height={300} width={300} />
