@@ -5,6 +5,7 @@ import Navigation from "@components/Navigation";
 import "@styles/global.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import logo from "../public/Images/favicon.ico";
 import { Montserrat, Poppins } from "@next/font/google";
 
 const monts = Montserrat({
@@ -146,6 +147,7 @@ const RootLayout = ({ children }) => {
   return (
     <>
       <html lang="en">
+      <link rel="icon" href="/Images/favicon.ico"  sizes="32x32"/>
         <body className="">
           <main className={monts.className}>
             <Navigation List1={List1} />
