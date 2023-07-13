@@ -33,32 +33,32 @@ const RootLayout = ({ children }) => {
       title: "Services",
       module: [
         {
-          name: "Cloud Computing Solutions",
-          link: "/services/cloudcomputingsolutions",
+          name: " IT-Consulting Services",
+          link: " /services/itconsultingservices", 
         },
         {
           name: "Custom Software Development",
           link: "/services/customsoftwaredevelopment",
         },
         {
-          name: "Cyber Security Services",
-          link: "/services/cybersecurityservices",
+          name: " Cloud Computing Solutions",
+          link: "/services/cloudcomputingsolutions",   
         },
         {
-          name: "Data Analytics & Business Intelligence",
-          link: "/services/DataAnalyticsandBusinessIntelligence",
+          name: " Cyber Security Services",
+          link: " /services/cybersecurityservices",  
         },
         {
-          name: "IT-Consulting Services",
-          link: "/services/itconsultingservices",
+          name: " IT Support and Managed Services",
+          link: "/services/ITsupport&managedservices",  
+        },
+        {
+          name: " Data Analytics and Business Intelligence",
+          link: "/services/DataAnalyticsandBusinessIntelligence", 
         },
         {
           name: "IT Training and Education Services",
-          link: "/services/ITTrainingandEducation",
-        },
-        {
-          name: "IT Support and Managed Services",
-          link: "/services/ITsupport&managedservices",
+          link: "/services/ITTrainingandEducation",    
         },
         {
           name: "AR/VR Services",

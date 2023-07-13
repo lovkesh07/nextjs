@@ -11,8 +11,8 @@ import Slide2 from "@assets/hero2.webp";
 import Slide3 from "@assets/hero3.jpg";
 import Slide4 from "@assets/hero4.jpg";
 import Silk from "@assets/silkimg.jpg";
-import img1 from "../public/Images/newbg.png"
-
+// import img1 from "../public/Images/newbg.png"
+import img1 from "../public/Images/slidernew.jpg"
 import Link from "next/link";
 import Image from "next/image";
 
