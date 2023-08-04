@@ -1,5 +1,4 @@
 import React from "react";
-// import Typed from "react-typed";
 import Img1 from "@assets/it-integration-benefits.png";
 import Img2 from "@assets/Managed-IT-Security-Services.png";
 import Img3 from "@assets/it-integration.png";
@@ -7,7 +6,6 @@ import Img4 from "@assets/it-integration-benefits.png";
 import Img5 from "@assets/IT-Security-Auditing.png";
 import Img6 from "@assets/IT-Security-Integration.png";
 import Image from "next/image";
-import Link from "next/link";
 
 const FlipCards = () => {
   return (

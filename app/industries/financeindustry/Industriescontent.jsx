@@ -4,10 +4,7 @@ const Industriescontent = () => {
   return (
     <>
       <div className="w-full p-8 lg:px-24 sm:p-12 md:p-20">
-        {/* <p className="text-2xl sm:text-4xl md:text-5xl py-5 ">
-          Certainly! Here are some use cases of IT services in the Banking &
-          Insurance industry:
-        </p> */}
+        
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold py-5">
           Insurance Industry{" "}
         </h1>
