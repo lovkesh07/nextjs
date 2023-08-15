@@ -67,7 +67,7 @@ export default function Accordions({List1,navOpen,setnavFalse}) {
     >
       {List1.map((item, index) => (
         <Accordion
-          className=" text-xs w-full"
+          className="  text-xs w-full"
           style={{ backgroundColor: "black", color: "white" }}
           expanded={expanded === "panel" + (index + 1)}
           onChange={handleChange("panel" + (index + 1))}
