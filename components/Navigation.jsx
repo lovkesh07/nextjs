@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import CallIcon from "@mui/icons-material/Call";
 import Link from "next/link";
-import logo from "../public/Images/dotClu-removebg-preview.png"
+import logo from "../public/Images/dotClu-removebg-preview.png";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import DropDown from "./DropDown";
@@ -18,6 +18,49 @@ const Navbar = ({ List1 }) => {
   const [showForm, setshowForm] = useState(false);
   const navRef = useRef();
   const fromRef = useRef();
+  const [Name, setName] = useState("");
+  const [Emails, setEmails] = useState("");
+  const [Phoneno, setPhoneno] = useState("");
+  const [Query, setQuery] = useState("");
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    // emailjs
+    //   .sendForm(
+    //     "service_um6i6oc",
+    //     "template_bax6i5h",
+    //     e.target,
+    //     "ANMhFipwRV0Ta3ePe"
+    //   )
+    //   .then((res) => {
+    //     console.log(res);
+    //     setName("");
+    //     setEmails("");
+    //     setPhoneno("");
+    //     setQuery("");
+    //     alert("Data Sent");
+    //   })
+    //   .catch((err) => {
+    //     console.log(err);
+    //   });
+    window.location.href =
+      "mailto:piyyush1219@gmail.com?subject=" +
+      Query +
+      "&body= \n Name:" +
+      Name +
+      " \n Email:" +
+      Emails +
+      " \n Phone No.:" +
+      Phoneno +
+      " \n Query:" +
+      Query;
+
+      hideForm();
+      setName("");
+      setPhoneno("");
+      setQuery("");
+      setEmails("");
+  };
 
   useEffect(() => {
     const handler = (e) => {
@@ -73,11 +116,19 @@ const Navbar = ({ List1 }) => {
             className="text-black cursor-pointer"
           />
         </div>
-        <form className=" w-full h-full my-5 flex flex-col gap-10 items-center justify-center">
+        <form
+          onSubmit={sendEmail}
+          className=" w-full h-full my-5 flex flex-col gap-10 items-center justify-center"
+        >
           <div className="relative w-3/4">
             <input
               type="text"
               required
+              name="Fullname"
+              value={Name}
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
               className=" text-black w-full bg-transparent outline-none border-b-[1px] border-black"
             />
             <label className=" absolute top-[-24px] left-[5px] text-gray-500 text-sm">
@@ -88,6 +139,11 @@ const Navbar = ({ List1 }) => {
             <input
               type="text"
               required
+              name="Email"
+              value={Emails}
+              onChange={(e) => {
+                setEmails(e.target.value);
+              }}
               className=" text-black w-full bg-transparent outline-none border-b-[1px] border-black"
             />
             <label className=" absolute top-[-24px] left-[5px] text-gray-500 text-sm">
@@ -109,6 +165,11 @@ const Navbar = ({ List1 }) => {
               <input
                 type="number"
                 required
+                name="Phoneno"
+                value={Phoneno}
+                onChange={(e) => {
+                  setPhoneno(e.target.value);
+                }}
                 className=" text-black w-full bg-transparent outline-none border-b-[1px] border-black"
               />
               <label className=" absolute top-[-24px] left-[5px] text-gray-500 text-sm">
@@ -118,8 +179,12 @@ const Navbar = ({ List1 }) => {
           </div>
           <div className="relative w-3/4">
             <textarea
+              name="Query"
+              value={Query}
+              onChange={(e) => {
+                setQuery(e.target.value);
+              }}
               className=" text-black bg-transparent border-b-[1px] border-black w-full text-xs px-4 py-2 outline-none"
-              required
             ></textarea>
             <label className=" absolute top-[-24px] left-[5px] text-gray-500 text-sm">
               Message<span className="text-red-500"> *</span>
@@ -133,9 +198,14 @@ const Navbar = ({ List1 }) => {
               <span className=" text-black text-xs">
                 {" "}
                 By clicking here, I state that I have read and understood the{" "}
-                <b className=" text-blue-400"><Link href="/term&condition">Terms and conditions</Link></b> &{" "}
                 <b className=" text-blue-400">
-                  <Link href="/privacy&policy">Privacy policies of the company</Link>
+                  <Link href="/term&condition">Terms and conditions</Link>
+                </b>{" "}
+                &{" "}
+                <b className=" text-blue-400">
+                  <Link href="/privacy&policy">
+                    Privacy policies of the company
+                  </Link>
                 </b>
                 <b className=" text-red-500"> *</b>
               </span>
@@ -144,12 +214,12 @@ const Navbar = ({ List1 }) => {
               Submit
             </button>
           </div>
-        </form>
+        </form>{" "}
       </div>
       <div className=" px-3 lg:px-6">
         <span>
           <Link href="/" className=" text-3xl sm:text-5xl ">
-           <Image src={logo} height={200} width={200}/>
+            <Image src={logo} height={200} width={200} />
           </Link>
         </span>
       </div>
