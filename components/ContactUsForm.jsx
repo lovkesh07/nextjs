@@ -31,7 +31,7 @@ const Form2 = () => {
     //     console.log(err);
     //   });
     window.location.href =
-      "mailto:piyyush1219@gmail.com?subject=" +
+      "mailto:info@dotclu.com?subject=" +
       Query +
       "&body= \n Name:" +
       Name +
