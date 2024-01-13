@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import ContacUsGif from "@assets/contactus.gif";
+import emailjs from "emailjs-com";
 
 const Form2 = () => {
   const [Name, setName] = useState("");
@@ -12,40 +13,29 @@ const Form2 = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs
-    //   .sendForm(
-    //     "service_um6i6oc",
-    //     "template_bax6i5h",
-    //     e.target,
-    //     "ANMhFipwRV0Ta3ePe"
-    //   )
-    //   .then((res) => {
-    //     console.log(res);
-    //     setName("");
-    //     setEmails("");
-    //     setPhoneno("");
-    //     setQuery("");
-    //     alert("Data Sent");
-    //   })
-    //   .catch((err) => {
-    //     console.log(err);
-    //   });
-    window.location.href =
-      "mailto:info@dotclu.com?subject=" +
-      Query +
-      "&body= \n Name:" +
-      Name +
-      " \n Email:" +
-      Emails +
-      " \n Phone No.:" +
-      Phoneno +
-      " \n Query:" +
-      Query;
+    emailjs
+      .sendForm(
+        "service_ymay2qu",
+        "template_8n87dwi",
+        e.target,
+        "P7_MtSDARHReL2JVO"
+      )
+      .then((res) => {
+        console.log(res);
+        setName("");
+        setEmails("");
+        setPhoneno("");
+        setQuery("");
+        alert("Data Sent");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
 
-      setName("");
-      setPhoneno("");
-      setQuery("");
-      setEmails("");
+    setName("");
+    setPhoneno("");
+    setQuery("");
+    setEmails("");
   };
   return (
     <div className="w-[95%] min-h-screen mx-auto flex justify-center items-center py-10 ">
@@ -69,7 +59,7 @@ const Form2 = () => {
               <input
                 type="text"
                 required
-                name="Fullname"
+                name="user_name"
                 value={Name}
                 onChange={(e) => {
                   setName(e.target.value);
@@ -84,7 +74,7 @@ const Form2 = () => {
               <input
                 type="text"
                 required
-                name="Email"
+                name="user_email"
                 value={Emails}
                 onChange={(e) => {
                   setEmails(e.target.value);
@@ -108,7 +98,7 @@ const Form2 = () => {
               </div>
               <div className="relative w-3/4">
                 <input
-                  type="number"
+                  type="user_phone"
                   required
                   name="Phoneno"
                   value={Phoneno}
@@ -124,7 +114,7 @@ const Form2 = () => {
             </div>
             <div className="relative w-3/4">
               <textarea
-                name="Query"
+                name="user_query"
                 value={Query}
                 onChange={(e) => {
                   setQuery(e.target.value);
